@@ -19,7 +19,7 @@
 {
   "class": "tabset_control",
   "settings": ["theme_otto_tab_auto_width", "!enable_tab_scrolling"],
-  "tab_min_width": 20
+  "tab_min_width": 40
 },
 
 // Small
