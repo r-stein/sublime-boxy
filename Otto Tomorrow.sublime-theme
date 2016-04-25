@@ -707,6 +707,7 @@
   
   {
     "class": "progress_gauge_control",
+    "settings": ["theme_otto_accent_green"],
     "layer0.tint": [46, 188, 103]
   },
   
@@ -842,6 +843,7 @@
   
   {
     "class": "progress_gauge_control",
+    "settings": ["theme_otto_accent_orange"],
     "layer0.tint": [241, 103, 60]
   },
   
@@ -977,6 +979,7 @@
   
   {
     "class": "progress_gauge_control",
+    "settings": ["theme_otto_accent_purple"],
     "layer0.tint": [175, 60, 241]
   },
   
