@@ -6,7 +6,7 @@
 
 {
   "class": "panel_control",
-  "layer0.tint": [45, 60, 68]
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },
 
 // Progress Bar
@@ -14,7 +14,7 @@
 
 {
   "class": "progress_bar_control",
-  "layer0.tint": [34, 50, 58]
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
 },
 
 // Labels
@@ -22,7 +22,7 @@
 
 {
   "class": "label_control",
-  "color": [178, 183, 186]
+  "color": [<%= ui.foreground.primary.rgb %>]
 },
 
 // Buttons
@@ -30,12 +30,12 @@
 
 {
   "class": "button_control",
-  "layer0.tint": [34, 50, 58]
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
 },
 
 {
   "class": "icon_button_control",
-  "layer0.tint": [45, 60, 68]
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },
 
 // Fields
@@ -43,11 +43,11 @@
 
 {
   "class": "text_line_control",
-  "layer0.texture": "Theme - Otto/assets/specific/oceanic/fields/field.png"
+  "layer0.texture": "Theme - Otto/assets/specific/<%= ui.id %>/fields/field.png"
 },
 
 {
   "class": "text_line_control",
   "parents": [{"class": "overlay_control"}],
-  "layer0.texture": "Theme - Otto/assets/specific/oceanic/fields/field_overlay.png"
+  "layer0.texture": "Theme - Otto/assets/specific/<%= ui.id %>/fields/field_overlay.png"
 },

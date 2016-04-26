@@ -188,6 +188,10 @@ gulp.task('build:themes', ['clean:themes'], function() {
       this.emit('end');
     }))
     .pipe($.include())
+    .pipe($.data(function(file) {
+      return require('./sources/settings/' + path.basename(file.path));
+    }))
+    .pipe($.template())
     .pipe($.rename({ extname: '.sublime-theme' }))
     .pipe(gulp.dest('./'))
     .on('end', function() {

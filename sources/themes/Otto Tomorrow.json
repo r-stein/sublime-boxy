@@ -11,7 +11,7 @@
   // ===========================================================================
   //
   //=include "global/commons/autocomplete.json"
-  //=include "specific/tomorrow/autocomplete.json"
+  //=include "specific/autocomplete.json"
   //=include "global/accents/**/autocomplete.json"
   //
   // >> Controls
@@ -21,7 +21,7 @@
   //
   //=include "global/commons/controls.json"
   //=include "global/variants/dark/controls.json"
-  //=include "specific/tomorrow/controls.json"
+  //=include "specific/controls.json"
   //=include "global/accents/**/controls.json"
   //=include "global/options/controls.json"
   //
@@ -38,7 +38,7 @@
   // ===========================================================================
   //
   //=include "global/commons/grid.json"
-  //=include "specific/tomorrow/grid.json"
+  //=include "specific/grid.json"
   //
   // >> Minimap
   // ===========================================================================
@@ -54,7 +54,7 @@
   // ===========================================================================
   //
   //=include "global/commons/overlays.json"
-  //=include "specific/tomorrow/overlays.json"
+  //=include "specific/overlays.json"
   //=include "global/accents/**/overlays.json"
   //
   // >> Scrollbars
@@ -63,7 +63,7 @@
   // ===========================================================================
   //
   //=include "global/commons/scrollbars.json"
-  //=include "specific/tomorrow/scrollbars.json"
+  //=include "specific/scrollbars.json"
   //=include "global/accents/**/scrollbars.json"
   //=include "global/variants/dark/scrollbars.json"
   //=include "global/options/scrollbars.json"
@@ -75,7 +75,7 @@
   //
   //=include "global/commons/sidebar.json"
   //=include "global/variants/dark/sidebar.json"
-  //=include "specific/tomorrow/sidebar.json"
+  //=include "specific/sidebar.json"
   //=include "global/accents/**/sidebar.json"
   //=include "global/options/sidebar.json"
   //
@@ -86,7 +86,7 @@
   //
   //=include "global/commons/statusbar.json"
   //=include "global/variants/dark/statusbar.json"
-  //=include "specific/tomorrow/statusbar.json"
+  //=include "specific/statusbar.json"
   //=include "global/options/statusbar.json"
   //
   // >> Tabs
@@ -96,7 +96,7 @@
   //
   //=include "global/commons/tabs.json"
   //=include "global/variants/dark/tabs.json"
-  //=include "specific/tomorrow/tabs.json"
+  //=include "specific/tabs.json"
   //=include "global/accents/**/tabs.json"
   //=include "global/options/tabs.json"
   //
@@ -115,5 +115,5 @@
   // ===========================================================================
   //
   //=include "global/commons/window.json"
-  //=include "specific/tomorrow/window.json"
+  //=include "specific/window.json"
 ]

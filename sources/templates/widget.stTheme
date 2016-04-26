@@ -14,13 +14,13 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string><%= widgetBackground %></string>
+          <string><%= ui.background.secondary.hex %></string>
           <key>caret</key>
           <string><%= scheme.caret %></string>
           <key>foreground</key>
           <string><%= scheme.foreground %></string>
           <key>gutter</key>
-          <string><%= widgetBackground %></string>
+          <string><%= ui.background.secondary.hex %></string>
           <key>invisibles</key>
           <string><%= scheme.invisibles %></string>
           <key>lineHighlight</key>

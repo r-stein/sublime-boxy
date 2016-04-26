@@ -6,7 +6,7 @@
 
 {
   "class": "auto_complete",
-  "layer0.tint": [54, 55, 49]
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },
 
 // Autocomplete Foreground
@@ -14,5 +14,5 @@
 
 {
   "class": "auto_complete_label",
-  "fg": [185, 185, 183]
+  "fg": [<%= ui.foreground.primary.rgb %>]
 },

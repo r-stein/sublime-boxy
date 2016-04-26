@@ -68,7 +68,7 @@
   
   {
     "class": "auto_complete_label",
-    "fg": [95, 95, 95]
+    "fg": [71, 71, 71]
   },
   
   // Autocomplete Blue Accent
@@ -545,7 +545,7 @@
   
   {
     "class": "label_control",
-    "color": [95, 95, 95]
+    "color": [71, 71, 71]
   },
   
   // Buttons
@@ -1579,18 +1579,18 @@
   
   {
     "class": "quick_panel_label",
-    "fg": [95, 95, 95, 255]
+    "fg": [71, 71, 71, 255]
   },
   
   {
     "class": "quick_panel_label",
     "parents": [{"class": "overlay_control"}],
-    "fg": [95, 95, 95, 255]
+    "fg": [71, 71, 71, 255]
   },
   
   {
     "class": "quick_panel_path_label",
-    "fg": [150, 150, 150, 255]
+    "fg": [166, 166, 166, 255]
   },
   
   // Overlays Blue Accent
@@ -2747,7 +2747,7 @@
   
   {
     "class": "sidebar_heading",
-    "color": [95, 95, 95]
+    "color": [71, 71, 71]
   },
   
   //
@@ -2756,15 +2756,15 @@
   
   {
     "class": "sidebar_label",
-    "color": [95, 95, 95]
+    "color": [71, 71, 71]
   },
   
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-    "color": [50, 50, 50],
-    "shadow_color": [255, 255, 255, 255],
-    "shadow_offset": [0, 0]
+    "color": [0, 0, 0, 255],
+    "shadow_color": [255, 255, 255, 127],
+    "shadow_offset": [0, 1]
   },
   
   // Sidebar Blue Accent
@@ -4244,13 +4244,13 @@
   
   {
     "class": "tab_label",
-    "fg": [95, 95, 95, 255]
+    "fg": [71, 71, 71, 255]
   },
   
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-    "fg": [95, 95, 95, 255]
+    "fg": [71, 71, 71, 255]
   },
   
   // Light Color Scheme
@@ -4258,9 +4258,9 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "fg": [80, 80, 80, 255],
-    "shadow_color": [255, 255, 255, 50],
-    "shadow_offset": [0, 0]
+    "fg": [0, 0, 0, 255],
+    "shadow_color": [255, 255, 255, 127],
+    "shadow_offset": [0, 1]
   },
   
   // Medium Color Scheme
@@ -4269,8 +4269,8 @@
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium"]}],
     "fg": [255, 255, 255, 255],
-    "shadow_color": [0, 0, 0, 100],
-    "shadow_offset": [0, 0]
+    "shadow_color": [0, 0, 0, 127],
+    "shadow_offset": [0, 1]
   },
   
   // Medium Dark Color Scheme
@@ -4278,9 +4278,9 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium_dark"]}],
-    "fg": [255, 255, 255, 230],
-    "shadow_color": [0, 0, 0, 255],
-    "shadow_offset": [0, 0]
+    "fg": [255, 255, 255, 255],
+    "shadow_color": [0, 0, 0, 127],
+    "shadow_offset": [0, 1]
   },
   
   // Dark Color Scheme
@@ -4288,9 +4288,9 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected", "file_dark"]}],
-    "fg": [255, 255, 255, 230],
-    "shadow_color": [0, 0, 0, 255],
-    "shadow_offset": [0, 0]
+    "fg": [255, 255, 255, 255],
+    "shadow_color": [0, 0, 0, 127],
+    "shadow_offset": [0, 1]
   },
   
   // Tabs Blue Accent

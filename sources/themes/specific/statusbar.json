@@ -1,10 +1,10 @@
-// Grid Theme Specific Styles
+// Status Bar Theme Specific Styles
 // ===========================================================================
 
-// Grid Border Color
+// Status Bar Container
 // ---------------------------------------------------------------------------
 
 {
-  "class": "grid_layout_control",
-  "border_color": [238, 238, 238]
+  "class": "status_bar",
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },

@@ -6,7 +6,7 @@
 
 {
   "class": "sidebar_container",
-  "layer0.tint": [54, 55, 49]
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },
 
 // Sidebar Tree
@@ -18,7 +18,7 @@
 
 {
   "class": "sidebar_tree",
-  "layer0.tint": [46, 47, 41]
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
 },
 
 //
@@ -27,7 +27,7 @@
 
 {
   "class": "tree_row",
-  "layer0.tint": [54, 55, 49]
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },
 
 // Sidebar Labels
@@ -39,7 +39,7 @@
 
 {
   "class": "sidebar_heading",
-  "color": [185, 185, 183]
+  "color": [<%= ui.foreground.primary.rgb %>]
 },
 
 //
@@ -48,13 +48,13 @@
 
 {
   "class": "sidebar_label",
-  "color": [185, 185, 183]
+  "color": [<%= ui.foreground.primary.rgb %>]
 },
 
 {
   "class": "sidebar_label",
   "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-  "color": [255, 255, 255, 230],
-  "shadow_color": [0, 0, 0, 255],
-  "shadow_offset": [0, 0]
+  "color": [<%= ui.foreground.selected.rgb %>, 255],
+  "shadow_color": [<%= ui.foreground.shadow.rgb %>, 127],
+  "shadow_offset": [0, 1]
 },

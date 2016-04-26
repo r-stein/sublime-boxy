@@ -10,7 +10,7 @@
 
 {
   "class": "tabset_control",
-  "layer0.tint": [34, 50, 58]
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
 },
 
 // Tab
@@ -22,14 +22,14 @@
 
 {
   "class": "tab_control",
-  "layer0.texture": "Theme - Otto/assets/specific/oceanic/tabs/tab.png",
-  "layer1.tint": [45, 60, 68]
+  "layer0.texture": "Theme - Otto/assets/specific/<%= ui.id %>/tabs/tab.png",
+  "layer1.tint": [<%= ui.background.secondary.rgb %>]
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_otto_tab_separator_hide"],
-  "layer0.texture": "Theme - Otto/assets/specific/oceanic/tabs/tab_without_separator.png"
+  "layer0.texture": "Theme - Otto/assets/specific/<%= ui.id %>/tabs/tab_without_separator.png"
 },
 
 //
@@ -38,13 +38,13 @@
 
 {
   "class": "tab_label",
-  "fg": [178, 183, 186, 255]
+  "fg": [<%= ui.foreground.primary.rgb %>, 255]
 },
 
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-  "fg": [178, 183, 186, 255]
+  "fg": [<%= ui.foreground.primary.rgb %>, 255]
 },
 
 // Light Color Scheme
@@ -52,9 +52,9 @@
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-  "fg": [80, 80, 80, 255],
-  "shadow_color": [255, 255, 255, 50],
-  "shadow_offset": [0, 0]
+  "fg": [<%= ui.base.black.rgb %>, 255],
+  "shadow_color": [<%= ui.base.white.rgb %>, 127],
+  "shadow_offset": [0, 1]
 },
 
 // Medium Color Scheme
@@ -62,9 +62,9 @@
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium"]}],
-  "fg": [255, 255, 255, 255],
-  "shadow_color": [0, 0, 0, 100],
-  "shadow_offset": [0, 0]
+  "fg": [<%= ui.base.white.rgb %>, 255],
+  "shadow_color": [<%= ui.base.black.rgb %>, 127],
+  "shadow_offset": [0, 1]
 },
 
 // Medium Dark Color Scheme
@@ -72,9 +72,9 @@
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium_dark"]}],
-  "fg": [255, 255, 255, 230],
-  "shadow_color": [0, 0, 0, 255],
-  "shadow_offset": [0, 0]
+  "fg": [<%= ui.base.white.rgb %>, 255],
+  "shadow_color": [<%= ui.base.black.rgb %>, 127],
+  "shadow_offset": [0, 1]
 },
 
 // Dark Color Scheme
@@ -82,7 +82,7 @@
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected", "file_dark"]}],
-  "fg": [255, 255, 255, 230],
-  "shadow_color": [0, 0, 0, 255],
-  "shadow_offset": [0, 0]
+  "fg": [<%= ui.base.white.rgb %>, 255],
+  "shadow_color": [<%= ui.base.black.rgb %>, 127],
+  "shadow_offset": [0, 1]
 },

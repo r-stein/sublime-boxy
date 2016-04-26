@@ -4,7 +4,47 @@
   "comment": "Otto, your next theme for Sublime Text 3",
   "semanticClass": "otto.tomorrow.dark",
   "uuid": "44e806da-4c4b-499c-b682-419a0b311a99",
-  "widgetBackground": "#2a2b2d",
+  "ui": {
+    "id": "tomorrow",
+    "base": {
+      "black": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      },
+      "white": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "background": {
+      "primary": {
+        "hex": "#232426",
+        "rgb": "35, 36, 38"
+      },
+      "secondary": {
+        "hex": "#2a2b2d",
+        "rgb": "42, 43, 45"
+      }
+    },
+    "foreground": {
+      "primary": {
+        "hex": "#c0c0c0",
+        "rgb": "192, 192, 192"
+      },
+      "secondary": {
+        "hex": "#7f8081",
+        "rgb": "127, 128, 129"
+      },
+      "selected": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      },
+      "shadow": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      }
+    }
+  },
   "scheme": {
     "background": "#1d1f21",
     "caret": "#7b7c7d",

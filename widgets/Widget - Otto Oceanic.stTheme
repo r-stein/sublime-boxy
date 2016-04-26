@@ -29,8 +29,6 @@
           <string>#ffffff15</string>
           <key>selectionBorder</key>
           <string>#ffffff15</string>
-          <key>selectionForeground</key>
-          <string>#a7adba</string>
         </dict>
       </dict>
     </array>

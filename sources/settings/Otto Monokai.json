@@ -4,7 +4,47 @@
   "comment": "Otto, your next theme for Sublime Text 3",
   "semanticClass": "otto.monokai.dark",
   "uuid": "b39c25a4-035b-4b97-8c5d-94873acedf10",
-  "widgetBackground": "#363731",
+  "ui": {
+    "id": "monokai",
+    "base": {
+      "black": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      },
+      "white": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "background": {
+      "primary": {
+        "hex": "#2e2f29",
+        "rgb": "46, 47, 41"
+      },
+      "secondary": {
+        "hex": "#363731",
+        "rgb": "54, 55, 49"
+      }
+    },
+    "foreground": {
+      "primary": {
+        "hex": "#c3c3c2",
+        "rgb": "195, 195, 194"
+      },
+      "secondary": {
+        "hex": "#868783",
+        "rgb": "134, 135, 131"
+      },
+      "selected": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      },
+      "shadow": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      }
+    }
+  },
   "scheme": {
     "background": "#272822",
     "caret": "#686965",
