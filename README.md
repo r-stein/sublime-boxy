@@ -1,3 +1,15 @@
+***
+
+📣 **BREAKING CHANGES IN 2.0.0: MEET BOXY!**
+
+Starting next release, Otto will be renamed to BOXY! 
+
+[Read more](https://github.com/oivva/otto/blob/master/messages/1.1.1.txt) (Please pay extra attention to `Troubleshooting` section).
+
+I'm sorry for the inconvenience caused to you 🙍 
+
+***
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/oivva/otto-goodies/master/media/logo.png" alt="Otto, your next interface theme for Sublime Text 3">
 </p>
