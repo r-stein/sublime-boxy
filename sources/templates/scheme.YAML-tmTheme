@@ -24,7 +24,7 @@ settings:
     foreground: '<%= scheme.invisibles %>'
 
 - name: Variable
-  scope: variable
+  scope: variable, punctuation.definition.list_item.markdown
   settings:
     foreground: '<%= scheme.foreground %>'
 

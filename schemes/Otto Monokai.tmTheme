@@ -48,7 +48,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable, punctuation.definition.list_item.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

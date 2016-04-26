@@ -24,7 +24,7 @@ settings:
     foreground: '#65737e'
 
 - name: Variable
-  scope: variable
+  scope: variable, punctuation.definition.list_item.markdown
   settings:
     foreground: '#cdd3de'
 
