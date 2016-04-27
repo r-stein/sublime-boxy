@@ -10,34 +10,34 @@
   // Autocomplete settings and behavior
   // ===========================================================================
   //
-  //=include "global/commons/autocomplete.json"
+  //=include "common/autocomplete.json"
   //=include "specific/autocomplete.json"
-  //=include "global/accents/**/autocomplete.json"
+  //=include "accents/**/autocomplete.json"
   //
   // >> Controls
   // ===========================================================================
   // Panel, fields, buttons settings and behavior
   // ===========================================================================
   //
-  //=include "global/commons/controls.json"
-  //=include "global/variants/light/controls.json"
+  //=include "common/controls.json"
+  //=include "variants/light/controls.json"
   //=include "specific/controls.json"
-  //=include "global/accents/**/controls.json"
-  //=include "global/options/controls.json"
+  //=include "accents/**/controls.json"
+  //=include "options/controls.json"
   //
   // >> Folding
   // ===========================================================================
   // Folding settings and behavior
   // ===========================================================================
   //
-  //=include "global/commons/folding.json"
+  //=include "common/folding.json"
   //
   // >> Grid
   // ===========================================================================
   // Grid styles
   // ===========================================================================
   //
-  //=include "global/commons/grid.json"
+  //=include "common/grid.json"
   //=include "specific/grid.json"
   //
   // >> Minimap
@@ -45,75 +45,75 @@
   // Minimap settings and behavior
   // ===========================================================================
   //
-  //=include "global/commons/minimap.json"
-  //=include "global/accents/**/minimap.json"
+  //=include "common/minimap.json"
+  //=include "accents/**/minimap.json"
   //
   // >> Overlays
   // ===========================================================================
   // Overlays settings and behavior
   // ===========================================================================
   //
-  //=include "global/commons/overlays.json"
+  //=include "common/overlays.json"
   //=include "specific/overlays.json"
-  //=include "global/accents/**/overlays.json"
+  //=include "accents/**/overlays.json"
   //
   // >> Scrollbars
   // ===========================================================================
   // Scrollbars settings and behavior
   // ===========================================================================
   //
-  //=include "global/commons/scrollbars.json"
+  //=include "common/scrollbars.json"
   //=include "specific/scrollbars.json"
-  //=include "global/accents/**/scrollbars.json"
-  //=include "global/variants/light/scrollbars.json"
-  //=include "global/options/scrollbars.json"
+  //=include "accents/**/scrollbars.json"
+  //=include "variants/light/scrollbars.json"
+  //=include "options/scrollbars.json"
   //
   // >> Sidebar
   // ===========================================================================
   // Sidebar panel settings and behavior
   // ===========================================================================
   //
-  //=include "global/commons/sidebar.json"
-  //=include "global/variants/light/sidebar.json"
+  //=include "common/sidebar.json"
+  //=include "variants/light/sidebar.json"
   //=include "specific/sidebar.json"
-  //=include "global/accents/**/sidebar.json"
-  //=include "global/options/sidebar.json"
+  //=include "accents/**/sidebar.json"
+  //=include "options/sidebar.json"
   //
   // >> Status Bar
   // ===========================================================================
   // Status bar settings and behavior
   // ===========================================================================
   //
-  //=include "global/commons/statusbar.json"
-  //=include "global/variants/light/statusbar.json"
+  //=include "common/statusbar.json"
+  //=include "variants/light/statusbar.json"
   //=include "specific/statusbar.json"
-  //=include "global/options/statusbar.json"
+  //=include "options/statusbar.json"
   //
   // >> Tabs
   // ===========================================================================
   // Tabs behavior and settings
   // ===========================================================================
   //
-  //=include "global/commons/tabs.json"
-  //=include "global/variants/light/tabs.json"
+  //=include "common/tabs.json"
+  //=include "variants/light/tabs.json"
   //=include "specific/tabs.json"
-  //=include "global/accents/**/tabs.json"
-  //=include "global/options/tabs.json"
+  //=include "accents/**/tabs.json"
+  //=include "options/tabs.json"
   //
   // >> Tooltips
   // ===========================================================================
   // Tooltip settings and behavior
   // ===========================================================================
   //
-  //=include "global/commons/tooltips.json"
-  //=include "global/accents/**/tooltips.json"
-  //=include "global/options/tooltips.json"
+  //=include "common/tooltips.json"
+  //=include "accents/**/tooltips.json"
+  //=include "options/tooltips.json"
   //
   // >> Window
   // ===========================================================================
   // Styles for empty window
   // ===========================================================================
   //
-  //=include "global/commons/window.json"
+  //=include "common/window.json"
   //=include "specific/window.json"
 ]
