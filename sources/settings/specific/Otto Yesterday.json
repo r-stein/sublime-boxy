@@ -1,21 +1,9 @@
 {
   "name": "Otto Yesterday",
-  "author": "Ihor Oleksandrov",
-  "comment": "Otto, your next theme for Sublime Text 3",
   "semanticClass": "otto.yesterday.light",
   "uuid": "9a2af96e-91ec-429f-8453-851de1e2adb2",
   "ui": {
     "id": "yesterday",
-    "base": {
-      "black": {
-        "hex": "#000000",
-        "rgb": "0, 0, 0"
-      },
-      "white": {
-        "hex": "#ffffff",
-        "rgb": "255, 255, 255"
-      }
-    },
     "background": {
       "primary": {
         "hex": "#f7f7f7",

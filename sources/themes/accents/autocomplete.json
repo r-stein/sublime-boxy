@@ -1,0 +1,16 @@
+<% for (var i = 0; i < ui.accents.length; i++) { %>
+// Autocomplete <%= ui.accents[i].name %> Accent
+// ===========================================================================
+
+{
+  "class": "auto_complete_label",
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_otto_accent_<%= ui.accents[i].id %>"],<% } %>
+  "match_fg": [<%= ui.accents[i].rgb %>]
+},
+
+{
+  "class": "table_row",
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_otto_accent_<%= ui.accents[i].id %>"],<% } %>
+  "layer0.tint": [<%= ui.accents[i].rgb %>]
+},
+<% } %>

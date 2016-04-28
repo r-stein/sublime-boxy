@@ -12,7 +12,7 @@
   //
   //=include "common/autocomplete.json"
   //=include "specific/autocomplete.json"
-  //=include "accents/**/autocomplete.json"
+  //=include "accents/autocomplete.json"
   //
   // >> Controls
   // ===========================================================================

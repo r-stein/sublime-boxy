@@ -1,21 +1,9 @@
 {
   "name": "Otto Monokai",
-  "author": "Ihor Oleksandrov",
-  "comment": "Otto, your next theme for Sublime Text 3",
   "semanticClass": "otto.monokai.dark",
   "uuid": "b39c25a4-035b-4b97-8c5d-94873acedf10",
   "ui": {
     "id": "monokai",
-    "base": {
-      "black": {
-        "hex": "#000000",
-        "rgb": "0, 0, 0"
-      },
-      "white": {
-        "hex": "#ffffff",
-        "rgb": "255, 255, 255"
-      }
-    },
     "background": {
       "primary": {
         "hex": "#2e2f29",

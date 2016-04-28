@@ -1,0 +1,42 @@
+{
+  "author": "Ihor Oleksandrov",
+  "comment": "Otto, your next theme for Sublime Text 3",
+  "ui": {
+    "base": {
+      "black": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      },
+      "white": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "accents": [
+      {
+        "id": "blue",
+        "name": "Blue",
+        "hex": "#2497e3",
+        "rgb": "36, 151, 227"
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "hex": "#2ebc67",
+        "rgb": "46, 188, 103"
+      },
+      {
+        "id": "orange",
+        "name": "Orange",
+        "hex": "#f2683e",
+        "rgb": "242, 104, 62"
+      },
+      {
+        "id": "purple",
+        "name": "Purple",
+        "hex": "#8955a2",
+        "rgb": "137, 85, 162"
+      }
+    ]
+  }
+}

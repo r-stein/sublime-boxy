@@ -19,16 +19,15 @@ var conventionalChangelog = require('conventional-changelog');
 var conventionalGithubReleaser = require('conventional-github-releaser');
 var argv = require('yargs').argv;
 var fs = require('fs');
+var _ = require('lodash');
 var $ = require('gulp-load-plugins')();
 
 
 /*
- * > Data
+ * > Settings
  */
 
-var getJsonData = function(file) {
-  return require(file.path);
-};
+var common = require('./sources/settings/common.json');
 
 
 /*
@@ -189,7 +188,10 @@ gulp.task('build:themes', ['clean:themes'], function() {
     }))
     .pipe($.include())
     .pipe($.data(function(file) {
-      return require('./sources/settings/' + path.basename(file.path));
+      var specific = require('./sources/settings/specific/' +
+          path.basename(file.path));
+
+      return _.merge(common, specific);
     }))
     .pipe($.template())
     .pipe($.rename({ extname: '.sublime-theme' }))
@@ -202,20 +204,23 @@ gulp.task('build:themes', ['clean:themes'], function() {
 /* >> Schemes */
 
 gulp.task('build:schemes', ['clean:schemes'], function(cb) {
-  return gulp.src('./sources/settings/*.json')
+  return gulp.src('./sources/settings/specific/*.json')
     .pipe($.plumber(function(error) {
       console.log('[build:schemes]'.bold.magenta + ' There was an issue building schemes:\n'.bold.red + error.message);
       this.emit('end');
     }))
     .pipe($.foreach(function(stream, file) {
-      var jsonFile = file;
-      var jsonBasename = path.basename(jsonFile.path, path.extname(jsonFile.path));
+      var basename = path.basename(file.path, path.extname(file.path));
 
       return gulp.src('./sources/templates/scheme.YAML-tmTheme')
-        .pipe($.data(getJsonData(jsonFile)))
+        .pipe($.data(function() {
+          var specific = require(file.path);
+
+          return _.merge(common, specific);
+        }))
         .pipe($.template())
-        .pipe($.rename(function(schemeFile) {
-          schemeFile.basename = jsonBasename;
+        .pipe($.rename(function(scheme) {
+          scheme.basename = basename;
         }))
         .pipe(gulp.dest('./schemes'));
     }))
@@ -253,32 +258,38 @@ gulp.task('build:widgets', ['clean:widgets'], function(cb) {
 });
 
 gulp.task('build:widget-themes', function() {
-  return gulp.src('./sources/settings/*.json')
+  return gulp.src('./sources/settings/specific/*.json')
     .pipe($.foreach(function(stream, file) {
-      var jsonFile = file;
-      var jsonBasename = path.basename(jsonFile.path, path.extname(jsonFile.path));
+      var basename = path.basename(file.path, path.extname(file.path));
 
       return gulp.src('./sources/templates/widget.stTheme')
-        .pipe($.data(getJsonData(jsonFile)))
+        .pipe($.data(function() {
+          var specific = require(file.path);
+
+          return _.merge(common, specific);
+        }))
         .pipe($.template())
-        .pipe($.rename(function(widgetThemeFile) {
-          widgetThemeFile.basename = 'Widget - ' + jsonBasename;
+        .pipe($.rename(function(widget) {
+          widget.basename = 'Widget - ' + basename;
         }))
         .pipe(gulp.dest('./widgets'));
     }));
 });
 
 gulp.task('build:widget-settings', function() {
-  return gulp.src('./sources/settings/*.json')
+  return gulp.src('./sources/settings/specific/*.json')
     .pipe($.foreach(function(stream, file) {
-      var jsonFile = file;
-      var jsonBasename = path.basename(jsonFile.path, path.extname(jsonFile.path));
+      var basename = path.basename(file.path, path.extname(file.path));
 
       return gulp.src('./sources/templates/widget.sublime-settings')
-        .pipe($.data(getJsonData(jsonFile)))
+        .pipe($.data(function() {
+          var specific = require(file.path);
+
+          return _.merge(common, specific);
+        }))
         .pipe($.template())
-        .pipe($.rename(function(widgetSettingsFile) {
-          widgetSettingsFile.basename = 'Widget - ' + jsonBasename;
+        .pipe($.rename(function(widget) {
+          widget.basename = 'Widget - ' + basename;
         }))
         .pipe(gulp.dest('./widgets'));
     }));

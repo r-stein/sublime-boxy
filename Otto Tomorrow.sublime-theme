@@ -71,20 +71,23 @@
     "fg": [192, 192, 192]
   },
   
+  
   // Autocomplete Blue Accent
   // ===========================================================================
   
   {
     "class": "auto_complete_label",
+    
     "match_fg": [36, 151, 227]
   },
   
   {
     "class": "table_row",
+    
     "layer0.tint": [36, 151, 227]
   },
   
-    // Autocomplete Green Accent
+  // Autocomplete Green Accent
   // ===========================================================================
   
   {
@@ -99,35 +102,36 @@
     "layer0.tint": [46, 188, 103]
   },
   
-    // Autocomplete Orange Accent
+  // Autocomplete Orange Accent
   // ===========================================================================
   
   {
     "class": "auto_complete_label",
     "settings": ["theme_otto_accent_orange"],
-    "match_fg": [241, 103, 60]
+    "match_fg": [242, 104, 62]
   },
   
   {
     "class": "table_row",
     "settings": ["theme_otto_accent_orange"],
-    "layer0.tint": [241, 103, 60]
+    "layer0.tint": [242, 104, 62]
   },
   
-    // Autocomplete Purple Accent
+  // Autocomplete Purple Accent
   // ===========================================================================
   
   {
     "class": "auto_complete_label",
     "settings": ["theme_otto_accent_purple"],
-    "match_fg": [175, 60, 241]
+    "match_fg": [137, 85, 162]
   },
   
   {
     "class": "table_row",
     "settings": ["theme_otto_accent_purple"],
-    "layer0.tint": [175, 60, 241]
+    "layer0.tint": [137, 85, 162]
   },
+  
   
   //
   // >> Controls
