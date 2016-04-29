@@ -4190,13 +4190,13 @@
   
   {
     "class": "tab_label",
-    "shadow_color": [0, 0, 0, 80]
+    "shadow_color": [0, 0, 0, 127]
   },
   
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-    "shadow_color": [0, 0, 0, 80]
+    "shadow_color": [0, 0, 0, 127]
   },
   
   //
