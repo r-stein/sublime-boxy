@@ -76,7 +76,7 @@
   //=include "common/sidebar.json"
   //=include "variants/light/sidebar.json"
   //=include "specific/sidebar.json"
-  //=include "accents/**/sidebar.json"
+  //=include "accents/sidebar.json"
   //=include "options/sidebar.json"
   //
   // >> Status Bar
