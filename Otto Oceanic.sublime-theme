@@ -1614,6 +1614,7 @@
     "fg": [129, 138, 143, 255]
   },
   
+  
   // Overlays Blue Accent
   // ===========================================================================
   
@@ -1622,6 +1623,7 @@
   
   {
     "class": "quick_panel_row",
+    
     "attributes": ["selected"],
     "layer0.tint": [36, 151, 227],
     "layer1.opacity": 0.0
@@ -1629,6 +1631,7 @@
   
   {
     "class": "mini_quick_panel_row",
+    
     "attributes": ["selected"],
     "layer0.tint": [36, 151, 227]
   },
@@ -1638,26 +1641,30 @@
   
   {
     "class": "quick_panel_label",
+    
     "match_fg": [36, 151, 227, 255]
   },
   
   {
     "class": "quick_panel_label",
+    
     "parents": [{"class": "overlay_control"}],
     "match_fg": [36, 151, 227, 255]
   },
   
   {
     "class": "quick_panel_path_label",
+    
     "match_fg": [36, 151, 227, 255]
   },
   
   {
     "class": "quick_panel_score_label",
+    
     "fg": [36, 151, 227, 255]
   },
   
-    // Overlays Green Accent
+  // Overlays Green Accent
   // ===========================================================================
   
   // Quick Panel Rows
@@ -1706,7 +1713,7 @@
     "fg": [46, 188, 103, 255]
   },
   
-    // Overlays Orange Accent
+  // Overlays Orange Accent
   // ===========================================================================
   
   // Quick Panel Rows
@@ -1716,7 +1723,7 @@
     "class": "quick_panel_row",
     "settings": ["theme_otto_accent_orange"],
     "attributes": ["selected"],
-    "layer0.tint": [241, 103, 60],
+    "layer0.tint": [242, 104, 62],
     "layer1.opacity": 0.0
   },
   
@@ -1724,7 +1731,7 @@
     "class": "mini_quick_panel_row",
     "settings": ["theme_otto_accent_orange"],
     "attributes": ["selected"],
-    "layer0.tint": [241, 103, 60]
+    "layer0.tint": [242, 104, 62]
   },
   
   // Quick Panel Labels
@@ -1733,29 +1740,29 @@
   {
     "class": "quick_panel_label",
     "settings": ["theme_otto_accent_orange"],
-    "match_fg": [241, 103, 60, 255]
+    "match_fg": [242, 104, 62, 255]
   },
   
   {
     "class": "quick_panel_label",
     "settings": ["theme_otto_accent_orange"],
     "parents": [{"class": "overlay_control"}],
-    "match_fg": [241, 103, 60, 255]
+    "match_fg": [242, 104, 62, 255]
   },
   
   {
     "class": "quick_panel_path_label",
     "settings": ["theme_otto_accent_orange"],
-    "match_fg": [241, 103, 60, 255]
+    "match_fg": [242, 104, 62, 255]
   },
   
   {
     "class": "quick_panel_score_label",
     "settings": ["theme_otto_accent_orange"],
-    "fg": [241, 103, 60, 255]
+    "fg": [242, 104, 62, 255]
   },
   
-    // Overlays Purple Accent
+  // Overlays Purple Accent
   // ===========================================================================
   
   // Quick Panel Rows
@@ -1765,7 +1772,7 @@
     "class": "quick_panel_row",
     "settings": ["theme_otto_accent_purple"],
     "attributes": ["selected"],
-    "layer0.tint": [175, 60, 241],
+    "layer0.tint": [137, 85, 162],
     "layer1.opacity": 0.0
   },
   
@@ -1773,7 +1780,7 @@
     "class": "mini_quick_panel_row",
     "settings": ["theme_otto_accent_purple"],
     "attributes": ["selected"],
-    "layer0.tint": [175, 60, 241]
+    "layer0.tint": [137, 85, 162]
   },
   
   // Quick Panel Labels
@@ -1782,26 +1789,26 @@
   {
     "class": "quick_panel_label",
     "settings": ["theme_otto_accent_purple"],
-    "match_fg": [175, 60, 241, 255]
+    "match_fg": [137, 85, 162, 255]
   },
   
   {
     "class": "quick_panel_label",
     "settings": ["theme_otto_accent_purple"],
     "parents": [{"class": "overlay_control"}],
-    "match_fg": [175, 60, 241, 255]
+    "match_fg": [137, 85, 162, 255]
   },
   
   {
     "class": "quick_panel_path_label",
     "settings": ["theme_otto_accent_purple"],
-    "match_fg": [175, 60, 241, 255]
+    "match_fg": [137, 85, 162, 255]
   },
   
   {
     "class": "quick_panel_score_label",
     "settings": ["theme_otto_accent_purple"],
-    "fg": [175, 60, 241, 255]
+    "fg": [137, 85, 162, 255]
   },
   
   
@@ -2016,6 +2023,7 @@
     "layer0.tint": [45, 60, 68]
   },
   
+  
   // Scrollbars Blue Accent
   // ===========================================================================
   
@@ -2028,6 +2036,7 @@
   
   {
     "class": "puck_control",
+    
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/scrollbars/puck_vertical.png"
   },
   
@@ -2043,6 +2052,7 @@
   
   {
     "class": "puck_control",
+    
     "attributes": ["horizontal"],
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/scrollbars/puck_horizontal.png"
   },
@@ -2091,7 +2101,7 @@
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/scrollbars/puck_horizontal_overlay_wide.png"
   },
   
-    // Scrollbars Green Accent
+  // Scrollbars Green Accent
   // ===========================================================================
   
   // Scrollbar
@@ -2168,7 +2178,7 @@
     "layer0.texture": "Theme - Otto/assets/global/accents/green/scrollbars/puck_horizontal_overlay_wide.png"
   },
   
-    // Scrollbars Orange Accent
+  // Scrollbars Orange Accent
   // ===========================================================================
   
   // Scrollbar
@@ -2245,7 +2255,7 @@
     "layer0.texture": "Theme - Otto/assets/global/accents/orange/scrollbars/puck_horizontal_overlay_wide.png"
   },
   
-    // Scrollbars Purple Accent
+  // Scrollbars Purple Accent
   // ===========================================================================
   
   // Scrollbar
@@ -2321,6 +2331,7 @@
     "attributes": ["horizontal"],
     "layer0.texture": "Theme - Otto/assets/global/accents/purple/scrollbars/puck_horizontal_overlay_wide.png"
   },
+  
   
   // Scrollbars Dark Styles
   // ===========================================================================
@@ -2788,6 +2799,7 @@
     "shadow_offset": [0, 1]
   },
   
+  
   // Sidebar Blue Accent
   // ===========================================================================
   
@@ -2796,6 +2808,7 @@
   
   {
     "class": "tree_row",
+    
     "layer1.texture": "Theme - Otto/assets/global/accents/blue/sidebar/sidebar_row_selected.png"
   },
   
@@ -2808,6 +2821,7 @@
   
   {
     "class": "close_button",
+    
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
     "attributes": ["dirty"],
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_dirty_close_selected.png",
@@ -2856,6 +2870,7 @@
   
   {
     "class": "icon_folder_loading",
+    
     "layer0.texture":
     {
       "keyframes":
@@ -2870,8 +2885,7 @@
     }
   },
   
-  
-    // Sidebar Green Accent
+  // Sidebar Green Accent
   // ===========================================================================
   
   // Sidebar Tree Row
@@ -2956,7 +2970,7 @@
     }
   },
   
-    // Sidebar Orange Accent
+  // Sidebar Orange Accent
   // ===========================================================================
   
   // Sidebar Tree Row
@@ -3041,7 +3055,7 @@
     }
   },
   
-    // Sidebar Purple Accent
+  // Sidebar Purple Accent
   // ===========================================================================
   
   // Sidebar Tree Row
@@ -3125,6 +3139,7 @@
       "frame_time": 0.125
     }
   },
+  
   
   // Sidebar Options
   // ===========================================================================
@@ -4320,6 +4335,7 @@
     "shadow_offset": [0, 1]
   },
   
+  
   // Tabs Blue Accent
   // ===========================================================================
   
@@ -4356,17 +4372,6 @@
     "layer3.texture": "Theme - Otto/assets/global/accents/blue/tabs/tab_selected_filled.png"
   },
   
-  // Label
-  
-  {
-    "class": "tab_label",
-    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "settings": ["theme_otto_tab_selected_filled"],
-    "fg": [255, 255, 255, 255],
-    "shadow_color": [0, 0, 0, 100],
-    "shadow_offset": [0, 0]
-  },
-  
   // Close
   
   {
@@ -4389,6 +4394,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+    
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_dirty_selected.png",
     "layer0.opacity": 1.0
   },
@@ -4396,6 +4402,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+    
     "attributes": ["hover"],
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_dirty_close_selected.png",
     "layer0.opacity": 1.0
@@ -4418,7 +4425,7 @@
     "layer0.opacity": 1.0
   },
   
-    // Tabs Green Accent
+  // Tabs Green Accent
   // ===========================================================================
   
   // Tab
@@ -4507,7 +4514,7 @@
     "layer0.opacity": 1.0
   },
   
-    // Tabs Orange Accent
+  // Tabs Orange Accent
   // ===========================================================================
   
   // Tab
@@ -4596,7 +4603,7 @@
     "layer0.opacity": 1.0
   },
   
-    // Tabs Purple Accent
+  // Tabs Purple Accent
   // ===========================================================================
   
   // Tab
@@ -4654,8 +4661,8 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_dirty_selected.png",
     "settings": ["theme_otto_accent_purple"],
+    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_dirty_selected.png",
     "layer0.opacity": 1.0
   },
   
@@ -4684,6 +4691,7 @@
     "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png",
     "layer0.opacity": 1.0
   },
+  
   
   // Tabs Options
   // ===========================================================================
