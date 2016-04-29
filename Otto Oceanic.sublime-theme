@@ -579,6 +579,7 @@
     "layer0.texture": "Theme - Otto/assets/specific/oceanic/fields/field_overlay.png"
   },
   
+  
   // Controls Blue Accent
   // ===========================================================================
   
@@ -587,6 +588,7 @@
   
   {
     "class": "progress_gauge_control",
+    
     "layer0.tint": [36, 151, 227]
   },
   
@@ -599,6 +601,7 @@
   
   {
     "class": "button_control",
+    
     "attributes": ["hover"],
     "layer0.tint": [36, 151, 227]
   },
@@ -617,6 +620,7 @@
   
   {
     "class": "icon_regex",
+    
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_regex_on.png"
@@ -626,6 +630,7 @@
   
   {
     "class": "icon_case",
+    
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_case_on.png"
@@ -635,6 +640,7 @@
   
   {
     "class": "icon_whole_word",
+    
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_word_on.png"
@@ -644,6 +650,7 @@
   
   {
     "class": "icon_wrap",
+    
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_wrap_on.png"
@@ -653,6 +660,7 @@
   
   {
     "class": "icon_context",
+    
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_context_on.png"
@@ -662,6 +670,7 @@
   
   {
     "class": "icon_use_buffer",
+    
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_buffer_on.png"
@@ -671,6 +680,7 @@
   
   {
     "class": "icon_reverse",
+    
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_reverse_on.png"
@@ -680,6 +690,7 @@
   
   {
     "class": "icon_in_selection",
+    
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_selection_on.png"
@@ -689,6 +700,7 @@
   
   {
     "class": "icon_preserve_case",
+    
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_preserve_on.png"
@@ -698,12 +710,13 @@
   
   {
     "class": "icon_highlight",
+    
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
     "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_highlight_on.png"
   },
   
-    // Controls Green Accent
+  // Controls Green Accent
   // ===========================================================================
   
   // Progress Bar
@@ -839,7 +852,7 @@
     "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_highlight_on.png"
   },
   
-    // Controls Orange Accent
+  // Controls Orange Accent
   // ===========================================================================
   
   // Progress Bar
@@ -848,7 +861,7 @@
   {
     "class": "progress_gauge_control",
     "settings": ["theme_otto_accent_orange"],
-    "layer0.tint": [241, 103, 60]
+    "layer0.tint": [242, 104, 62]
   },
   
   // Buttons
@@ -862,7 +875,7 @@
     "class": "button_control",
     "settings": ["theme_otto_accent_orange"],
     "attributes": ["hover"],
-    "layer0.tint": [241, 103, 60]
+    "layer0.tint": [242, 104, 62]
   },
   
   {
@@ -975,7 +988,7 @@
     "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_highlight_on.png"
   },
   
-    // Controls Purple Accent
+  // Controls Purple Accent
   // ===========================================================================
   
   // Progress Bar
@@ -984,7 +997,7 @@
   {
     "class": "progress_gauge_control",
     "settings": ["theme_otto_accent_purple"],
-    "layer0.tint": [175, 60, 241]
+    "layer0.tint": [137, 85, 162]
   },
   
   // Buttons
@@ -998,7 +1011,7 @@
     "class": "button_control",
     "settings": ["theme_otto_accent_purple"],
     "attributes": ["hover"],
-    "layer0.tint": [175, 60, 241]
+    "layer0.tint": [137, 85, 162]
   },
   
   {
@@ -1110,6 +1123,7 @@
     "layer0.opacity": 1.0,
     "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_highlight_on.png"
   },
+  
   
   // Controls Options
   // ===========================================================================
