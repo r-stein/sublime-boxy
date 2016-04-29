@@ -114,12 +114,12 @@
   "layer1.inner_margin": [24, 4],
   "layer1.opacity": 0,
 
-  "layer2.texture": "Theme - Otto/assets/global/commons/tabs/tab_selected.png",
+  "layer2.texture": "Theme - Otto/assets/common/tabs/tab_selected.png",
   "layer2.inner_margin": [24, 4],
   "layer2.opacity": 0,
   "tint_index": 2,
 
-  "layer3.texture": "Theme - Otto/assets/global/commons/tabs/tab_overlay.png",
+  "layer3.texture": "Theme - Otto/assets/common/tabs/tab_overlay.png",
   "layer3.inner_margin": [24, 4],
   "layer3.opacity": 0
 },

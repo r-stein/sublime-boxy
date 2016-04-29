@@ -8,7 +8,7 @@
 {
   "class": "tree_row",
   <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_otto_accent_<%= ui.accents[i].id %>"],<% } %>
-  "layer1.texture": "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/sidebar/sidebar_row_selected.png"
+  "layer1.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/sidebar_row_selected.png"
 },
 
 // Sidebar Icons
@@ -23,8 +23,8 @@
   <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_otto_accent_<%= ui.accents[i].id %>"],<% } %>
   "parents": [{"class": "tree_row", "attributes": ["selected"]}],
   "attributes": ["dirty"],
-  "layer0.texture": "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/buttons/button_dirty_close_selected.png",
-  "layer1.texture": "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/buttons/button_dirty_selected.png"
+  "layer0.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_close_selected.png",
+  "layer1.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_selected.png"
 },
 
 //
@@ -36,7 +36,7 @@
 {
   "class": "icon_folder",
   "settings": ["!theme_otto_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/sidebar/folder.png"
+  "layer0.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/folder.png"
 },
 
 // Opened
@@ -45,7 +45,7 @@
   "class": "icon_folder",
   "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
   "settings": ["!theme_otto_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/sidebar/folder_expanded.png"
+  "layer0.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_expanded.png"
 },
 
 // Symlink
@@ -53,7 +53,7 @@
 {
   "class": "icon_folder_dup",
   "settings": ["!theme_otto_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/sidebar/folder_dup.png"
+  "layer0.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_dup.png"
 },
 
 // Symlink Opened
@@ -62,7 +62,7 @@
   "class": "icon_folder_dup",
   "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
   "settings": ["!theme_otto_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/sidebar/folder_dup_expanded.png"
+  "layer0.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_dup_expanded.png"
 },
 
 // Loading
@@ -74,10 +74,10 @@
   {
     "keyframes":
     [
-      "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/sidebar/spinner3.png",
-      "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/sidebar/spinner2.png",
-      "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/sidebar/spinner1.png",
-      "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/sidebar/spinner.png"
+      "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/spinner3.png",
+      "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/spinner2.png",
+      "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/spinner1.png",
+      "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/spinner.png"
     ],
     "loop": true,
     "frame_time": 0.125

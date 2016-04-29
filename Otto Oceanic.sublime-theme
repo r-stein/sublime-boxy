@@ -456,7 +456,7 @@
   
   {
     "class": "panel_close_button",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png"
   },
   
   //
@@ -465,52 +465,52 @@
   
   {
     "class": "icon_regex",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_regex.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_regex.png"
   },
   
   {
     "class": "icon_case",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_case.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_case.png"
   },
   
   {
     "class": "icon_whole_word",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_word.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_word.png"
   },
   
   {
     "class": "icon_wrap",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_wrap.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_wrap.png"
   },
   
   {
     "class": "icon_context",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_context.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_context.png"
   },
   
   {
     "class": "icon_use_buffer",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_buffer.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_buffer.png"
   },
   
   {
     "class": "icon_reverse",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_reverse.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_reverse.png"
   },
   
   {
     "class": "icon_in_selection",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_selection.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_selection.png"
   },
   
   {
     "class": "icon_preserve_case",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_preserve.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_preserve.png"
   },
   
   {
     "class": "icon_highlight",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_highlight.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_highlight.png"
   },
   
   // Fields
@@ -522,7 +522,7 @@
   
   {
     "class": "dropdown_button_control",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_dropdown.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_dropdown.png"
   },
   
   // Controls Theme Specific Styles
@@ -623,7 +623,7 @@
     
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_regex_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_regex_on.png"
   },
   
   // Case Sensitive Search Button
@@ -633,7 +633,7 @@
     
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_case_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_case_on.png"
   },
   
   // Match Whole Word Search Button
@@ -643,7 +643,7 @@
     
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_word_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_word_on.png"
   },
   
   // Search Wrap Button
@@ -653,7 +653,7 @@
     
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_wrap_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_wrap_on.png"
   },
   
   // Show Search Context Button
@@ -663,7 +663,7 @@
     
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_context_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_context_on.png"
   },
   
   // Use Search Buffer
@@ -673,7 +673,7 @@
     
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_buffer_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_buffer_on.png"
   },
   
   // Reverse Search Direction Button
@@ -683,7 +683,7 @@
     
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_reverse_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_reverse_on.png"
   },
   
   // Search In Selection Button
@@ -693,7 +693,7 @@
     
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_selection_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_selection_on.png"
   },
   
   // Preserve Case Button
@@ -703,7 +703,7 @@
     
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_preserve_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_preserve_on.png"
   },
   
   // Highlight Results Button
@@ -713,7 +713,7 @@
     
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_highlight_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_highlight_on.png"
   },
   
   // Controls Green Accent
@@ -759,7 +759,7 @@
     "settings": ["theme_otto_accent_green"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_regex_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_regex_on.png"
   },
   
   // Case Sensitive Search Button
@@ -769,7 +769,7 @@
     "settings": ["theme_otto_accent_green"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_case_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_case_on.png"
   },
   
   // Match Whole Word Search Button
@@ -779,7 +779,7 @@
     "settings": ["theme_otto_accent_green"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_word_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_word_on.png"
   },
   
   // Search Wrap Button
@@ -789,7 +789,7 @@
     "settings": ["theme_otto_accent_green"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_wrap_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_wrap_on.png"
   },
   
   // Show Search Context Button
@@ -799,7 +799,7 @@
     "settings": ["theme_otto_accent_green"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_context_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_context_on.png"
   },
   
   // Use Search Buffer
@@ -809,7 +809,7 @@
     "settings": ["theme_otto_accent_green"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_buffer_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_buffer_on.png"
   },
   
   // Reverse Search Direction Button
@@ -819,7 +819,7 @@
     "settings": ["theme_otto_accent_green"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_reverse_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_reverse_on.png"
   },
   
   // Search In Selection Button
@@ -829,7 +829,7 @@
     "settings": ["theme_otto_accent_green"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_selection_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_selection_on.png"
   },
   
   // Preserve Case Button
@@ -839,7 +839,7 @@
     "settings": ["theme_otto_accent_green"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_preserve_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_preserve_on.png"
   },
   
   // Highlight Results Button
@@ -849,7 +849,7 @@
     "settings": ["theme_otto_accent_green"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_highlight_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_highlight_on.png"
   },
   
   // Controls Orange Accent
@@ -895,7 +895,7 @@
     "settings": ["theme_otto_accent_orange"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_regex_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_regex_on.png"
   },
   
   // Case Sensitive Search Button
@@ -905,7 +905,7 @@
     "settings": ["theme_otto_accent_orange"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_case_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_case_on.png"
   },
   
   // Match Whole Word Search Button
@@ -915,7 +915,7 @@
     "settings": ["theme_otto_accent_orange"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_word_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_word_on.png"
   },
   
   // Search Wrap Button
@@ -925,7 +925,7 @@
     "settings": ["theme_otto_accent_orange"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_wrap_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_wrap_on.png"
   },
   
   // Show Search Context Button
@@ -935,7 +935,7 @@
     "settings": ["theme_otto_accent_orange"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_context_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_context_on.png"
   },
   
   // Use Search Buffer
@@ -945,7 +945,7 @@
     "settings": ["theme_otto_accent_orange"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_buffer_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_buffer_on.png"
   },
   
   // Reverse Search Direction Button
@@ -955,7 +955,7 @@
     "settings": ["theme_otto_accent_orange"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_reverse_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_reverse_on.png"
   },
   
   // Search In Selection Button
@@ -965,7 +965,7 @@
     "settings": ["theme_otto_accent_orange"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_selection_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_selection_on.png"
   },
   
   // Preserve Case Button
@@ -975,7 +975,7 @@
     "settings": ["theme_otto_accent_orange"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_preserve_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_preserve_on.png"
   },
   
   // Highlight Results Button
@@ -985,7 +985,7 @@
     "settings": ["theme_otto_accent_orange"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_highlight_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_highlight_on.png"
   },
   
   // Controls Purple Accent
@@ -1031,7 +1031,7 @@
     "settings": ["theme_otto_accent_purple"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_regex_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_regex_on.png"
   },
   
   // Case Sensitive Search Button
@@ -1041,7 +1041,7 @@
     "settings": ["theme_otto_accent_purple"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_case_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_case_on.png"
   },
   
   // Match Whole Word Search Button
@@ -1051,7 +1051,7 @@
     "settings": ["theme_otto_accent_purple"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_word_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_word_on.png"
   },
   
   // Search Wrap Button
@@ -1061,7 +1061,7 @@
     "settings": ["theme_otto_accent_purple"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_wrap_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_wrap_on.png"
   },
   
   // Show Search Context Button
@@ -1071,7 +1071,7 @@
     "settings": ["theme_otto_accent_purple"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_context_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_context_on.png"
   },
   
   // Use Search Buffer
@@ -1081,7 +1081,7 @@
     "settings": ["theme_otto_accent_purple"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_buffer_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_buffer_on.png"
   },
   
   // Reverse Search Direction Button
@@ -1091,7 +1091,7 @@
     "settings": ["theme_otto_accent_purple"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_reverse_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_reverse_on.png"
   },
   
   // Search In Selection Button
@@ -1101,7 +1101,7 @@
     "settings": ["theme_otto_accent_purple"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_selection_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_selection_on.png"
   },
   
   // Preserve Case Button
@@ -1111,7 +1111,7 @@
     "settings": ["theme_otto_accent_purple"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_preserve_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_preserve_on.png"
   },
   
   // Highlight Results Button
@@ -1121,7 +1121,7 @@
     "settings": ["theme_otto_accent_purple"],
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": 1.0,
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_highlight_on.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_highlight_on.png"
   },
   
   
@@ -1323,11 +1323,11 @@
     "class": "fold_button_control",
     "content_margin": [9, 7, 8, 6],
   
-    "layer0.texture": "Theme - Otto/assets/global/commons/buttons/button_fold.png",
+    "layer0.texture": "Theme - Otto/assets/common/buttons/button_fold.png",
     "layer0.opacity": 1,
     "layer0.inner_margin": 0,
   
-    "layer1.texture": "Theme - Otto/assets/global/commons/buttons/button_fold_hovered.png",
+    "layer1.texture": "Theme - Otto/assets/common/buttons/button_fold_hovered.png",
     "layer1.opacity": 0,
     "layer1.inner_margin": 0
   },
@@ -1348,8 +1348,8 @@
   {
     "class": "fold_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "Theme - Otto/assets/global/commons/buttons/button_fold_expanded.png",
-    "layer1.texture": "Theme - Otto/assets/global/commons/buttons/button_fold_expanded_hovered.png"
+    "layer0.texture": "Theme - Otto/assets/common/buttons/button_fold_expanded.png",
+    "layer1.texture": "Theme - Otto/assets/common/buttons/button_fold_expanded_hovered.png"
   },
   
   //
@@ -1462,7 +1462,7 @@
     "class": "overlay_control",
     "layer0.inner_margin": [24, 34, 24, 34],
     "layer0.opacity": 1.0,
-    "layer1.texture": "Theme - Otto/assets/global/commons/overlays/quick_panel.png",
+    "layer1.texture": "Theme - Otto/assets/common/overlays/quick_panel.png",
     "layer1.inner_margin": [15, 25, 15, 25],
     "layer1.opacity": 1.0,
     "content_margin": [13, 20, 13, 24]
@@ -2037,13 +2037,13 @@
   {
     "class": "puck_control",
     
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/scrollbars/puck_vertical.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/scrollbars/puck_vertical.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["theme_otto_scrollbars_wide"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/scrollbars/puck_vertical_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/scrollbars/puck_vertical_wide.png"
   },
   
   //
@@ -2054,14 +2054,14 @@
     "class": "puck_control",
     
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/scrollbars/puck_horizontal.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/scrollbars/puck_horizontal.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["theme_otto_scrollbars_wide"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/scrollbars/puck_horizontal_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/scrollbars/puck_horizontal_wide.png"
   },
   
   // Scrollbar Overlayed
@@ -2074,13 +2074,13 @@
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/scrollbars/puck_vertical_overlay.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/scrollbars/puck_vertical_overlay.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_wide"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/scrollbars/puck_vertical_overlay_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/scrollbars/puck_vertical_overlay_wide.png"
   },
   
   //
@@ -2091,14 +2091,14 @@
     "class": "puck_control",
     "settings": ["overlay_scroll_bars"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/scrollbars/puck_horizontal_overlay.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/scrollbars/puck_horizontal_overlay.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_wide"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/scrollbars/puck_horizontal_overlay_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/scrollbars/puck_horizontal_overlay_wide.png"
   },
   
   // Scrollbars Green Accent
@@ -2114,13 +2114,13 @@
   {
     "class": "puck_control",
     "settings": ["theme_otto_accent_green"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/scrollbars/puck_vertical.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/scrollbars/puck_vertical.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["theme_otto_scrollbars_wide", "theme_otto_accent_green"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/scrollbars/puck_vertical_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/scrollbars/puck_vertical_wide.png"
   },
   
   //
@@ -2131,14 +2131,14 @@
     "class": "puck_control",
     "settings": ["theme_otto_accent_green"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/scrollbars/puck_horizontal.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/scrollbars/puck_horizontal.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["theme_otto_scrollbars_wide", "theme_otto_accent_green"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/scrollbars/puck_horizontal_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/scrollbars/puck_horizontal_wide.png"
   },
   
   // Scrollbar Overlayed
@@ -2151,13 +2151,13 @@
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_accent_green"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/scrollbars/puck_vertical_overlay.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/scrollbars/puck_vertical_overlay.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_wide", "theme_otto_accent_green"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/scrollbars/puck_vertical_overlay_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/scrollbars/puck_vertical_overlay_wide.png"
   },
   
   //
@@ -2168,14 +2168,14 @@
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_accent_green"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/scrollbars/puck_horizontal_overlay.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/scrollbars/puck_horizontal_overlay.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_wide", "theme_otto_accent_green"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/scrollbars/puck_horizontal_overlay_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/scrollbars/puck_horizontal_overlay_wide.png"
   },
   
   // Scrollbars Orange Accent
@@ -2191,13 +2191,13 @@
   {
     "class": "puck_control",
     "settings": ["theme_otto_accent_orange"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/scrollbars/puck_vertical.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/scrollbars/puck_vertical.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["theme_otto_scrollbars_wide", "theme_otto_accent_orange"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/scrollbars/puck_vertical_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/scrollbars/puck_vertical_wide.png"
   },
   
   //
@@ -2208,14 +2208,14 @@
     "class": "puck_control",
     "settings": ["theme_otto_accent_orange"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/scrollbars/puck_horizontal.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/scrollbars/puck_horizontal.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["theme_otto_scrollbars_wide", "theme_otto_accent_orange"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/scrollbars/puck_horizontal_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/scrollbars/puck_horizontal_wide.png"
   },
   
   // Scrollbar Overlayed
@@ -2228,13 +2228,13 @@
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_accent_orange"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/scrollbars/puck_vertical_overlay.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/scrollbars/puck_vertical_overlay.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_wide", "theme_otto_accent_orange"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/scrollbars/puck_vertical_overlay_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/scrollbars/puck_vertical_overlay_wide.png"
   },
   
   //
@@ -2245,14 +2245,14 @@
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_accent_orange"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/scrollbars/puck_horizontal_overlay.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/scrollbars/puck_horizontal_overlay.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_wide", "theme_otto_accent_orange"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/scrollbars/puck_horizontal_overlay_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/scrollbars/puck_horizontal_overlay_wide.png"
   },
   
   // Scrollbars Purple Accent
@@ -2268,13 +2268,13 @@
   {
     "class": "puck_control",
     "settings": ["theme_otto_accent_purple"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/scrollbars/puck_vertical.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/scrollbars/puck_vertical.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["theme_otto_scrollbars_wide", "theme_otto_accent_purple"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/scrollbars/puck_vertical_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/scrollbars/puck_vertical_wide.png"
   },
   
   //
@@ -2285,14 +2285,14 @@
     "class": "puck_control",
     "settings": ["theme_otto_accent_purple"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/scrollbars/puck_horizontal.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/scrollbars/puck_horizontal.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["theme_otto_scrollbars_wide", "theme_otto_accent_purple"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/scrollbars/puck_horizontal_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/scrollbars/puck_horizontal_wide.png"
   },
   
   // Scrollbar Overlayed
@@ -2305,13 +2305,13 @@
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_accent_purple"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/scrollbars/puck_vertical_overlay.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/scrollbars/puck_vertical_overlay.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_wide", "theme_otto_accent_purple"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/scrollbars/puck_vertical_overlay_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/scrollbars/puck_vertical_overlay_wide.png"
   },
   
   //
@@ -2322,14 +2322,14 @@
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_accent_purple"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/scrollbars/puck_horizontal_overlay.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/scrollbars/puck_horizontal_overlay.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_wide", "theme_otto_accent_purple"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/scrollbars/puck_horizontal_overlay_wide.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/scrollbars/puck_horizontal_overlay_wide.png"
   },
   
   
@@ -2346,13 +2346,13 @@
   {
     "class": "puck_control",
     "settings": ["theme_otto_scrollbars_monochrome"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/scrollbars/puck_vertical.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/scrollbars/puck_vertical.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["theme_otto_scrollbars_monochrome", "theme_otto_scrollbars_wide"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/scrollbars/puck_vertical_wide.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/scrollbars/puck_vertical_wide.png"
   },
   
   //
@@ -2363,14 +2363,14 @@
     "class": "puck_control",
     "attributes": ["horizontal"],
     "settings": ["theme_otto_scrollbars_monochrome"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/scrollbars/puck_horizontal.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/scrollbars/puck_horizontal.png"
   },
   
   {
     "class": "puck_control",
     "attributes": ["horizontal"],
     "settings": ["theme_otto_scrollbars_monochrome", "theme_otto_scrollbars_wide"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/scrollbars/puck_horizontal_wide.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/scrollbars/puck_horizontal_wide.png"
   },
   
   // Scrollbar Overlayed
@@ -2383,13 +2383,13 @@
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_monochrome"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/scrollbars/puck_vertical_overlay.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/scrollbars/puck_vertical_overlay.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_monochrome", "theme_otto_scrollbars_wide"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/scrollbars/puck_vertical_overlay_wide.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/scrollbars/puck_vertical_overlay_wide.png"
   },
   
   //
@@ -2400,14 +2400,14 @@
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_monochrome"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/scrollbars/puck_horizontal_overlay.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/scrollbars/puck_horizontal_overlay.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_monochrome", "theme_otto_scrollbars_wide"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/scrollbars/puck_horizontal_overlay_wide.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/scrollbars/puck_horizontal_overlay_wide.png"
   },
   
   // Scrollbars Options
@@ -2701,8 +2701,8 @@
   
   {
     "class": "close_button",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png",
-    "layer1.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_dirty.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png",
+    "layer1.texture": "Theme - Otto/assets/variants/dark/buttons/button_dirty.png"
   },
   
   //
@@ -2714,27 +2714,27 @@
   {
     "class": "icon_folder",
     "settings": ["theme_otto_sidebar_folder_arrow"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/sidebar/folder_arrow.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/sidebar/folder_arrow.png"
   },
   
   {
     "class": "icon_folder",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["theme_otto_sidebar_folder_arrow"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/sidebar/folder_arrow_expanded.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/sidebar/folder_arrow_expanded.png"
   },
   
   {
     "class": "icon_folder_dup",
     "settings": ["theme_otto_sidebar_folder_arrow"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/sidebar/folder_arrow.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/sidebar/folder_arrow.png"
   },
   
   {
     "class": "icon_folder_dup",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["theme_otto_sidebar_folder_arrow"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/sidebar/folder_arrow_expanded.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/sidebar/folder_arrow_expanded.png"
   },
   
   
@@ -2809,7 +2809,7 @@
   {
     "class": "tree_row",
     
-    "layer1.texture": "Theme - Otto/assets/global/accents/blue/sidebar/sidebar_row_selected.png"
+    "layer1.texture": "Theme - Otto/assets/accents/blue/sidebar/sidebar_row_selected.png"
   },
   
   // Sidebar Icons
@@ -2824,8 +2824,8 @@
     
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
     "attributes": ["dirty"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_dirty_close_selected.png",
-    "layer1.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_dirty_selected.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_dirty_close_selected.png",
+    "layer1.texture": "Theme - Otto/assets/accents/blue/buttons/button_dirty_selected.png"
   },
   
   //
@@ -2837,7 +2837,7 @@
   {
     "class": "icon_folder",
     "settings": ["!theme_otto_sidebar_folder_arrow"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/sidebar/folder.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/sidebar/folder.png"
   },
   
   // Opened
@@ -2846,7 +2846,7 @@
     "class": "icon_folder",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["!theme_otto_sidebar_folder_arrow"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/sidebar/folder_expanded.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/sidebar/folder_expanded.png"
   },
   
   // Symlink
@@ -2854,7 +2854,7 @@
   {
     "class": "icon_folder_dup",
     "settings": ["!theme_otto_sidebar_folder_arrow"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/sidebar/folder_dup.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/sidebar/folder_dup.png"
   },
   
   // Symlink Opened
@@ -2863,7 +2863,7 @@
     "class": "icon_folder_dup",
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["!theme_otto_sidebar_folder_arrow"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/sidebar/folder_dup_expanded.png"
+    "layer0.texture": "Theme - Otto/assets/accents/blue/sidebar/folder_dup_expanded.png"
   },
   
   // Loading
@@ -2875,10 +2875,10 @@
     {
       "keyframes":
       [
-        "Theme - Otto/assets/global/accents/blue/sidebar/spinner3.png",
-        "Theme - Otto/assets/global/accents/blue/sidebar/spinner2.png",
-        "Theme - Otto/assets/global/accents/blue/sidebar/spinner1.png",
-        "Theme - Otto/assets/global/accents/blue/sidebar/spinner.png"
+        "Theme - Otto/assets/accents/blue/sidebar/spinner3.png",
+        "Theme - Otto/assets/accents/blue/sidebar/spinner2.png",
+        "Theme - Otto/assets/accents/blue/sidebar/spinner1.png",
+        "Theme - Otto/assets/accents/blue/sidebar/spinner.png"
       ],
       "loop": true,
       "frame_time": 0.125
@@ -2894,7 +2894,7 @@
   {
     "class": "tree_row",
     "settings": ["theme_otto_accent_green"],
-    "layer1.texture": "Theme - Otto/assets/global/accents/green/sidebar/sidebar_row_selected.png"
+    "layer1.texture": "Theme - Otto/assets/accents/green/sidebar/sidebar_row_selected.png"
   },
   
   // Sidebar Icons
@@ -2909,8 +2909,8 @@
     "settings": ["theme_otto_accent_green"],
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
     "attributes": ["dirty"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_dirty_close_selected.png",
-    "layer1.texture": "Theme - Otto/assets/global/accents/green/buttons/button_dirty_selected.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_dirty_close_selected.png",
+    "layer1.texture": "Theme - Otto/assets/accents/green/buttons/button_dirty_selected.png"
   },
   
   //
@@ -2922,7 +2922,7 @@
   {
     "class": "icon_folder",
     "settings": ["!theme_otto_sidebar_folder_arrow", "theme_otto_accent_green"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/sidebar/folder.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/sidebar/folder.png"
   },
   
   // Opened
@@ -2931,7 +2931,7 @@
     "class": "icon_folder",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["!theme_otto_sidebar_folder_arrow", "theme_otto_accent_green"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/sidebar/folder_expanded.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/sidebar/folder_expanded.png"
   },
   
   // Symlink
@@ -2939,7 +2939,7 @@
   {
     "class": "icon_folder_dup",
     "settings": ["!theme_otto_sidebar_folder_arrow", "theme_otto_accent_green"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/sidebar/folder_dup.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/sidebar/folder_dup.png"
   },
   
   // Symlink Opened
@@ -2948,7 +2948,7 @@
     "class": "icon_folder_dup",
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["!theme_otto_sidebar_folder_arrow", "theme_otto_accent_green"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/sidebar/folder_dup_expanded.png"
+    "layer0.texture": "Theme - Otto/assets/accents/green/sidebar/folder_dup_expanded.png"
   },
   
   // Loading
@@ -2960,10 +2960,10 @@
     {
       "keyframes":
       [
-        "Theme - Otto/assets/global/accents/green/sidebar/spinner3.png",
-        "Theme - Otto/assets/global/accents/green/sidebar/spinner2.png",
-        "Theme - Otto/assets/global/accents/green/sidebar/spinner1.png",
-        "Theme - Otto/assets/global/accents/green/sidebar/spinner.png"
+        "Theme - Otto/assets/accents/green/sidebar/spinner3.png",
+        "Theme - Otto/assets/accents/green/sidebar/spinner2.png",
+        "Theme - Otto/assets/accents/green/sidebar/spinner1.png",
+        "Theme - Otto/assets/accents/green/sidebar/spinner.png"
       ],
       "loop": true,
       "frame_time": 0.125
@@ -2979,7 +2979,7 @@
   {
     "class": "tree_row",
     "settings": ["theme_otto_accent_orange"],
-    "layer1.texture": "Theme - Otto/assets/global/accents/orange/sidebar/sidebar_row_selected.png"
+    "layer1.texture": "Theme - Otto/assets/accents/orange/sidebar/sidebar_row_selected.png"
   },
   
   // Sidebar Icons
@@ -2994,8 +2994,8 @@
     "settings": ["theme_otto_accent_orange"],
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
     "attributes": ["dirty"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_dirty_close_selected.png",
-    "layer1.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_dirty_selected.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_dirty_close_selected.png",
+    "layer1.texture": "Theme - Otto/assets/accents/orange/buttons/button_dirty_selected.png"
   },
   
   //
@@ -3007,7 +3007,7 @@
   {
     "class": "icon_folder",
     "settings": ["!theme_otto_sidebar_folder_arrow", "theme_otto_accent_orange"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/sidebar/folder.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/sidebar/folder.png"
   },
   
   // Opened
@@ -3016,7 +3016,7 @@
     "class": "icon_folder",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["!theme_otto_sidebar_folder_arrow", "theme_otto_accent_orange"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/sidebar/folder_expanded.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/sidebar/folder_expanded.png"
   },
   
   // Symlink
@@ -3024,7 +3024,7 @@
   {
     "class": "icon_folder_dup",
     "settings": ["!theme_otto_sidebar_folder_arrow", "theme_otto_accent_orange"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/sidebar/folder_dup.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/sidebar/folder_dup.png"
   },
   
   // Symlink Opened
@@ -3033,7 +3033,7 @@
     "class": "icon_folder_dup",
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["!theme_otto_sidebar_folder_arrow", "theme_otto_accent_orange"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/sidebar/folder_dup_expanded.png"
+    "layer0.texture": "Theme - Otto/assets/accents/orange/sidebar/folder_dup_expanded.png"
   },
   
   // Loading
@@ -3045,10 +3045,10 @@
     {
       "keyframes":
       [
-        "Theme - Otto/assets/global/accents/orange/sidebar/spinner3.png",
-        "Theme - Otto/assets/global/accents/orange/sidebar/spinner2.png",
-        "Theme - Otto/assets/global/accents/orange/sidebar/spinner1.png",
-        "Theme - Otto/assets/global/accents/orange/sidebar/spinner.png"
+        "Theme - Otto/assets/accents/orange/sidebar/spinner3.png",
+        "Theme - Otto/assets/accents/orange/sidebar/spinner2.png",
+        "Theme - Otto/assets/accents/orange/sidebar/spinner1.png",
+        "Theme - Otto/assets/accents/orange/sidebar/spinner.png"
       ],
       "loop": true,
       "frame_time": 0.125
@@ -3064,7 +3064,7 @@
   {
     "class": "tree_row",
     "settings": ["theme_otto_accent_purple"],
-    "layer1.texture": "Theme - Otto/assets/global/accents/purple/sidebar/sidebar_row_selected.png"
+    "layer1.texture": "Theme - Otto/assets/accents/purple/sidebar/sidebar_row_selected.png"
   },
   
   // Sidebar Icons
@@ -3079,8 +3079,8 @@
     "settings": ["theme_otto_accent_purple"],
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
     "attributes": ["dirty"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_dirty_close_selected.png",
-    "layer1.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_dirty_selected.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_dirty_close_selected.png",
+    "layer1.texture": "Theme - Otto/assets/accents/purple/buttons/button_dirty_selected.png"
   },
   
   //
@@ -3092,7 +3092,7 @@
   {
     "class": "icon_folder",
     "settings": ["!theme_otto_sidebar_folder_arrow", "theme_otto_accent_purple"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/sidebar/folder.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/sidebar/folder.png"
   },
   
   // Opened
@@ -3101,7 +3101,7 @@
     "class": "icon_folder",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["!theme_otto_sidebar_folder_arrow", "theme_otto_accent_purple"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/sidebar/folder_expanded.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/sidebar/folder_expanded.png"
   },
   
   // Symlink
@@ -3109,7 +3109,7 @@
   {
     "class": "icon_folder_dup",
     "settings": ["!theme_otto_sidebar_folder_arrow", "theme_otto_accent_purple"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/sidebar/folder_dup.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/sidebar/folder_dup.png"
   },
   
   // Symlink Opened
@@ -3118,7 +3118,7 @@
     "class": "icon_folder_dup",
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["!theme_otto_sidebar_folder_arrow", "theme_otto_accent_purple"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/sidebar/folder_dup_expanded.png"
+    "layer0.texture": "Theme - Otto/assets/accents/purple/sidebar/folder_dup_expanded.png"
   },
   
   // Loading
@@ -3130,10 +3130,10 @@
     {
       "keyframes":
       [
-        "Theme - Otto/assets/global/accents/purple/sidebar/spinner3.png",
-        "Theme - Otto/assets/global/accents/purple/sidebar/spinner2.png",
-        "Theme - Otto/assets/global/accents/purple/sidebar/spinner1.png",
-        "Theme - Otto/assets/global/accents/purple/sidebar/spinner.png"
+        "Theme - Otto/assets/accents/purple/sidebar/spinner3.png",
+        "Theme - Otto/assets/accents/purple/sidebar/spinner2.png",
+        "Theme - Otto/assets/accents/purple/sidebar/spinner1.png",
+        "Theme - Otto/assets/accents/purple/sidebar/spinner.png"
       ],
       "loop": true,
       "frame_time": 0.125
@@ -3602,7 +3602,7 @@
   
   {
     "class": "panel_button_control",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_panel_switcher.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_panel_switcher.png"
   },
   
   // Status Bar Theme Specific Styles
@@ -3984,12 +3984,12 @@
     "layer1.inner_margin": [24, 4],
     "layer1.opacity": 0,
   
-    "layer2.texture": "Theme - Otto/assets/global/commons/tabs/tab_selected.png",
+    "layer2.texture": "Theme - Otto/assets/common/tabs/tab_selected.png",
     "layer2.inner_margin": [24, 4],
     "layer2.opacity": 0,
     "tint_index": 2,
   
-    "layer3.texture": "Theme - Otto/assets/global/commons/tabs/tab_overlay.png",
+    "layer3.texture": "Theme - Otto/assets/common/tabs/tab_overlay.png",
     "layer3.inner_margin": [24, 4],
     "layer3.opacity": 0
   },
@@ -4164,12 +4164,12 @@
   
   {
     "class": "scroll_tabs_left_button",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_arrow_left.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_arrow_left.png"
   },
   
   {
     "class": "scroll_tabs_right_button",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_arrow_right.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_arrow_right.png"
   },
   
   //
@@ -4178,7 +4178,7 @@
   
   {
     "class": "show_tabs_dropdown_button",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_dropdown.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_dropdown.png"
   },
   
   // Tab
@@ -4205,44 +4205,44 @@
   
   {
     "class": "tab_close_button",
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png"
   },
   
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "layer0.texture": "Theme - Otto/assets/global/variants/light/buttons/button_close.png"
+    "layer0.texture": "Theme - Otto/assets/variants/light/buttons/button_close.png"
   },
   
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium"]}],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png"
   },
   
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium_dark"]}],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png"
   },
   
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "file_dark"]}],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png"
   },
   
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_dirty.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_dirty.png"
   },
   
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
     "attributes": ["hover"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png"
   },
   
   
@@ -4349,7 +4349,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_otto_tab_selected_underlined"],
-    "layer3.texture": "Theme - Otto/assets/global/accents/blue/tabs/tab_selected_underlined.png"
+    "layer3.texture": "Theme - Otto/assets/accents/blue/tabs/tab_selected_underlined.png"
   },
   
   //
@@ -4359,7 +4359,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_otto_tab_selected_prelined"],
-    "layer3.texture": "Theme - Otto/assets/global/accents/blue/tabs/tab_selected_prelined.png"
+    "layer3.texture": "Theme - Otto/assets/accents/blue/tabs/tab_selected_prelined.png"
   },
   
   //
@@ -4369,7 +4369,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_otto_tab_selected_filled"],
-    "layer3.texture": "Theme - Otto/assets/global/accents/blue/tabs/tab_selected_filled.png"
+    "layer3.texture": "Theme - Otto/assets/accents/blue/tabs/tab_selected_filled.png"
   },
   
   // Close
@@ -4378,7 +4378,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "settings": ["theme_otto_tab_selected_filled"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png"
   },
   
   {
@@ -4395,7 +4395,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
     
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_dirty_selected.png",
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_dirty_selected.png",
     "layer0.opacity": 1.0
   },
   
@@ -4404,7 +4404,7 @@
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
     
     "attributes": ["hover"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/blue/buttons/button_dirty_close_selected.png",
+    "layer0.texture": "Theme - Otto/assets/accents/blue/buttons/button_dirty_close_selected.png",
     "layer0.opacity": 1.0
   },
   
@@ -4412,7 +4412,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "settings": ["theme_otto_tab_selected_filled"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_dirty.png",
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_dirty.png",
     "layer0.opacity": 1.0
   },
   
@@ -4421,7 +4421,7 @@
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "attributes": ["hover"],
     "settings": ["theme_otto_tab_selected_filled"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png",
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png",
     "layer0.opacity": 1.0
   },
   
@@ -4438,7 +4438,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_otto_tab_selected_underlined", "theme_otto_accent_green"],
-    "layer3.texture": "Theme - Otto/assets/global/accents/green/tabs/tab_selected_underlined.png"
+    "layer3.texture": "Theme - Otto/assets/accents/green/tabs/tab_selected_underlined.png"
   },
   
   //
@@ -4448,7 +4448,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_otto_tab_selected_prelined", "theme_otto_accent_green"],
-    "layer3.texture": "Theme - Otto/assets/global/accents/green/tabs/tab_selected_prelined.png"
+    "layer3.texture": "Theme - Otto/assets/accents/green/tabs/tab_selected_prelined.png"
   },
   
   //
@@ -4458,7 +4458,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_otto_tab_selected_filled", "theme_otto_accent_green"],
-    "layer3.texture": "Theme - Otto/assets/global/accents/green/tabs/tab_selected_filled.png"
+    "layer3.texture": "Theme - Otto/assets/accents/green/tabs/tab_selected_filled.png"
   },
   
   // Close
@@ -4467,7 +4467,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "settings": ["theme_otto_tab_selected_filled", "theme_otto_accent_green"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png"
   },
   
   {
@@ -4484,7 +4484,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
     "settings": ["theme_otto_accent_green"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_dirty_selected.png",
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_dirty_selected.png",
     "layer0.opacity": 1.0
   },
   
@@ -4493,7 +4493,7 @@
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
     "settings": ["theme_otto_accent_green"],
     "attributes": ["hover"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/green/buttons/button_dirty_close_selected.png",
+    "layer0.texture": "Theme - Otto/assets/accents/green/buttons/button_dirty_close_selected.png",
     "layer0.opacity": 1.0
   },
   
@@ -4501,7 +4501,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "settings": ["theme_otto_tab_selected_filled", "theme_otto_accent_green"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_dirty.png",
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_dirty.png",
     "layer0.opacity": 1.0
   },
   
@@ -4510,7 +4510,7 @@
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "attributes": ["hover"],
     "settings": ["theme_otto_tab_selected_filled", "theme_otto_accent_green"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png",
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png",
     "layer0.opacity": 1.0
   },
   
@@ -4527,7 +4527,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_otto_tab_selected_underlined", "theme_otto_accent_orange"],
-    "layer3.texture": "Theme - Otto/assets/global/accents/orange/tabs/tab_selected_underlined.png"
+    "layer3.texture": "Theme - Otto/assets/accents/orange/tabs/tab_selected_underlined.png"
   },
   
   //
@@ -4537,7 +4537,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_otto_tab_selected_prelined", "theme_otto_accent_orange"],
-    "layer3.texture": "Theme - Otto/assets/global/accents/orange/tabs/tab_selected_prelined.png"
+    "layer3.texture": "Theme - Otto/assets/accents/orange/tabs/tab_selected_prelined.png"
   },
   
   //
@@ -4547,7 +4547,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_otto_tab_selected_filled", "theme_otto_accent_orange"],
-    "layer3.texture": "Theme - Otto/assets/global/accents/orange/tabs/tab_selected_filled.png"
+    "layer3.texture": "Theme - Otto/assets/accents/orange/tabs/tab_selected_filled.png"
   },
   
   // Close
@@ -4556,7 +4556,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "settings": ["theme_otto_tab_selected_filled", "theme_otto_accent_orange"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png"
   },
   
   {
@@ -4573,7 +4573,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
     "settings": ["theme_otto_accent_orange"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_dirty_selected.png",
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_dirty_selected.png",
     "layer0.opacity": 1.0
   },
   
@@ -4582,7 +4582,7 @@
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
     "settings": ["theme_otto_accent_orange"],
     "attributes": ["hover"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/orange/buttons/button_dirty_close_selected.png",
+    "layer0.texture": "Theme - Otto/assets/accents/orange/buttons/button_dirty_close_selected.png",
     "layer0.opacity": 1.0
   },
   
@@ -4590,7 +4590,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "settings": ["theme_otto_tab_selected_filled", "theme_otto_accent_orange"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_dirty.png",
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_dirty.png",
     "layer0.opacity": 1.0
   },
   
@@ -4599,7 +4599,7 @@
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "attributes": ["hover"],
     "settings": ["theme_otto_tab_selected_filled", "theme_otto_accent_orange"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png",
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png",
     "layer0.opacity": 1.0
   },
   
@@ -4616,7 +4616,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_otto_tab_selected_underlined", "theme_otto_accent_purple"],
-    "layer3.texture": "Theme - Otto/assets/global/accents/purple/tabs/tab_selected_underlined.png"
+    "layer3.texture": "Theme - Otto/assets/accents/purple/tabs/tab_selected_underlined.png"
   },
   
   //
@@ -4626,7 +4626,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_otto_tab_selected_prelined", "theme_otto_accent_purple"],
-    "layer3.texture": "Theme - Otto/assets/global/accents/purple/tabs/tab_selected_prelined.png"
+    "layer3.texture": "Theme - Otto/assets/accents/purple/tabs/tab_selected_prelined.png"
   },
   
   //
@@ -4636,7 +4636,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_otto_tab_selected_filled", "theme_otto_accent_purple"],
-    "layer3.texture": "Theme - Otto/assets/global/accents/purple/tabs/tab_selected_filled.png"
+    "layer3.texture": "Theme - Otto/assets/accents/purple/tabs/tab_selected_filled.png"
   },
   
   // Close
@@ -4645,7 +4645,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "settings": ["theme_otto_tab_selected_filled", "theme_otto_accent_purple"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png"
   },
   
   {
@@ -4662,7 +4662,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
     "settings": ["theme_otto_accent_purple"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_dirty_selected.png",
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_dirty_selected.png",
     "layer0.opacity": 1.0
   },
   
@@ -4671,7 +4671,7 @@
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
     "settings": ["theme_otto_accent_purple"],
     "attributes": ["hover"],
-    "layer0.texture": "Theme - Otto/assets/global/accents/purple/buttons/button_dirty_close_selected.png",
+    "layer0.texture": "Theme - Otto/assets/accents/purple/buttons/button_dirty_close_selected.png",
     "layer0.opacity": 1.0
   },
   
@@ -4679,7 +4679,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "settings": ["theme_otto_tab_selected_filled", "theme_otto_accent_purple"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_dirty.png",
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_dirty.png",
     "layer0.opacity": 1.0
   },
   
@@ -4688,7 +4688,7 @@
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "attributes": ["hover"],
     "settings": ["theme_otto_tab_selected_filled", "theme_otto_accent_purple"],
-    "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png",
+    "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png",
     "layer0.opacity": 1.0
   },
   

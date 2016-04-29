@@ -12,7 +12,7 @@
 {
   "class": "tab_control",
   "settings": ["theme_otto_tab_selected_underlined"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer3.texture": "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/tabs/tab_selected_underlined.png"
+  "layer3.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_underlined.png"
 },
 
 //
@@ -22,7 +22,7 @@
 {
   "class": "tab_control",
   "settings": ["theme_otto_tab_selected_prelined"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer3.texture": "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/tabs/tab_selected_prelined.png"
+  "layer3.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_prelined.png"
 },
 
 //
@@ -32,7 +32,7 @@
 {
   "class": "tab_control",
   "settings": ["theme_otto_tab_selected_filled"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer3.texture": "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/tabs/tab_selected_filled.png"
+  "layer3.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_filled.png"
 },
 
 // Close
@@ -41,7 +41,7 @@
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["selected"]}],
   "settings": ["theme_otto_tab_selected_filled"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+  "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png"
 },
 
 {
@@ -58,7 +58,7 @@
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
   <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_otto_accent_<%= ui.accents[i].id %>"],<% } %>
-  "layer0.texture": "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/buttons/button_dirty_selected.png",
+  "layer0.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_selected.png",
   "layer0.opacity": 1.0
 },
 
@@ -67,7 +67,7 @@
   "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
   <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_otto_accent_<%= ui.accents[i].id %>"],<% } %>
   "attributes": ["hover"],
-  "layer0.texture": "Theme - Otto/assets/global/accents/<%= ui.accents[i].id %>/buttons/button_dirty_close_selected.png",
+  "layer0.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_close_selected.png",
   "layer0.opacity": 1.0
 },
 
@@ -75,7 +75,7 @@
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
   "settings": ["theme_otto_tab_selected_filled"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_dirty.png",
+  "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_dirty.png",
   "layer0.opacity": 1.0
 },
 
@@ -84,7 +84,7 @@
   "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
   "attributes": ["hover"],
   "settings": ["theme_otto_tab_selected_filled"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png",
+  "layer0.texture": "Theme - Otto/assets/variants/dark/buttons/button_close.png",
   "layer0.opacity": 1.0
 },
 <% } %>
