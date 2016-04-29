@@ -97,7 +97,7 @@
   //=include "common/tabs.json"
   //=include "variants/light/tabs.json"
   //=include "specific/tabs.json"
-  //=include "accents/**/tabs.json"
+  //=include "accents/tabs.json"
   //=include "options/tabs.json"
   //
   // >> Tooltips
