@@ -64,7 +64,7 @@
   //
   //=include "common/scrollbars.json"
   //=include "specific/scrollbars.json"
-  //=include "accents/**/scrollbars.json"
+  //=include "accents/scrollbars.json"
   //=include "variants/light/scrollbars.json"
   //=include "options/scrollbars.json"
   //
