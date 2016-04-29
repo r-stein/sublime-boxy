@@ -22,7 +22,7 @@
   //=include "common/controls.json"
   //=include "variants/dark/controls.json"
   //=include "specific/controls.json"
-  //=include "accents/**/controls.json"
+  //=include "accents/controls.json"
   //=include "options/controls.json"
   //
   // >> Folding
