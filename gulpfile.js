@@ -194,7 +194,10 @@ gulp.task('build:themes', ['clean:themes'], function() {
       return _.merge(common, specific);
     }))
     .pipe($.template())
-    .pipe($.rename({ extname: '.sublime-theme' }))
+    .pipe($.rename(function(path) {
+      path.basename = "Otto " + _.startCase(path.basename);
+      path.extname = ".sublime-theme";
+    }))
     .pipe(gulp.dest('./'))
     .on('end', function() {
       console.log('[build:themes]'.bold.magenta + ' Finished successfully'.bold.green);
@@ -210,9 +213,9 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
       this.emit('end');
     }))
     .pipe($.foreach(function(stream, file) {
-      var basename = path.basename(file.path, path.extname(file.path));
+      var basename = "Otto " + _.startCase(path.basename(file.path, path.extname(file.path)));
 
-      return gulp.src('./sources/templates/scheme.YAML-tmTheme')
+      return gulp.src('./sources/schemes/scheme.YAML-tmTheme')
         .pipe($.data(function() {
           var specific = require(file.path);
 
@@ -260,9 +263,9 @@ gulp.task('build:widgets', ['clean:widgets'], function(cb) {
 gulp.task('build:widget-themes', function() {
   return gulp.src('./sources/settings/specific/*.json')
     .pipe($.foreach(function(stream, file) {
-      var basename = path.basename(file.path, path.extname(file.path));
+      var basename = "Otto " + _.startCase(path.basename(file.path, path.extname(file.path)));
 
-      return gulp.src('./sources/templates/widget.stTheme')
+      return gulp.src('./sources/widgets/widget.stTheme')
         .pipe($.data(function() {
           var specific = require(file.path);
 
@@ -279,9 +282,9 @@ gulp.task('build:widget-themes', function() {
 gulp.task('build:widget-settings', function() {
   return gulp.src('./sources/settings/specific/*.json')
     .pipe($.foreach(function(stream, file) {
-      var basename = path.basename(file.path, path.extname(file.path));
+      var basename = "Otto " + _.startCase(path.basename(file.path, path.extname(file.path)));
 
-      return gulp.src('./sources/templates/widget.sublime-settings')
+      return gulp.src('./sources/widgets/widget.sublime-settings')
         .pipe($.data(function() {
           var specific = require(file.path);
 
@@ -302,8 +305,8 @@ gulp.task('build:widget-settings', function() {
 
 gulp.task('watch', function() {
   gulp.watch('./sources/themes/**/*.json', ['build:themes']);
-  gulp.watch('./sources/templates/scheme.YAML-tmTheme', ['build:schemes']);
-  gulp.watch('./sources/templates/widget.*', ['build:widgets']);
+  gulp.watch('./sources/schemes/scheme.YAML-tmTheme', ['build:schemes']);
+  gulp.watch('./sources/widgets/widget.*', ['build:widgets']);
   gulp.watch('./sources/settings/*.json', ['build:schemes', 'build:widgets']);
 });
 
