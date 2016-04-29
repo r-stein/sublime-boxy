@@ -106,7 +106,7 @@
   // ===========================================================================
   //
   //=include "common/tooltips.json"
-  //=include "accents/**/tooltips.json"
+  //=include "accents/tooltips.json"
   //=include "options/tooltips.json"
   //
   // >> Window

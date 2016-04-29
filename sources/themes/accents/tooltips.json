@@ -1,0 +1,10 @@
+<% for (var i = 0; i < ui.accents.length; i++) { %>
+// Tooltips <%= ui.accents[i].name %> Accent
+// ===========================================================================
+
+{
+  "class": "tool_tip_control",
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_otto_accent_<%= ui.accents[i].id %>"],<% } %>
+  "layer0.tint": [<%= ui.accents[i].rgb %>]
+},
+<% } %>

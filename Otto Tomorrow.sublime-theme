@@ -4898,15 +4898,17 @@
     "color": [255, 255, 255]
   },
   
+  
   // Tooltips Blue Accent
   // ===========================================================================
   
   {
     "class": "tool_tip_control",
+    
     "layer0.tint": [36, 151, 227]
   },
   
-    // Tooltips Green Accent
+  // Tooltips Green Accent
   // ===========================================================================
   
   {
@@ -4915,23 +4917,24 @@
     "layer0.tint": [46, 188, 103]
   },
   
-    // Tooltips Orange Accent
+  // Tooltips Orange Accent
   // ===========================================================================
   
   {
     "class": "tool_tip_control",
     "settings": ["theme_otto_accent_orange"],
-    "layer0.tint": [241, 103, 60]
+    "layer0.tint": [242, 104, 62]
   },
   
-    // Tooltips Purple Accent
+  // Tooltips Purple Accent
   // ===========================================================================
   
   {
     "class": "tool_tip_control",
     "settings": ["theme_otto_accent_purple"],
-    "layer0.tint": [175, 60, 241]
+    "layer0.tint": [137, 85, 162]
   },
+  
   
   // Tooltips Options
   // ===========================================================================
