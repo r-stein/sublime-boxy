@@ -4,6 +4,10 @@
   "uuid": "44e806da-4c4b-499c-b682-419a0b311a99",
   "ui": {
     "id": "tomorrow",
+    "variant": {
+      "id": "dark",
+      "name": "Dark"
+    },
     "background": {
       "primary": {
         "hex": "#232426",

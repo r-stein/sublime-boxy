@@ -4,6 +4,10 @@
   "uuid": "b39c25a4-035b-4b97-8c5d-94873acedf10",
   "ui": {
     "id": "monokai",
+    "variant": {
+      "id": "dark",
+      "name": "Dark"
+    },
     "background": {
       "primary": {
         "hex": "#2e2f29",

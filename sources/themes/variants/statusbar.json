@@ -1,4 +1,4 @@
-// Status Bar Dark Styles
+// Status Bar <%= ui.variant.name %> Styles
 // ===========================================================================
 
 // Status Bar Panel Switcher
@@ -6,5 +6,5 @@
 
 {
   "class": "panel_button_control",
-  "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_panel_switcher.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/buttons/button_panel_switcher.png"
 },

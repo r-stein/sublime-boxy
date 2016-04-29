@@ -20,7 +20,7 @@
   // ===========================================================================
   //
   //=include "common/controls.json"
-  //=include "variants/light/controls.json"
+  //=include "variants/controls.json"
   //=include "specific/controls.json"
   //=include "accents/controls.json"
   //=include "options/controls.json"
@@ -65,7 +65,7 @@
   //=include "common/scrollbars.json"
   //=include "specific/scrollbars.json"
   //=include "accents/scrollbars.json"
-  //=include "variants/light/scrollbars.json"
+  //=include "variants/scrollbars.json"
   //=include "options/scrollbars.json"
   //
   // >> Sidebar
@@ -74,7 +74,7 @@
   // ===========================================================================
   //
   //=include "common/sidebar.json"
-  //=include "variants/light/sidebar.json"
+  //=include "variants/sidebar.json"
   //=include "specific/sidebar.json"
   //=include "accents/sidebar.json"
   //=include "options/sidebar.json"
@@ -85,7 +85,7 @@
   // ===========================================================================
   //
   //=include "common/statusbar.json"
-  //=include "variants/light/statusbar.json"
+  //=include "variants/statusbar.json"
   //=include "specific/statusbar.json"
   //=include "options/statusbar.json"
   //
@@ -95,7 +95,7 @@
   // ===========================================================================
   //
   //=include "common/tabs.json"
-  //=include "variants/light/tabs.json"
+  //=include "variants/tabs.json"
   //=include "specific/tabs.json"
   //=include "accents/tabs.json"
   //=include "options/tabs.json"

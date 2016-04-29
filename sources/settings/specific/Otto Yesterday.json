@@ -4,6 +4,10 @@
   "uuid": "9a2af96e-91ec-429f-8453-851de1e2adb2",
   "ui": {
     "id": "yesterday",
+    "variant": {
+      "id": "light",
+      "name": "Light"
+    },
     "background": {
       "primary": {
         "hex": "#f7f7f7",

@@ -1,4 +1,4 @@
-// Tabs Dark Styles
+// Tabs <%= ui.variant.name %> Styles
 // ===========================================================================
 
 // Tabset
@@ -10,12 +10,12 @@
 
 {
   "class": "scroll_tabs_left_button",
-  "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_arrow_left.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/buttons/button_arrow_left.png"
 },
 
 {
   "class": "scroll_tabs_right_button",
-  "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_arrow_right.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/buttons/button_arrow_right.png"
 },
 
 //
@@ -24,7 +24,7 @@
 
 {
   "class": "show_tabs_dropdown_button",
-  "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_dropdown.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/buttons/button_dropdown.png"
 },
 
 // Tab
@@ -36,13 +36,13 @@
 
 {
   "class": "tab_label",
-  "shadow_color": [0, 0, 0, 80]
+  "shadow_color": [<%= ui.foreground.shadow.rgb %>, 127]
 },
 
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-  "shadow_color": [0, 0, 0, 80]
+  "shadow_color": [<%= ui.foreground.shadow.rgb %>, 127]
 },
 
 //
@@ -51,15 +51,15 @@
 
 {
   "class": "tab_close_button",
-  "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/buttons/button_close.png"
 },
-
+<% if (ui.variant.id == "dark") { %>
 {
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["selected"]}],
   "layer0.texture": "Theme - Otto/assets/global/variants/light/buttons/button_close.png"
 },
-
+<% } %>
 {
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium"]}],
@@ -81,13 +81,13 @@
 {
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-  "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_dirty.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/buttons/button_dirty.png"
 },
 
 {
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
   "attributes": ["hover"],
-  "layer0.texture": "Theme - Otto/assets/global/variants/dark/buttons/button_close.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/buttons/button_close.png"
 },
 

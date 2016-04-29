@@ -1,4 +1,4 @@
-// Scrollbars Light Styles
+// Scrollbars <%= ui.variant.name %> Styles
 // ===========================================================================
 
 // Scrollbar Default
@@ -11,13 +11,13 @@
 {
   "class": "puck_control",
   "settings": ["theme_otto_scrollbars_monochrome"],
-  "layer0.texture": "Theme - Otto/assets/global/variants/light/scrollbars/puck_vertical.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/scrollbars/puck_vertical.png"
 },
 
 {
   "class": "puck_control",
   "settings": ["theme_otto_scrollbars_monochrome", "theme_otto_scrollbars_wide"],
-  "layer0.texture": "Theme - Otto/assets/global/variants/light/scrollbars/puck_vertical_wide.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/scrollbars/puck_vertical_wide.png"
 },
 
 //
@@ -28,14 +28,14 @@
   "class": "puck_control",
   "attributes": ["horizontal"],
   "settings": ["theme_otto_scrollbars_monochrome"],
-  "layer0.texture": "Theme - Otto/assets/global/variants/light/scrollbars/puck_horizontal.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/scrollbars/puck_horizontal.png"
 },
 
 {
   "class": "puck_control",
   "attributes": ["horizontal"],
   "settings": ["theme_otto_scrollbars_monochrome", "theme_otto_scrollbars_wide"],
-  "layer0.texture": "Theme - Otto/assets/global/variants/light/scrollbars/puck_horizontal_wide.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/scrollbars/puck_horizontal_wide.png"
 },
 
 // Scrollbar Overlayed
@@ -48,13 +48,13 @@
 {
   "class": "puck_control",
   "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_monochrome"],
-  "layer0.texture": "Theme - Otto/assets/global/variants/light/scrollbars/puck_vertical_overlay.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/scrollbars/puck_vertical_overlay.png"
 },
 
 {
   "class": "puck_control",
   "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_monochrome", "theme_otto_scrollbars_wide"],
-  "layer0.texture": "Theme - Otto/assets/global/variants/light/scrollbars/puck_vertical_overlay_wide.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/scrollbars/puck_vertical_overlay_wide.png"
 },
 
 //
@@ -65,12 +65,12 @@
   "class": "puck_control",
   "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_monochrome"],
   "attributes": ["horizontal"],
-  "layer0.texture": "Theme - Otto/assets/global/variants/light/scrollbars/puck_horizontal_overlay.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/scrollbars/puck_horizontal_overlay.png"
 },
 
 {
   "class": "puck_control",
   "settings": ["overlay_scroll_bars", "theme_otto_scrollbars_monochrome", "theme_otto_scrollbars_wide"],
   "attributes": ["horizontal"],
-  "layer0.texture": "Theme - Otto/assets/global/variants/light/scrollbars/puck_horizontal_overlay_wide.png"
+  "layer0.texture": "Theme - Otto/assets/global/variants/<%= ui.variant.id %>/scrollbars/puck_horizontal_overlay_wide.png"
 },
