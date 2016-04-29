@@ -1410,15 +1410,17 @@
     "viewport_opacity": { "target": 0.4, "speed": 20.0, "interpolation": "smoothstep" }
   },
   
+  
   // Minimap Blue Accent
   // ===========================================================================
   
   {
     "class": "minimap_control",
+    
     "viewport_color": [36, 151, 227, 75]
   },
   
-    // Minimap Green Accent
+  // Minimap Green Accent
   // ===========================================================================
   
   {
@@ -1427,23 +1429,24 @@
     "viewport_color": [46, 188, 103, 75]
   },
   
-    // Minimap Orange Accent
+  // Minimap Orange Accent
   // ===========================================================================
   
   {
     "class": "minimap_control",
     "settings": ["theme_otto_accent_orange"],
-    "viewport_color": [241, 103, 60, 75]
+    "viewport_color": [242, 104, 62, 75]
   },
   
-    // Minimap Purple Accent
+  // Minimap Purple Accent
   // ===========================================================================
   
   {
     "class": "minimap_control",
     "settings": ["theme_otto_accent_purple"],
-    "viewport_color": [175, 60, 241, 75]
+    "viewport_color": [137, 85, 162, 75]
   },
+  
   
   //
   // >> Overlays
