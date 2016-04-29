@@ -21,8 +21,8 @@
 
 {
   "class": "auto_complete_label",
-  "selected_fg": [255, 255, 255],
-  "selected_match_fg": [255, 255, 255]
+  "selected_fg": [<%= ui.base.white.rgb %>],
+  "selected_match_fg": [<%= ui.base.white.rgb %>]
 },
 
 // Autocomplete Rows

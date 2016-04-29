@@ -62,24 +62,24 @@
 
 {
   "class": "quick_panel_label",
-  "selected_fg": [255, 255, 255, 255],
-  "selected_match_fg": [255, 255, 255, 255]
+  "selected_fg": [<%= ui.base.white.rgb %>, 255],
+  "selected_match_fg": [<%= ui.base.white.rgb %>, 255]
 },
 
 {
   "class": "quick_panel_label",
   "parents": [{"class": "overlay_control"}],
-  "selected_fg": [255, 255, 255, 255],
-  "selected_match_fg": [255, 255, 255, 255]
+  "selected_fg": [<%= ui.base.white.rgb %>, 255],
+  "selected_match_fg": [<%= ui.base.white.rgb %>, 255]
 },
 
 {
   "class": "quick_panel_path_label",
-  "selected_fg": [255, 255, 255, 255],
-  "selected_match_fg": [255, 255, 255, 255]
+  "selected_fg": [<%= ui.base.white.rgb %>, 255],
+  "selected_match_fg": [<%= ui.base.white.rgb %>, 255]
 },
 
 {
   "class": "quick_panel_score_label",
-  "selected_fg": [255, 255, 255, 255]
+  "selected_fg": [<%= ui.base.white.rgb %>, 255]
 },
