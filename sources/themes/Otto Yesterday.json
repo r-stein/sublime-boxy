@@ -55,7 +55,7 @@
   //
   //=include "common/overlays.json"
   //=include "specific/overlays.json"
-  //=include "accents/**/overlays.json"
+  //=include "accents/overlays.json"
   //
   // >> Scrollbars
   // ===========================================================================
