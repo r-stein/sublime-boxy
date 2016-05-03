@@ -1,22 +1,24 @@
 {
-  "name": "otto",
+  "name": "boxy",
   "version": "1.1.1",
-  "description": "Your next theme for Sublime Text 3",
+  "description": "Definitely, your next theme for Sublime Text 3",
   "keywords": [
-    "otto",
+    "boxy",
     "ui",
     "sublime",
     "text",
-    "theme"
+    "theme",
+    "color",
+    "scheme"
   ],
   "author": "Ihor Oleksandrov",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oivva/otto.git"
+    "url": "https://github.com/oivva/boxy.git"
   },
   "bugs": {
-    "url": "https://github.com/oivva/otto/issues"
+    "url": "https://github.com/oivva/boxy/issues"
   },
   "main": "gulpfile.js",
   "devDependencies": {

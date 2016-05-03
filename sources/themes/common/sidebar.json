@@ -205,26 +205,26 @@
 
 {
   "class": "icon_folder",
-  "settings": ["theme_otto_sidebar_folder_arrow"],
+  "settings": ["theme_boxy_sidebar_folder_arrow"],
   "layer0.opacity": 0.5
 },
 
 {
   "class": "icon_folder_dup",
-  "settings": ["theme_otto_sidebar_folder_arrow"],
+  "settings": ["theme_boxy_sidebar_folder_arrow"],
   "layer0.opacity": 0.5
 },
 
 {
   "class": "icon_folder",
-  "settings": ["theme_otto_sidebar_folder_arrow"],
+  "settings": ["theme_boxy_sidebar_folder_arrow"],
   "attributes": ["hover"],
   "layer0.opacity": 0.75
 },
 
 {
   "class": "icon_folder_dup",
-  "settings": ["theme_otto_sidebar_folder_arrow"],
+  "settings": ["theme_boxy_sidebar_folder_arrow"],
   "attributes": ["hover"],
   "layer0.opacity": 0.75
 },

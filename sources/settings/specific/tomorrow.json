@@ -1,7 +1,7 @@
 {
-  "name": "Otto Tomorrow",
-  "semanticClass": "otto.tomorrow.dark",
-  "uuid": "44e806da-4c4b-499c-b682-419a0b311a99",
+  "name": "Boxy Tomorrow",
+  "semanticClass": "boxy.tomorrow.dark",
+  "uuid": "21bb5fd7-098f-4cdd-86d7-f0b1a4a508ff",
   "ui": {
     "id": "tomorrow",
     "variant": {

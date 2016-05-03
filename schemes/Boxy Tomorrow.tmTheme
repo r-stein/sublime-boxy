@@ -7,9 +7,9 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
-	<string>Otto Tomorrow</string>
+	<string>Boxy Tomorrow</string>
 	<key>semanticClass</key>
-	<string>otto.tomorrow.dark</string>
+	<string>boxy.tomorrow.dark</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -331,6 +331,6 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>44e806da-4c4b-499c-b682-419a0b311a99</string>
+	<string>21bb5fd7-098f-4cdd-86d7-f0b1a4a508ff</string>
 </dict>
 </plist>

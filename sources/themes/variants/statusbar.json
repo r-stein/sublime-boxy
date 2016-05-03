@@ -6,5 +6,5 @@
 
 {
   "class": "panel_button_control",
-  "layer0.texture": "Theme - Otto/assets/variants/<%= ui.variant.id %>/buttons/button_panel_switcher.png"
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_panel_switcher.png"
 },

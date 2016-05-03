@@ -168,7 +168,7 @@ gulp.task('build', function(cb) {
     'build:widgets',
     function (error) {
       if (error) {
-        console.log('[build]'.bold.magenta + ' There was an issue building Otto:\n'.bold.red + error.message);
+        console.log('[build]'.bold.magenta + ' There was an issue building BOXY:\n'.bold.red + error.message);
       } else {
         console.log('[build]'.bold.magenta + ' Finished successfully'.bold.green);
       }
@@ -195,7 +195,7 @@ gulp.task('build:themes', ['clean:themes'], function() {
     }))
     .pipe($.template())
     .pipe($.rename(function(path) {
-      path.basename = "Otto " + _.startCase(path.basename);
+      path.basename = "Boxy " + _.startCase(path.basename);
       path.extname = ".sublime-theme";
     }))
     .pipe(gulp.dest('./'))
@@ -213,7 +213,7 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
       this.emit('end');
     }))
     .pipe($.foreach(function(stream, file) {
-      var basename = "Otto " + _.startCase(path.basename(file.path, path.extname(file.path)));
+      var basename = "Boxy " + _.startCase(path.basename(file.path, path.extname(file.path)));
 
       return gulp.src('./sources/schemes/scheme.YAML-tmTheme')
         .pipe($.data(function() {
@@ -263,7 +263,7 @@ gulp.task('build:widgets', ['clean:widgets'], function(cb) {
 gulp.task('build:widget-themes', function() {
   return gulp.src('./sources/settings/specific/*.json')
     .pipe($.foreach(function(stream, file) {
-      var basename = "Otto " + _.startCase(path.basename(file.path, path.extname(file.path)));
+      var basename = "Boxy " + _.startCase(path.basename(file.path, path.extname(file.path)));
 
       return gulp.src('./sources/widgets/widget.stTheme')
         .pipe($.data(function() {
@@ -282,7 +282,7 @@ gulp.task('build:widget-themes', function() {
 gulp.task('build:widget-settings', function() {
   return gulp.src('./sources/settings/specific/*.json')
     .pipe($.foreach(function(stream, file) {
-      var basename = "Otto " + _.startCase(path.basename(file.path, path.extname(file.path)));
+      var basename = "Boxy " + _.startCase(path.basename(file.path, path.extname(file.path)));
 
       return gulp.src('./sources/widgets/widget.sublime-settings')
         .pipe($.data(function() {

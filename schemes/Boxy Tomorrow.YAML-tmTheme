@@ -1,19 +1,19 @@
 # [PackageDev] target_format: plist, ext: tmTheme
 ---
-name: Otto Monokai
-uuid: b39c25a4-035b-4b97-8c5d-94873acedf10
+name: Boxy Tomorrow
+uuid: 21bb5fd7-098f-4cdd-86d7-f0b1a4a508ff
 author: Ihor Oleksandrov
 
 colorSpaceName: sRGB
 
-semanticClass: otto.monokai.dark
+semanticClass: boxy.tomorrow.dark
 settings:
 - settings:
-    background: '#272822'
-    caret: '#686965'
-    foreground: '#f8f8f2'
-    gutter: '#272822'
-    invisibles: '#75715e'
+    background: '#1d1f21'
+    caret: '#7b7c7d'
+    foreground: '#c5c8c6'
+    gutter: '#1d1f21'
+    invisibles: '#969896'
     lineHighlight: '#ffffff10'
     selection: '#ffffff15'
     selectionBorder: '#ffffff15'
@@ -21,17 +21,17 @@ settings:
 - name: Comments
   scope: comment, punctuation.definition.comment
   settings:
-    foreground: '#75715e'
+    foreground: '#969896'
 
 - name: Variable
   scope: variable, punctuation.definition.list_item.markdown
   settings:
-    foreground: '#f8f8f2'
+    foreground: '#c5c8c6'
 
 - name: Keyword, Storage
   scope: keyword, storage.type, storage.modifier
   settings:
-    foreground: '#ae81ff'
+    foreground: '#b294bb'
 
 - name: Operator, Misc
   scope: keyword.operator, constant.other.color, punctuation, meta.tag,
@@ -40,93 +40,93 @@ settings:
     punctuation.definition.tag.end.html, punctuation.section.embedded,
     keyword.other.template, keyword.other.substitution
   settings:
-    foreground: '#a1efe4'
+    foreground: '#8abeb7'
 
 - name: Tag
   scope: entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter
   settings:
-    foreground: '#f94989'
+    foreground: '#d75a64'
 
 - name: Function, Special Method, Block Level
   scope: entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method,
     meta.block-level
   settings:
-    foreground: '#66d9ef'
+    foreground: '#81a2be'
 
 - name: Other Variable, String Link
   scope: support.other.variable, string.other.link
   settings:
-    foreground: '#f94989'
+    foreground: '#d75a64'
 
 - name: Number, Constant, Function Argument, Tag Attribute, Embedded
   scope: constant.numeric, constant.language, support.constant, constant.character,
     variable.parameter, keyword.other.unit
   settings:
-    foreground: '#fd971f'
+    foreground: '#de935f'
 
 - name: String, Symbols, Inherited Class, Markup Heading
   scope: string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading,
     markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js
   settings:
-    foreground: '#a6e22e'
+    foreground: '#b5bd68'
     fontStyle: normal
 
 - name: Class, Support
   scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php,
     meta.use.php, support.other.namespace.php, markup.changed.git_gutter
   settings:
-    foreground: '#e6db74'
+    foreground: '#f0c674'
 
 - name: Sub-methods
   scope: entity.name.module.js, variable.import.parameter.js, variable.other.class.js
   settings:
-    foreground: '#f92672'
+    foreground: '#cc6666'
 
 - name: Language methods
   scope: variable.language
   settings:
-    foreground: '#f92672'
+    foreground: '#cc6666'
     fontStyle: italic
 
 - name: entity.name.method.js
   scope: entity.name.method.js
   settings:
-    foreground: '#66d9ef'
+    foreground: '#81a2be'
 
 - name: meta.method.js
   scope: meta.class-method.js entity.name.function.js, variable.function.constructor
   settings:
-    foreground: '#66d9ef'
+    foreground: '#81a2be'
 
 - name: Attributes
   scope: entity.other.attribute-name
   settings:
-    foreground: '#ae81ff'
+    foreground: '#b294bb'
 
 - name: Inserted
   scope: markup.inserted
   settings:
-    foreground: '#a6e22e'
+    foreground: '#b5bd68'
 
 - name: Deleted
   scope: markup.deleted
   settings:
-    foreground: '#f92672'
+    foreground: '#cc6666'
 
 - name: Changed
   scope: markup.changed
   settings:
-    foreground: '#ae81ff'
+    foreground: '#b294bb'
 
 - name: Regular Expressions
   scope: string.regexp
   settings:
-    foreground: '#a1efe4'
+    foreground: '#8abeb7'
 
 - name: Escape Characters
   scope: constant.character.escape
   settings:
-    foreground: '#a1efe4'
+    foreground: '#8abeb7'
 
 - name: URL
   scope: '*url*, *link*, *uri*'
@@ -136,27 +136,27 @@ settings:
 - name: Search Results Nums
   scope: constant.numeric.line-number.find-in-files - match
   settings:
-    foreground: '#cc6633'
+    foreground: '#a3685a'
 
 - name: Search Results Lines
   scope: entity.name.filename.find-in-files
   settings:
-    foreground: '#a6e22e'
+    foreground: '#b5bd68'
 
 - name: Decorators
   scope: tag.decorator.js entity.name.tag.js, tag.decorator.js punctuation.definition.tag.js
   settings:
-    foreground: '#66d9ef'
+    foreground: '#81a2be'
     fontStyle: italic
 
 - name: ES7 Bind Operator
   scope: source.js constant.other.object.key.js string.unquoted.label.js
   settings:
-    foreground: '#f92672'
+    foreground: '#cc6666'
     fontStyle: italic
 
 - name: AceJump
   scope: ace.jump
   settings:
-    background: '#8d62da'
+    background: '#9f74ab'
     foreground: '#ffffff'

@@ -10,8 +10,8 @@
 
 {
   "class": "close_button",
-  "layer0.texture": "Theme - Otto/assets/variants/<%= ui.variant.id %>/buttons/button_close.png",
-  "layer1.texture": "Theme - Otto/assets/variants/<%= ui.variant.id %>/buttons/button_dirty.png"
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_close.png",
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty.png"
 },
 
 //
@@ -22,27 +22,27 @@
 
 {
   "class": "icon_folder",
-  "settings": ["theme_otto_sidebar_folder_arrow"],
-  "layer0.texture": "Theme - Otto/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow.png"
+  "settings": ["theme_boxy_sidebar_folder_arrow"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow.png"
 },
 
 {
   "class": "icon_folder",
   "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-  "settings": ["theme_otto_sidebar_folder_arrow"],
-  "layer0.texture": "Theme - Otto/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow_expanded.png"
+  "settings": ["theme_boxy_sidebar_folder_arrow"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow_expanded.png"
 },
 
 {
   "class": "icon_folder_dup",
-  "settings": ["theme_otto_sidebar_folder_arrow"],
-  "layer0.texture": "Theme - Otto/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow.png"
+  "settings": ["theme_boxy_sidebar_folder_arrow"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow.png"
 },
 
 {
   "class": "icon_folder_dup",
   "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-  "settings": ["theme_otto_sidebar_folder_arrow"],
-  "layer0.texture": "Theme - Otto/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow_expanded.png"
+  "settings": ["theme_boxy_sidebar_folder_arrow"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow_expanded.png"
 },
 

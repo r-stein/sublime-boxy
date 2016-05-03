@@ -1,9 +1,9 @@
 {
-  "name": "Otto Oceanic",
-  "semanticClass": "otto.oceanic.dark",
-  "uuid": "3c0c5f22-3f5d-4e0e-9c83-a4ebec9b8b52",
+  "name": "Boxy Ocean",
+  "semanticClass": "boxy.ocean.dark",
+  "uuid": "0e709986-46a0-40a0-b3bf-c8dfe525c455",
   "ui": {
-    "id": "oceanic",
+    "id": "ocean",
     "variant": {
       "id": "dark",
       "name": "Dark"

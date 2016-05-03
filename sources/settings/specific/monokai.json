@@ -1,7 +1,7 @@
 {
-  "name": "Otto Monokai",
-  "semanticClass": "otto.monokai.dark",
-  "uuid": "b39c25a4-035b-4b97-8c5d-94873acedf10",
+  "name": "Boxy Monokai",
+  "semanticClass": "boxy.monokai.dark",
+  "uuid": "29b34c22-7302-43f6-b097-91a33314807b",
   "ui": {
     "id": "monokai",
     "variant": {

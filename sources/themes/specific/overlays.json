@@ -6,7 +6,7 @@
 
 {
   "class": "overlay_control",
-  "layer0.texture": "Theme - Otto/assets/specific/<%= ui.id %>/overlays/overlay.png"
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/overlays/overlay.png"
 },
 
 // Quick Panel

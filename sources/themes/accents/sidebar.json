@@ -7,8 +7,8 @@
 
 {
   "class": "tree_row",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_otto_accent_<%= ui.accents[i].id %>"],<% } %>
-  "layer1.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/sidebar_row_selected.png"
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  "layer1.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/sidebar_row_selected.png"
 },
 
 // Sidebar Icons
@@ -20,11 +20,11 @@
 
 {
   "class": "close_button",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_otto_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
   "parents": [{"class": "tree_row", "attributes": ["selected"]}],
   "attributes": ["dirty"],
-  "layer0.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_close_selected.png",
-  "layer1.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_selected.png"
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_close_selected.png",
+  "layer1.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_selected.png"
 },
 
 //
@@ -35,8 +35,8 @@
 
 {
   "class": "icon_folder",
-  "settings": ["!theme_otto_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/folder.png"
+  "settings": ["!theme_boxy_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_boxy_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder.png"
 },
 
 // Opened
@@ -44,16 +44,16 @@
 {
   "class": "icon_folder",
   "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-  "settings": ["!theme_otto_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_expanded.png"
+  "settings": ["!theme_boxy_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_boxy_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_expanded.png"
 },
 
 // Symlink
 
 {
   "class": "icon_folder_dup",
-  "settings": ["!theme_otto_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_dup.png"
+  "settings": ["!theme_boxy_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_boxy_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_dup.png"
 },
 
 // Symlink Opened
@@ -61,23 +61,23 @@
 {
   "class": "icon_folder_dup",
   "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
-  "settings": ["!theme_otto_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_otto_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_dup_expanded.png"
+  "settings": ["!theme_boxy_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_boxy_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_dup_expanded.png"
 },
 
 // Loading
 
 {
   "class": "icon_folder_loading",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_otto_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
   "layer0.texture":
   {
     "keyframes":
     [
-      "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/spinner3.png",
-      "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/spinner2.png",
-      "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/spinner1.png",
-      "Theme - Otto/assets/accents/<%= ui.accents[i].id %>/sidebar/spinner.png"
+      "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/spinner3.png",
+      "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/spinner2.png",
+      "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/spinner1.png",
+      "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/spinner.png"
     ],
     "loop": true,
     "frame_time": 0.125

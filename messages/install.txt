@@ -1,36 +1,36 @@
-   ___    _     _
-  / _ \  | |_  | |_    ___
- | | | | | __| | __|  / _ \
- | |_| | | |_  | |_  | (_) |
-  \___/   \__|  \__|  \___/
+  ____     ___   __  __ __   __
+ | __ )   / _ \  \ \/ / \ \ / /
+ |  _ \  | | | |  \  /   \ V /
+ | |_) | | |_| |  /  \    | |
+ |____/   \___/  /_/\_\   |_|
 
 
 Activation
 ===========================================================================
 
-// Otto Yesterday
+// Boxy Yesterday
 // -----------------
 
-"theme": "Otto Yesterday.sublime-theme",
-"color_scheme": "Packages/Theme - Otto/schemes/Otto Yesterday.tmTheme",
+"theme": "Boxy Yesterday.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
 
-// Otto Tomorrow
+// Boxy Tomorrow
 // -----------------
 
-"theme": "Otto Tomorrow.sublime-theme",
-"color_scheme": "Packages/Theme - Otto/schemes/Otto Tomorrow.tmTheme",
+"theme": "Boxy Tomorrow.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
 
-// Otto Oceanic
+// Boxy Ocean
 // -----------------
 
-"theme": "Otto Oceanic.sublime-theme",
-"color_scheme": "Packages/Theme - Otto/schemes/Otto Oceanic.tmTheme",
+"theme": "Boxy Ocean.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
 
-// Otto Monokai
+// Boxy Monokai
 // -----------------
 
-"theme": "Otto Monokai.sublime-theme",
-"color_scheme": "Packages/Theme - Otto/schemes/Otto Monokai.tmTheme",
+"theme": "Boxy Monokai.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
 
 
 Global Options
@@ -51,13 +51,13 @@ Sizes
 // By Default
 // -----------------
 
-"theme_otto_global_ui_medium": true,
+"theme_boxy_global_ui_medium": true,
 
 // Available
 // -----------------
 
-"theme_otto_global_ui_small": true,
-"theme_otto_global_ui_large": true,
+"theme_boxy_global_ui_small": true,
+"theme_boxy_global_ui_large": true,
 
 Font
 ---------------------------------------------------------------------------
@@ -65,15 +65,15 @@ Font
 // By Default
 // -----------------
 
-"theme_otto_global_font_size_11": true,
+"theme_boxy_global_font_size_11": true,
 
 // Available
 // -----------------
 
-"theme_otto_global_font_size_12": true,
-"theme_otto_global_font_size_13": true,
-"theme_otto_global_font_size_14": true,
-"theme_otto_global_font_size_15": true,
+"theme_boxy_global_font_size_12": true,
+"theme_boxy_global_font_size_13": true,
+"theme_boxy_global_font_size_14": true,
+"theme_boxy_global_font_size_15": true,
 
 Accent Colors
 ---------------------------------------------------------------------------
@@ -81,14 +81,14 @@ Accent Colors
 // By Default
 // -----------------
 
-"theme_otto_accent_blue": true,
+"theme_boxy_accent_blue": true,
 
 // Available
 // -----------------
 
-"theme_otto_accent_green": true,
-"theme_otto_accent_orange": true,
-"theme_otto_accent_purple": true,
+"theme_boxy_accent_green": true,
+"theme_boxy_accent_orange": true,
+"theme_boxy_accent_purple": true,
 
 
 Tabs Options
@@ -97,34 +97,34 @@ Tabs Options
 // By Default
 // -----------------
 
-"theme_otto_tab_selected_default": true,
-"theme_otto_tab_medium": true,
-"theme_otto_tab_auto_width": false,
-"theme_otto_tab_label_bold": false,
-"theme_otto_tab_selected_label_bold": false,
-"theme_otto_mouse_wheel_switches_tabs": false,
-"theme_otto_tab_font_size_11": true,
+"theme_boxy_tab_selected_default": true,
+"theme_boxy_tab_medium": true,
+"theme_boxy_tab_auto_width": false,
+"theme_boxy_tab_label_bold": false,
+"theme_boxy_tab_selected_label_bold": false,
+"theme_boxy_mouse_wheel_switches_tabs": false,
+"theme_boxy_tab_font_size_11": true,
 
 // Available
 // -----------------
 
-"theme_otto_tab_selected_underlined": true,
-"theme_otto_tab_selected_prelined": true,
-"theme_otto_tab_selected_filled": true,
+"theme_boxy_tab_selected_underlined": true,
+"theme_boxy_tab_selected_prelined": true,
+"theme_boxy_tab_selected_filled": true,
 
-"theme_otto_tab_small": true,
-"theme_otto_tab_large": true,
-"theme_otto_tab_auto_width": true,
+"theme_boxy_tab_small": true,
+"theme_boxy_tab_large": true,
+"theme_boxy_tab_auto_width": true,
 
-"theme_otto_tab_label_bold": true,
-"theme_otto_tab_selected_label_bold": true,
-"theme_otto_mouse_wheel_switches_tabs": true,
-"theme_otto_tab_separator_hide": true,
+"theme_boxy_tab_label_bold": true,
+"theme_boxy_tab_selected_label_bold": true,
+"theme_boxy_mouse_wheel_switches_tabs": true,
+"theme_boxy_tab_separator_hide": true,
 
-"theme_otto_tab_font_size_12": true,
-"theme_otto_tab_font_size_13": true,
-"theme_otto_tab_font_size_14": true,
-"theme_otto_tab_font_size_15": true,
+"theme_boxy_tab_font_size_12": true,
+"theme_boxy_tab_font_size_13": true,
+"theme_boxy_tab_font_size_14": true,
+"theme_boxy_tab_font_size_15": true,
 
 
 Scrollbars Options
@@ -133,14 +133,14 @@ Scrollbars Options
 // By Default
 // -----------------
 
-"theme_otto_scrollbars_monochrome": false,
-"theme_otto_scrollbars_wide": false,
+"theme_boxy_scrollbars_monochrome": false,
+"theme_boxy_scrollbars_wide": false,
 
 // Available
 // -----------------
 
-"theme_otto_scrollbars_monochrome": true,
-"theme_otto_scrollbars_wide": true,
+"theme_boxy_scrollbars_monochrome": true,
+"theme_boxy_scrollbars_wide": true,
 
 
 Widget Options
@@ -149,20 +149,20 @@ Widget Options
 // By Default
 // -----------------
 
-"theme_otto_find_and_replace_close_hide": false,
-"theme_otto_find_and_replace_small": false,
-"theme_otto_find_and_replace_font_size_11": true,
+"theme_boxy_find_and_replace_close_hide": false,
+"theme_boxy_find_and_replace_small": false,
+"theme_boxy_find_and_replace_font_size_11": true,
 
 // Available
 // -----------------
 
-"theme_otto_find_and_replace_close_hide": true,
-"theme_otto_find_and_replace_small": true,
+"theme_boxy_find_and_replace_close_hide": true,
+"theme_boxy_find_and_replace_small": true,
 
-"theme_otto_find_and_replace_font_size_12": true,
-"theme_otto_find_and_replace_font_size_13": true,
-"theme_otto_find_and_replace_font_size_14": true,
-"theme_otto_find_and_replace_font_size_15": true,
+"theme_boxy_find_and_replace_font_size_12": true,
+"theme_boxy_find_and_replace_font_size_13": true,
+"theme_boxy_find_and_replace_font_size_14": true,
+"theme_boxy_find_and_replace_font_size_15": true,
 
 
 Status Bar Options
@@ -171,19 +171,19 @@ Status Bar Options
 // By Default
 // -----------------
 
-"theme_otto_status_bar_medium": true,
-"theme_otto_status_bar_font_size_11": true,
+"theme_boxy_status_bar_medium": true,
+"theme_boxy_status_bar_font_size_11": true,
 
 // Available
 // -----------------
 
-"theme_otto_status_bar_small": true,
-"theme_otto_status_bar_large": true,
+"theme_boxy_status_bar_small": true,
+"theme_boxy_status_bar_large": true,
 
-"theme_otto_status_bar_font_size_12": true,
-"theme_otto_status_bar_font_size_13": true,
-"theme_otto_status_bar_font_size_14": true,
-"theme_otto_status_bar_font_size_15": true,
+"theme_boxy_status_bar_font_size_12": true,
+"theme_boxy_status_bar_font_size_13": true,
+"theme_boxy_status_bar_font_size_14": true,
+"theme_boxy_status_bar_font_size_15": true,
 
 
 Sidebar Options
@@ -192,24 +192,24 @@ Sidebar Options
 // By Default
 // -----------------
 
-"theme_otto_sidebar_medium": true,
-"theme_otto_sidebar_folder_arrow": false,
-"theme_otto_sidebar_hide_file_icons": false,
-"theme_otto_sidebar_font_size_11": true,
+"theme_boxy_sidebar_medium": true,
+"theme_boxy_sidebar_folder_arrow": false,
+"theme_boxy_sidebar_hide_file_icons": false,
+"theme_boxy_sidebar_font_size_11": true,
 
 // Available
 // -----------------
 
-"theme_otto_sidebar_small": true,
-"theme_otto_sidebar_large": true,
+"theme_boxy_sidebar_small": true,
+"theme_boxy_sidebar_large": true,
 
-"theme_otto_sidebar_folder_arrow": true,
-"theme_otto_sidebar_hide_file_icons": true,
+"theme_boxy_sidebar_folder_arrow": true,
+"theme_boxy_sidebar_hide_file_icons": true,
 
-"theme_otto_sidebar_font_size_12": true,
-"theme_otto_sidebar_font_size_13": true,
-"theme_otto_sidebar_font_size_14": true,
-"theme_otto_sidebar_font_size_15": true,
+"theme_boxy_sidebar_font_size_12": true,
+"theme_boxy_sidebar_font_size_13": true,
+"theme_boxy_sidebar_font_size_14": true,
+"theme_boxy_sidebar_font_size_15": true,
 
 Recommended Settings
 ===========================================================================
@@ -229,7 +229,7 @@ Recommended Settings
 "show_line_endings": true,
 
 
-I've put a lot of time and effort into making Otto awesome. If you love it, you can
+I've put a lot of time and effort into making Boxy awesome. If you love it, you can
 ===========================================================================
   _
  | |__    _   _   _   _     _ __ ___     ___

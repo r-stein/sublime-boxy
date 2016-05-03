@@ -1,12 +1,12 @@
 # [PackageDev] target_format: plist, ext: tmTheme
 ---
-name: Otto Oceanic
-uuid: 3c0c5f22-3f5d-4e0e-9c83-a4ebec9b8b52
+name: Boxy Ocean
+uuid: 0e709986-46a0-40a0-b3bf-c8dfe525c455
 author: Ihor Oleksandrov
 
 colorSpaceName: sRGB
 
-semanticClass: otto.oceanic.dark
+semanticClass: boxy.ocean.dark
 settings:
 - settings:
     background: '#1b2b34'

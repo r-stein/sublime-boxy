@@ -4,7 +4,7 @@
 
 {
   "class": "tool_tip_control",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_otto_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
   "layer0.tint": [<%= ui.accents[i].rgb %>]
 },
 <% } %>

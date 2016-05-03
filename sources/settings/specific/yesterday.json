@@ -1,7 +1,7 @@
 {
-  "name": "Otto Yesterday",
-  "semanticClass": "otto.yesterday.light",
-  "uuid": "9a2af96e-91ec-429f-8453-851de1e2adb2",
+  "name": "Boxy Yesterday",
+  "semanticClass": "boxy.yesterday.light",
+  "uuid": "644320da-6e11-4c6d-9050-f2ed6b8c5049",
   "ui": {
     "id": "yesterday",
     "variant": {

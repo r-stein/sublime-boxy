@@ -6,25 +6,25 @@
 
 {
   "class": "status_container",
-  "settings": ["theme_otto_global_ui_small"],
+  "settings": ["theme_boxy_global_ui_small"],
   "content_margin": [5, 1, 5, 1]
 },
 
 {
   "class": "status_container",
-  "settings": ["theme_otto_status_bar_small"],
+  "settings": ["theme_boxy_status_bar_small"],
   "content_margin": [5, 1, 5, 1]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_global_ui_small"],
+  "settings": ["theme_boxy_global_ui_small"],
   "min_size": [92, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_find_and_replace_small"],
+  "settings": ["theme_boxy_find_and_replace_small"],
   "min_size": [92, 0]
 },
 
@@ -33,13 +33,13 @@
 
 {
   "class": "status_container",
-  "settings": ["theme_otto_global_ui_large"],
+  "settings": ["theme_boxy_global_ui_large"],
   "content_margin": [5, 7, 5, 7]
 },
 
 {
   "class": "status_container",
-  "settings": ["theme_otto_status_bar_large"],
+  "settings": ["theme_boxy_status_bar_large"],
   "content_margin": [5, 7, 5, 7]
 },
 
@@ -53,14 +53,14 @@
 {
   "class": "label_control",
   "parents": [{"class": "status_bar"}],
-  "settings": ["theme_otto_global_font_size_12"],
+  "settings": ["theme_boxy_global_font_size_12"],
   "font.size": 12
 },
 
 {
   "class": "label_control",
   "parents": [{"class": "status_bar"}],
-  "settings": ["theme_otto_status_bar_font_size_12"],
+  "settings": ["theme_boxy_status_bar_font_size_12"],
   "font.size": 12
 },
 
@@ -71,50 +71,50 @@
 {
   "class": "label_control",
   "parents": [{"class": "status_bar"}],
-  "settings": ["theme_otto_global_font_size_13"],
+  "settings": ["theme_boxy_global_font_size_13"],
   "font.size": 13
 },
 
 {
   "class": "label_control",
   "parents": [{"class": "status_bar"}],
-  "settings": ["theme_otto_status_bar_font_size_13"],
+  "settings": ["theme_boxy_status_bar_font_size_13"],
   "font.size": 13
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_global_font_size_13"],
+  "settings": ["theme_boxy_global_font_size_13"],
   "min_size": [106, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_find_and_replace_font_size_13"],
+  "settings": ["theme_boxy_find_and_replace_font_size_13"],
   "min_size": [106, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_status_bar_font_size_13"],
+  "settings": ["theme_boxy_status_bar_font_size_13"],
   "min_size": [106, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_global_font_size_13", "theme_otto_find_and_replace_small"],
+  "settings": ["theme_boxy_global_font_size_13", "theme_boxy_find_and_replace_small"],
   "min_size": [102, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_find_and_replace_font_size_13", "theme_otto_find_and_replace_small"],
+  "settings": ["theme_boxy_find_and_replace_font_size_13", "theme_boxy_find_and_replace_small"],
   "min_size": [102, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_status_bar_font_size_13", "theme_otto_find_and_replace_small"],
+  "settings": ["theme_boxy_status_bar_font_size_13", "theme_boxy_find_and_replace_small"],
   "min_size": [102, 0]
 },
 
@@ -125,50 +125,50 @@
 {
   "class": "label_control",
   "parents": [{"class": "status_bar"}],
-  "settings": ["theme_otto_global_font_size_14"],
+  "settings": ["theme_boxy_global_font_size_14"],
   "font.size": 14
 },
 
 {
   "class": "label_control",
   "parents": [{"class": "status_bar"}],
-  "settings": ["theme_otto_status_bar_font_size_14"],
+  "settings": ["theme_boxy_status_bar_font_size_14"],
   "font.size": 14
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_global_font_size_14"],
+  "settings": ["theme_boxy_global_font_size_14"],
   "min_size": [110, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_find_and_replace_font_size_14"],
+  "settings": ["theme_boxy_find_and_replace_font_size_14"],
   "min_size": [110, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_status_bar_font_size_14"],
+  "settings": ["theme_boxy_status_bar_font_size_14"],
   "min_size": [110, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_global_font_size_14", "theme_otto_find_and_replace_small"],
+  "settings": ["theme_boxy_global_font_size_14", "theme_boxy_find_and_replace_small"],
   "min_size": [106, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_find_and_replace_font_size_14", "theme_otto_find_and_replace_small"],
+  "settings": ["theme_boxy_find_and_replace_font_size_14", "theme_boxy_find_and_replace_small"],
   "min_size": [106, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_status_bar_font_size_14", "theme_otto_find_and_replace_small"],
+  "settings": ["theme_boxy_status_bar_font_size_14", "theme_boxy_find_and_replace_small"],
   "min_size": [106, 0]
 },
 
@@ -179,50 +179,50 @@
 {
   "class": "label_control",
   "parents": [{"class": "status_bar"}],
-  "settings": ["theme_otto_global_font_size_15"],
+  "settings": ["theme_boxy_global_font_size_15"],
   "font.size": 15
 },
 
 {
   "class": "label_control",
   "parents": [{"class": "status_bar"}],
-  "settings": ["theme_otto_status_bar_font_size_15"],
+  "settings": ["theme_boxy_status_bar_font_size_15"],
   "font.size": 15
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_global_font_size_15"],
+  "settings": ["theme_boxy_global_font_size_15"],
   "min_size": [114, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_find_and_replace_font_size_15"],
+  "settings": ["theme_boxy_find_and_replace_font_size_15"],
   "min_size": [114, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_status_bar_font_size_15"],
+  "settings": ["theme_boxy_status_bar_font_size_15"],
   "min_size": [114, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_global_font_size_15", "theme_otto_find_and_replace_small"],
+  "settings": ["theme_boxy_global_font_size_15", "theme_boxy_find_and_replace_small"],
   "min_size": [110, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_find_and_replace_font_size_15", "theme_otto_find_and_replace_small"],
+  "settings": ["theme_boxy_find_and_replace_font_size_15", "theme_boxy_find_and_replace_small"],
   "min_size": [110, 0]
 },
 
 {
   "class": "status_button",
-  "settings": ["theme_otto_status_bar_font_size_15", "theme_otto_find_and_replace_small"],
+  "settings": ["theme_boxy_status_bar_font_size_15", "theme_boxy_find_and_replace_small"],
   "min_size": [110, 0]
 },
 
@@ -233,13 +233,13 @@
 {
   "class": "label_control",
   "parents": [{"class": "status_bar"}],
-  "settings": ["theme_otto_global_custom_ui_font_face"],
+  "settings": ["theme_boxy_global_custom_ui_font_face"],
   "font.face": "Sans-Serif"
 },
 
 {
   "class": "label_control",
   "parents": [{"class": "status_bar"}],
-  "settings": ["theme_otto_status_bar_custom_ui_font_face"],
+  "settings": ["theme_boxy_status_bar_custom_ui_font_face"],
   "font.face": "Sans-Serif"
 },
