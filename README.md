@@ -3,9 +3,7 @@
 <a href="https://travis-ci.org/oivva/otto"><img src="https://img.shields.io/travis/oivva/otto.svg?style=flat-square" alt="Build Status"></a>
 <br>
 
-### BOXY
-
-***
+# BOXY
 
 <a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-goodies/master/media/boxy-logo.gif"></a>
 
@@ -15,13 +13,13 @@ Want to learn more? [**See the wiki &#8594;**](https://github.com/oivva/boxy/wik
 
 ***
 
-#### Examples
+### Examples
 
 You can find [here](http://www.oivva.com/boxy/) more examples how to personalize your experience with **`BOXY`**.
 
 ***
 
-#### References
+### References
 
 These themes are heavily inspired by:
 
@@ -38,13 +36,13 @@ Color schemes are based on:
 
 ***
 
-#### Design & Extras
+### Design & Extras
 
 Also, you can download assets and extras: [Boxy Goodies](https://github.com/oivva/boxy-goodies)
 
 ***
 
-#### Known Issues
+### Known Issues
 
 If you can't see the bottom panel (find/replace, rename, move, can't see the box inputs in SidebarEnhancement, etc..). Here the quick fix:
 
