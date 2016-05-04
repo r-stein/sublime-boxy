@@ -1,5 +1,7 @@
 > Boxy has been recently re-named from Otto. The website and documentation is still being updated, but if you're new to Boxy, you should install the `Boxy Theme` package on [Package Control](https://packagecontrol.io/packages/Boxy%20Theme). For those who have troubles after updating read [Troubleshooting](https://github.com/oivva/otto/blob/v1.1.0/messages/1.1.0.txt) section.
 
+<br>
+<br>
 <a href="https://github.com/oivva/otto/releases"><img src="https://img.shields.io/github/release/oivva/otto.svg?style=flat-square" alt="Release"></a>
 <a href="https://packagecontrol.io/packages/Theme%20-%20Otto"><img src="https://img.shields.io/packagecontrol/dt/Theme%20-%20Otto.svg?style=flat-square" alt="Downloads"></a>
 <a href="https://travis-ci.org/oivva/otto"><img src="https://img.shields.io/travis/oivva/otto.svg?style=flat-square" alt="Build Status"></a>
