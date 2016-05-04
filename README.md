@@ -2,10 +2,15 @@
 <a href="https://packagecontrol.io/packages/Theme%20-%20Otto"><img src="https://img.shields.io/packagecontrol/dt/Theme%20-%20Otto.svg?style=flat-square" alt="Downloads"></a>
 <a href="https://travis-ci.org/oivva/otto"><img src="https://img.shields.io/travis/oivva/otto.svg?style=flat-square" alt="Build Status"></a>
 <br>
+<br>
 
-# BOXY
+<h3>
+  <img src="https://raw.githubusercontent.com/oivva/boxy-goodies/master/media/name.png" alt="BOXY! The Best Sublime Text 3 Theme of 2016">
+</h3>
 
-<a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-goodies/master/media/boxy-logo.gif"></a>
+***
+
+<a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-goodies/master/media/logo.gif" alt="BOXY"></a>
 
 A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Come in, both, light and dark variations. If you have some problems, first search for a similar issue, and then report with [new one](https://github.com/oivva/boxy/issues). Please read the [Known Issues](#known-issues) section before reporting a new one.
 
@@ -13,13 +18,13 @@ Want to learn more? [**See the wiki &#8594;**](https://github.com/oivva/boxy/wik
 
 ***
 
-### Examples
+#### Examples
 
 You can find [here](http://www.oivva.com/boxy/) more examples how to personalize your experience with **`BOXY`**.
 
 ***
 
-### References
+#### References
 
 These themes are heavily inspired by:
 
@@ -36,13 +41,13 @@ Color schemes are based on:
 
 ***
 
-### Design & Extras
+#### Design & Extras
 
 Also, you can download assets and extras: [Boxy Goodies](https://github.com/oivva/boxy-goodies)
 
 ***
 
-### Known Issues
+#### Known Issues
 
 If you can't see the bottom panel (find/replace, rename, move, can't see the box inputs in SidebarEnhancement, etc..). Here the quick fix:
 
