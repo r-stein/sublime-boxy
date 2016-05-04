@@ -13,40 +13,12 @@
 
 <a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-goodies/master/media/logo.gif" alt="BOXY"></a>
 
-A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Come in, both, light and dark variations. If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [Known Issues](#known-issues) section before reporting a new one.
+A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Come in, both, light and dark variations. If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [Known Issues][known-issues] section before reporting a new one.
 
 Want to learn more? [**See the wiki &#8594;**][wiki].
 
-***
-
-#### Examples
-
 You can find [here][website] more examples how to personalize your experience with **Boxy**.
 
-***
-
-#### References
-
-These themes are heavily inspired by:
-
-* [Predawn][predawn]
-* [Material][material]
-* [Primer][primer]
-* [Piatto][piatto]
-* [Minimal][minimal]
-
-Color schemes are based on:
-
-* [Base16 Color Schemes][base16]
-* [Oceanic Next Color Scheme][oceanic-next]
-
-***
-
-#### Known Issues
-
-If you can't see the bottom panel (find/replace, rename, move, can't see the box inputs in SidebarEnhancement, etc..). Here the quick fix:
-
-![Drag the top edge][img-known-issue]
 
 <!-- Links -->
 
@@ -62,13 +34,7 @@ If you can't see the bottom panel (find/replace, rename, move, can't see the box
 [issues]: https://github.com/oivva/boxy/issues
 [wiki]: https://github.com/oivva/boxy/wiki
 [website]: http://www.oivva.com/boxy/
-[predawn]: https://github.com/jamiewilson/predawn
-[material]: https://github.com/equinusocio/material-theme
-[primer]: https://github.com/karelvuong/st-primer
-[piatto]: https://github.com/samuelrafo/piatto
-[minimal]: https://github.com/AntoineBoulanger/Minimal-Sublime-Text-Theme
-[base16]: https://github.com/chriskempson/base16
-[oceanic-next]: https://github.com/voronianski/oceanic-next-color-scheme
+[known-issues]: https://github.com/oivva/boxy/wiki#known-issues
 
 <!-- Images -->
 
@@ -81,4 +47,3 @@ If you can't see the bottom panel (find/replace, rename, move, can't see the box
 [img-patreon]: https://raw.githubusercontent.com/oivva/boxy-goodies/master/media/patreon.png
 [img-flattr]: https://raw.githubusercontent.com/oivva/boxy-goodies/master/media/flattr.png
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-goodies/master/media/bitcoin.png
-[img-known-issue]: https://raw.githubusercontent.com/oivva/boxy-goodies/master/docs/known-issue.gif
