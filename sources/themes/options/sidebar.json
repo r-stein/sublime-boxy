@@ -1,6 +1,43 @@
 // Sidebar Options
 // ===========================================================================
 
+
+// Sidebar Top Margin
+// ---------------------------------------------------------------------------
+
+// Small
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_sidebar_margin_top_sm"],
+  "content_margin": [0, 4, 0, 0]
+},
+
+// Medium
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_sidebar_margin_top_md"],
+  "content_margin": [0, 6, 0, 0]
+},
+
+// Large
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_sidebar_margin_top_lg"],
+  "content_margin": [0, 8, 0, 0]
+},
+
+// Extra Large
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_sidebar_margin_top_xl"],
+  "content_margin": [0, 10, 0, 0]
+},
+
+
 // Sidebar Sizes
 // ---------------------------------------------------------------------------
 
