@@ -5,6 +5,42 @@
 // ---------------------------------------------------------------------------
 
 //
+// Top Margin
+//
+
+// Small
+
+{
+  "class": "tabset_control",
+  "settings": ["theme_tab_margin_top_sm"],
+  "content_margin": [0, 4, 0, 0]
+},
+
+// Medium
+
+{
+  "class": "tabset_control",
+  "settings": ["theme_tab_margin_top_md"],
+  "content_margin": [0, 6, 0, 0]
+},
+
+// Large
+
+{
+  "class": "tabset_control",
+  "settings": ["theme_tab_margin_top_lg"],
+  "content_margin": [0, 8, 0, 0]
+},
+
+// Extra Large
+
+{
+  "class": "tabset_control",
+  "settings": ["theme_tab_margin_top_xl"],
+  "content_margin": [0, 10, 0, 0]
+},
+
+//
 // Sizes
 //
 
