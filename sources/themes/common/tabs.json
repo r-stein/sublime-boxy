@@ -12,10 +12,10 @@
   "layer0.opacity": 1.0,
 
   "content_margin": 0,
-  "tab_overlap": 1,
+  "tab_overlap": 0,
   "tab_width": 180,
-  "tab_min_width": 120,
-  "tab_height": 44,
+  "tab_min_width": 180,
+  "tab_height": 28,
 
   "mouse_wheel_switch": false
 },
@@ -104,23 +104,23 @@
 
 {
   "class": "tab_control",
-  "content_margin": [24, 4, 20, 4],
+  "content_margin": [12, 4, 8, 4],
   "max_margin_trim": 0,
   "hit_test_level": 0.5,
 
-  "layer0.inner_margin": [24, 4],
+  "layer0.inner_margin": [12, 4],
   "layer0.opacity": 1.0,
 
-  "layer1.inner_margin": [24, 4],
+  "layer1.inner_margin": [12, 4],
   "layer1.opacity": 0,
 
   "layer2.texture": "Boxy Theme/assets/common/tabs/tab_selected.png",
-  "layer2.inner_margin": [24, 4],
+  "layer2.inner_margin": [12, 4],
   "layer2.opacity": 0,
   "tint_index": 2,
 
   "layer3.texture": "Boxy Theme/assets/common/tabs/tab_overlay.png",
-  "layer3.inner_margin": [24, 4],
+  "layer3.inner_margin": [12, 4],
   "layer3.opacity": 0
 },
 
@@ -219,7 +219,7 @@
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons"],
-  "content_margin": [24, 4, 24, 4]
+  "content_margin": [12, 4]
 },
 
 // Selected
@@ -279,5 +279,5 @@
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
   "attributes": ["dirty"],
-  "content_margin": [24, 4, 20, 4]
+  "content_margin": [12, 4, 8, 4]
 },

@@ -12,14 +12,9 @@
 
 {
   "class": "tabset_control",
-  "settings": ["theme_boxy_tab_auto_width"],
-  "tab_width": 0
-},
-
-{
-  "class": "tabset_control",
-  "settings": ["theme_boxy_tab_auto_width", "!enable_tab_scrolling"],
-  "tab_min_width": 40
+  "settings": ["theme_tab_width_auto"],
+  "tab_width": 0,
+  "tab_min_width": 64
 },
 
 // Small
