@@ -3919,9 +3919,9 @@
     "layer0.opacity": 1.0,
   
     "content_margin": 0,
-    "tab_overlap": 0,
+    "tab_overlap": 1,
     "tab_width": 180,
-    "tab_min_width": 180,
+    "tab_min_width": 140,
     "tab_height": 28,
   
     "mouse_wheel_switch": false
@@ -4379,7 +4379,7 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_selected_underlined"],
+    "settings": ["theme_tab_selected_underlined"],
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_underlined.png"
   },
   
@@ -4389,7 +4389,7 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_selected_prelined"],
+    "settings": ["theme_tab_selected_prelined"],
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_prelined.png"
   },
   
@@ -4399,8 +4399,17 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_selected_filled"],
+    "settings": ["theme_tab_selected_filled"],
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_filled.png"
+  },
+  
+  {
+    "class": "tab_label",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_tab_selected_filled"],
+    "fg": [255, 255, 255, 255],
+    "shadow_color": [0, 0, 0, 127],
+    "shadow_offset": [0, 1]
   },
   
   // Close
@@ -4408,14 +4417,14 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "settings": ["theme_boxy_tab_selected_filled"],
+    "settings": ["theme_tab_selected_filled"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
   },
   
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "settings": ["theme_boxy_tab_selected_filled"],
+    "settings": ["theme_tab_selected_filled"],
     "attributes": ["hover"],
     "layer0.opacity": 1.0
   },
@@ -4442,7 +4451,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-    "settings": ["theme_boxy_tab_selected_filled"],
+    "settings": ["theme_tab_selected_filled"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
     "layer0.opacity": 1.0
   },
@@ -4451,7 +4460,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "attributes": ["hover"],
-    "settings": ["theme_boxy_tab_selected_filled"],
+    "settings": ["theme_tab_selected_filled"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
     "layer0.opacity": 1.0
   },
@@ -4468,7 +4477,7 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_selected_underlined", "theme_boxy_accent_green"],
+    "settings": ["theme_tab_selected_underlined", "theme_ui_accent_green"],
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_underlined.png"
   },
   
@@ -4478,7 +4487,7 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_selected_prelined", "theme_boxy_accent_green"],
+    "settings": ["theme_tab_selected_prelined", "theme_ui_accent_green"],
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_prelined.png"
   },
   
@@ -4488,8 +4497,17 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_green"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_green"],
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_filled.png"
+  },
+  
+  {
+    "class": "tab_label",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_green"],
+    "fg": [255, 255, 255, 255],
+    "shadow_color": [0, 0, 0, 127],
+    "shadow_offset": [0, 1]
   },
   
   // Close
@@ -4497,14 +4515,14 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_green"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_green"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
   },
   
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_green"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_green"],
     "attributes": ["hover"],
     "layer0.opacity": 1.0
   },
@@ -4514,7 +4532,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-    "settings": ["theme_boxy_accent_green"],
+    "settings": ["theme_ui_accent_green"],
     "layer0.texture": "Boxy Theme/assets/accents/green/buttons/button_dirty_selected.png",
     "layer0.opacity": 1.0
   },
@@ -4522,7 +4540,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-    "settings": ["theme_boxy_accent_green"],
+    "settings": ["theme_ui_accent_green"],
     "attributes": ["hover"],
     "layer0.texture": "Boxy Theme/assets/accents/green/buttons/button_dirty_close_selected.png",
     "layer0.opacity": 1.0
@@ -4531,7 +4549,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_green"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_green"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
     "layer0.opacity": 1.0
   },
@@ -4540,7 +4558,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "attributes": ["hover"],
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_green"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_green"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
     "layer0.opacity": 1.0
   },
@@ -4557,7 +4575,7 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_selected_underlined", "theme_boxy_accent_orange"],
+    "settings": ["theme_tab_selected_underlined", "theme_ui_accent_orange"],
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_underlined.png"
   },
   
@@ -4567,7 +4585,7 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_selected_prelined", "theme_boxy_accent_orange"],
+    "settings": ["theme_tab_selected_prelined", "theme_ui_accent_orange"],
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_prelined.png"
   },
   
@@ -4577,8 +4595,17 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_orange"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_orange"],
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_filled.png"
+  },
+  
+  {
+    "class": "tab_label",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_orange"],
+    "fg": [255, 255, 255, 255],
+    "shadow_color": [0, 0, 0, 127],
+    "shadow_offset": [0, 1]
   },
   
   // Close
@@ -4586,14 +4613,14 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_orange"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_orange"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
   },
   
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_orange"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_orange"],
     "attributes": ["hover"],
     "layer0.opacity": 1.0
   },
@@ -4603,7 +4630,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-    "settings": ["theme_boxy_accent_orange"],
+    "settings": ["theme_ui_accent_orange"],
     "layer0.texture": "Boxy Theme/assets/accents/orange/buttons/button_dirty_selected.png",
     "layer0.opacity": 1.0
   },
@@ -4611,7 +4638,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-    "settings": ["theme_boxy_accent_orange"],
+    "settings": ["theme_ui_accent_orange"],
     "attributes": ["hover"],
     "layer0.texture": "Boxy Theme/assets/accents/orange/buttons/button_dirty_close_selected.png",
     "layer0.opacity": 1.0
@@ -4620,7 +4647,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_orange"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_orange"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
     "layer0.opacity": 1.0
   },
@@ -4629,7 +4656,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "attributes": ["hover"],
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_orange"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_orange"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
     "layer0.opacity": 1.0
   },
@@ -4646,7 +4673,7 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_selected_underlined", "theme_boxy_accent_purple"],
+    "settings": ["theme_tab_selected_underlined", "theme_ui_accent_purple"],
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_underlined.png"
   },
   
@@ -4656,7 +4683,7 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_selected_prelined", "theme_boxy_accent_purple"],
+    "settings": ["theme_tab_selected_prelined", "theme_ui_accent_purple"],
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_prelined.png"
   },
   
@@ -4666,8 +4693,17 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_purple"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_purple"],
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_filled.png"
+  },
+  
+  {
+    "class": "tab_label",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_purple"],
+    "fg": [255, 255, 255, 255],
+    "shadow_color": [0, 0, 0, 127],
+    "shadow_offset": [0, 1]
   },
   
   // Close
@@ -4675,14 +4711,14 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_purple"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_purple"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
   },
   
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_purple"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_purple"],
     "attributes": ["hover"],
     "layer0.opacity": 1.0
   },
@@ -4692,7 +4728,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-    "settings": ["theme_boxy_accent_purple"],
+    "settings": ["theme_ui_accent_purple"],
     "layer0.texture": "Boxy Theme/assets/accents/purple/buttons/button_dirty_selected.png",
     "layer0.opacity": 1.0
   },
@@ -4700,7 +4736,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-    "settings": ["theme_boxy_accent_purple"],
+    "settings": ["theme_ui_accent_purple"],
     "attributes": ["hover"],
     "layer0.texture": "Boxy Theme/assets/accents/purple/buttons/button_dirty_close_selected.png",
     "layer0.opacity": 1.0
@@ -4709,7 +4745,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_purple"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_purple"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
     "layer0.opacity": 1.0
   },
@@ -4718,7 +4754,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "attributes": ["hover"],
-    "settings": ["theme_boxy_tab_selected_filled", "theme_boxy_accent_purple"],
+    "settings": ["theme_tab_selected_filled", "theme_ui_accent_purple"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
     "layer0.opacity": 1.0
   },
@@ -4729,6 +4765,22 @@
   
   // Tabset Options
   // ---------------------------------------------------------------------------
+  
+  //
+  // Buttons
+  //
+  
+  {
+    "class": "scroll_tabs_left_button",
+    "settings": ["theme_tab_arrows_hidden"],
+    "content_margin": 0
+  },
+  
+  {
+    "class": "scroll_tabs_right_button",
+    "settings": ["theme_tab_arrows_hidden"],
+    "content_margin": 0
+  },
   
   //
   // Top Margin
@@ -4783,41 +4835,210 @@
   
   {
     "class": "tabset_control",
-    "settings": ["theme_boxy_global_ui_small"],
-    "tab_height": 34
-  },
-  
-  {
-    "class": "tab_control",
-    "settings": ["theme_boxy_global_ui_small"],
-    "content_margin": [14, 4, 10, 4]
+    "settings": ["theme_ui_size_sm"],
+    "tab_height": 28
   },
   
   {
     "class": "tabset_control",
-    "settings": ["theme_boxy_tab_small"],
-    "tab_height": 34
+    "settings": ["theme_tab_size_sm"],
+    "tab_height": 28
   },
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_small"],
-    "content_margin": [14, 4, 10, 4]
+    "settings": ["theme_ui_size_sm"],
+    "content_margin": [12, 4, 8, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_size_sm"],
+    "content_margin": [12, 4, 8, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "theme_ui_size_sm"],
+    "content_margin": [12, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "theme_tab_size_sm"],
+    "content_margin": [12, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_ui_size_sm"],
+    "attributes": ["dirty"],
+    "content_margin": [12, 4, 8, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_tab_size_sm"],
+    "attributes": ["dirty"],
+    "content_margin": [12, 4, 8, 4]
+  },
+  
+  // Medium
+  
+  {
+    "class": "tabset_control",
+    "settings": ["theme_ui_size_md"],
+    "tab_height": 32
+  },
+  
+  {
+    "class": "tabset_control",
+    "settings": ["theme_tab_size_md"],
+    "tab_height": 32
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_ui_size_md"],
+    "content_margin": [14, 4, 9, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_size_md"],
+    "content_margin": [14, 4, 9, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "theme_ui_size_md"],
+    "content_margin": [14, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "theme_tab_size_md"],
+    "content_margin": [14, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_ui_size_md"],
+    "attributes": ["dirty"],
+    "content_margin": [14, 4, 9, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_tab_size_md"],
+    "attributes": ["dirty"],
+    "content_margin": [14, 4, 9, 4]
   },
   
   // Large
   
   {
     "class": "tabset_control",
-    "settings": ["theme_boxy_global_ui_large"],
-    "tab_height": 54
+    "settings": ["theme_ui_size_lg"],
+    "tab_height": 36
   },
   
   {
     "class": "tabset_control",
-    "settings": ["theme_boxy_tab_large"],
-    "tab_height": 54
+    "settings": ["theme_tab_size_lg"],
+    "tab_height": 36
   },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_ui_size_lg"],
+    "content_margin": [16, 4, 10, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_size_lg"],
+    "content_margin": [16, 4, 10, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "theme_ui_size_lg"],
+    "content_margin": [16, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "theme_tab_size_lg"],
+    "content_margin": [16, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_ui_size_lg"],
+    "attributes": ["dirty"],
+    "content_margin": [16, 4, 10, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_tab_size_lg"],
+    "attributes": ["dirty"],
+    "content_margin": [16, 4, 10, 4]
+  },
+  
+  // Extra Large
+  
+  {
+    "class": "tabset_control",
+    "settings": ["theme_ui_size_xl"],
+    "tab_height": 40
+  },
+  
+  {
+    "class": "tabset_control",
+    "settings": ["theme_tab_size_xl"],
+    "tab_height": 40
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_ui_size_xl"],
+    "content_margin": [18, 4, 11, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_size_xl"],
+    "content_margin": [18, 4, 11, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "theme_ui_size_xl"],
+    "content_margin": [18, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "theme_tab_size_xl"],
+    "content_margin": [18, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_ui_size_xl"],
+    "attributes": ["dirty"],
+    "content_margin": [18, 4, 11, 4]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_tab_size_xl"],
+    "attributes": ["dirty"],
+    "content_margin": [18, 4, 11, 4]
+  },
+  
   
   //
   // Scrolling
@@ -4827,7 +5048,7 @@
   
   {
     "class": "tabset_control",
-    "settings": ["theme_boxy_mouse_wheel_switches_tabs"],
+    "settings": ["theme_tab_mouse_wheel_switch"],
     "mouse_wheel_switch": true
   },
   
@@ -4840,14 +5061,14 @@
   
   {
     "class": "tab_label",
-    "settings": ["theme_boxy_tab_label_bold"],
+    "settings": ["theme_tab_label_bold"],
     "font.bold": true
   },
   
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "settings": ["theme_boxy_tab_selected_label_bold"],
+    "settings": ["theme_tab_selected_label_bold"],
     "font.bold": true
   },
   
@@ -4855,84 +5076,69 @@
   // ---------------------------------------------------------------------------
   
   //
-  // Font Size 12
+  // Small
   //
   
   {
     "class": "tab_label",
-    "settings": ["theme_boxy_global_font_size_12"],
+    "settings": ["theme_ui_font_sm"],
+    "font.size": 11
+  },
+  
+  {
+    "class": "tab_label",
+    "settings": ["theme_tab_font_sm"],
+    "font.size": 11
+  },
+  
+  //
+  // Medium
+  //
+  
+  {
+    "class": "tab_label",
+    "settings": ["theme_ui_font_md"],
     "font.size": 12
   },
   
   {
     "class": "tab_label",
-    "settings": ["theme_boxy_tab_font_size_12"],
+    "settings": ["theme_tab_font_md"],
     "font.size": 12
   },
   
   //
-  // Font Size 13
+  // Large
   //
   
   {
     "class": "tab_label",
-    "settings": ["theme_boxy_global_font_size_13"],
+    "settings": ["theme_ui_font_lg"],
     "font.size": 13
   },
   
   {
     "class": "tab_label",
-    "settings": ["theme_boxy_tab_font_size_13"],
+    "settings": ["theme_tab_font_lg"],
     "font.size": 13
   },
   
   //
-  // Font Size 14
+  // Extra Large
   //
   
   {
     "class": "tab_label",
-    "settings": ["theme_boxy_global_font_size_14"],
+    "settings": ["theme_ui_font_xl"],
     "font.size": 14
   },
   
   {
     "class": "tab_label",
-    "settings": ["theme_boxy_tab_font_size_14"],
+    "settings": ["theme_tab_font_xl"],
     "font.size": 14
   },
   
-  //
-  // Font Size 15
-  //
-  
-  {
-    "class": "tab_label",
-    "settings": ["theme_boxy_global_font_size_15"],
-    "font.size": 15
-  },
-  
-  {
-    "class": "tab_label",
-    "settings": ["theme_boxy_tab_font_size_15"],
-    "font.size": 15
-  },
-  
-  //
-  // UI Font Face Custom
-  //
-  
-  {
-    "class": "tab_label",
-    "settings": ["theme_boxy_global_custom_ui_font_face"],
-    "font.face": "Sans-Serif"
-  },
-  
-  {
-    "class": "tab_label",
-    "settings": ["theme_boxy_tab_custom_ui_font_face"],
-    "font.face": "Sans-Serif"
-  },
   
   //
   // >> Tooltips
