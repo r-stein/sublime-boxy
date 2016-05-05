@@ -101,7 +101,7 @@
 
 {
   "class": "tabset_control",
-  "settings": ["theme_boxy_mouse_wheel_switches_tabs"],
+  "settings": ["theme_tab_mouse_wheel_switch"],
   "mouse_wheel_switch": true
 },
 
