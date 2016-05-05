@@ -2431,9 +2431,9 @@
   {
     "class": "sidebar_container",
     "layer0.draw_center": false,
-    "layer0.inner_margin": [0, 0, 1, 0],
+    "layer0.inner_margin": [0, 0, 0, 0],
     "layer0.opacity": 1,
-    "content_margin": [0, 0, 1, 0]
+    "content_margin": [0, 0, 0, 0]
   },
   
   // Sidebar Tree
@@ -2746,7 +2746,7 @@
   
   {
     "class": "sidebar_container",
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [247, 247, 247]
   },
   
   // Sidebar Tree
@@ -3143,6 +3143,43 @@
   
   // Sidebar Options
   // ===========================================================================
+  
+  
+  // Sidebar Top Margin
+  // ---------------------------------------------------------------------------
+  
+  // Small
+  
+  {
+    "class": "sidebar_container",
+    "settings": ["theme_sidebar_margin_top_sm"],
+    "content_margin": [0, 4, 0, 0]
+  },
+  
+  // Medium
+  
+  {
+    "class": "sidebar_container",
+    "settings": ["theme_sidebar_margin_top_md"],
+    "content_margin": [0, 6, 0, 0]
+  },
+  
+  // Large
+  
+  {
+    "class": "sidebar_container",
+    "settings": ["theme_sidebar_margin_top_lg"],
+    "content_margin": [0, 8, 0, 0]
+  },
+  
+  // Extra Large
+  
+  {
+    "class": "sidebar_container",
+    "settings": ["theme_sidebar_margin_top_xl"],
+    "content_margin": [0, 10, 0, 0]
+  },
+  
   
   // Sidebar Sizes
   // ---------------------------------------------------------------------------
@@ -3882,10 +3919,10 @@
     "layer0.opacity": 1.0,
   
     "content_margin": 0,
-    "tab_overlap": 1,
+    "tab_overlap": 0,
     "tab_width": 180,
-    "tab_min_width": 120,
-    "tab_height": 44,
+    "tab_min_width": 180,
+    "tab_height": 28,
   
     "mouse_wheel_switch": false
   },
@@ -3974,23 +4011,23 @@
   
   {
     "class": "tab_control",
-    "content_margin": [24, 4, 20, 4],
+    "content_margin": [12, 4, 8, 4],
     "max_margin_trim": 0,
     "hit_test_level": 0.5,
   
-    "layer0.inner_margin": [24, 4],
+    "layer0.inner_margin": [12, 4],
     "layer0.opacity": 1.0,
   
-    "layer1.inner_margin": [24, 4],
+    "layer1.inner_margin": [12, 4],
     "layer1.opacity": 0,
   
     "layer2.texture": "Boxy Theme/assets/common/tabs/tab_selected.png",
-    "layer2.inner_margin": [24, 4],
+    "layer2.inner_margin": [12, 4],
     "layer2.opacity": 0,
     "tint_index": 2,
   
     "layer3.texture": "Boxy Theme/assets/common/tabs/tab_overlay.png",
-    "layer3.inner_margin": [24, 4],
+    "layer3.inner_margin": [12, 4],
     "layer3.opacity": 0
   },
   
@@ -4089,7 +4126,7 @@
   {
     "class": "tab_control",
     "settings": ["!show_tab_close_buttons"],
-    "content_margin": [24, 4, 24, 4]
+    "content_margin": [12, 4]
   },
   
   // Selected
@@ -4149,7 +4186,7 @@
     "class": "tab_control",
     "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
     "attributes": ["dirty"],
-    "content_margin": [24, 4, 20, 4]
+    "content_margin": [12, 4, 8, 4]
   },
   
   // Tabs Light Styles
@@ -4270,8 +4307,8 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_boxy_tab_separator_hide"],
-    "layer0.texture": "Boxy Theme/assets/specific/yesterday/tabs/tab_without_separator.png"
+    "settings": ["theme_tab_separator_visible"],
+    "layer0.texture": "Boxy Theme/assets/specific/yesterday/tabs/tab_with_separator.png"
   },
   
   //
@@ -4694,6 +4731,42 @@
   // ---------------------------------------------------------------------------
   
   //
+  // Top Margin
+  //
+  
+  // Small
+  
+  {
+    "class": "tabset_control",
+    "settings": ["theme_tab_margin_top_sm"],
+    "content_margin": [0, 4, 0, 0]
+  },
+  
+  // Medium
+  
+  {
+    "class": "tabset_control",
+    "settings": ["theme_tab_margin_top_md"],
+    "content_margin": [0, 6, 0, 0]
+  },
+  
+  // Large
+  
+  {
+    "class": "tabset_control",
+    "settings": ["theme_tab_margin_top_lg"],
+    "content_margin": [0, 8, 0, 0]
+  },
+  
+  // Extra Large
+  
+  {
+    "class": "tabset_control",
+    "settings": ["theme_tab_margin_top_xl"],
+    "content_margin": [0, 10, 0, 0]
+  },
+  
+  //
   // Sizes
   //
   
@@ -4701,14 +4774,9 @@
   
   {
     "class": "tabset_control",
-    "settings": ["theme_boxy_tab_auto_width"],
-    "tab_width": 0
-  },
-  
-  {
-    "class": "tabset_control",
-    "settings": ["theme_boxy_tab_auto_width", "!enable_tab_scrolling"],
-    "tab_min_width": 40
+    "settings": ["theme_tab_width_auto"],
+    "tab_width": 0,
+    "tab_min_width": 64
   },
   
   // Small
