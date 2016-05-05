@@ -12,9 +12,9 @@
   "layer0.opacity": 1.0,
 
   "content_margin": 0,
-  "tab_overlap": 0,
+  "tab_overlap": 1,
   "tab_width": 180,
-  "tab_min_width": 180,
+  "tab_min_width": 140,
   "tab_height": 28,
 
   "mouse_wheel_switch": false
