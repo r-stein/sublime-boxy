@@ -3919,7 +3919,7 @@
     "layer0.opacity": 1.0,
   
     "content_margin": 0,
-    "tab_overlap": 1,
+    "tab_overlap": 0,
     "tab_width": 180,
     "tab_min_width": 140,
     "tab_height": 28,
@@ -4031,6 +4031,12 @@
     "layer3.opacity": 0
   },
   
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded"],
+    "layer2.texture": "Boxy Theme/assets/common/tabs/tab_selected_rounded.png"
+  },
+  
   //
   // Label
   //
@@ -4088,6 +4094,13 @@
     "layer1.opacity": 0,
     "layer2.opacity": 1.0,
     "layer3.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_control",
+    "attributes": ["selected"],
+    "settings": ["theme_tab_rounded"],
+    "layer3.opacity": 0.9
   },
   
   // Tab Buttons
@@ -4311,6 +4324,27 @@
     "layer0.texture": "Boxy Theme/assets/specific/yesterday/tabs/tab_with_separator.png"
   },
   
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded"],
+    "layer1.opacity": 0
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded"],
+    "attributes": ["hover"],
+    "layer0.texture": "Boxy Theme/assets/specific/yesterday/tabs/tab_hovered_rounded.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded"],
+    "attributes": ["selected"],
+    "layer0.opacity": 0
+  },
+  
   //
   // Tab Labels
   //
@@ -4393,6 +4427,12 @@
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_prelined.png"
   },
   
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded", "theme_tab_selected_prelined"],
+    "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_prelined_rounded.png"
+  },
+  
   //
   // Filled
   //
@@ -4401,6 +4441,12 @@
     "class": "tab_control",
     "settings": ["theme_tab_selected_filled"],
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_filled.png"
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded", "theme_tab_selected_filled"],
+    "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_filled_rounded.png"
   },
   
   {
@@ -4491,6 +4537,12 @@
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_prelined.png"
   },
   
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded", "theme_tab_selected_prelined", "theme_ui_accent_green"],
+    "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_prelined_rounded.png"
+  },
+  
   //
   // Filled
   //
@@ -4499,6 +4551,12 @@
     "class": "tab_control",
     "settings": ["theme_tab_selected_filled", "theme_ui_accent_green"],
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_filled.png"
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded", "theme_tab_selected_filled", "theme_ui_accent_green"],
+    "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_filled_rounded.png"
   },
   
   {
@@ -4589,6 +4647,12 @@
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_prelined.png"
   },
   
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded", "theme_tab_selected_prelined", "theme_ui_accent_orange"],
+    "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_prelined_rounded.png"
+  },
+  
   //
   // Filled
   //
@@ -4597,6 +4661,12 @@
     "class": "tab_control",
     "settings": ["theme_tab_selected_filled", "theme_ui_accent_orange"],
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_filled.png"
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded", "theme_tab_selected_filled", "theme_ui_accent_orange"],
+    "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_filled_rounded.png"
   },
   
   {
@@ -4687,6 +4757,12 @@
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_prelined.png"
   },
   
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded", "theme_tab_selected_prelined", "theme_ui_accent_purple"],
+    "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_prelined_rounded.png"
+  },
+  
   //
   // Filled
   //
@@ -4695,6 +4771,12 @@
     "class": "tab_control",
     "settings": ["theme_tab_selected_filled", "theme_ui_accent_purple"],
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_filled.png"
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded", "theme_tab_selected_filled", "theme_ui_accent_purple"],
+    "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_filled_rounded.png"
   },
   
   {
