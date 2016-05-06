@@ -32,6 +32,27 @@
   "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab_with_separator.png"
 },
 
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_rounded"],
+  "layer1.opacity": 0
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_rounded"],
+  "attributes": ["hover"],
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab_hovered_rounded.png",
+  "layer0.opacity": 1.0
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_rounded"],
+  "attributes": ["selected"],
+  "layer0.opacity": 0
+},
+
 //
 // Tab Labels
 //

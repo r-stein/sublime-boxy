@@ -12,7 +12,7 @@
   "layer0.opacity": 1.0,
 
   "content_margin": 0,
-  "tab_overlap": 1,
+  "tab_overlap": 0,
   "tab_width": 180,
   "tab_min_width": 140,
   "tab_height": 28,
@@ -124,6 +124,12 @@
   "layer3.opacity": 0
 },
 
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_rounded"],
+  "layer2.texture": "Boxy Theme/assets/common/tabs/tab_selected_rounded.png"
+},
+
 //
 // Label
 //
@@ -181,6 +187,13 @@
   "layer1.opacity": 0,
   "layer2.opacity": 1.0,
   "layer3.opacity": 1.0
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["selected"],
+  "settings": ["theme_tab_rounded"],
+  "layer3.opacity": 0.9
 },
 
 // Tab Buttons
