@@ -42,7 +42,8 @@
     "caret": "#969896",
     "foreground": "#4d4d4c",
     "gutter": "#ffffff",
-    "highlight": "#000000",
+    "highlight": "#00000010",
+    "selection": "#00000015",
     "invisibles": "#8e908c",
     "base": {
       "white": "#ffffff",

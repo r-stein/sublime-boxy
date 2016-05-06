@@ -14,9 +14,9 @@ settings:
     foreground: '<%= scheme.foreground %>'
     gutter: '<%= scheme.gutter %>'
     invisibles: '<%= scheme.invisibles %>'
-    lineHighlight: '<%= scheme.highlight %>10'
-    selection: '<%= scheme.highlight %>15'
-    selectionBorder: '<%= scheme.highlight %>15'
+    lineHighlight: '<%= scheme.highlight %>'
+    selection: '<%= scheme.selection %>'
+    selectionBorder: '<%= scheme.selection %>'
 
 - name: Comments
   scope: comment, punctuation.definition.comment

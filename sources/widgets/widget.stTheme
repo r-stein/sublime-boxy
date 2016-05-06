@@ -24,11 +24,11 @@
           <key>invisibles</key>
           <string><%= scheme.invisibles %></string>
           <key>lineHighlight</key>
-          <string><%= scheme.highlight %>10</string>
+          <string><%= scheme.highlight %></string>
           <key>selection</key>
-          <string><%= scheme.highlight %>15</string>
+          <string><%= scheme.selection %></string>
           <key>selectionBorder</key>
-          <string><%= scheme.highlight %>15</string>
+          <string><%= scheme.selection %></string>
         </dict>
       </dict>
     </array>
