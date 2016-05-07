@@ -69,56 +69,108 @@
   "tab_min_width": 64
 },
 
+// Extra Small
+
+{
+  "class": "tabset_control",
+  "settings": ["theme_ui_size_xs"],
+  "tab_height": 28
+},
+
+{
+  "class": "tabset_control",
+  "settings": ["theme_tab_size_xs"],
+  "tab_height": 28
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_ui_size_xs"],
+  "content_margin": [12, 4, 8, 4]
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_size_xs"],
+  "content_margin": [12, 4, 8, 4]
+},
+
+{
+  "class": "tab_control",
+  "settings": ["!show_tab_close_buttons", "theme_ui_size_xs"],
+  "content_margin": [12, 4]
+},
+
+{
+  "class": "tab_control",
+  "settings": ["!show_tab_close_buttons", "theme_tab_size_xs"],
+  "content_margin": [12, 4]
+},
+
+{
+  "class": "tab_control",
+  "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_ui_size_xs"],
+  "attributes": ["dirty"],
+  "content_margin": [12, 4, 8, 4]
+},
+
+{
+  "class": "tab_control",
+  "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_tab_size_xs"],
+  "attributes": ["dirty"],
+  "content_margin": [12, 4, 8, 4]
+},
+
 // Small
 
 {
   "class": "tabset_control",
   "settings": ["theme_ui_size_sm"],
-  "tab_height": 28
+  "tab_height": 32
 },
 
 {
   "class": "tabset_control",
   "settings": ["theme_tab_size_sm"],
-  "tab_height": 28
+  "tab_height": 32
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_ui_size_sm"],
-  "content_margin": [12, 4, 8, 4]
+  "content_margin": [14, 4, 9, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_tab_size_sm"],
-  "content_margin": [12, 4, 8, 4]
+  "content_margin": [14, 4, 9, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "theme_ui_size_sm"],
-  "content_margin": [12, 4]
+  "content_margin": [14, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "theme_tab_size_sm"],
-  "content_margin": [12, 4]
+  "content_margin": [14, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_ui_size_sm"],
   "attributes": ["dirty"],
-  "content_margin": [12, 4, 8, 4]
+  "content_margin": [14, 4, 9, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_tab_size_sm"],
   "attributes": ["dirty"],
-  "content_margin": [12, 4, 8, 4]
+  "content_margin": [14, 4, 9, 4]
 },
 
 // Medium
@@ -126,51 +178,51 @@
 {
   "class": "tabset_control",
   "settings": ["theme_ui_size_md"],
-  "tab_height": 32
+  "tab_height": 36
 },
 
 {
   "class": "tabset_control",
   "settings": ["theme_tab_size_md"],
-  "tab_height": 32
+  "tab_height": 36
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_ui_size_md"],
-  "content_margin": [14, 4, 9, 4]
+  "content_margin": [16, 4, 10, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_tab_size_md"],
-  "content_margin": [14, 4, 9, 4]
+  "content_margin": [16, 4, 10, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "theme_ui_size_md"],
-  "content_margin": [14, 4]
+  "content_margin": [16, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "theme_tab_size_md"],
-  "content_margin": [14, 4]
+  "content_margin": [16, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_ui_size_md"],
   "attributes": ["dirty"],
-  "content_margin": [14, 4, 9, 4]
+  "content_margin": [16, 4, 10, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_tab_size_md"],
   "attributes": ["dirty"],
-  "content_margin": [14, 4, 9, 4]
+  "content_margin": [16, 4, 10, 4]
 },
 
 // Large
@@ -178,51 +230,51 @@
 {
   "class": "tabset_control",
   "settings": ["theme_ui_size_lg"],
-  "tab_height": 36
+  "tab_height": 40
 },
 
 {
   "class": "tabset_control",
   "settings": ["theme_tab_size_lg"],
-  "tab_height": 36
+  "tab_height": 40
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_ui_size_lg"],
-  "content_margin": [16, 4, 10, 4]
+  "content_margin": [18, 4, 11, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_tab_size_lg"],
-  "content_margin": [16, 4, 10, 4]
+  "content_margin": [18, 4, 11, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "theme_ui_size_lg"],
-  "content_margin": [16, 4]
+  "content_margin": [18, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "theme_tab_size_lg"],
-  "content_margin": [16, 4]
+  "content_margin": [18, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_ui_size_lg"],
   "attributes": ["dirty"],
-  "content_margin": [16, 4, 10, 4]
+  "content_margin": [18, 4, 11, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_tab_size_lg"],
   "attributes": ["dirty"],
-  "content_margin": [16, 4, 10, 4]
+  "content_margin": [18, 4, 11, 4]
 },
 
 // Extra Large
@@ -230,51 +282,51 @@
 {
   "class": "tabset_control",
   "settings": ["theme_ui_size_xl"],
-  "tab_height": 40
+  "tab_height": 44
 },
 
 {
   "class": "tabset_control",
   "settings": ["theme_tab_size_xl"],
-  "tab_height": 40
+  "tab_height": 44
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_ui_size_xl"],
-  "content_margin": [18, 4, 11, 4]
+  "content_margin": [20, 4, 12, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_tab_size_xl"],
-  "content_margin": [18, 4, 11, 4]
+  "content_margin": [20, 4, 12, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "theme_ui_size_xl"],
-  "content_margin": [18, 4]
+  "content_margin": [20, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "theme_tab_size_xl"],
-  "content_margin": [18, 4]
+  "content_margin": [20, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_ui_size_xl"],
   "attributes": ["dirty"],
-  "content_margin": [18, 4, 11, 4]
+  "content_margin": [20, 4, 12, 4]
 },
 
 {
   "class": "tab_control",
   "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_tab_size_xl"],
   "attributes": ["dirty"],
-  "content_margin": [18, 4, 11, 4]
+  "content_margin": [20, 4, 12, 4]
 },
 
 
@@ -312,6 +364,22 @@
 
 // Tab Font Options
 // ---------------------------------------------------------------------------
+
+//
+// Extra Small
+//
+
+{
+  "class": "tab_label",
+  "settings": ["theme_ui_font_xs"],
+  "font.size": 10
+},
+
+{
+  "class": "tab_label",
+  "settings": ["theme_tab_font_xs"],
+  "font.size": 10
+},
 
 //
 // Small
