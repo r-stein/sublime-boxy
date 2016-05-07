@@ -53,6 +53,22 @@
   "layer0.opacity": 0
 },
 
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_selected_transparent"],
+  "attributes": ["selected"],
+  "layer0.opacity": 1.0,
+  "layer1.opacity": 0,
+  "layer2.opacity": 0
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_rounded", "theme_tab_selected_transparent"],
+  "attributes": ["selected", "hover"],
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab.png"
+},
+
 //
 // Tab Labels
 //
@@ -107,3 +123,15 @@
   "shadow_color": [<%= ui.base.black.rgb %>, 127],
   "shadow_offset": [0, 1]
 },
+
+// Tab Transparet Selected
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+  "settings": ["theme_tab_selected_transparent"],
+  "fg": [<%= ui.foreground.selected.rgb %>, 255],
+  "shadow_color": [<%= ui.foreground.shadow.rgb %>, 127],
+  "shadow_offset": [0, 1]
+},
+
