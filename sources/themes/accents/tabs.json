@@ -15,6 +15,19 @@
   "layer3.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_underlined.png"
 },
 
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_line_size_sm", "theme_tab_selected_underlined"<% if (ui.accents[i].id != "blue") { %>, "theme_ui_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer3.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_underlined_sm.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_line_size_lg", "theme_tab_selected_underlined"<% if (ui.accents[i].id != "blue") { %>, "theme_ui_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer3.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_underlined_lg.png"
+},
+
+
 //
 // Prelined
 //
@@ -27,8 +40,32 @@
 
 {
   "class": "tab_control",
+  "settings": ["theme_tab_line_size_sm", "theme_tab_selected_prelined"<% if (ui.accents[i].id != "blue") { %>, "theme_ui_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer3.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_prelined_sm.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_line_size_lg", "theme_tab_selected_prelined"<% if (ui.accents[i].id != "blue") { %>, "theme_ui_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer3.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_prelined_lg.png"
+},
+
+{
+  "class": "tab_control",
   "settings": ["theme_tab_rounded", "theme_tab_selected_prelined"<% if (ui.accents[i].id != "blue") { %>, "theme_ui_accent_<%= ui.accents[i].id %>"<% } %>],
   "layer3.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_prelined_rounded.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_line_size_sm", "theme_tab_rounded", "theme_tab_selected_prelined"<% if (ui.accents[i].id != "blue") { %>, "theme_ui_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer3.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_prelined_rounded_sm.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_line_size_lg", "theme_tab_rounded", "theme_tab_selected_prelined"<% if (ui.accents[i].id != "blue") { %>, "theme_ui_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer3.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_prelined_rounded_lg.png"
 },
 
 //
