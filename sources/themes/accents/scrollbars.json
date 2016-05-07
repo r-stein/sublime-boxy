@@ -15,12 +15,6 @@
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_vertical.png"
 },
 
-{
-  "class": "puck_control",
-  "settings": ["theme_boxy_scrollbars_wide"<% if (ui.accents[i].id != "blue") { %>, "theme_boxy_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_vertical_wide.png"
-},
-
 //
 // Horizontal Scrollbar Puck
 //
@@ -32,12 +26,6 @@
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_horizontal.png"
 },
 
-{
-  "class": "puck_control",
-  "settings": ["theme_boxy_scrollbars_wide"<% if (ui.accents[i].id != "blue") { %>, "theme_boxy_accent_<%= ui.accents[i].id %>"<% } %>],
-  "attributes": ["horizontal"],
-  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_horizontal_wide.png"
-},
 
 // Scrollbar Overlayed
 // ---------------------------------------------------------------------------
@@ -52,12 +40,6 @@
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_vertical_overlay.png"
 },
 
-{
-  "class": "puck_control",
-  "settings": ["overlay_scroll_bars", "theme_boxy_scrollbars_wide"<% if (ui.accents[i].id != "blue") { %>, "theme_boxy_accent_<%= ui.accents[i].id %>"<% } %>],
-  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_vertical_overlay_wide.png"
-},
-
 //
 // Horizontal Scrollbar Puck
 //
@@ -67,12 +49,5 @@
   "settings": ["overlay_scroll_bars"<% if (ui.accents[i].id != "blue") { %>, "theme_boxy_accent_<%= ui.accents[i].id %>"<% } %>],
   "attributes": ["horizontal"],
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_horizontal_overlay.png"
-},
-
-{
-  "class": "puck_control",
-  "settings": ["overlay_scroll_bars", "theme_boxy_scrollbars_wide"<% if (ui.accents[i].id != "blue") { %>, "theme_boxy_accent_<%= ui.accents[i].id %>"<% } %>],
-  "attributes": ["horizontal"],
-  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_horizontal_overlay_wide.png"
 },
 <% } %>
