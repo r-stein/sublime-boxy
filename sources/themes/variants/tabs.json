@@ -30,6 +30,39 @@
 // Tab
 // ---------------------------------------------------------------------------
 
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_separator_visible"],
+  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator.png",
+  "layer3.opacity": 1.0
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_rounded", "theme_tab_separator_visible"],
+  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_colored_bar", "theme_tab_separator_visible"],
+  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_separator_visible"],
+  "attributes": ["hover"],
+  "layer3.opacity": 0
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_separator_visible"],
+  "attributes": ["selected"],
+  "layer3.opacity": 0
+},
+
 //
 // Tab Labels
 //

@@ -28,12 +28,6 @@
 
 {
   "class": "tab_control",
-  "settings": ["theme_tab_separator_visible"],
-  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab_with_separator.png"
-},
-
-{
-  "class": "tab_control",
   "settings": ["theme_tab_rounded"],
   "layer1.opacity": 0
 },
