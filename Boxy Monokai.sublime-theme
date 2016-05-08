@@ -68,7 +68,7 @@
   
   {
     "class": "auto_complete_label",
-    "fg": [195, 195, 194]
+    "fg": [171, 172, 169]
   },
   
   
@@ -549,7 +549,7 @@
   
   {
     "class": "label_control",
-    "color": [195, 195, 194]
+    "color": [171, 172, 169]
   },
   
   // Buttons
@@ -1600,18 +1600,18 @@
   
   {
     "class": "quick_panel_label",
-    "fg": [195, 195, 194, 255]
+    "fg": [171, 172, 169, 255]
   },
   
   {
     "class": "quick_panel_label",
     "parents": [{"class": "overlay_control"}],
-    "fg": [195, 195, 194, 255]
+    "fg": [171, 172, 169, 255]
   },
   
   {
     "class": "quick_panel_path_label",
-    "fg": [134, 135, 131, 255]
+    "fg": [119, 120, 116, 255]
   },
   
   
@@ -2679,7 +2679,7 @@
   
   {
     "class": "sidebar_heading",
-    "color": [195, 195, 194]
+    "color": [171, 172, 169]
   },
   
   //
@@ -2688,15 +2688,13 @@
   
   {
     "class": "sidebar_label",
-    "color": [195, 195, 194]
+    "color": [171, 172, 169]
   },
   
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-    "color": [255, 255, 255, 255],
-    "shadow_color": [0, 0, 0, 127],
-    "shadow_offset": [0, 1]
+    "color": [223, 223, 222, 255]
   },
   
   
@@ -3827,6 +3825,12 @@
     "mouse_wheel_switch": false
   },
   
+  {
+    "class": "tabset_control",
+    "settings": ["theme_tab_separator_visible"],
+    "tab_overlap": 1
+  },
+  
   // Tabset Scrolling
   // ---------------------------------------------------------------------------
   
@@ -3944,7 +3948,6 @@
   {
     "class": "tab_label",
     "fade": false,
-    "shadow_offset": [0, 0],
     "font.bold" : false,
     "font.size" : 11
   },
@@ -3968,16 +3971,6 @@
     "class": "tab_control",
     "attributes": ["hover"],
     "layer1.opacity": 1.0
-  },
-  
-  //
-  // Label
-  //
-  
-  {
-    "class": "tab_label",
-    "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-    "shadow_offset": [0, 0]
   },
   
   // Tab Selected
@@ -4134,19 +4127,37 @@
   // Tab
   // ---------------------------------------------------------------------------
   
-  //
-  // Tab Labels
-  //
-  
   {
-    "class": "tab_label",
-    "shadow_color": [0, 0, 0, 127]
+    "class": "tab_control",
+    "settings": ["theme_tab_separator_visible"],
+    "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator.png",
+    "layer3.opacity": 1.0
   },
   
   {
-    "class": "tab_label",
-    "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-    "shadow_color": [0, 0, 0, 127]
+    "class": "tab_control",
+    "settings": ["theme_tab_rounded", "theme_tab_separator_visible"],
+    "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png"
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_colored_bar", "theme_tab_separator_visible"],
+    "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png"
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_separator_visible"],
+    "attributes": ["hover"],
+    "layer3.opacity": 0
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_separator_visible"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0
   },
   
   //
@@ -4233,12 +4244,6 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_tab_separator_visible"],
-    "layer0.texture": "Boxy Theme/assets/specific/monokai/tabs/tab_with_separator.png"
-  },
-  
-  {
-    "class": "tab_control",
     "settings": ["theme_tab_rounded"],
     "layer1.opacity": 0
   },
@@ -4280,13 +4285,7 @@
   
   {
     "class": "tab_label",
-    "fg": [195, 195, 194, 255]
-  },
-  
-  {
-    "class": "tab_label",
-    "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-    "fg": [195, 195, 194, 255]
+    "fg": [171, 172, 169, 255]
   },
   
   // Light Color Scheme
@@ -4294,9 +4293,7 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "fg": [0, 0, 0, 255],
-    "shadow_color": [255, 255, 255, 127],
-    "shadow_offset": [0, 1]
+    "fg": [0, 0, 0, 218]
   },
   
   // Medium Color Scheme
@@ -4304,9 +4301,7 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium"]}],
-    "fg": [255, 255, 255, 255],
-    "shadow_color": [0, 0, 0, 127],
-    "shadow_offset": [0, 1]
+    "fg": [255, 255, 255, 218]
   },
   
   // Medium Dark Color Scheme
@@ -4314,9 +4309,7 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium_dark"]}],
-    "fg": [255, 255, 255, 255],
-    "shadow_color": [0, 0, 0, 127],
-    "shadow_offset": [0, 1]
+    "fg": [255, 255, 255, 218]
   },
   
   // Dark Color Scheme
@@ -4324,9 +4317,7 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected", "file_dark"]}],
-    "fg": [255, 255, 255, 255],
-    "shadow_color": [0, 0, 0, 127],
-    "shadow_offset": [0, 1]
+    "fg": [255, 255, 255, 218]
   },
   
   // Tab Transparet Selected
@@ -4335,9 +4326,7 @@
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "settings": ["theme_tab_selected_transparent"],
-    "fg": [255, 255, 255, 255],
-    "shadow_color": [0, 0, 0, 127],
-    "shadow_offset": [0, 1]
+    "fg": [223, 223, 222, 255]
   },
   
   
@@ -4355,18 +4344,24 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_selected_underlined"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_underlined.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_sm", "theme_tab_selected_underlined"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_underlined_sm.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_lg", "theme_tab_selected_underlined"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_underlined_lg.png"
   },
   
@@ -4378,36 +4373,48 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_selected_prelined"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_prelined.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_sm", "theme_tab_selected_prelined"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_prelined_sm.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_lg", "theme_tab_selected_prelined"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_prelined_lg.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_rounded", "theme_tab_selected_prelined"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_prelined_rounded.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_sm", "theme_tab_rounded", "theme_tab_selected_prelined"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_prelined_rounded_sm.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_lg", "theme_tab_rounded", "theme_tab_selected_prelined"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_prelined_rounded_lg.png"
   },
   
@@ -4418,12 +4425,16 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_selected_filled"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_filled.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_rounded", "theme_tab_selected_filled"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_filled_rounded.png"
   },
   
@@ -4431,9 +4442,7 @@
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "settings": ["theme_tab_selected_filled"],
-    "fg": [255, 255, 255, 255],
-    "shadow_color": [0, 0, 0, 127],
-    "shadow_offset": [0, 1]
+    "fg": [255, 255, 255, 255]
   },
   
   // Close
@@ -4502,18 +4511,24 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_selected_underlined", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_underlined.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_sm", "theme_tab_selected_underlined", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_underlined_sm.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_lg", "theme_tab_selected_underlined", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_underlined_lg.png"
   },
   
@@ -4525,36 +4540,48 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_selected_prelined", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_prelined.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_sm", "theme_tab_selected_prelined", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_prelined_sm.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_lg", "theme_tab_selected_prelined", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_prelined_lg.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_rounded", "theme_tab_selected_prelined", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_prelined_rounded.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_sm", "theme_tab_rounded", "theme_tab_selected_prelined", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_prelined_rounded_sm.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_lg", "theme_tab_rounded", "theme_tab_selected_prelined", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_prelined_rounded_lg.png"
   },
   
@@ -4565,12 +4592,16 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_selected_filled", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_filled.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_rounded", "theme_tab_selected_filled", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_filled_rounded.png"
   },
   
@@ -4578,9 +4609,7 @@
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "settings": ["theme_tab_selected_filled", "theme_ui_accent_green"],
-    "fg": [255, 255, 255, 255],
-    "shadow_color": [0, 0, 0, 127],
-    "shadow_offset": [0, 1]
+    "fg": [255, 255, 255, 255]
   },
   
   // Close
@@ -4649,18 +4678,24 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_selected_underlined", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_underlined.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_sm", "theme_tab_selected_underlined", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_underlined_sm.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_lg", "theme_tab_selected_underlined", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_underlined_lg.png"
   },
   
@@ -4672,36 +4707,48 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_selected_prelined", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_prelined.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_sm", "theme_tab_selected_prelined", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_prelined_sm.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_lg", "theme_tab_selected_prelined", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_prelined_lg.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_rounded", "theme_tab_selected_prelined", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_prelined_rounded.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_sm", "theme_tab_rounded", "theme_tab_selected_prelined", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_prelined_rounded_sm.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_lg", "theme_tab_rounded", "theme_tab_selected_prelined", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_prelined_rounded_lg.png"
   },
   
@@ -4712,12 +4759,16 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_selected_filled", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_filled.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_rounded", "theme_tab_selected_filled", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_filled_rounded.png"
   },
   
@@ -4725,9 +4776,7 @@
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "settings": ["theme_tab_selected_filled", "theme_ui_accent_orange"],
-    "fg": [255, 255, 255, 255],
-    "shadow_color": [0, 0, 0, 127],
-    "shadow_offset": [0, 1]
+    "fg": [255, 255, 255, 255]
   },
   
   // Close
@@ -4796,18 +4845,24 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_selected_underlined", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_underlined.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_sm", "theme_tab_selected_underlined", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_underlined_sm.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_lg", "theme_tab_selected_underlined", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_underlined_lg.png"
   },
   
@@ -4819,36 +4874,48 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_selected_prelined", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_prelined.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_sm", "theme_tab_selected_prelined", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_prelined_sm.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_lg", "theme_tab_selected_prelined", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_prelined_lg.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_rounded", "theme_tab_selected_prelined", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_prelined_rounded.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_sm", "theme_tab_rounded", "theme_tab_selected_prelined", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_prelined_rounded_sm.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_line_size_lg", "theme_tab_rounded", "theme_tab_selected_prelined", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_prelined_rounded_lg.png"
   },
   
@@ -4859,12 +4926,16 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_selected_filled", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_filled.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_rounded", "theme_tab_selected_filled", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_filled_rounded.png"
   },
   
@@ -4872,9 +4943,7 @@
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "settings": ["theme_tab_selected_filled", "theme_ui_accent_purple"],
-    "fg": [255, 255, 255, 255],
-    "shadow_color": [0, 0, 0, 127],
-    "shadow_offset": [0, 1]
+    "fg": [255, 255, 255, 255]
   },
   
   // Close
