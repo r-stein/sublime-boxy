@@ -122,5 +122,5 @@
   // Styles for colored top bar
   // ===========================================================================
   //
-  //=include "common/bar.json"
+  // "common/bar.json"
 ]
