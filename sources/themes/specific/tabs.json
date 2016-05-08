@@ -72,20 +72,12 @@
   "fg": [<%= ui.foreground.primary.rgb %>, 255]
 },
 
-{
-  "class": "tab_label",
-  "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-  "fg": [<%= ui.foreground.primary.rgb %>, 255]
-},
-
 // Light Color Scheme
 
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-  "fg": [<%= ui.base.black.rgb %>, 255],
-  "shadow_color": [<%= ui.base.white.rgb %>, 127],
-  "shadow_offset": [0, 1]
+  "fg": [<%= ui.base.black.rgb %>, 218]
 },
 
 // Medium Color Scheme
@@ -93,9 +85,7 @@
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium"]}],
-  "fg": [<%= ui.base.white.rgb %>, 255],
-  "shadow_color": [<%= ui.base.black.rgb %>, 127],
-  "shadow_offset": [0, 1]
+  "fg": [<%= ui.base.white.rgb %>, 218]
 },
 
 // Medium Dark Color Scheme
@@ -103,9 +93,7 @@
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium_dark"]}],
-  "fg": [<%= ui.base.white.rgb %>, 255],
-  "shadow_color": [<%= ui.base.black.rgb %>, 127],
-  "shadow_offset": [0, 1]
+  "fg": [<%= ui.base.white.rgb %>, 218]
 },
 
 // Dark Color Scheme
@@ -113,9 +101,7 @@
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected", "file_dark"]}],
-  "fg": [<%= ui.base.white.rgb %>, 255],
-  "shadow_color": [<%= ui.base.black.rgb %>, 127],
-  "shadow_offset": [0, 1]
+  "fg": [<%= ui.base.white.rgb %>, 218]
 },
 
 // Tab Transparet Selected
@@ -124,8 +110,6 @@
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected"]}],
   "settings": ["theme_tab_selected_transparent"],
-  "fg": [<%= ui.foreground.selected.rgb %>, 255],
-  "shadow_color": [<%= ui.foreground.shadow.rgb %>, 127],
-  "shadow_offset": [0, 1]
+  "fg": [<%= ui.foreground.selected.rgb %>, 255]
 },
 

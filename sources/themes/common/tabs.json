@@ -143,7 +143,6 @@
 {
   "class": "tab_label",
   "fade": false,
-  "shadow_offset": [0, 0],
   "font.bold" : false,
   "font.size" : 11
 },
@@ -167,16 +166,6 @@
   "class": "tab_control",
   "attributes": ["hover"],
   "layer1.opacity": 1.0
-},
-
-//
-// Label
-//
-
-{
-  "class": "tab_label",
-  "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-  "shadow_offset": [0, 0]
 },
 
 // Tab Selected

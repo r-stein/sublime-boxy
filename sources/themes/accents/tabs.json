@@ -110,9 +110,7 @@
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected"]}],
   "settings": ["theme_tab_selected_filled"<% if (ui.accents[i].id != "blue") { %>, "theme_ui_accent_<%= ui.accents[i].id %>"<% } %>],
-  "fg": [<%= ui.base.white.rgb %>, 255],
-  "shadow_color": [<%= ui.base.black.rgb %>, 127],
-  "shadow_offset": [0, 1]
+  "fg": [<%= ui.base.white.rgb %>, 255]
 },
 
 // Close

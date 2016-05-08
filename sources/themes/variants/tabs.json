@@ -64,21 +64,6 @@
 },
 
 //
-// Tab Labels
-//
-
-{
-  "class": "tab_label",
-  "shadow_color": [<%= ui.foreground.shadow.rgb %>, 127]
-},
-
-{
-  "class": "tab_label",
-  "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-  "shadow_color": [<%= ui.foreground.shadow.rgb %>, 127]
-},
-
-//
 // Tab Buttons
 //
 

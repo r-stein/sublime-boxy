@@ -20,20 +20,16 @@
     },
     "foreground": {
       "primary": {
-        "hex": "#c0c5c7",
-        "rgb": "192, 197, 199"
+        "hex": "#a7adb0",
+        "rgb": "167, 173, 176"
       },
       "secondary": {
-        "hex": "#818a8f",
-        "rgb": "129, 138, 143"
+        "hex": "#6f7a7f",
+        "rgb": "111, 122, 127"
       },
       "selected": {
-        "hex": "#ffffff",
-        "rgb": "255, 255, 255"
-      },
-      "shadow": {
-        "hex": "#000000",
-        "rgb": "0, 0, 0"
+        "hex": "#dddfe1",
+        "rgb": "221, 223, 225"
       }
     }
   },

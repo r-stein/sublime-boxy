@@ -54,7 +54,5 @@
 {
   "class": "sidebar_label",
   "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-  "color": [<%= ui.foreground.selected.rgb %>, 255],
-  "shadow_color": [<%= ui.foreground.shadow.rgb %>, 127],
-  "shadow_offset": [0, 1]
+  "color": [<%= ui.foreground.selected.rgb %>, 255]
 },

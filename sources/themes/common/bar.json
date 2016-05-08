@@ -74,16 +74,14 @@
 {
   "class": "tab_label",
   "settings": ["theme_colored_bar"],
-  "fg": [<%= ui.base.white.rgb %>, 200],
-  "shadow_color": [<%= ui.base.black.rgb %>, 127]
+  "fg": [<%= ui.base.white.rgb %>, 200]
 },
 
 {
   "class": "tab_label",
   "settings": ["theme_colored_bar"],
   "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-  "fg": [<%= ui.base.white.rgb %>, 200],
-  "shadow_color": [<%= ui.base.black.rgb %>, 127]
+  "fg": [<%= ui.base.white.rgb %>, 200]
 },
 
 // Light Color Scheme
@@ -91,9 +89,7 @@
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-  "fg": [<%= ui.base.black.rgb %>, 255],
-  "shadow_color": [<%= ui.base.white.rgb %>, 127],
-  "shadow_offset": [0, 1]
+  "fg": [<%= ui.base.black.rgb %>, 255]
 },
 
 // Medium Color Scheme
@@ -101,9 +97,7 @@
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium"]}],
-  "fg": [<%= ui.base.white.rgb %>, 255],
-  "shadow_color": [<%= ui.base.black.rgb %>, 127],
-  "shadow_offset": [0, 1]
+  "fg": [<%= ui.base.white.rgb %>, 255]
 },
 
 // Medium Dark Color Scheme
@@ -111,9 +105,7 @@
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium_dark"]}],
-  "fg": [<%= ui.base.white.rgb %>, 255],
-  "shadow_color": [<%= ui.base.black.rgb %>, 127],
-  "shadow_offset": [0, 1]
+  "fg": [<%= ui.base.white.rgb %>, 255]
 },
 
 // Dark Color Scheme
@@ -121,9 +113,7 @@
 {
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected", "file_dark"]}],
-  "fg": [<%= ui.base.white.rgb %>, 255],
-  "shadow_color": [<%= ui.base.black.rgb %>, 127],
-  "shadow_offset": [0, 1]
+  "fg": [<%= ui.base.white.rgb %>, 255]
 },
 
 //
