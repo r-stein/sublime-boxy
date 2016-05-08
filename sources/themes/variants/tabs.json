@@ -34,7 +34,7 @@
   "class": "tab_control",
   "settings": ["theme_tab_separator_visible"],
   "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator.png",
-  "layer3.opacity": 1.0
+  "layer3.opacity": 0.05
 },
 
 {
@@ -45,8 +45,9 @@
 
 {
   "class": "tab_control",
-  "settings": ["theme_colored_bar", "theme_tab_separator_visible"],
-  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png"
+  "settings": ["theme_app_bar", "theme_tab_separator_visible"],
+  "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png",
+  "layer3.opacity": 0.25
 },
 
 {

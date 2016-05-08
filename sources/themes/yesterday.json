@@ -117,10 +117,11 @@
   //=include "common/window.json"
   //=include "specific/window.json"
   //
-  // >> Colored Bar
+  // >> Bar
   // ===========================================================================
   // Styles for colored top bar
   // ===========================================================================
   //
-  // "common/bar.json"
+  //=include "common/bar.json"
+  //=include "accents/bar.json"
 ]
