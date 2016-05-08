@@ -4131,7 +4131,7 @@
     "class": "tab_control",
     "settings": ["theme_tab_separator_visible"],
     "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator.png",
-    "layer3.opacity": 1.0
+    "layer3.opacity": 0.05
   },
   
   {
@@ -4142,8 +4142,9 @@
   
   {
     "class": "tab_control",
-    "settings": ["theme_colored_bar", "theme_tab_separator_visible"],
-    "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png"
+    "settings": ["theme_app_bar", "theme_tab_separator_visible"],
+    "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png",
+    "layer3.opacity": 0.25
   },
   
   {
@@ -5633,5 +5634,833 @@
     "class": "dialog",
     "layer0.tint": [42, 43, 45]
   },
+  
+  //
+  // >> Bar
+  // ===========================================================================
+  // Styles for colored top bar
+  // ===========================================================================
+  //
+  // Bar
+  // ===========================================================================
+  
+  //
+  // Tabset Scrolling
+  //
+  
+  {
+    "class": "scroll_tabs_left_button",
+    "settings": ["theme_app_bar"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_arrow_left.png"
+  },
+  
+  {
+    "class": "scroll_tabs_right_button",
+    "settings": ["theme_app_bar"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_arrow_right.png"
+  },
+  
+  //
+  // Tabset Overflow
+  //
+  
+  {
+    "class": "show_tabs_dropdown_button",
+    "settings": ["theme_app_bar"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown.png"
+  },
+  
+  //
+  // Tab Labels
+  //
+  
+  
+  {
+    "class": "tab_label",
+    "settings": ["theme_app_bar"],
+    "fg": [167, 213, 244, 255]
+  },
+  
+  {
+    "class": "tab_label",
+    "settings": ["theme_app_bar", "theme_ui_accent_green"],
+    "fg": [171, 228, 194, 255]
+  },
+  
+  {
+    "class": "tab_label",
+    "settings": ["theme_app_bar", "theme_ui_accent_orange"],
+    "fg": [250, 195, 178, 255]
+  },
+  
+  {
+    "class": "tab_label",
+    "settings": ["theme_app_bar", "theme_ui_accent_purple"],
+    "fg": [208, 187, 218, 255]
+  },
+  
+  
+  // Light Color Scheme
+  
+  {
+    "class": "tab_label",
+    "settings": ["theme_app_bar"],
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "fg": [0, 0, 0, 218]
+  },
+  
+  // Medium Color Scheme
+  
+  {
+    "class": "tab_label",
+    "settings": ["theme_app_bar"],
+    "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium"]}],
+    "fg": [255, 255, 255, 218]
+  },
+  
+  // Medium Dark Color Scheme
+  
+  {
+    "class": "tab_label",
+    "settings": ["theme_app_bar"],
+    "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium_dark"]}],
+    "fg": [255, 255, 255, 218]
+  },
+  
+  // Dark Color Scheme
+  
+  {
+    "class": "tab_label",
+    "settings": ["theme_app_bar"],
+    "parents": [{"class": "tab_control", "attributes": ["selected", "file_dark"]}],
+    "fg": [255, 255, 255, 218]
+  },
+  
+  // Tab Transparet Selected
+  
+  {
+    "class": "tab_label",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_tab_selected_transparent", "theme_app_bar"],
+    "fg": [255, 255, 255, 255]
+  },
+  
+  //
+  // Tab Buttons
+  //
+  
+  {
+    "class": "tab_close_button",
+    "settings": ["theme_app_bar"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "settings": ["theme_app_bar"],
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "settings": ["theme_app_bar"],
+    "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium"]}],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "settings": ["theme_app_bar"],
+    "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium_dark"]}],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "settings": ["theme_app_bar"],
+    "parents": [{"class": "tab_control", "attributes": ["selected", "file_dark"]}],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "settings": ["theme_app_bar"],
+    "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "settings": ["theme_app_bar"],
+    "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+    "attributes": ["hover"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  
+  // Bar Blue Accent
+  // ===========================================================================
+  
+  // Grid Border Color
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "grid_layout_control",
+    "settings": ["theme_app_bar"],
+    "border_color": [58, 162, 230]
+  },
+  
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "settings": ["theme_app_bar"],
+    "layer0.tint": [36, 151, 227]
+  },
+  
+  // Tab
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar"],
+    "layer0.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_filled.png",
+    "layer1.tint": [58, 162, 230]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar"],
+    "attributes": ["hover"],
+    "layer1.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_selected_transparent", "theme_app_bar"],
+    "attributes": ["selected"],
+    "layer1.opacity": 0
+  },
+  
+  {
+    "class": "tab_label",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled"],
+    "fg": [255, 255, 255, 255]
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled"],
+    "attributes": ["hover"],
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent"],
+    "attributes": ["hover"],
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+    "settings": ["theme_app_bar"],
+    "layer0.texture": "Boxy Theme/assets/accents/blue/buttons/button_dirty_selected.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+    "settings": ["theme_app_bar"],
+    "attributes": ["hover"],
+    "layer0.texture": "Boxy Theme/assets/accents/blue/buttons/button_dirty_close_selected.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "attributes": ["hover"],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "attributes": ["hover"],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_tab_selected_underlined"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0.75
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_tab_selected_prelined"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0.75
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_tab_selected_filled"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0.75
+  },
+  
+  // Bar Green Accent
+  // ===========================================================================
+  
+  // Grid Border Color
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "grid_layout_control",
+    "settings": ["theme_app_bar", "theme_ui_accent_green"],
+    "border_color": [67, 195, 118]
+  },
+  
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "settings": ["theme_app_bar", "theme_ui_accent_green"],
+    "layer0.tint": [46, 188, 103]
+  },
+  
+  // Tab
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_ui_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_filled.png",
+    "layer1.tint": [67, 195, 118]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_ui_accent_green"],
+    "attributes": ["hover"],
+    "layer1.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_selected_transparent", "theme_app_bar"],
+    "attributes": ["selected"],
+    "layer1.opacity": 0
+  },
+  
+  {
+    "class": "tab_label",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_green"],
+    "fg": [255, 255, 255, 255]
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_green"],
+    "attributes": ["hover"],
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent", "theme_ui_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent", "theme_ui_accent_green"],
+    "attributes": ["hover"],
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+    "settings": ["theme_app_bar", "theme_ui_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/accents/green/buttons/button_dirty_selected.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+    "settings": ["theme_app_bar", "theme_ui_accent_green"],
+    "attributes": ["hover"],
+    "layer0.texture": "Boxy Theme/assets/accents/green/buttons/button_dirty_close_selected.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent", "theme_ui_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "attributes": ["hover"],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent", "theme_ui_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "attributes": ["hover"],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_tab_selected_underlined", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0.75
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_tab_selected_prelined", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0.75
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_green"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0.75
+  },
+  
+  // Bar Orange Accent
+  // ===========================================================================
+  
+  // Grid Border Color
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "grid_layout_control",
+    "settings": ["theme_app_bar", "theme_ui_accent_orange"],
+    "border_color": [243, 119, 82]
+  },
+  
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "settings": ["theme_app_bar", "theme_ui_accent_orange"],
+    "layer0.tint": [242, 104, 62]
+  },
+  
+  // Tab
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_ui_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_filled.png",
+    "layer1.tint": [243, 119, 82]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_ui_accent_orange"],
+    "attributes": ["hover"],
+    "layer1.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_selected_transparent", "theme_app_bar"],
+    "attributes": ["selected"],
+    "layer1.opacity": 0
+  },
+  
+  {
+    "class": "tab_label",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_orange"],
+    "fg": [255, 255, 255, 255]
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_orange"],
+    "attributes": ["hover"],
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent", "theme_ui_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent", "theme_ui_accent_orange"],
+    "attributes": ["hover"],
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+    "settings": ["theme_app_bar", "theme_ui_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/accents/orange/buttons/button_dirty_selected.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+    "settings": ["theme_app_bar", "theme_ui_accent_orange"],
+    "attributes": ["hover"],
+    "layer0.texture": "Boxy Theme/assets/accents/orange/buttons/button_dirty_close_selected.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent", "theme_ui_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "attributes": ["hover"],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent", "theme_ui_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "attributes": ["hover"],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_tab_selected_underlined", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0.75
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_tab_selected_prelined", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0.75
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_orange"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0.75
+  },
+  
+  // Bar Purple Accent
+  // ===========================================================================
+  
+  // Grid Border Color
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "grid_layout_control",
+    "settings": ["theme_app_bar", "theme_ui_accent_purple"],
+    "border_color": [149, 102, 171]
+  },
+  
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "settings": ["theme_app_bar", "theme_ui_accent_purple"],
+    "layer0.tint": [137, 85, 162]
+  },
+  
+  // Tab
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_ui_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_filled.png",
+    "layer1.tint": [149, 102, 171]
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_ui_accent_purple"],
+    "attributes": ["hover"],
+    "layer1.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_selected_transparent", "theme_app_bar"],
+    "attributes": ["selected"],
+    "layer1.opacity": 0
+  },
+  
+  {
+    "class": "tab_label",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_purple"],
+    "fg": [255, 255, 255, 255]
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_purple"],
+    "attributes": ["hover"],
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent", "theme_ui_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent", "theme_ui_accent_purple"],
+    "attributes": ["hover"],
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+    "settings": ["theme_app_bar", "theme_ui_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/accents/purple/buttons/button_dirty_selected.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+    "settings": ["theme_app_bar", "theme_ui_accent_purple"],
+    "attributes": ["hover"],
+    "layer0.texture": "Boxy Theme/assets/accents/purple/buttons/button_dirty_close_selected.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent", "theme_ui_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "attributes": ["hover"],
+    "settings": ["theme_app_bar", "theme_tab_selected_transparent", "theme_ui_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+    "attributes": ["hover"],
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
+    "layer0.opacity": 1.0
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_tab_selected_underlined", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0.75
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_tab_selected_prelined", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0.75
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_app_bar", "theme_tab_selected_filled", "theme_ui_accent_purple"],
+    "attributes": ["selected"],
+    "layer3.opacity": 0.75
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_selected_underlined", "theme_app_bar", "theme_tab_selected_transparent"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
+    "layer3.texture": "Boxy Theme/assets/common/tabs/tab_selected_underlined_white.png"
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_selected_underlined", "theme_app_bar", "theme_tab_selected_transparent", "theme_tab_line_size_sm"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
+    "layer3.texture": "Boxy Theme/assets/common/tabs/tab_selected_underlined_white_sm.png"
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_selected_underlined", "theme_app_bar", "theme_tab_selected_transparent", "theme_tab_line_size_lg"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
+    "layer3.texture": "Boxy Theme/assets/common/tabs/tab_selected_underlined_white_lg.png"
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_selected_prelined", "theme_app_bar", "theme_tab_selected_transparent"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
+    "layer3.texture": "Boxy Theme/assets/common/tabs/tab_selected_prelined_white.png"
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_selected_prelined", "theme_app_bar", "theme_tab_selected_transparent", "theme_tab_line_size_sm"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
+    "layer3.texture": "Boxy Theme/assets/common/tabs/tab_selected_prelined_white_sm.png"
+  },
+  
+  {
+    "class": "tab_control",
+    "settings": ["theme_tab_selected_prelined", "theme_app_bar", "theme_tab_selected_transparent", "theme_tab_line_size_lg"],
+    "attributes": ["selected"],
+    "layer3.opacity": 1.0,
+    "layer3.texture": "Boxy Theme/assets/common/tabs/tab_selected_prelined_white_lg.png"
+  }
   
 ]
