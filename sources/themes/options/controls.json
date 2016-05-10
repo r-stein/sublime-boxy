@@ -6,65 +6,218 @@
 
 {
   "class": "panel_close_button",
-  "settings": ["theme_boxy_find_and_replace_close_hide"],
+  "settings": ["theme_find_panel_close_hidden"],
   "content_margin": 0
 },
 
-// Small Find & Replace
+// Rounded buttons
 // ---------------------------------------------------------------------------
 
 {
   "class": "button_control",
-  "settings": ["theme_boxy_global_ui_small"],
-  "content_margin": [10, 11]
+  "settings": ["theme_button_rounded"],
+  "layer0.opacity": 0,
+  "layer1.opacity": 1
 },
 
 {
   "class": "icon_button_control",
-  "settings": ["theme_boxy_global_ui_small"],
-  "content_margin": [10, 10]
+  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
+  "attributes": ["left"],
+  "layer0.opacity": 0,
+  "layer1.opacity": 1
 },
 
 {
-  "class": "text_line_control",
-  "settings": ["theme_boxy_global_ui_small"],
-  "content_margin": [10, 6]
+  "class": "icon_button_control",
+  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
+  "attributes": ["right"],
+  "layer0.opacity": 0,
+  "layer1.opacity": 1
 },
 
+
+// Find & Replace Sizes
+// ---------------------------------------------------------------------------
+
+//
+// Extra Small
+//
+
 {
-  "class": "text_line_control",
-  "parents": [{"class": "overlay_control"}],
-  "settings": ["theme_boxy_global_ui_small"],
-  "content_margin": [24, 8]
+  "class": "button_control",
+  "settings": ["theme_size_xs"],
+  "content_margin": [9, 10]
 },
 
 {
   "class": "button_control",
-  "settings": ["theme_boxy_find_and_replace_small"],
-  "content_margin": [10, 11]
+  "settings": ["theme_find_panel_size_xs"],
+  "content_margin": [9, 10]
 },
 
 {
   "class": "icon_button_control",
-  "settings": ["theme_boxy_find_and_replace_small"],
-  "content_margin": [10, 10]
+  "settings": ["theme_size_xs"],
+  "content_margin": [9, 9]
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_find_panel_size_xs"],
+  "content_margin": [9, 9]
 },
 
 {
   "class": "text_line_control",
-  "settings": ["theme_boxy_find_and_replace_small"],
-  "content_margin": [10, 6]
+  "settings": ["theme_size_xs"],
+  "content_margin": [9, 6]
 },
 
 {
   "class": "text_line_control",
-  "parents": [{"class": "overlay_control"}],
-  "settings": ["theme_boxy_find_and_replace_small"],
-  "content_margin": [24, 8]
+  "settings": ["theme_find_panel_size_xs"],
+  "content_margin": [9, 6]
+},
+
+//
+// Medium
+//
+
+{
+  "class": "button_control",
+  "settings": ["theme_size_md"],
+  "content_margin": [12, 13]
+},
+
+{
+  "class": "button_control",
+  "settings": ["theme_find_panel_size_md"],
+  "content_margin": [12, 13]
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_size_md"],
+  "content_margin": [12, 12]
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_find_panel_size_md"],
+  "content_margin": [12, 12]
+},
+
+{
+  "class": "text_line_control",
+  "settings": ["theme_size_md"],
+  "content_margin": [12, 7]
+},
+
+{
+  "class": "text_line_control",
+  "settings": ["theme_find_panel_size_md"],
+  "content_margin": [12, 7]
+},
+
+//
+// Large
+//
+
+{
+  "class": "button_control",
+  "settings": ["theme_size_lg"],
+  "content_margin": [13, 14]
+},
+
+{
+  "class": "button_control",
+  "settings": ["theme_find_panel_size_lg"],
+  "content_margin": [13, 14]
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_size_lg"],
+  "content_margin": [13, 13]
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_find_panel_size_lg"],
+  "content_margin": [13, 13]
+},
+
+{
+  "class": "text_line_control",
+  "settings": ["theme_size_lg"],
+  "content_margin": [13, 8]
+},
+
+{
+  "class": "text_line_control",
+  "settings": ["theme_find_panel_size_lg"],
+  "content_margin": [13, 8]
+},
+
+//
+// Extra Large
+//
+
+{
+  "class": "button_control",
+  "settings": ["theme_size_xl"],
+  "content_margin": [14, 15]
+},
+
+{
+  "class": "button_control",
+  "settings": ["theme_find_panel_size_xl"],
+  "content_margin": [14, 15]
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_size_xl"],
+  "content_margin": [14, 14]
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_find_panel_size_xl"],
+  "content_margin": [14, 14]
+},
+
+{
+  "class": "text_line_control",
+  "settings": ["theme_size_xl"],
+  "content_margin": [14, 9]
+},
+
+{
+  "class": "text_line_control",
+  "settings": ["theme_find_panel_size_xl"],
+  "content_margin": [14, 9]
 },
 
 // Find & Replace Font Options
 // ---------------------------------------------------------------------------
+
+//
+// Font Size 10
+//
+
+{
+  "class": "label_control",
+  "settings": ["theme_font_xs"],
+  "font.size": 10
+},
+
+{
+  "class": "label_control",
+  "settings": ["theme_find_panel_font_xs"],
+  "font.size": 10
+},
 
 //
 // Font Size 12
@@ -72,13 +225,13 @@
 
 {
   "class": "label_control",
-  "settings": ["theme_boxy_global_font_size_12"],
+  "settings": ["theme_font_md"],
   "font.size": 12
 },
 
 {
   "class": "label_control",
-  "settings": ["theme_boxy_find_and_replace_font_size_12"],
+  "settings": ["theme_find_panel_font_md"],
   "font.size": 12
 },
 
@@ -88,25 +241,25 @@
 
 {
   "class": "label_control",
-  "settings": ["theme_boxy_global_font_size_13"],
+  "settings": ["theme_font_lg"],
   "font.size": 13
 },
 
 {
   "class": "label_control",
-  "settings": ["theme_boxy_find_and_replace_font_size_13"],
+  "settings": ["theme_find_panel_font_lg"],
   "font.size": 13
 },
 
 {
   "class": "button_control",
-  "settings": ["theme_boxy_global_font_size_13"],
+  "settings": ["theme_font_lg"],
   "min_size": [80, 0]
 },
 
 {
   "class": "button_control",
-  "settings": ["theme_boxy_find_and_replace_font_size_13"],
+  "settings": ["theme_find_panel_font_lg"],
   "min_size": [80, 0]
 },
 
@@ -116,68 +269,24 @@
 
 {
   "class": "label_control",
-  "settings": ["theme_boxy_global_font_size_14"],
+  "settings": ["theme_font_xl"],
   "font.size": 14
 },
 
 {
   "class": "label_control",
-  "settings": ["theme_boxy_find_and_replace_font_size_14"],
+  "settings": ["theme_find_panel_font_xl"],
   "font.size": 14
 },
 
 {
   "class": "button_control",
-  "settings": ["theme_boxy_global_font_size_14"],
+  "settings": ["theme_font_xl"],
   "min_size": [84, 0]
 },
 
 {
   "class": "button_control",
-  "settings": ["theme_boxy_find_and_replace_font_size_14"],
+  "settings": ["theme_find_panel_font_xl"],
   "min_size": [84, 0]
-},
-
-//
-// Font Size 15
-//
-
-{
-  "class": "label_control",
-  "settings": ["theme_boxy_global_font_size_15"],
-  "font.size": 15
-},
-
-{
-  "class": "label_control",
-  "settings": ["theme_boxy_find_and_replace_font_size_15"],
-  "font.size": 15
-},
-
-{
-  "class": "button_control",
-  "settings": ["theme_boxy_global_font_size_15"],
-  "min_size": [88, 0]
-},
-
-{
-  "class": "button_control",
-  "settings": ["theme_boxy_find_and_replace_font_size_15"],
-  "min_size": [88, 0]
-},
-
-//
-// UI Font Face Custom
-//
-
-{
-  "class": "label_control",
-  "settings": ["theme_boxy_global_custom_ui_font_face"],
-  "font.face": "Sans-Serif"
-},
-
-{
-  "class": "label_control",
-  "settings": ["theme_boxy_find_and_replace_custom_ui_font_face"],
-  "font.face": "Sans-Serif"
 },

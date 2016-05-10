@@ -12,6 +12,12 @@
   "content_margin": [13, 20, 13, 24]
 },
 
+{
+  "class": "text_line_control",
+  "parents": [{"class": "overlay_control"}],
+  "content_margin": [24, 8]
+},
+
 // Quick Panel
 // ===========================================================================
 

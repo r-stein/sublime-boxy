@@ -7,7 +7,7 @@
 
 {
   "class": "progress_gauge_control",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "layer0.tint": [<%= ui.accents[i].rgb %>]
 },
 
@@ -20,9 +20,10 @@
 
 {
   "class": "button_control",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "attributes": ["hover"],
-  "layer0.tint": [<%= ui.accents[i].rgb %>]
+  "layer0.tint": [<%= ui.accents[i].rgb %>],
+  "layer1.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_rounded.png"
 },
 
 {
@@ -39,7 +40,7 @@
 
 {
   "class": "icon_regex",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_regex_on.png"
@@ -49,7 +50,7 @@
 
 {
   "class": "icon_case",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_case_on.png"
@@ -59,7 +60,7 @@
 
 {
   "class": "icon_whole_word",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_word_on.png"
@@ -69,7 +70,7 @@
 
 {
   "class": "icon_wrap",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_wrap_on.png"
@@ -79,7 +80,7 @@
 
 {
   "class": "icon_context",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_context_on.png"
@@ -89,7 +90,7 @@
 
 {
   "class": "icon_use_buffer",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_buffer_on.png"
@@ -99,7 +100,7 @@
 
 {
   "class": "icon_reverse",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_reverse_on.png"
@@ -109,7 +110,7 @@
 
 {
   "class": "icon_in_selection",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_selection_on.png"
@@ -119,7 +120,7 @@
 
 {
   "class": "icon_preserve_case",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_preserve_on.png"
@@ -129,7 +130,7 @@
 
 {
   "class": "icon_highlight",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_highlight_on.png"
