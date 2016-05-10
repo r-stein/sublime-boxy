@@ -226,20 +226,3 @@
   "min_size": [110, 0]
 },
 
-//
-// UI Font Face Custom
-//
-
-{
-  "class": "label_control",
-  "parents": [{"class": "status_bar"}],
-  "settings": ["theme_boxy_global_custom_ui_font_face"],
-  "font.face": "Sans-Serif"
-},
-
-{
-  "class": "label_control",
-  "parents": [{"class": "status_bar"}],
-  "settings": ["theme_boxy_status_bar_custom_ui_font_face"],
-  "font.face": "Sans-Serif"
-},

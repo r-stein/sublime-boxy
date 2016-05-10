@@ -4,7 +4,7 @@
 
 {
   "class": "minimap_control",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "viewport_color": [<%= ui.accents[i].rgb %>, 75]
 },
 <% } %>

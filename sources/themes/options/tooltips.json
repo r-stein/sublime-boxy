@@ -1,14 +1,24 @@
 // Tooltips Options
 // ===========================================================================
 
-{
-  "class": "tool_tip_control",
-  "settings": ["theme_boxy_tab_selected_filled"],
-  "layer1.opacity": 0.15
-},
-
 // Tooltips Font Options
 // ---------------------------------------------------------------------------
+
+//
+// Font Size 10
+//
+
+{
+  "class": "tool_tip_label_control",
+  "settings": ["theme_font_xs"],
+  "font.size": 10
+},
+
+{
+  "class": "tool_tip_label_control",
+  "settings": ["theme_tooltips_font_xs"],
+  "font.size": 10
+},
 
 //
 // Font Size 12
@@ -16,13 +26,13 @@
 
 {
   "class": "tool_tip_label_control",
-  "settings": ["theme_boxy_global_font_size_12"],
+  "settings": ["theme_font_md"],
   "font.size": 12
 },
 
 {
   "class": "tool_tip_label_control",
-  "settings": ["theme_boxy_tooltips_font_size_12"],
+  "settings": ["theme_tooltips_font_md"],
   "font.size": 12
 },
 
@@ -32,13 +42,13 @@
 
 {
   "class": "tool_tip_label_control",
-  "settings": ["theme_boxy_global_font_size_13"],
+  "settings": ["theme_font_lg"],
   "font.size": 13
 },
 
 {
   "class": "tool_tip_label_control",
-  "settings": ["theme_boxy_tooltips_font_size_13"],
+  "settings": ["theme_tooltips_font_lg"],
   "font.size": 13
 },
 
@@ -48,44 +58,12 @@
 
 {
   "class": "tool_tip_label_control",
-  "settings": ["theme_boxy_global_font_size_14"],
+  "settings": ["theme_font_xl"],
   "font.size": 14
 },
 
 {
   "class": "tool_tip_label_control",
-  "settings": ["theme_boxy_tooltips_font_size_14"],
+  "settings": ["theme_tooltips_font_xl"],
   "font.size": 14
-},
-
-//
-// Font Size 15
-//
-
-{
-  "class": "tool_tip_label_control",
-  "settings": ["theme_boxy_global_font_size_15"],
-  "font.size": 15
-},
-
-{
-  "class": "tool_tip_label_control",
-  "settings": ["theme_boxy_tooltips_font_size_15"],
-  "font.size": 15
-},
-
-//
-// UI Font Face Custom
-//
-
-{
-  "class": "tool_tip_label_control",
-  "settings": ["theme_boxy_global_custom_ui_font_face"],
-  "font.face": "Sans-Serif"
-},
-
-{
-  "class": "tool_tip_label_control",
-  "settings": ["theme_boxy_tooltips_custom_ui_font_face"],
-  "font.face": "Sans-Serif"
 },

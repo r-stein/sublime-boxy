@@ -11,7 +11,7 @@
 
 {
   "class": "puck_control",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_vertical.png"
 },
 
@@ -21,7 +21,7 @@
 
 {
   "class": "puck_control",
-  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_boxy_accent_<%= ui.accents[i].id %>"],<% } %>
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
   "attributes": ["horizontal"],
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_horizontal.png"
 },
@@ -36,7 +36,7 @@
 
 {
   "class": "puck_control",
-  "settings": ["overlay_scroll_bars"<% if (ui.accents[i].id != "blue") { %>, "theme_boxy_accent_<%= ui.accents[i].id %>"<% } %>],
+  "settings": ["overlay_scroll_bars"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_vertical_overlay.png"
 },
 
@@ -46,7 +46,7 @@
 
 {
   "class": "puck_control",
-  "settings": ["overlay_scroll_bars"<% if (ui.accents[i].id != "blue") { %>, "theme_boxy_accent_<%= ui.accents[i].id %>"<% } %>],
+  "settings": ["overlay_scroll_bars"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
   "attributes": ["horizontal"],
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_horizontal_overlay.png"
 },
