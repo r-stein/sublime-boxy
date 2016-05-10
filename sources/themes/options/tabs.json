@@ -322,22 +322,6 @@
 },
 
 //
-// Small
-//
-
-{
-  "class": "tab_label",
-  "settings": ["theme_font_sm"],
-  "font.size": 11
-},
-
-{
-  "class": "tab_label",
-  "settings": ["theme_tab_font_sm"],
-  "font.size": 11
-},
-
-//
 // Medium
 //
 

@@ -19,7 +19,7 @@
 
 {
   "class": "sidebar_tree",
-  "row_padding": [20, 7, 20, 6],
+  "row_padding": [20, 6, 20, 5],
   "indent": 10,
   "indent_offset": -8,
   "indent_top_level": true,
@@ -35,9 +35,9 @@
 
 {
   "class": "tree_row",
-  "layer0.inner_margin": [20, 7, 0, 0],
+  "layer0.inner_margin": [20, 6, 0, 0],
   "layer0.opacity": 0,
-  "layer1.inner_margin": [20, 7, 0, 0],
+  "layer1.inner_margin": [20, 6, 0, 0],
   "layer1.opacity": 0
 },
 
@@ -207,26 +207,26 @@
 
 {
   "class": "icon_folder",
-  "settings": ["theme_boxy_sidebar_folder_arrow"],
+  "settings": ["theme_sidebar_folder_arrow"],
   "layer0.opacity": 0.5
 },
 
 {
   "class": "icon_folder_dup",
-  "settings": ["theme_boxy_sidebar_folder_arrow"],
+  "settings": ["theme_sidebar_folder_arrow"],
   "layer0.opacity": 0.5
 },
 
 {
   "class": "icon_folder",
-  "settings": ["theme_boxy_sidebar_folder_arrow"],
+  "settings": ["theme_sidebar_folder_arrow"],
   "attributes": ["hover"],
   "layer0.opacity": 0.75
 },
 
 {
   "class": "icon_folder_dup",
-  "settings": ["theme_boxy_sidebar_folder_arrow"],
+  "settings": ["theme_sidebar_folder_arrow"],
   "attributes": ["hover"],
   "layer0.opacity": 0.75
 },
