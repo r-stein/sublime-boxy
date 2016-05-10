@@ -6,7 +6,7 @@
 
 {
   "class": "sidebar_container",
-  "layer0.tint": [<%= ui.background.primary.rgb %>]
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },
 
 // Sidebar Tree

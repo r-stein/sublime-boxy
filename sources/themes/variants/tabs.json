@@ -32,34 +32,34 @@
 
 {
   "class": "tab_control",
-  "settings": ["theme_tab_separator_visible"],
+  "settings": ["theme_tab_separator"],
   "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator.png",
   "layer3.opacity": 0.05
 },
 
 {
   "class": "tab_control",
-  "settings": ["theme_tab_rounded", "theme_tab_separator_visible"],
+  "settings": ["theme_tab_rounded", "theme_tab_separator"],
   "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png"
 },
 
 {
   "class": "tab_control",
-  "settings": ["theme_app_bar", "theme_tab_separator_visible"],
+  "settings": ["theme_bar", "theme_tab_separator"],
   "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png",
   "layer3.opacity": 0.25
 },
 
 {
   "class": "tab_control",
-  "settings": ["theme_tab_separator_visible"],
+  "settings": ["theme_tab_separator"],
   "attributes": ["hover"],
   "layer3.opacity": 0
 },
 
 {
   "class": "tab_control",
-  "settings": ["theme_tab_separator_visible"],
+  "settings": ["theme_tab_separator"],
   "attributes": ["selected"],
   "layer3.opacity": 0
 },

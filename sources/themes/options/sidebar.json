@@ -1,7 +1,6 @@
 // Sidebar Options
 // ===========================================================================
 
-
 // Sidebar Top Margin
 // ---------------------------------------------------------------------------
 
@@ -9,7 +8,7 @@
 
 {
   "class": "sidebar_container",
-  "settings": ["theme_sidebar_margin_top_sm"],
+  "settings": ["theme_bar_margin_top_sm"],
   "content_margin": [0, 4, 0, 0]
 },
 
@@ -17,7 +16,7 @@
 
 {
   "class": "sidebar_container",
-  "settings": ["theme_sidebar_margin_top_md"],
+  "settings": ["theme_bar_margin_top_md"],
   "content_margin": [0, 6, 0, 0]
 },
 
@@ -25,18 +24,36 @@
 
 {
   "class": "sidebar_container",
-  "settings": ["theme_sidebar_margin_top_lg"],
+  "settings": ["theme_bar_margin_top_lg"],
   "content_margin": [0, 8, 0, 0]
 },
 
-// Extra Large
+// Sidebar Border
+// ---------------------------------------------------------------------------
 
 {
   "class": "sidebar_container",
-  "settings": ["theme_sidebar_margin_top_xl"],
-  "content_margin": [0, 10, 0, 0]
+  "settings": ["theme_sidebar_border"],
+  "content_margin": [0, 0, 1, 0]
 },
 
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar_margin_top_sm", "theme_sidebar_border"],
+  "content_margin": [0, 4, 1, 0]
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar_margin_top_md", "theme_sidebar_border"],
+  "content_margin": [0, 6, 1, 0]
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar_margin_top_lg", "theme_sidebar_border"],
+  "content_margin": [0, 8, 1, 0]
+},
 
 // Sidebar Sizes
 // ---------------------------------------------------------------------------

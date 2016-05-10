@@ -22,7 +22,7 @@
 
 {
   "class": "tabset_control",
-  "settings": ["theme_tab_separator_visible"],
+  "settings": ["theme_tab_separator"],
   "tab_overlap": 1
 },
 
