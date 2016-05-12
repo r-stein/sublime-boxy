@@ -176,3 +176,28 @@ settings:
   scope: sublimelinter.mark.error
   settings:
     foreground: '#f92672'
+
+- name: GitGutter deleted
+  scope: markup.deleted.git_gutter
+  settings:
+    foreground: '#f92672'
+
+- name: GitGutter inserted
+  scope: markup.inserted.git_gutter
+  settings:
+    foreground: '#a6e22e'
+
+- name: GitGutter changed
+  scope: markup.changed.git_gutter
+  settings:
+    foreground: '#ae81ff'
+
+- name: GitGutter ignored
+  scope: markup.ignored.git_gutter, markup.untracked.git_gutter
+  settings:
+    foreground: '#75715e'
+
+- name: GitGutter untracked
+  scope: markup.untracked.git_gutter
+  settings:
+    foreground: '#75715e'
