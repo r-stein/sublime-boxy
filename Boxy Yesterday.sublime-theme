@@ -1607,18 +1607,19 @@
   
   {
     "class": "overlay_control",
-    "layer0.inner_margin": [24, 34, 24, 34],
+    "layer0.inner_margin": [24, 34],
     "layer0.opacity": 1.0,
     "layer1.texture": "Boxy Theme/assets/common/overlays/quick_panel.png",
-    "layer1.inner_margin": [15, 25, 15, 25],
+    "layer1.inner_margin": [15, 25],
     "layer1.opacity": 1.0,
-    "content_margin": [13, 20, 13, 24]
+    "content_margin": [13, 18, 13, 25]
   },
   
   {
     "class": "text_line_control",
     "parents": [{"class": "overlay_control"}],
-    "content_margin": [24, 8]
+    "layer0.inner_margin": [15, 0, 15, 3],
+    "content_margin": [15, 8]
   },
   
   // Quick Panel
@@ -1629,7 +1630,7 @@
   
   {
     "class": "quick_panel",
-    "row_padding": [24, 6],
+    "row_padding": [15, 6],
     "layer0.opacity": 1.0
   },
   
@@ -1647,7 +1648,7 @@
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
-    "row_padding": [24, 6],
+    "row_padding": [15, 6],
     "layer0.opacity": 1.0
   },
   
@@ -1656,7 +1657,7 @@
   
   {
     "class": "mini_quick_panel",
-    "row_padding": [24, 6],
+    "row_padding": [15, 6],
     "layer0.opacity": 1.0
   },
   
@@ -1971,153 +1972,153 @@
   {
     "class": "quick_panel",
     "settings": ["theme_size_xs"],
-    "row_padding": [24, 4]
+    "row_padding": [15, 4]
   },
   
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
     "settings": ["theme_size_xs"],
-    "row_padding": [24, 4]
+    "row_padding": [15, 4]
   },
   
   {
     "class": "mini_quick_panel",
     "settings": ["theme_size_xs"],
-    "row_padding": [24, 4]
+    "row_padding": [15, 4]
   },
   
   {
     "class": "quick_panel",
     "settings": ["theme_overlay_size_xs"],
-    "row_padding": [24, 4]
+    "row_padding": [15, 4]
   },
   
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
     "settings": ["theme_overlay_size_xs"],
-    "row_padding": [24, 4]
+    "row_padding": [15, 4]
   },
   
   {
     "class": "mini_quick_panel",
     "settings": ["theme_overlay_size_xs"],
-    "row_padding": [24, 4]
+    "row_padding": [15, 4]
   },
   
   {
     "class": "quick_panel",
     "settings": ["theme_size_md"],
-    "row_padding": [24, 8]
+    "row_padding": [15, 8]
   },
   
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
     "settings": ["theme_size_md"],
-    "row_padding": [24, 8]
+    "row_padding": [15, 8]
   },
   
   {
     "class": "mini_quick_panel",
     "settings": ["theme_size_md"],
-    "row_padding": [24, 8]
+    "row_padding": [15, 8]
   },
   
   {
     "class": "quick_panel",
     "settings": ["theme_overlay_size_md"],
-    "row_padding": [24, 8]
+    "row_padding": [15, 8]
   },
   
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
     "settings": ["theme_overlay_size_md"],
-    "row_padding": [24, 8]
+    "row_padding": [15, 8]
   },
   
   {
     "class": "mini_quick_panel",
     "settings": ["theme_overlay_size_md"],
-    "row_padding": [24, 8]
+    "row_padding": [15, 8]
   },
   
   {
     "class": "quick_panel",
     "settings": ["theme_size_lg"],
-    "row_padding": [24, 10]
+    "row_padding": [15, 10]
   },
   
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
     "settings": ["theme_size_lg"],
-    "row_padding": [24, 10]
+    "row_padding": [15, 10]
   },
   
   {
     "class": "mini_quick_panel",
     "settings": ["theme_size_lg"],
-    "row_padding": [24, 10]
+    "row_padding": [15, 10]
   },
   
   {
     "class": "quick_panel",
     "settings": ["theme_overlay_size_lg"],
-    "row_padding": [24, 10]
+    "row_padding": [15, 10]
   },
   
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
     "settings": ["theme_overlay_size_lg"],
-    "row_padding": [24, 10]
+    "row_padding": [15, 10]
   },
   
   {
     "class": "mini_quick_panel",
     "settings": ["theme_overlay_size_lg"],
-    "row_padding": [24, 10]
+    "row_padding": [15, 10]
   },
   
   {
     "class": "quick_panel",
     "settings": ["theme_size_xl"],
-    "row_padding": [24, 12]
+    "row_padding": [15, 12]
   },
   
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
     "settings": ["theme_size_xl"],
-    "row_padding": [24, 12]
+    "row_padding": [15, 12]
   },
   
   {
     "class": "mini_quick_panel",
     "settings": ["theme_size_xl"],
-    "row_padding": [24, 12]
+    "row_padding": [15, 12]
   },
   
   {
     "class": "quick_panel",
     "settings": ["theme_overlay_size_xl"],
-    "row_padding": [24, 12]
+    "row_padding": [15, 12]
   },
   
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
     "settings": ["theme_overlay_size_xl"],
-    "row_padding": [24, 12]
+    "row_padding": [15, 12]
   },
   
   {
     "class": "mini_quick_panel",
     "settings": ["theme_overlay_size_xl"],
-    "row_padding": [24, 12]
+    "row_padding": [15, 12]
   },
   
   //
@@ -2149,7 +2150,7 @@
   {
     "class": "scroll_bar_control",
     "layer0.opacity": 1.0,
-    "layer0.inner_margin": [0, 6],
+    "layer0.inner_margin": [0, 5],
     "blur": false
   },
   
@@ -2159,9 +2160,9 @@
   
   {
     "class": "puck_control",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 0.25,
     "layer0.inner_margin": [0, 10],
-    "content_margin": [8, 12],
+    "content_margin": [5, 12],
     "blur": false
   },
   
@@ -2175,8 +2176,7 @@
   {
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
-    "layer0.opacity": 1.0,
-    "layer0.inner_margin": [6, 0],
+    "layer0.inner_margin": [5, 0],
     "blur": false
   },
   
@@ -2187,9 +2187,8 @@
   {
     "class": "puck_control",
     "attributes": ["horizontal"],
-    "layer0.opacity": 1.0,
     "layer0.inner_margin": [10, 0],
-    "content_margin": [12, 8],
+    "content_margin": [12, 5],
     "blur": false
   },
   
@@ -2222,6 +2221,7 @@
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars"],
     "layer0.inner_margin": [0, 5],
+    "layer0.opacity": 0.1,
     "blur": false
   },
   
@@ -2263,6 +2263,81 @@
     "layer0.inner_margin": [5, 0],
     "content_margin": [20, 5],
     "blur": false
+  },
+  
+  // Scrollbars Light Styles
+  // ===========================================================================
+  
+  // Scrollbar Default
+  // ---------------------------------------------------------------------------
+  
+  //
+  // Vertical Scrollbar Puck
+  //
+  
+  {
+    "class": "puck_control",
+    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical.png"
+  },
+  
+  {
+    "class": "puck_control",
+    "settings": ["theme_scrollbar_line"],
+    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical_line.png"
+  },
+  
+  //
+  // Horizontal Scrollbar Puck
+  //
+  
+  {
+    "class": "puck_control",
+    "attributes": ["horizontal"],
+    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal.png"
+  },
+  
+  {
+    "class": "puck_control",
+    "attributes": ["horizontal"],
+    "settings": ["theme_scrollbar_line"],
+    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal_line.png"
+  },
+  
+  // Scrollbar Overlayed
+  // ---------------------------------------------------------------------------
+  
+  //
+  // Vertical Scrollbar Puck
+  //
+  
+  {
+    "class": "puck_control",
+    "settings": ["overlay_scroll_bars"],
+    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical_overlay.png"
+  },
+  
+  {
+    "class": "puck_control",
+    "settings": ["overlay_scroll_bars", "theme_scrollbar_line"],
+    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical_overlay_line.png"
+  },
+  
+  //
+  // Horizontal Scrollbar Puck
+  //
+  
+  {
+    "class": "puck_control",
+    "settings": ["overlay_scroll_bars"],
+    "attributes": ["horizontal"],
+    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal_overlay.png"
+  },
+  
+  {
+    "class": "puck_control",
+    "settings": ["overlay_scroll_bars", "theme_scrollbar_line"],
+    "attributes": ["horizontal"],
+    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal_overlay_line.png"
   },
   
   // Scrollbars Theme Specific Styles
@@ -2315,7 +2390,7 @@
   {
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars"],
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [0, 0, 0]
   },
   
   //
@@ -2328,7 +2403,13 @@
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars"],
     "attributes": ["horizontal"],
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [0, 0, 0]
+  },
+  
+  {
+    "class": "puck_control",
+    "settings": ["theme_scrollbar_colored"],
+    "layer0.opacity": 1.0
   },
   
   
@@ -2344,8 +2425,8 @@
   
   {
     "class": "puck_control",
-    
-    "layer0.texture": "Boxy Theme/assets/accents/blue/scrollbars/puck_vertical.png"
+    "settings": ["theme_scrollbar_colored"],
+    "layer0.texture": "Boxy Theme/assets/accents/blue/scrollbars/puck_vertical_line.png"
   },
   
   //
@@ -2354,9 +2435,9 @@
   
   {
     "class": "puck_control",
-    
+    "settings": ["theme_scrollbar_colored"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/accents/blue/scrollbars/puck_horizontal.png"
+    "layer0.texture": "Boxy Theme/assets/accents/blue/scrollbars/puck_horizontal_line.png"
   },
   
   
@@ -2369,8 +2450,8 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars"],
-    "layer0.texture": "Boxy Theme/assets/accents/blue/scrollbars/puck_vertical_overlay.png"
+    "settings": ["overlay_scroll_bars", "theme_scrollbar_colored"],
+    "layer0.texture": "Boxy Theme/assets/accents/blue/scrollbars/puck_vertical_overlay_line.png"
   },
   
   //
@@ -2379,9 +2460,9 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars"],
+    "settings": ["overlay_scroll_bars", "theme_scrollbar_colored"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/accents/blue/scrollbars/puck_horizontal_overlay.png"
+    "layer0.texture": "Boxy Theme/assets/accents/blue/scrollbars/puck_horizontal_overlay_line.png"
   },
   
   // Scrollbars Green Accent
@@ -2396,8 +2477,8 @@
   
   {
     "class": "puck_control",
-    "settings": ["theme_accent_green"],
-    "layer0.texture": "Boxy Theme/assets/accents/green/scrollbars/puck_vertical.png"
+    "settings": ["theme_scrollbar_colored", "theme_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/accents/green/scrollbars/puck_vertical_line.png"
   },
   
   //
@@ -2406,9 +2487,9 @@
   
   {
     "class": "puck_control",
-    "settings": ["theme_accent_green"],
+    "settings": ["theme_scrollbar_colored", "theme_accent_green"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/accents/green/scrollbars/puck_horizontal.png"
+    "layer0.texture": "Boxy Theme/assets/accents/green/scrollbars/puck_horizontal_line.png"
   },
   
   
@@ -2421,8 +2502,8 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_accent_green"],
-    "layer0.texture": "Boxy Theme/assets/accents/green/scrollbars/puck_vertical_overlay.png"
+    "settings": ["overlay_scroll_bars", "theme_scrollbar_colored", "theme_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/accents/green/scrollbars/puck_vertical_overlay_line.png"
   },
   
   //
@@ -2431,9 +2512,9 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_accent_green"],
+    "settings": ["overlay_scroll_bars", "theme_scrollbar_colored", "theme_accent_green"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/accents/green/scrollbars/puck_horizontal_overlay.png"
+    "layer0.texture": "Boxy Theme/assets/accents/green/scrollbars/puck_horizontal_overlay_line.png"
   },
   
   // Scrollbars Orange Accent
@@ -2448,8 +2529,8 @@
   
   {
     "class": "puck_control",
-    "settings": ["theme_accent_orange"],
-    "layer0.texture": "Boxy Theme/assets/accents/orange/scrollbars/puck_vertical.png"
+    "settings": ["theme_scrollbar_colored", "theme_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/accents/orange/scrollbars/puck_vertical_line.png"
   },
   
   //
@@ -2458,9 +2539,9 @@
   
   {
     "class": "puck_control",
-    "settings": ["theme_accent_orange"],
+    "settings": ["theme_scrollbar_colored", "theme_accent_orange"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/accents/orange/scrollbars/puck_horizontal.png"
+    "layer0.texture": "Boxy Theme/assets/accents/orange/scrollbars/puck_horizontal_line.png"
   },
   
   
@@ -2473,8 +2554,8 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_accent_orange"],
-    "layer0.texture": "Boxy Theme/assets/accents/orange/scrollbars/puck_vertical_overlay.png"
+    "settings": ["overlay_scroll_bars", "theme_scrollbar_colored", "theme_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/accents/orange/scrollbars/puck_vertical_overlay_line.png"
   },
   
   //
@@ -2483,9 +2564,9 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_accent_orange"],
+    "settings": ["overlay_scroll_bars", "theme_scrollbar_colored", "theme_accent_orange"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/accents/orange/scrollbars/puck_horizontal_overlay.png"
+    "layer0.texture": "Boxy Theme/assets/accents/orange/scrollbars/puck_horizontal_overlay_line.png"
   },
   
   // Scrollbars Purple Accent
@@ -2500,8 +2581,8 @@
   
   {
     "class": "puck_control",
-    "settings": ["theme_accent_purple"],
-    "layer0.texture": "Boxy Theme/assets/accents/purple/scrollbars/puck_vertical.png"
+    "settings": ["theme_scrollbar_colored", "theme_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/accents/purple/scrollbars/puck_vertical_line.png"
   },
   
   //
@@ -2510,9 +2591,9 @@
   
   {
     "class": "puck_control",
-    "settings": ["theme_accent_purple"],
+    "settings": ["theme_scrollbar_colored", "theme_accent_purple"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/accents/purple/scrollbars/puck_horizontal.png"
+    "layer0.texture": "Boxy Theme/assets/accents/purple/scrollbars/puck_horizontal_line.png"
   },
   
   
@@ -2525,8 +2606,8 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_accent_purple"],
-    "layer0.texture": "Boxy Theme/assets/accents/purple/scrollbars/puck_vertical_overlay.png"
+    "settings": ["overlay_scroll_bars", "theme_scrollbar_colored", "theme_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/accents/purple/scrollbars/puck_vertical_overlay_line.png"
   },
   
   //
@@ -2535,97 +2616,11 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_accent_purple"],
+    "settings": ["overlay_scroll_bars", "theme_scrollbar_colored", "theme_accent_purple"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/accents/purple/scrollbars/puck_horizontal_overlay.png"
+    "layer0.texture": "Boxy Theme/assets/accents/purple/scrollbars/puck_horizontal_overlay_line.png"
   },
   
-  
-  // Scrollbars Light Styles
-  // ===========================================================================
-  
-  // Scrollbar Default
-  // ---------------------------------------------------------------------------
-  
-  //
-  // Vertical Scrollbar Puck
-  //
-  
-  {
-    "class": "puck_control",
-    "settings": ["theme_boxy_scrollbars_monochrome"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical.png"
-  },
-  
-  {
-    "class": "puck_control",
-    "settings": ["theme_boxy_scrollbars_monochrome", "theme_boxy_scrollbars_wide"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical_wide.png"
-  },
-  
-  //
-  // Horizontal Scrollbar Puck
-  //
-  
-  {
-    "class": "puck_control",
-    "attributes": ["horizontal"],
-    "settings": ["theme_boxy_scrollbars_monochrome"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal.png"
-  },
-  
-  {
-    "class": "puck_control",
-    "attributes": ["horizontal"],
-    "settings": ["theme_boxy_scrollbars_monochrome", "theme_boxy_scrollbars_wide"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal_wide.png"
-  },
-  
-  // Scrollbar Overlayed
-  // ---------------------------------------------------------------------------
-  
-  //
-  // Vertical Scrollbar Puck
-  //
-  
-  {
-    "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_boxy_scrollbars_monochrome"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical_overlay.png"
-  },
-  
-  {
-    "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_boxy_scrollbars_monochrome", "theme_boxy_scrollbars_wide"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical_overlay_wide.png"
-  },
-  
-  //
-  // Horizontal Scrollbar Puck
-  //
-  
-  {
-    "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_boxy_scrollbars_monochrome"],
-    "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal_overlay.png"
-  },
-  
-  {
-    "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_boxy_scrollbars_monochrome", "theme_boxy_scrollbars_wide"],
-    "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal_overlay_wide.png"
-  },
-  
-  // Scrollbars Options
-  // ===========================================================================
-  
-  {
-    "class": "puck_control",
-    "settings": ["theme_boxy_scrollbars_monochrome"],
-    "layer0.opacity": 0.32
-  },
   
   //
   // >> Sidebar
