@@ -15,12 +15,12 @@
   "class": "status_bar",
   "layer0.opacity": 1.0,
   "layer0.inner_margin": [2, 2],
-  "content_margin": [5, 5, 5, 5]
+  "content_margin": [5, 4]
 },
 
 {
   "class": "status_container",
-  "content_margin": [5, 4, 5, 4]
+  "content_margin": [5, 2]
 },
 
 {
