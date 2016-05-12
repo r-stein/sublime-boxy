@@ -21,7 +21,7 @@
 {
   "class": "scroll_bar_control",
   "layer0.opacity": 1.0,
-  "layer0.inner_margin": [0, 6],
+  "layer0.inner_margin": [0, 5],
   "blur": false
 },
 
@@ -31,9 +31,9 @@
 
 {
   "class": "puck_control",
-  "layer0.opacity": 1.0,
+  "layer0.opacity": 0.25,
   "layer0.inner_margin": [0, 10],
-  "content_margin": [8, 12],
+  "content_margin": [5, 12],
   "blur": false
 },
 
@@ -47,8 +47,7 @@
 {
   "class": "scroll_bar_control",
   "attributes": ["horizontal"],
-  "layer0.opacity": 1.0,
-  "layer0.inner_margin": [6, 0],
+  "layer0.inner_margin": [5, 0],
   "blur": false
 },
 
@@ -59,9 +58,8 @@
 {
   "class": "puck_control",
   "attributes": ["horizontal"],
-  "layer0.opacity": 1.0,
   "layer0.inner_margin": [10, 0],
-  "content_margin": [12, 8],
+  "content_margin": [12, 5],
   "blur": false
 },
 
@@ -94,6 +92,7 @@
   "class": "scroll_bar_control",
   "settings": ["overlay_scroll_bars"],
   "layer0.inner_margin": [0, 5],
+  "layer0.opacity": 0.1,
   "blur": false
 },
 

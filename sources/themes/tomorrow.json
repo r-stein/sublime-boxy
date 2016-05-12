@@ -64,10 +64,9 @@
   // ===========================================================================
   //
   //=include "common/scrollbars.json"
+  //=include "variants/scrollbars.json"
   //=include "specific/scrollbars.json"
   //=include "accents/scrollbars.json"
-  //=include "variants/scrollbars.json"
-  //=include "options/scrollbars.json"
   //
   // >> Sidebar
   // ===========================================================================

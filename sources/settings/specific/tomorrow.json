@@ -16,6 +16,10 @@
       "secondary": {
         "hex": "#2a2b2d",
         "rgb": "42, 43, 45"
+      },
+      "scrollbar": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
       }
     },
     "foreground": {
