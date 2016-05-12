@@ -161,3 +161,18 @@ settings:
   settings:
     background: '<%= scheme.base.violet %>'
     foreground: '<%= scheme.base.white %>'
+
+- name: SublimeLinter Warning
+  scope: sublimelinter.mark.warning
+  settings:
+    foreground: '<%= scheme.base.yellow %>'
+
+- name: SublimeLinter Gutter Mark
+  scope: sublimelinter.gutter-mark
+  settings:
+    foreground: '<%= scheme.base.white %>'
+
+- name: SublimeLinter Error
+  scope: sublimelinter.mark.error
+  settings:
+    foreground: '<%= scheme.base.red %>'
