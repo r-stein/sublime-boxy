@@ -161,3 +161,18 @@ settings:
   settings:
     background: '#bb80b3'
     foreground: '#ffffff'
+
+- name: SublimeLinter Warning
+  scope: sublimelinter.mark.warning
+  settings:
+    foreground: '#fac863'
+
+- name: SublimeLinter Gutter Mark
+  scope: sublimelinter.gutter-mark
+  settings:
+    foreground: '#ffffff'
+
+- name: SublimeLinter Error
+  scope: sublimelinter.mark.error
+  settings:
+    foreground: '#ec5f67'
