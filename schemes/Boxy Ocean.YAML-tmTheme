@@ -22,6 +22,7 @@ settings:
   scope: comment, punctuation.definition.comment
   settings:
     foreground: '#65737e'
+    fontStyle: italic
 
 - name: Variable
   scope: variable, punctuation.definition.list_item.markdown
