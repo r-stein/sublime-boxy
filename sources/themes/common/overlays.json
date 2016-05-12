@@ -26,7 +26,7 @@
 
 {
   "class": "quick_panel",
-  "row_padding": [24, 12],
+  "row_padding": [24, 6],
   "layer0.opacity": 1.0
 },
 
@@ -44,7 +44,7 @@
 {
   "class": "quick_panel",
   "parents": [{"class": "overlay_control"}],
-  "row_padding": [24, 12],
+  "row_padding": [24, 6],
   "layer0.opacity": 1.0
 },
 
@@ -53,7 +53,7 @@
 
 {
   "class": "mini_quick_panel",
-  "row_padding": [24, 12],
+  "row_padding": [24, 6],
   "layer0.opacity": 1.0
 },
 
