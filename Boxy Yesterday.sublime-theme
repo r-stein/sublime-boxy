@@ -1572,7 +1572,7 @@
   
   {
     "class": "minimap_control",
-    "settings": ["theme_boxy_accent_green"],
+    "settings": ["theme_accent_green"],
     "viewport_color": [46, 188, 103, 75]
   },
   
@@ -1581,7 +1581,7 @@
   
   {
     "class": "minimap_control",
-    "settings": ["theme_boxy_accent_orange"],
+    "settings": ["theme_accent_orange"],
     "viewport_color": [242, 104, 62, 75]
   },
   
@@ -1590,7 +1590,7 @@
   
   {
     "class": "minimap_control",
-    "settings": ["theme_boxy_accent_purple"],
+    "settings": ["theme_accent_purple"],
     "viewport_color": [137, 85, 162, 75]
   },
   
@@ -1825,7 +1825,7 @@
   
   {
     "class": "quick_panel_row",
-    "settings": ["theme_boxy_accent_green"],
+    "settings": ["theme_accent_green"],
     "attributes": ["selected"],
     "layer0.tint": [46, 188, 103],
     "layer1.opacity": 0.0
@@ -1833,7 +1833,7 @@
   
   {
     "class": "mini_quick_panel_row",
-    "settings": ["theme_boxy_accent_green"],
+    "settings": ["theme_accent_green"],
     "attributes": ["selected"],
     "layer0.tint": [46, 188, 103]
   },
@@ -1843,26 +1843,26 @@
   
   {
     "class": "quick_panel_label",
-    "settings": ["theme_boxy_accent_green"],
+    "settings": ["theme_accent_green"],
     "match_fg": [46, 188, 103, 255]
   },
   
   {
     "class": "quick_panel_label",
-    "settings": ["theme_boxy_accent_green"],
+    "settings": ["theme_accent_green"],
     "parents": [{"class": "overlay_control"}],
     "match_fg": [46, 188, 103, 255]
   },
   
   {
     "class": "quick_panel_path_label",
-    "settings": ["theme_boxy_accent_green"],
+    "settings": ["theme_accent_green"],
     "match_fg": [46, 188, 103, 255]
   },
   
   {
     "class": "quick_panel_score_label",
-    "settings": ["theme_boxy_accent_green"],
+    "settings": ["theme_accent_green"],
     "fg": [46, 188, 103, 255]
   },
   
@@ -1874,7 +1874,7 @@
   
   {
     "class": "quick_panel_row",
-    "settings": ["theme_boxy_accent_orange"],
+    "settings": ["theme_accent_orange"],
     "attributes": ["selected"],
     "layer0.tint": [242, 104, 62],
     "layer1.opacity": 0.0
@@ -1882,7 +1882,7 @@
   
   {
     "class": "mini_quick_panel_row",
-    "settings": ["theme_boxy_accent_orange"],
+    "settings": ["theme_accent_orange"],
     "attributes": ["selected"],
     "layer0.tint": [242, 104, 62]
   },
@@ -1892,26 +1892,26 @@
   
   {
     "class": "quick_panel_label",
-    "settings": ["theme_boxy_accent_orange"],
+    "settings": ["theme_accent_orange"],
     "match_fg": [242, 104, 62, 255]
   },
   
   {
     "class": "quick_panel_label",
-    "settings": ["theme_boxy_accent_orange"],
+    "settings": ["theme_accent_orange"],
     "parents": [{"class": "overlay_control"}],
     "match_fg": [242, 104, 62, 255]
   },
   
   {
     "class": "quick_panel_path_label",
-    "settings": ["theme_boxy_accent_orange"],
+    "settings": ["theme_accent_orange"],
     "match_fg": [242, 104, 62, 255]
   },
   
   {
     "class": "quick_panel_score_label",
-    "settings": ["theme_boxy_accent_orange"],
+    "settings": ["theme_accent_orange"],
     "fg": [242, 104, 62, 255]
   },
   
@@ -1923,7 +1923,7 @@
   
   {
     "class": "quick_panel_row",
-    "settings": ["theme_boxy_accent_purple"],
+    "settings": ["theme_accent_purple"],
     "attributes": ["selected"],
     "layer0.tint": [137, 85, 162],
     "layer1.opacity": 0.0
@@ -1931,7 +1931,7 @@
   
   {
     "class": "mini_quick_panel_row",
-    "settings": ["theme_boxy_accent_purple"],
+    "settings": ["theme_accent_purple"],
     "attributes": ["selected"],
     "layer0.tint": [137, 85, 162]
   },
@@ -1941,26 +1941,26 @@
   
   {
     "class": "quick_panel_label",
-    "settings": ["theme_boxy_accent_purple"],
+    "settings": ["theme_accent_purple"],
     "match_fg": [137, 85, 162, 255]
   },
   
   {
     "class": "quick_panel_label",
-    "settings": ["theme_boxy_accent_purple"],
+    "settings": ["theme_accent_purple"],
     "parents": [{"class": "overlay_control"}],
     "match_fg": [137, 85, 162, 255]
   },
   
   {
     "class": "quick_panel_path_label",
-    "settings": ["theme_boxy_accent_purple"],
+    "settings": ["theme_accent_purple"],
     "match_fg": [137, 85, 162, 255]
   },
   
   {
     "class": "quick_panel_score_label",
-    "settings": ["theme_boxy_accent_purple"],
+    "settings": ["theme_accent_purple"],
     "fg": [137, 85, 162, 255]
   },
   
@@ -2241,7 +2241,7 @@
   
   {
     "class": "puck_control",
-    "settings": ["theme_boxy_accent_green"],
+    "settings": ["theme_accent_green"],
     "layer0.texture": "Boxy Theme/assets/accents/green/scrollbars/puck_vertical.png"
   },
   
@@ -2251,7 +2251,7 @@
   
   {
     "class": "puck_control",
-    "settings": ["theme_boxy_accent_green"],
+    "settings": ["theme_accent_green"],
     "attributes": ["horizontal"],
     "layer0.texture": "Boxy Theme/assets/accents/green/scrollbars/puck_horizontal.png"
   },
@@ -2266,7 +2266,7 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_boxy_accent_green"],
+    "settings": ["overlay_scroll_bars", "theme_accent_green"],
     "layer0.texture": "Boxy Theme/assets/accents/green/scrollbars/puck_vertical_overlay.png"
   },
   
@@ -2276,7 +2276,7 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_boxy_accent_green"],
+    "settings": ["overlay_scroll_bars", "theme_accent_green"],
     "attributes": ["horizontal"],
     "layer0.texture": "Boxy Theme/assets/accents/green/scrollbars/puck_horizontal_overlay.png"
   },
@@ -2293,7 +2293,7 @@
   
   {
     "class": "puck_control",
-    "settings": ["theme_boxy_accent_orange"],
+    "settings": ["theme_accent_orange"],
     "layer0.texture": "Boxy Theme/assets/accents/orange/scrollbars/puck_vertical.png"
   },
   
@@ -2303,7 +2303,7 @@
   
   {
     "class": "puck_control",
-    "settings": ["theme_boxy_accent_orange"],
+    "settings": ["theme_accent_orange"],
     "attributes": ["horizontal"],
     "layer0.texture": "Boxy Theme/assets/accents/orange/scrollbars/puck_horizontal.png"
   },
@@ -2318,7 +2318,7 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_boxy_accent_orange"],
+    "settings": ["overlay_scroll_bars", "theme_accent_orange"],
     "layer0.texture": "Boxy Theme/assets/accents/orange/scrollbars/puck_vertical_overlay.png"
   },
   
@@ -2328,7 +2328,7 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_boxy_accent_orange"],
+    "settings": ["overlay_scroll_bars", "theme_accent_orange"],
     "attributes": ["horizontal"],
     "layer0.texture": "Boxy Theme/assets/accents/orange/scrollbars/puck_horizontal_overlay.png"
   },
@@ -2345,7 +2345,7 @@
   
   {
     "class": "puck_control",
-    "settings": ["theme_boxy_accent_purple"],
+    "settings": ["theme_accent_purple"],
     "layer0.texture": "Boxy Theme/assets/accents/purple/scrollbars/puck_vertical.png"
   },
   
@@ -2355,7 +2355,7 @@
   
   {
     "class": "puck_control",
-    "settings": ["theme_boxy_accent_purple"],
+    "settings": ["theme_accent_purple"],
     "attributes": ["horizontal"],
     "layer0.texture": "Boxy Theme/assets/accents/purple/scrollbars/puck_horizontal.png"
   },
@@ -2370,7 +2370,7 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_boxy_accent_purple"],
+    "settings": ["overlay_scroll_bars", "theme_accent_purple"],
     "layer0.texture": "Boxy Theme/assets/accents/purple/scrollbars/puck_vertical_overlay.png"
   },
   
@@ -2380,7 +2380,7 @@
   
   {
     "class": "puck_control",
-    "settings": ["overlay_scroll_bars", "theme_boxy_accent_purple"],
+    "settings": ["overlay_scroll_bars", "theme_accent_purple"],
     "attributes": ["horizontal"],
     "layer0.texture": "Boxy Theme/assets/accents/purple/scrollbars/puck_horizontal_overlay.png"
   },
@@ -3697,12 +3697,12 @@
     "class": "status_bar",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [2, 2],
-    "content_margin": [5, 5, 5, 5]
+    "content_margin": [5, 4]
   },
   
   {
     "class": "status_container",
-    "content_margin": [5, 4, 5, 4]
+    "content_margin": [5, 2]
   },
   
   {
@@ -3750,50 +3750,77 @@
   // Status Bar Options
   // ===========================================================================
   
-  // Status Bar Small
+  // Status Bar Sizes
   // ---------------------------------------------------------------------------
   
   {
     "class": "status_container",
-    "settings": ["theme_boxy_global_ui_small"],
-    "content_margin": [5, 1, 5, 1]
+    "settings": ["theme_size_xs"],
+    "content_margin": [5, 0]
   },
   
   {
     "class": "status_container",
-    "settings": ["theme_boxy_status_bar_small"],
-    "content_margin": [5, 1, 5, 1]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_global_ui_small"],
-    "min_size": [92, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_find_and_replace_small"],
-    "min_size": [92, 0]
-  },
-  
-  // Status Bar Large
-  // ---------------------------------------------------------------------------
-  
-  {
-    "class": "status_container",
-    "settings": ["theme_boxy_global_ui_large"],
-    "content_margin": [5, 7, 5, 7]
+    "settings": ["theme_statusbar_size_xs"],
+    "content_margin": [5, 0]
   },
   
   {
     "class": "status_container",
-    "settings": ["theme_boxy_status_bar_large"],
-    "content_margin": [5, 7, 5, 7]
+    "settings": ["theme_size_md"],
+    "content_margin": [5, 4]
+  },
+  
+  {
+    "class": "status_container",
+    "settings": ["theme_statusbar_size_md"],
+    "content_margin": [5, 4]
+  },
+  
+  {
+    "class": "status_container",
+    "settings": ["theme_size_lg"],
+    "content_margin": [5, 6]
+  },
+  
+  {
+    "class": "status_container",
+    "settings": ["theme_statusbar_size_lg"],
+    "content_margin": [5, 6]
+  },
+  
+  {
+    "class": "status_container",
+    "settings": ["theme_size_xl"],
+    "content_margin": [5, 8]
+  },
+  
+  {
+    "class": "status_container",
+    "settings": ["theme_statusbar_size_xl"],
+    "content_margin": [5, 8]
   },
   
   // Status Bar Font Options
   // ---------------------------------------------------------------------------
+  
+  //
+  // Font Size 10
+  //
+  
+  {
+    "class": "label_control",
+    "parents": [{"class": "status_bar"}],
+    "settings": ["theme_font_xs"],
+    "font.size": 10
+  },
+  
+  {
+    "class": "label_control",
+    "parents": [{"class": "status_bar"}],
+    "settings": ["theme_statusbar_font_xs"],
+    "font.size": 10
+  },
   
   //
   // Font Size 12
@@ -3802,14 +3829,14 @@
   {
     "class": "label_control",
     "parents": [{"class": "status_bar"}],
-    "settings": ["theme_boxy_global_font_size_12"],
+    "settings": ["theme_font_md"],
     "font.size": 12
   },
   
   {
     "class": "label_control",
     "parents": [{"class": "status_bar"}],
-    "settings": ["theme_boxy_status_bar_font_size_12"],
+    "settings": ["theme_statusbar_font_md"],
     "font.size": 12
   },
   
@@ -3820,51 +3847,15 @@
   {
     "class": "label_control",
     "parents": [{"class": "status_bar"}],
-    "settings": ["theme_boxy_global_font_size_13"],
+    "settings": ["theme_font_lg"],
     "font.size": 13
   },
   
   {
     "class": "label_control",
     "parents": [{"class": "status_bar"}],
-    "settings": ["theme_boxy_status_bar_font_size_13"],
+    "settings": ["theme_statusbar_font_lg"],
     "font.size": 13
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_global_font_size_13"],
-    "min_size": [106, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_find_and_replace_font_size_13"],
-    "min_size": [106, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_status_bar_font_size_13"],
-    "min_size": [106, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_global_font_size_13", "theme_boxy_find_and_replace_small"],
-    "min_size": [102, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_find_and_replace_font_size_13", "theme_boxy_find_and_replace_small"],
-    "min_size": [102, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_status_bar_font_size_13", "theme_boxy_find_and_replace_small"],
-    "min_size": [102, 0]
   },
   
   //
@@ -3874,123 +3865,15 @@
   {
     "class": "label_control",
     "parents": [{"class": "status_bar"}],
-    "settings": ["theme_boxy_global_font_size_14"],
+    "settings": ["theme_font_xl"],
     "font.size": 14
   },
   
   {
     "class": "label_control",
     "parents": [{"class": "status_bar"}],
-    "settings": ["theme_boxy_status_bar_font_size_14"],
+    "settings": ["theme_statusbar_font_xl"],
     "font.size": 14
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_global_font_size_14"],
-    "min_size": [110, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_find_and_replace_font_size_14"],
-    "min_size": [110, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_status_bar_font_size_14"],
-    "min_size": [110, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_global_font_size_14", "theme_boxy_find_and_replace_small"],
-    "min_size": [106, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_find_and_replace_font_size_14", "theme_boxy_find_and_replace_small"],
-    "min_size": [106, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_status_bar_font_size_14", "theme_boxy_find_and_replace_small"],
-    "min_size": [106, 0]
-  },
-  
-  //
-  // Font Size 15
-  //
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "status_bar"}],
-    "settings": ["theme_boxy_global_font_size_15"],
-    "font.size": 15
-  },
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "status_bar"}],
-    "settings": ["theme_boxy_status_bar_font_size_15"],
-    "font.size": 15
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_global_font_size_15"],
-    "min_size": [114, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_find_and_replace_font_size_15"],
-    "min_size": [114, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_status_bar_font_size_15"],
-    "min_size": [114, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_global_font_size_15", "theme_boxy_find_and_replace_small"],
-    "min_size": [110, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_find_and_replace_font_size_15", "theme_boxy_find_and_replace_small"],
-    "min_size": [110, 0]
-  },
-  
-  {
-    "class": "status_button",
-    "settings": ["theme_boxy_status_bar_font_size_15", "theme_boxy_find_and_replace_small"],
-    "min_size": [110, 0]
-  },
-  
-  //
-  // UI Font Face Custom
-  //
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "status_bar"}],
-    "settings": ["theme_boxy_global_custom_ui_font_face"],
-    "font.face": "Sans-Serif"
-  },
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "status_bar"}],
-    "settings": ["theme_boxy_status_bar_custom_ui_font_face"],
-    "font.face": "Sans-Serif"
   },
   
   //
@@ -5577,7 +5460,7 @@
     "class": "tool_tip_control",
     "layer0.opacity": 1.0,
     "layer1.tint": [0, 0, 0],
-    "layer1.opacity": 0,
+    "layer1.opacity": 0.25,
     "content_margin": [10, 5]
   },
   
@@ -5604,7 +5487,7 @@
   
   {
     "class": "tool_tip_control",
-    "settings": ["theme_boxy_accent_green"],
+    "settings": ["theme_accent_green"],
     "layer0.tint": [46, 188, 103]
   },
   
@@ -5613,7 +5496,7 @@
   
   {
     "class": "tool_tip_control",
-    "settings": ["theme_boxy_accent_orange"],
+    "settings": ["theme_accent_orange"],
     "layer0.tint": [242, 104, 62]
   },
   
@@ -5622,7 +5505,7 @@
   
   {
     "class": "tool_tip_control",
-    "settings": ["theme_boxy_accent_purple"],
+    "settings": ["theme_accent_purple"],
     "layer0.tint": [137, 85, 162]
   },
   
@@ -5630,14 +5513,24 @@
   // Tooltips Options
   // ===========================================================================
   
-  {
-    "class": "tool_tip_control",
-    "settings": ["theme_boxy_tab_selected_filled"],
-    "layer1.opacity": 0.15
-  },
-  
   // Tooltips Font Options
   // ---------------------------------------------------------------------------
+  
+  //
+  // Font Size 10
+  //
+  
+  {
+    "class": "tool_tip_label_control",
+    "settings": ["theme_font_xs"],
+    "font.size": 10
+  },
+  
+  {
+    "class": "tool_tip_label_control",
+    "settings": ["theme_tooltips_font_xs"],
+    "font.size": 10
+  },
   
   //
   // Font Size 12
@@ -5645,13 +5538,13 @@
   
   {
     "class": "tool_tip_label_control",
-    "settings": ["theme_boxy_global_font_size_12"],
+    "settings": ["theme_font_md"],
     "font.size": 12
   },
   
   {
     "class": "tool_tip_label_control",
-    "settings": ["theme_boxy_tooltips_font_size_12"],
+    "settings": ["theme_tooltips_font_md"],
     "font.size": 12
   },
   
@@ -5661,13 +5554,13 @@
   
   {
     "class": "tool_tip_label_control",
-    "settings": ["theme_boxy_global_font_size_13"],
+    "settings": ["theme_font_lg"],
     "font.size": 13
   },
   
   {
     "class": "tool_tip_label_control",
-    "settings": ["theme_boxy_tooltips_font_size_13"],
+    "settings": ["theme_tooltips_font_lg"],
     "font.size": 13
   },
   
@@ -5677,46 +5570,14 @@
   
   {
     "class": "tool_tip_label_control",
-    "settings": ["theme_boxy_global_font_size_14"],
+    "settings": ["theme_font_xl"],
     "font.size": 14
   },
   
   {
     "class": "tool_tip_label_control",
-    "settings": ["theme_boxy_tooltips_font_size_14"],
+    "settings": ["theme_tooltips_font_xl"],
     "font.size": 14
-  },
-  
-  //
-  // Font Size 15
-  //
-  
-  {
-    "class": "tool_tip_label_control",
-    "settings": ["theme_boxy_global_font_size_15"],
-    "font.size": 15
-  },
-  
-  {
-    "class": "tool_tip_label_control",
-    "settings": ["theme_boxy_tooltips_font_size_15"],
-    "font.size": 15
-  },
-  
-  //
-  // UI Font Face Custom
-  //
-  
-  {
-    "class": "tool_tip_label_control",
-    "settings": ["theme_boxy_global_custom_ui_font_face"],
-    "font.face": "Sans-Serif"
-  },
-  
-  {
-    "class": "tool_tip_label_control",
-    "settings": ["theme_boxy_tooltips_custom_ui_font_face"],
-    "font.face": "Sans-Serif"
   },
   
   //
