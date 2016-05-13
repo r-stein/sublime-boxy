@@ -2,14 +2,9 @@
 
 > Starting next release, Otto will be renamed to BOXY! 
 
-> You will need to reinstall theme when 2.0.0 [will be released][pr] because it
-requires hard references for different stuff. [Read more &#8594;][upgrading]
+> You will need to reinstall theme when 2.0.0 [will be released][pr] because it requires hard references for different stuff. [Read more &#8594;][upgrading]
 
-> I highly recommend you:
-
-> 1. Install `BOXY` [manually][manual-install] before it will be released
-> 2. Review your [settings][settings]
-> 3. Install or Upgrade via Package Control when 2.0.0 [will be available][pr].
+> The website and 2.x.x docs is still being updated.
 
 > **I'm sorry for the inconvenience caused to you 🙍**
 
