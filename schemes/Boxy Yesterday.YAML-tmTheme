@@ -1,4 +1,5 @@
 # [PackageDev] target_format: plist, ext: tmTheme
+# > Scheme
 ---
 name: Boxy Yesterday
 uuid: 644320da-6e11-4c6d-9050-f2ed6b8c5049
@@ -18,14 +19,16 @@ settings:
     selection: '#00000015'
     selectionBorder: '#00000015'
 
+# >> General
+
 - name: Comments
   scope: comment, punctuation.definition.comment
   settings:
     foreground: '#8e908c'
-    fontStyle: italic
+    fontStyle: 'italic'
 
 - name: Variable
-  scope: variable, punctuation.definition.list_item.markdown
+  scope: variable
   settings:
     foreground: '#4d4d4c'
 
@@ -87,7 +90,7 @@ settings:
   scope: variable.language
   settings:
     foreground: '#c82829'
-    fontStyle: italic
+    fontStyle: 'italic'
 
 - name: entity.name.method.js
   scope: entity.name.method.js
@@ -148,64 +151,188 @@ settings:
   scope: tag.decorator.js entity.name.tag.js, tag.decorator.js punctuation.definition.tag.js
   settings:
     foreground: '#4271ae'
-    fontStyle: italic
+    fontStyle: 'italic'
 
 - name: ES7 Bind Operator
   scope: source.js constant.other.object.key.js string.unquoted.label.js
   settings:
     foreground: '#c82829'
-    fontStyle: italic
+    fontStyle: 'italic'
 
-- name: JSON key - Level 8
+# >> JSON Levels
+
+- name: JSON Key - Level 8
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
     foreground: '#c99e00'
 
-- name: JSON key - Level 7
+- name: JSON Key - Level 7
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
     foreground: '#8959a8'
 
-- name: JSON key - Level 6
+- name: JSON Key - Level 6
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
     foreground: '#df5b66'
 
-- name: JSON key - Level 5
+- name: JSON Key - Level 5
   scope: source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
     foreground: '#4271ae'
 
-- name: JSON key - Level 4
+- name: JSON Key - Level 4
   scope: source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
     foreground: '#7f2a1d'
 
-- name: JSON key - Level 3
+- name: JSON Key - Level 3
   scope: source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
     foreground: '#c82829'
 
-- name: JSON key - Level 2
+- name: JSON Key - Level 2
   scope: source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
     foreground: '#f5871f'
 
-- name: JSON key - Level 1
+- name: JSON Key - Level 1
   scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
     foreground: '#c99e00'
 
-- name: JSON key - Level 0
+- name: JSON Key - Level 0
   scope: source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
     foreground: '#8959a8'
 
-- name: AceJump
-  scope: ace.jump
+# >> Markdown Extended
+
+- name: Markdown - Plain
+  scope: text.html.markdown, punctuation.definition.list_item.markdown
   settings:
-    background: '#794b96'
+    foreground: '#4d4d4c'
+
+- name: Markdown - Markup Raw Inline
+  scope: text.html.markdown markup.raw.inline
+  settings:
+    foreground: '#c82829'
+
+- name: Markdown - Line Break
+  scope: text.html.markdown meta.dummy.line-break
+  settings:
+    foreground: '#8e908c'
+
+- name: Markdown - Heading
+  scope: markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown
+  settings:
+    foreground: '#718c00'
+
+- name: Markup - Italic
+  scope: markup.italic
+  settings:
+    fontStyle: 'italic'
+    foreground: '#df5b66'
+
+- name: Markup - Bold
+  scope: markup.bold
+  settings:
+    fontStyle: 'bold'
+    foreground: '#df5b66'
+
+- name: Markup - Underline
+  scope: markup.underline
+  settings:
+    fontStyle: 'underline'
+    foreground: '#f5871f'
+
+- name: Markup - Strike
+  scope: markup.strike
+  settings:
+    fontStyle: 'strike'
+    foreground: '#7f2a1d'
+
+- name: Markdown - Blockquote
+  scope: markup.quote, punctuation.definition.blockquote.markdown
+  settings:
+    fontStyle: 'italic'
+    foreground: '#4271ae'
+
+- name: Markup - Quote
+  scope: markup.quote
+  settings:
+    fontStyle: 'italic'
+    foreground: '#4271ae'
+
+- name: Markdown - Link
+  scope: string.other.link.title.markdown
+  settings:
+    fontStyle: 'underline'
+    foreground: '#4271ae'
+
+- name: Markup - Raw Block
+  scope: markup.raw.block
+  settings:
+    foreground: '#8959a8'
+
+- name: Markdown - Raw Block Fenced
+  scope: markup.raw.block.fenced.markdown
+  settings:
+    background: '#00000010'
+    foreground: '#4d4d4c'
+
+- name: Markdown - Fenced Bode Block
+  scope: punctuation.definition.fenced.markdown, variable.language.fenced.markdown
+  settings:
+    background: '#00000010'
+    foreground: '#8e908c'
+
+- name: Markdown - Fenced Language
+  scope: variable.language.fenced.markdown
+  settings:
+    fontStyle: ''
+    foreground: '#8e908c'
+
+- name: Markdown - Separator
+  scope: meta.separator
+  settings:
+    background: '#00000010'
+    fontStyle: 'bold'
+    foreground: '#8e908c'
+
+- name: Markup - Table
+  scope: markup.table
+  settings:
+    background: '#c828291a'
+    foreground: '#c82829'
+
+# >> AceJump
+
+- name: AceJump Label - Blue
+  scope: acejump.label.blue
+  settings:
+    background: '#2497e3'
     foreground: '#ffffff'
+
+- name: AceJump Label - Green
+  scope: acejump.label.green
+  settings:
+    background: '#2ebc67'
+    foreground: '#ffffff'
+
+- name: AceJump Label - Orange
+  scope: acejump.label.orange
+  settings:
+    background: '#f2683e'
+    foreground: '#ffffff'
+
+- name: AceJump Label - Purple
+  scope: acejump.label.purple
+  settings:
+    background: '#8955a2'
+    foreground: '#ffffff'
+
+# >> Sublime Linter
 
 - name: SublimeLinter Warning
   scope: sublimelinter.mark.warning
@@ -222,27 +349,14 @@ settings:
   settings:
     foreground: '#c82829'
 
-- name: GitGutter deleted
-  scope: markup.deleted.git_gutter
-  settings:
-    foreground: '#c82829'
+# >> Git Gutter
 
-- name: GitGutter inserted
-  scope: markup.inserted.git_gutter
-  settings:
-    foreground: '#718c00'
-
-- name: GitGutter changed
-  scope: markup.changed.git_gutter
-  settings:
-    foreground: '#8959a8'
-
-- name: GitGutter ignored
-  scope: markup.ignored.git_gutter, markup.untracked.git_gutter
+- name: GitGutter Ignored
+  scope: markup.ignored.git_gutter
   settings:
     foreground: '#8e908c'
 
-- name: GitGutter untracked
+- name: GitGutter Untracked
   scope: markup.untracked.git_gutter
   settings:
     foreground: '#8e908c'
