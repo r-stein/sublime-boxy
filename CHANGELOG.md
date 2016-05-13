@@ -1,3 +1,24 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/oivva/otto/compare/v1.1.0...v1.1.1) (2016-05-13)
+
+
+### Bug Fixes
+
+* correct global tab font size ([205eb3c](https://github.com/oivva/otto/commit/205eb3c))
+* highlighting of the attributes ([9040bf7](https://github.com/oivva/otto/commit/9040bf7))
+* jade icon ([84354ee](https://github.com/oivva/otto/commit/84354ee))
+* markdown unordered list highlighting ([df05039](https://github.com/oivva/otto/commit/df05039))
+* normalize colors ([17f2991](https://github.com/oivva/otto/commit/17f2991))
+* progress bar color ([c7a446a](https://github.com/oivva/otto/commit/c7a446a))
+* reduce minimum tab width ([38084d9](https://github.com/oivva/otto/commit/38084d9))
+* selection colors in the widgets ([65406ad](https://github.com/oivva/otto/commit/65406ad))
+
+### Features
+
+* brighten color of selected label in sidebar ([7737547](https://github.com/oivva/otto/commit/7737547))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/oivva/otto/compare/v1.0.3...v1.1.0) (2016-03-10)
 
