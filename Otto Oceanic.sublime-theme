@@ -707,6 +707,7 @@
   
   {
     "class": "progress_gauge_control",
+    "settings": ["theme_otto_accent_green"],
     "layer0.tint": [46, 188, 103]
   },
   
@@ -842,6 +843,7 @@
   
   {
     "class": "progress_gauge_control",
+    "settings": ["theme_otto_accent_orange"],
     "layer0.tint": [241, 103, 60]
   },
   
@@ -977,6 +979,7 @@
   
   {
     "class": "progress_gauge_control",
+    "settings": ["theme_otto_accent_purple"],
     "layer0.tint": [175, 60, 241]
   },
   
@@ -2754,6 +2757,14 @@
   {
     "class": "sidebar_label",
     "color": [178, 183, 186]
+  },
+  
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "color": [255, 255, 255, 230],
+    "shadow_color": [0, 0, 0, 255],
+    "shadow_offset": [0, 0]
   },
   
   // Sidebar Blue Accent
@@ -4671,6 +4682,12 @@
     "tab_width": 0
   },
   
+  {
+    "class": "tabset_control",
+    "settings": ["theme_otto_tab_auto_width", "!enable_tab_scrolling"],
+    "tab_min_width": 40
+  },
+  
   // Small
   
   {
@@ -4753,7 +4770,7 @@
   {
     "class": "tab_label",
     "settings": ["theme_otto_global_font_size_12"],
-    "font.size": 11
+    "font.size": 12
   },
   
   {
@@ -4769,7 +4786,7 @@
   {
     "class": "tab_label",
     "settings": ["theme_otto_global_font_size_13"],
-    "font.size": 11
+    "font.size": 13
   },
   
   {
@@ -4785,7 +4802,7 @@
   {
     "class": "tab_label",
     "settings": ["theme_otto_global_font_size_14"],
-    "font.size": 11
+    "font.size": 14
   },
   
   {
@@ -4801,7 +4818,7 @@
   {
     "class": "tab_label",
     "settings": ["theme_otto_global_font_size_15"],
-    "font.size": 11
+    "font.size": 15
   },
   
   {

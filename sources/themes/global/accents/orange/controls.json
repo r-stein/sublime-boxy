@@ -6,6 +6,7 @@
 
 {
   "class": "progress_gauge_control",
+  "settings": ["theme_otto_accent_orange"],
   "layer0.tint": [241, 103, 60]
 },
 

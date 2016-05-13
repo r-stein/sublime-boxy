@@ -1,3 +1,13 @@
+> 📣 **BREAKING CHANGES IN 2.0.0: MEET BOXY!**
+
+> Starting next release, Otto will be renamed to BOXY! I prepare a lot of sweets for you 😉
+
+> You will need to reinstall theme when 2.0.0 [will be released][pr] because it requires hard references for different stuff. [Read more &#8594;][upgrading]
+
+> The website and 2.x.x docs is still being updated.
+
+> **I'm sorry for the inconvenience caused to you 🙍**
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/oivva/otto-goodies/master/media/logo.png" alt="Otto, your next interface theme for Sublime Text 3">
 </p>
@@ -406,3 +416,6 @@ Also, you can download all assets in psd format and some extras: [Otto Goodies](
 If you can't see the bottom panel (find/replace, rename, move, can't see the box inputs in SidebarEnhancement, etc..). Here the quick fix:
 
 ![Drag the top edge](https://raw.githubusercontent.com/oivva/otto-goodies/master/docs/known-issue.gif)
+
+[pr]: https://github.com/wbond/package_control_channel/pull/5500
+[upgrading]: https://github.com/oivva/boxy/blob/master/messages/1.1.1.txt

@@ -12,17 +12,11 @@ settings:
     background: '#1b2b34'
     caret: '#c0c5ce'
     foreground: '#cdd3de'
+    gutter: '#1b2b34'
     invisibles: '#65737e'
+    lineHighlight: '#ffffff10'
     selection: '#ffffff15'
     selectionBorder: '#ffffff15'
-    lineHighlight: '#ffffff10'
-    gutter: '#1b2b34'
-
-- name: AceJump
-  scope: ace.jump
-  settings:
-    foreground: '#ffffff'
-    background: '#846fec'
 
 - name: Comments
   scope: comment, punctuation.definition.comment
@@ -30,7 +24,7 @@ settings:
     foreground: '#65737e'
 
 - name: Variable
-  scope: variable
+  scope: variable, punctuation.definition.list_item.markdown
   settings:
     foreground: '#cdd3de'
 
@@ -51,7 +45,7 @@ settings:
 - name: Tag
   scope: entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter
   settings:
-    foreground: '#eb606b'
+    foreground: '#f07178'
 
 - name: Function, Special Method, Block Level
   scope: entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method,
@@ -62,7 +56,7 @@ settings:
 - name: Other Variable, String Link
   scope: support.other.variable, string.other.link
   settings:
-    foreground: '#f2777a'
+    foreground: '#f07178'
 
 - name: Number, Constant, Function Argument, Tag Attribute, Embedded
   scope: constant.numeric, constant.language, support.constant, constant.character,
@@ -86,12 +80,12 @@ settings:
 - name: Sub-methods
   scope: entity.name.module.js, variable.import.parameter.js, variable.other.class.js
   settings:
-    foreground: '#ec5F67'
+    foreground: '#ec5f67'
 
 - name: Language methods
   scope: variable.language
   settings:
-    foreground: '#ec5F67'
+    foreground: '#ec5f67'
     fontStyle: italic
 
 - name: entity.name.method.js
@@ -107,7 +101,7 @@ settings:
 - name: Attributes
   scope: entity.other.attribute-name
   settings:
-    foreground: '#bb80b3'
+    foreground: '#c594c5'
 
 - name: Inserted
   scope: markup.inserted
@@ -117,12 +111,12 @@ settings:
 - name: Deleted
   scope: markup.deleted
   settings:
-    foreground: '#ec5F67'
+    foreground: '#ec5f67'
 
 - name: Changed
   scope: markup.changed
   settings:
-    foreground: '#bb80b3'
+    foreground: '#c594c5'
 
 - name: Regular Expressions
   scope: string.regexp
@@ -158,5 +152,11 @@ settings:
 - name: ES7 Bind Operator
   scope: source.js constant.other.object.key.js string.unquoted.label.js
   settings:
-    foreground: '#ec5F67'
+    foreground: '#ec5f67'
     fontStyle: italic
+
+- name: AceJump
+  scope: ace.jump
+  settings:
+    background: '#bb80b3'
+    foreground: '#ffffff'
