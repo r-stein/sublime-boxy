@@ -1,6 +1,6 @@
 > 📣 **BREAKING CHANGES IN 2.0.0: MEET BOXY!**
 
-> Starting next release, Otto will be renamed to BOXY! 
+> Starting next release, Otto will be renamed to BOXY! I prepare a lot of sweets for you 😉
 
 > You will need to reinstall theme when 2.0.0 [will be released][pr] because it requires hard references for different stuff. [Read more &#8594;][upgrading]
 
@@ -418,6 +418,4 @@ If you can't see the bottom panel (find/replace, rename, move, can't see the box
 ![Drag the top edge](https://raw.githubusercontent.com/oivva/otto-goodies/master/docs/known-issue.gif)
 
 [pr]: https://github.com/wbond/package_control_channel/pull/
-[manual-install]: https://github.com/oivva/boxy/wiki/Get-It#installation
-[settings]: https://github.com/oivva/boxy/wiki/Settings
-[upgrading]: https://github.com/oivva/boxy/wiki/Upgrading
+[upgrading]: https://github.com/oivva/boxy/blob/master/messages/1.1.1.txt
