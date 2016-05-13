@@ -11,15 +11,15 @@
 
 > Boxy has been recently re-named from Otto. The website and package is still being updated. If you're new to Boxy, you should install the **`Boxy Theme`** package on [Package Control][downloads] when it [will be available][pr] or install it [manually][manual-install]. 
 
-> **Docs for 1.x.x** can be found [here][docs1xx].
-
-> For those who updating read [Upgrading From 1.x.x][upgrading] section. 
+> For those who updating read [Upgrading From 1.x.x][upgrading]. 
 
 > I highly recommend you:
 
-> 1. [Install `BOXY` manually][manual-install] before it will be released
+> 1. Install `BOXY` [manually][manual-install] before it will be released
 > 2. Review your [settings][settings]
-> 3. Install via Package Control when BOXY 2.0.0 [will be available][pr].
+> 3. Install or Upgrade via Package Control when 2.0.0 [will be available][pr].
+
+> Docs for 1.x.x can be found [here][docs1xx].
 
 <a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/logo.gif" alt="BOXY"></a>
 
