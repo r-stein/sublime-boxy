@@ -1,12 +1,19 @@
 ***
 
-📣 **BREAKING CHANGES IN 2.0.0: MEET BOXY!**
+> 📣 **BREAKING CHANGES IN 2.0.0: MEET BOXY!**
 
-Starting next release, Otto will be renamed to BOXY! 
+> Starting next release, Otto will be renamed to BOXY! 
 
-[Read more](https://github.com/oivva/otto/blob/master/messages/1.1.1.txt) (Please pay extra attention to `Troubleshooting` section).
+> You will need to reinstall theme when 2.0.0 [will be released][pr] because it
+requires hard references for different stuff. [Read more &#8594;][upgrading]
 
-I'm sorry for the inconvenience caused to you 🙍 
+> I highly recommend you:
+
+> 1. Install `BOXY` [manually][manual-install] before it will be released
+> 2. Review your [settings][settings]
+> 3. Install or Upgrade via Package Control when 2.0.0 [will be available][pr].
+
+> **I'm sorry for the inconvenience caused to you 🙍**
 
 ***
 
