@@ -417,5 +417,5 @@ If you can't see the bottom panel (find/replace, rename, move, can't see the box
 
 ![Drag the top edge](https://raw.githubusercontent.com/oivva/otto-goodies/master/docs/known-issue.gif)
 
-[pr]: https://github.com/wbond/package_control_channel/pull/
+[pr]: https://github.com/wbond/package_control_channel/pull/5500
 [upgrading]: https://github.com/oivva/boxy/blob/master/messages/1.1.1.txt
