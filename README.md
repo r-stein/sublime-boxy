@@ -9,7 +9,16 @@
 [![Click here to lend your support to: Boxy and make a donation at flattr.com !][img-flattr]][flattr]&nbsp;
 [![Click here to lend your support to: Boxy and make a donation at bitcoin.com !][img-bitcoin]][bitcoin]
 
-> Boxy has been recently re-named from Otto. The website and documentation is still being updated, but if you're new to Boxy, you should install the **`Boxy Theme`** package on [Package Control][downloads]. For those who have troubles after updating read [Troubleshooting][troubleshooting] section.
+> Boxy has been recently re-named from Otto. The website and package is still being updated. If you're new to Boxy, you should install the **`Boxy Theme`** package on [Package Control][downloads] when it [will be available][pr] or install it [manually][manual-install]. 
+
+> **Docs for 1.x.x** can be found [here][docs1xx].
+
+> For those who updating read [Upgrading From 1.x.x][upgrading] section. 
+
+> I recommend you:
+1. [Install `BOXY` manually][manual-install] before it will be released
+2. Review your [settings][settings]
+3. Install via Package Control when BOXY 2.0.0 [will be available][pr].
 
 <a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/logo.gif" alt="BOXY"></a>
 
@@ -30,11 +39,15 @@ You can find [here][website] more examples how to personalize your experience wi
 [patreon]: https://www.patreon.com/oivva "Donate with Patreon"
 [flattr]: https://flattr.com/profile/oivva "Donate with Flattr"
 [bitcoin]: https://www.coinbase.com/oivva "Donate with Bitcoin"
-[troubleshooting]: https://github.com/oivva/boxy/blob/v1.1.1/messages/1.1.1.txt
+[upgrading]: https://github.com/oivva/boxy/wiki/Upgrading
 [issues]: https://github.com/oivva/boxy/issues
 [wiki]: https://github.com/oivva/boxy/wiki
 [website]: http://www.oivva.com/boxy/
 [known-issues]: https://github.com/oivva/boxy/wiki#known-issues
+[pr]: https://github.com/wbond/package_control_channel/pull/
+[docs1xx]: https://github.com/oivva/otto/tree/v1.1.1
+[manual-install]: https://github.com/oivva/boxy/wiki/Get-It#installation
+[settings]: https://github.com/oivva/boxy/wiki/Settings
 
 <!-- Images -->
 
