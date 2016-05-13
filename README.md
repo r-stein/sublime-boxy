@@ -15,10 +15,11 @@
 
 > For those who updating read [Upgrading From 1.x.x][upgrading] section. 
 
-> I recommend you:
-1. [Install `BOXY` manually][manual-install] before it will be released
-2. Review your [settings][settings]
-3. Install via Package Control when BOXY 2.0.0 [will be available][pr].
+> I highly recommend you:
+
+> 1. [Install `BOXY` manually][manual-install] before it will be released
+> 2. Review your [settings][settings]
+> 3. Install via Package Control when BOXY 2.0.0 [will be available][pr].
 
 <a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/logo.gif" alt="BOXY"></a>
 
