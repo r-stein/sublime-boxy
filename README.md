@@ -33,7 +33,7 @@ You can find [here][showcase] more examples how to personalize your experience w
 
 ![Showcase][img-showcase]
 
-<sub>NOTE: SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS<sub>
+<sup>NOTE: SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS<sup>
 
 
 <!-- Links -->
