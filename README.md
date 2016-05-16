@@ -29,7 +29,11 @@ A set of easy customizable interface and syntax themes for **Sublime Text 3 3103
 
 Want to learn more? [**See the wiki &#8594;**][wiki].
 
-You can find [here][website] more examples how to personalize your experience with **Boxy**.
+You can find [here][showcase] more examples how to personalize your experience with **Boxy**.
+
+![Showcase][img-promo]
+
+<small><sub>NOTE: SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS<sub></small>
 
 
 <!-- Links -->
@@ -45,6 +49,7 @@ You can find [here][website] more examples how to personalize your experience wi
 [upgrading]: https://github.com/oivva/boxy/wiki/Upgrading
 [issues]: https://github.com/oivva/boxy/issues
 [wiki]: https://github.com/oivva/boxy/wiki
+[showcase]: https://github.com/oivva/boxy/wiki/Showcase
 [website]: http://www.oivva.com/boxy/
 [known-issues]: https://github.com/oivva/boxy/wiki#known-issues
 [pr]: https://github.com/wbond/package_control_channel/pull/5500
@@ -63,3 +68,4 @@ You can find [here][website] more examples how to personalize your experience wi
 [img-patreon]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon.png
 [img-flattr]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
+[img-promo]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/promo.gif
