@@ -256,13 +256,13 @@ settings:
   scope: markup.quote, punctuation.definition.blockquote.markdown
   settings:
     fontStyle: 'italic'
-    foreground: '<%= scheme.base.blue %>'
+    foreground: '<%= scheme.base.cyan %>'
 
 - name: Markup - Quote
   scope: markup.quote
   settings:
     fontStyle: 'italic'
-    foreground: '<%= scheme.base.blue %>'
+    foreground: '<%= scheme.base.cyan %>'
 
 - name: Markdown - Link
   scope: string.other.link.title.markdown
