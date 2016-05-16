@@ -34,9 +34,9 @@ You can find [here][showcase] more examples how to personalize your experience w
 ![Showcase][img-showcase]
 
 
-<sup><i>&#42;</i>&nbsp;&nbsp;&nbsp;THE FONT USED FOR THE CODE IS "<a href="https://www.google.com/fonts/specimen/Roboto+Mono" target="_blank">ROBOTO MONO</a>"</sup><br>
-<sup><i>&#42;&#42;</i>&nbsp;&nbsp;THE OPERATING SYSTEM IS WINDOWS</sup><br>
-<sup><i>&#42;&#42;&#42;</i>&nbsp;THE SHOWCASE SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS</sup>
+<sup>✳️&nbsp;&nbsp;&nbsp;THE FONT USED FOR THE CODE IS "<a href="https://www.google.com/fonts/specimen/Roboto+Mono" target="_blank">ROBOTO MONO</a>"</sup><br>
+<sup>✳️✳️&nbsp;&nbsp;THE OPERATING SYSTEM IS WINDOWS</sup><br>
+<sup>✳️✳️✳️&nbsp;THE SHOWCASE SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS</sup>
 
 
 <!-- Links -->
