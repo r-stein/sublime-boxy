@@ -31,7 +31,7 @@
 
 {
   "class": "puck_control",
-  "layer0.opacity": 0.25,
+  "layer0.opacity": 0.15,
   "layer0.inner_margin": [0, 10],
   "content_margin": [5, 12],
   "blur": false
