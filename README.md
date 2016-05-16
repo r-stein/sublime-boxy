@@ -34,9 +34,8 @@ You can find [here][showcase] more examples how to personalize your experience w
 ![Showcase][img-showcase]
 
 
-<sup>✳️ THE FONT USED FOR THE CODE IS "<a href="https://www.google.com/fonts/specimen/Roboto+Mono" target="_blank">ROBOTO MONO</a>"</sup><br>
-<sup>✳️✳️ THE OPERATING SYSTEM IS WINDOWS (SO YEAH, OS X FONT RENDERING LOOKS MUCH BETTER)</sup><br>
-<sup>✳️✳️✳️ THE SHOWCASE SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS</sup>
+<sup>&#x2733; THE FONT USED FOR THE CODE IS "<a href="https://www.google.com/fonts/specimen/Roboto+Mono" target="_blank"><b>ROBOTO MONO</b></a>" IN <b>WINDOWS OS</b> (SO YEAH, <b>OS X</b> FONT RENDERING LOOKS MUCH BETTER)</sup><br>
+<sup>&#x2733;&#x2733; THE SHOWCASE SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS</sup>
 
 
 <!-- Links -->
