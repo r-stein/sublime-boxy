@@ -33,7 +33,10 @@ You can find [here][showcase] more examples how to personalize your experience w
 
 ![Showcase][img-showcase]
 
-<sup>NOTE: SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS<sup>
+
+<sup><i>*</i> THE FONT USED FOR THE CODE IS "<a href="https://www.google.com/fonts/specimen/Roboto+Mono" target="_blank">ROBOTO MONO</a>"<sup>
+<sup><i>**</i> OS: WINDOWS<sup>
+<sup><i>***</i> SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS<sup>
 
 
 <!-- Links -->
