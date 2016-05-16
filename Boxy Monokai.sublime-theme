@@ -2166,12 +2166,6 @@
     "blur": false
   },
   
-  // {
-  //   "class": "puck_control",
-  //   "layer0.opacity": 0.25,
-  //   "attributes": ["hover"]
-  // },
-  
   // Scrollbar Horizontal
   // ---------------------------------------------------------------------------
   
@@ -2957,6 +2951,12 @@
   
   {
     "class": "sidebar_container",
+    "layer0.tint": [46, 47, 41]
+  },
+  
+  {
+    "class": "sidebar_container",
+    "settings": ["theme_sidebar_border"],
     "layer0.tint": [54, 55, 49]
   },
   
