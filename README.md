@@ -47,8 +47,8 @@ You can find [here][website] more examples how to personalize your experience wi
 [wiki]: https://github.com/oivva/boxy/wiki
 [website]: http://www.oivva.com/boxy/
 [known-issues]: https://github.com/oivva/boxy/wiki#known-issues
-[pr]: https://github.com/wbond/package_control_channel/pull/
-[docs1xx]: https://github.com/oivva/otto/tree/v1.1.1
+[pr]: https://github.com/wbond/package_control_channel/pull/5500
+[docs1xx]: https://github.com/oivva/boxy/blob/v1.1.1/README.md
 [manual-install]: https://github.com/oivva/boxy/wiki/Get-It#installation
 [settings]: https://github.com/oivva/boxy/wiki/Settings
 
@@ -56,7 +56,7 @@ You can find [here][website] more examples how to personalize your experience wi
 
 [img-name]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.png
 [img-release]: https://img.shields.io/github/release/oivva/boxy.svg?style=flat
-[img-downloads]: https://img.shields.io/packagecontrol/dt/Theme%20-%20Otto.svg?style=flat
+[img-downloads]: https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?style=flat
 [img-build-status]: https://img.shields.io/travis/oivva/boxy.svg?style=flat
 [img-gitter]: https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=flat
 [img-license]: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat
