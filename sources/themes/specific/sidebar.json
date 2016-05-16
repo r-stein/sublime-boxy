@@ -6,6 +6,12 @@
 
 {
   "class": "sidebar_container",
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_sidebar_border"],
   "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },
 
