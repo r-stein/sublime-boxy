@@ -15,7 +15,7 @@
 
 > I highly recommend you:
 
-> 1. Install `BOXY` [manually][manual-install] before it will be released
+> 1. Install **`Boxy`** [manually][manual-install] before it will be released
 > 2. Review your [settings][settings]
 > 3. Install or Upgrade via Package Control when 2.0.0 [will be available][pr].
 
@@ -56,7 +56,7 @@ You can find [here][showcase] more examples how to personalize your experience w
 [known-issues]: https://github.com/oivva/boxy/wiki#known-issues
 [pr]: https://github.com/wbond/package_control_channel/pull/5500
 [docs1xx]: https://github.com/oivva/boxy/blob/v1.1.1/README.md
-[manual-install]: https://github.com/oivva/boxy/wiki/Get-It#installation
+[manual-install]: https://github.com/oivva/boxy/wiki/Get-It#manual
 [settings]: https://github.com/oivva/boxy/wiki/Settings
 
 <!-- Images -->
