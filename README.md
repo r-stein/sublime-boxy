@@ -1,7 +1,7 @@
 # ![Boxy - The Best Sublime Text 3 Theme of 2016][img-name]
 
 [![Release][img-release]][release]
-[![Downloads][img-downloads]][downloads]
+[![Downloads][img-downloads-temp]][downloads]
 [![Build Status][img-build-status]][build-status]
 [![Gitter][img-gitter]][gitter]
 [![License][img-license]][license]&nbsp;
@@ -71,3 +71,6 @@ You can find [here][showcase] more examples how to personalize your experience w
 [img-flattr]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
 [img-showcase]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/showcase.gif
+
+<!-- Temp -->
+[img-downloads-temp]: https://img.shields.io/packagecontrol/dt/Theme%20-%20Otto.svg?style=flat
