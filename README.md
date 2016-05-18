@@ -62,15 +62,16 @@ You can find [here][showcase] more examples how to personalize your experience w
 <!-- Images -->
 
 [img-name]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.png
-[img-release]: https://img.shields.io/github/release/oivva/boxy.svg?style=flat
-[img-downloads]: https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?style=flat
-[img-build-status]: https://img.shields.io/travis/oivva/boxy.svg?style=flat
-[img-gitter]: https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=flat
-[img-license]: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat
+[img-release]: https://img.shields.io/github/release/oivva/boxy.svg?maxAge=2592000
+[img-downloads]: https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?maxAge=2592000
+[img-build-status]: https://img.shields.io/travis/oivva/boxy.svg?maxAge=2592000
+[img-gitter]: https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000
+[img-license]: https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000
 [img-patreon]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon.png
 [img-flattr]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
 [img-showcase]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/showcase.gif
 
 <!-- Temp -->
-[img-downloads-temp]: https://img.shields.io/packagecontrol/dt/Theme%20-%20Otto.svg?style=flat
+
+[img-downloads-temp]: https://img.shields.io/packagecontrol/dt/Theme%20-%20Otto.svg?maxAge=2592000
