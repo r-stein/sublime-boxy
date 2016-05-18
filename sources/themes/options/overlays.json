@@ -106,95 +106,95 @@
 
 {
   "class": "quick_panel",
-  "settings": ["theme_overlay_size_xs"],
+  "settings": ["theme_quick_panel_size_xs"],
   "row_padding": [15, 4]
 },
 
 {
   "class": "quick_panel",
   "parents": [{"class": "overlay_control"}],
-  "settings": ["theme_overlay_size_xs"],
+  "settings": ["theme_quick_panel_size_xs"],
   "row_padding": [15, 4]
 },
 
 {
   "class": "mini_quick_panel",
-  "settings": ["theme_overlay_size_xs"],
+  "settings": ["theme_quick_panel_size_xs"],
   "row_padding": [15, 4]
 },
 
 {
   "class": "quick_panel",
-  "settings": ["theme_overlay_size_sm"],
+  "settings": ["theme_quick_panel_size_sm"],
   "row_padding": [15, 6]
 },
 
 {
   "class": "quick_panel",
   "parents": [{"class": "overlay_control"}],
-  "settings": ["theme_overlay_size_sm"],
+  "settings": ["theme_quick_panel_size_sm"],
   "row_padding": [15, 6]
 },
 
 {
   "class": "mini_quick_panel",
-  "settings": ["theme_overlay_size_sm"],
+  "settings": ["theme_quick_panel_size_sm"],
   "row_padding": [15, 6]
 },
 
 {
   "class": "quick_panel",
-  "settings": ["theme_overlay_size_md"],
+  "settings": ["theme_quick_panel_size_md"],
   "row_padding": [15, 8]
 },
 
 {
   "class": "quick_panel",
   "parents": [{"class": "overlay_control"}],
-  "settings": ["theme_overlay_size_md"],
+  "settings": ["theme_quick_panel_size_md"],
   "row_padding": [15, 8]
 },
 
 {
   "class": "mini_quick_panel",
-  "settings": ["theme_overlay_size_md"],
+  "settings": ["theme_quick_panel_size_md"],
   "row_padding": [15, 8]
 },
 
 {
   "class": "quick_panel",
-  "settings": ["theme_overlay_size_lg"],
+  "settings": ["theme_quick_panel_size_lg"],
   "row_padding": [15, 10]
 },
 
 {
   "class": "quick_panel",
   "parents": [{"class": "overlay_control"}],
-  "settings": ["theme_overlay_size_lg"],
+  "settings": ["theme_quick_panel_size_lg"],
   "row_padding": [15, 10]
 },
 
 {
   "class": "mini_quick_panel",
-  "settings": ["theme_overlay_size_lg"],
+  "settings": ["theme_quick_panel_size_lg"],
   "row_padding": [15, 10]
 },
 
 {
   "class": "quick_panel",
-  "settings": ["theme_overlay_size_xl"],
+  "settings": ["theme_quick_panel_size_xl"],
   "row_padding": [15, 12]
 },
 
 {
   "class": "quick_panel",
   "parents": [{"class": "overlay_control"}],
-  "settings": ["theme_overlay_size_xl"],
+  "settings": ["theme_quick_panel_size_xl"],
   "row_padding": [15, 12]
 },
 
 {
   "class": "mini_quick_panel",
-  "settings": ["theme_overlay_size_xl"],
+  "settings": ["theme_quick_panel_size_xl"],
   "row_padding": [15, 12]
 },
