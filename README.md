@@ -16,7 +16,7 @@
 > I highly recommend you:
 
 > 1. Install **`Boxy`** [manually][manual-install] before it will be released
-> 2. Review your [Settings][settings] or see the [Quick Start][showcase]
+> 2. Review your [Settings][settings] or see the [Quick Start Gallery][gallery]
 > 3. Install or Upgrade via Package Control when 2.0.0 [will be available][pr].
 
 > Docs for 1.x.x can be found [here][docs1xx].
@@ -29,13 +29,12 @@ A set of easy customizable interface and syntax themes for **Sublime Text 3 3103
 
 Want to learn more? [**See the wiki &#8594;**][wiki].
 
-You can find [here][showcase] more examples how to personalize your experience with **Boxy**.
+You can find [here][gallery] more examples how to personalize your experience with **Boxy**.
 
-![Showcase][img-showcase]
-
+![Gallery][img-gallery]
 
 <sup>&#x2733; THE FONT USED FOR THE CODE IS <a href="https://www.google.com/fonts/specimen/Roboto+Mono" target="_blank"><b>"ROBOTO MONO"</b></a> ON <b>WINDOWS</b> (SO YEAH, <b>OS X</b> FONT RENDERING LOOKS MUCH BETTER)</sup><br>
-<sup>&#x2733;&#x2733; THE SHOWCASE SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS</sup>
+<sup>&#x2733;&#x2733; THE SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS</sup>
 
 
 <!-- Links -->
@@ -51,7 +50,7 @@ You can find [here][showcase] more examples how to personalize your experience w
 [upgrading]: https://github.com/oivva/boxy/wiki/Upgrading
 [issues]: https://github.com/oivva/boxy/issues
 [wiki]: https://github.com/oivva/boxy/wiki
-[showcase]: https://github.com/oivva/boxy/wiki/Showcase
+[gallery]: https://github.com/oivva/boxy/wiki/Gallery
 [website]: http://www.oivva.com/boxy/
 [known-issues]: https://github.com/oivva/boxy/wiki#known-issues
 [pr]: https://github.com/wbond/package_control_channel/pull/5500
@@ -70,7 +69,7 @@ You can find [here][showcase] more examples how to personalize your experience w
 [img-patreon]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon.png
 [img-flattr]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
-[img-showcase]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/showcase.gif
+[img-gallery]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/showcase.gif
 
 <!-- Temp -->
 
