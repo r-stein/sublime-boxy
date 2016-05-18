@@ -16,7 +16,7 @@
 > I highly recommend you:
 
 > 1. Install **`Boxy`** [manually][manual-install] before it will be released
-> 2. Review your [settings][settings]
+> 2. Review your [Settings][settings] or see the [Quick Start][showcase]
 > 3. Install or Upgrade via Package Control when 2.0.0 [will be available][pr].
 
 > Docs for 1.x.x can be found [here][docs1xx].
