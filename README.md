@@ -9,12 +9,12 @@
 > **I'm sorry for the inconvenience caused to you 🙍**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/oivva/otto-goodies/master/media/logo.png" alt="Otto, your next interface theme for Sublime Text 3">
+  <img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/old/media/logo.png" alt="Otto, your next interface theme for Sublime Text 3">
 </p>
 
 <p align="center">
     <a href="https://www.patreon.com/oivva" target="_blank">
-       <img src="https://raw.githubusercontent.com/oivva/otto-goodies/master/media/donate.png" alt="Click here to lend your support to: Otto and make a donation at patreon.com !"> 
+       <img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/old/media/donate.png" alt="Click here to lend your support to: Otto and make a donation at patreon.com !"> 
     </a>
 </p>
 
@@ -59,25 +59,25 @@ Please read the [Known Issues](#known-issues) section before reporting a new one
 
 Best for light color schemes, especially good with **Otto Yesterday** & [**Base16 Tomorrow Light**](http://chriskempson.github.io/base16/#tomorrow).
 
-![Otto Yesterday](https://raw.githubusercontent.com/oivva/otto-goodies/master/media/yesterday.gif)
+![Otto Yesterday](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/old/media/yesterday.gif)
 
 ### Otto Tomorrow
 
 Best for dark color schemes, especially good with **Otto Tomorrow** & [**Zenburn**](https://github.com/colinta/zenburn).
 
-![Otto Tomorrow](https://raw.githubusercontent.com/oivva/otto-goodies/master/media/tomorrow.gif)
+![Otto Tomorrow](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/old/media/tomorrow.gif)
 
 ### Otto Oceanic
 
 Best for dark color schemes, especially good with **Otto Oceanic**, [**Solarized Dark**](https://github.com/braver/Solarized) & [**Cobalt2**](https://github.com/wesbos/cobalt2).
 
-![Otto Oceanic](https://raw.githubusercontent.com/oivva/otto-goodies/master/media/oceanic.gif)
+![Otto Oceanic](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/old/media/oceanic.gif)
 
 ### Otto Monokai
 
 Best for dark color schemes, especially good with [**Monokai Extended**](https://github.com/jonschlinkert/sublime-monokai-extended) & [**Monokai Neue**](https://github.com/josh-kaplan/sublime-monokai-neue).
 
-![Otto Monokai](https://raw.githubusercontent.com/oivva/otto-goodies/master/media/monokai.gif)
+![Otto Monokai](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/old/media/monokai.gif)
 
 ***
 
@@ -104,7 +104,7 @@ You can also install the theme manually:
 
 ## Activation
 
-![Activation](https://raw.githubusercontent.com/oivva/otto-goodies/master/docs/activation.gif)
+![Activation](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/old/docs/activation.gif)
 
 Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User`.
 
@@ -185,7 +185,7 @@ _You can vote for these issues._
 
 #### Accent Colors
 
-![Accents](https://raw.githubusercontent.com/oivva/otto-goodies/master/docs/accents.gif)
+![Accents](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/old/docs/accents.gif)
 
 ```js
 // By Default
@@ -203,7 +203,7 @@ _You can vote for these issues._
 
 ### Tabs
 
-![Tabs](https://raw.githubusercontent.com/oivva/otto-goodies/master/docs/tabs.gif)
+![Tabs](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/old/docs/tabs.gif)
 
 ```js
 // By Default
@@ -328,7 +328,7 @@ _You can vote for these issues._
 
 You can customize themes via [PackageResourceViewer](https://github.com/skuroda/PackageResourceViewer). E.g. Due to Sublime Text 3 limitations related to the widget styling, you can find that colors of the cursor in the editor and find panel are different. That's why I always add similar changes to the theme manually. Let's say I want to change colors of the caret and selection:
 
-![Additional Customizations](https://raw.githubusercontent.com/oivva/otto-goodies/master/docs/additional-customizations.gif)
+![Additional Customizations](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/old/docs/additional-customizations.gif)
 
 ***
 
@@ -415,7 +415,7 @@ Also, you can download all assets in psd format and some extras: [Otto Goodies](
 
 If you can't see the bottom panel (find/replace, rename, move, can't see the box inputs in SidebarEnhancement, etc..). Here the quick fix:
 
-![Drag the top edge](https://raw.githubusercontent.com/oivva/otto-goodies/master/docs/known-issue.gif)
+![Drag the top edge](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/old/docs/known-issue.gif)
 
 [pr]: https://github.com/wbond/package_control_channel/pull/5500
 [upgrading]: https://github.com/oivva/boxy/blob/master/messages/1.1.1.txt
