@@ -61,9 +61,9 @@ You can find [here][gallery] more examples how to personalize your experience wi
 <!-- Images -->
 
 [img-name]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.png
-[img-release]: https://img.shields.io/github/release/oivva/boxy.svg?maxAge=2592000
-[img-downloads]: https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?maxAge=2592000
-[img-build-status]: https://img.shields.io/travis/oivva/boxy.svg?maxAge=2592000
+[img-release]: https://img.shields.io/github/release/oivva/boxy.svg
+[img-downloads]: https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg
+[img-build-status]: https://img.shields.io/travis/oivva/boxy.svg
 [img-gitter]: https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000
 [img-license]: https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000
 [img-patreon]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon.png
@@ -73,4 +73,6 @@ You can find [here][gallery] more examples how to personalize your experience wi
 
 <!-- Temp -->
 
-[img-downloads-temp]: https://img.shields.io/packagecontrol/dt/Theme%20-%20Otto.svg?maxAge=2592000
+[img-downloads-temp]: https://img.shields.io/packagecontrol/dt/Theme%20-%20Otto.svg
+<!-- ?maxAge=2592000 -->
+<!-- ?maxAge=86400 -->
