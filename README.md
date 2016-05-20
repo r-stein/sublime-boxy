@@ -1,7 +1,7 @@
 # ![Boxy - The Best Sublime Text 3 Theme of 2016][img-name]
 
 [![Release][img-release]][release]
-[![Downloads][img-downloads-temp]][downloads]
+[![Downloads][img-downloads-temp]][downloads-temp]
 [![Build Status][img-build-status]][build-status]
 [![Gitter][img-gitter]][gitter]
 [![License][img-license]][license]&nbsp;
@@ -72,5 +72,5 @@ You can find [here][gallery] more examples how to personalize your experience wi
 [img-gallery]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/showcase.gif
 
 <!-- Temp -->
-
+[downloads-temp]: https://packagecontrol.io/packages/Theme%20-%20Otto
 [img-downloads-temp]: https://img.shields.io/packagecontrol/dt/Theme%20-%20Otto.svg?maxAge=3600
