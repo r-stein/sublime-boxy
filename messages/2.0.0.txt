@@ -4,10 +4,24 @@
 💅 Themes
 -------------------
 
-↪ Review sizes
+↪ Review sizes of all UI controls
 ↪ Simplify all options
+↪ Introduce colored bar
+↪ Introduce new appearance of the scroolbars
+↪ Introduce rounded tabs and buttons
+↪ Review purple accent
+↪ Add pug js icon
 
 
 💅 Color Schemes
 -------------------
 
+↪ Enhance color highlighting of JSON files
+↪ Add support of Git Gutter
+↪ Add support of Sublime Linter
+↪ Add support of Markdown Extended
+↪ Fix RegExp highlighting in find panel
+
+
+And many more exciting improvements and enhancements!
+See our wiki: https://github.com/oivva/boxy/wiki
