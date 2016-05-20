@@ -53,8 +53,7 @@ gulp.task('clean:widgets', function() {
 
 gulp.task('changelog', function() {
   return conventionalChangelog({
-    preset: 'angular',
-    releaseCount: 0
+    preset: 'angular'
   })
   .pipe(fs.createWriteStream('CHANGELOG.md'));
 });
