@@ -1,0 +1,63 @@
+{
+  "name": "Boxy Ocean",
+  "semanticClass": "boxy.ocean.dark",
+  "uuid": "0e709986-46a0-40a0-b3bf-c8dfe525c455",
+  "ui": {
+    "id": "ocean",
+    "variant": {
+      "id": "dark",
+      "name": "Dark"
+    },
+    "background": {
+      "primary": {
+        "hex": "#22323a",
+        "rgb": "34, 50, 58"
+      },
+      "secondary": {
+        "hex": "#2d3c44",
+        "rgb": "45, 60, 68"
+      },
+      "scrollbar": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "foreground": {
+      "primary": {
+        "hex": "#a7adb0",
+        "rgb": "167, 173, 176"
+      },
+      "secondary": {
+        "hex": "#6f7a7f",
+        "rgb": "111, 122, 127"
+      },
+      "selected": {
+        "hex": "#dddfe1",
+        "rgb": "221, 223, 225"
+      }
+    }
+  },
+  "scheme": {
+    "background": "#1b2b34",
+    "caret": "#c0c5ce",
+    "foreground": "#cdd3de",
+    "gutter": "#1b2b34",
+    "highlight": "#ffffff10",
+    "selection": "#ffffff15",
+    "invisibles": "#65737e",
+    "base": {
+      "white": "#ffffff",
+      "black": "#000000",
+      "red": "#ec5f67",
+      "orange": "#f99157",
+      "yellow": "#fac863",
+      "green": "#99c794",
+      "cyan": "#5fb3b3",
+      "blue": "#6699cc",
+      "purple": "#c594c5",
+      "brown": "#ab7967",
+      "pink": "#f07178",
+      "violet": "#bb80b3"
+    }
+  }
+}

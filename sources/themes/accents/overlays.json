@@ -1,0 +1,50 @@
+<% for (var i = 0; i < ui.accents.length; i++) { %>
+// Overlays <%= ui.accents[i].name %> Accent
+// ===========================================================================
+
+// Quick Panel Rows
+// ---------------------------------------------------------------------------
+
+{
+  "class": "quick_panel_row",
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
+  "attributes": ["selected"],
+  "layer0.tint": [<%= ui.accents[i].rgb %>],
+  "layer1.opacity": 0.0
+},
+
+{
+  "class": "mini_quick_panel_row",
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
+  "attributes": ["selected"],
+  "layer0.tint": [<%= ui.accents[i].rgb %>]
+},
+
+// Quick Panel Labels
+// ---------------------------------------------------------------------------
+
+{
+  "class": "quick_panel_label",
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
+  "match_fg": [<%= ui.accents[i].rgb %>, 255]
+},
+
+{
+  "class": "quick_panel_label",
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
+  "parents": [{"class": "overlay_control"}],
+  "match_fg": [<%= ui.accents[i].rgb %>, 255]
+},
+
+{
+  "class": "quick_panel_path_label",
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
+  "match_fg": [<%= ui.accents[i].rgb %>, 255]
+},
+
+{
+  "class": "quick_panel_score_label",
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
+  "fg": [<%= ui.accents[i].rgb %>, 255]
+},
+<% } %>

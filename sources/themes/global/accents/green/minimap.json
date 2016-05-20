@@ -1,8 +1,0 @@
-// Minimap Green Accent
-// ===========================================================================
-
-{
-  "class": "minimap_control",
-  "settings": ["theme_otto_accent_green"],
-  "viewport_color": [46, 188, 103, 75]
-},

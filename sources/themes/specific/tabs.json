@@ -1,0 +1,115 @@
+// Tabs Theme Specific Styles
+// ===========================================================================
+
+// Tabset
+// ---------------------------------------------------------------------------
+
+//
+// Tabset Defaults
+//
+
+{
+  "class": "tabset_control",
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+// Tab
+// ---------------------------------------------------------------------------
+
+//
+// Tab Defaults
+//
+
+{
+  "class": "tab_control",
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab.png",
+  "layer1.tint": [<%= ui.background.secondary.rgb %>]
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_rounded"],
+  "layer1.opacity": 0
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_rounded"],
+  "attributes": ["hover"],
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab_hovered_rounded.png",
+  "layer0.opacity": 1.0
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_rounded"],
+  "attributes": ["selected"],
+  "layer0.opacity": 0
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_selected_transparent"],
+  "attributes": ["selected"],
+  "layer0.opacity": 1.0,
+  "layer1.opacity": 0,
+  "layer2.opacity": 0
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_rounded", "theme_tab_selected_transparent"],
+  "attributes": ["selected", "hover"],
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab.png"
+},
+
+//
+// Tab Labels
+//
+
+{
+  "class": "tab_label",
+  "fg": [<%= ui.foreground.primary.rgb %>, 255]
+},
+
+// Light Color Scheme
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+  "fg": [<%= ui.base.black.rgb %>, 218]
+},
+
+// Medium Color Scheme
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium"]}],
+  "fg": [<%= ui.base.white.rgb %>, 218]
+},
+
+// Medium Dark Color Scheme
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium_dark"]}],
+  "fg": [<%= ui.base.white.rgb %>, 218]
+},
+
+// Dark Color Scheme
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["selected", "file_dark"]}],
+  "fg": [<%= ui.base.white.rgb %>, 218]
+},
+
+// Tab Transparet Selected
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+  "settings": ["theme_tab_selected_transparent"],
+  "fg": [<%= ui.foreground.selected.rgb %>, 255]
+},
+

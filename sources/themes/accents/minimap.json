@@ -1,0 +1,10 @@
+<% for (var i = 0; i < ui.accents.length; i++) { %>
+// Minimap <%= ui.accents[i].name %> Accent
+// ===========================================================================
+
+{
+  "class": "minimap_control",
+  <% if (ui.accents[i].id != "blue") { %>"settings": ["theme_accent_<%= ui.accents[i].id %>"],<% } %>
+  "viewport_color": [<%= ui.accents[i].rgb %>, 75]
+},
+<% } %>

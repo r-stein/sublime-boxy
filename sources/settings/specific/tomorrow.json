@@ -1,0 +1,63 @@
+{
+  "name": "Boxy Tomorrow",
+  "semanticClass": "boxy.tomorrow.dark",
+  "uuid": "21bb5fd7-098f-4cdd-86d7-f0b1a4a508ff",
+  "ui": {
+    "id": "tomorrow",
+    "variant": {
+      "id": "dark",
+      "name": "Dark"
+    },
+    "background": {
+      "primary": {
+        "hex": "#232426",
+        "rgb": "35, 36, 38"
+      },
+      "secondary": {
+        "hex": "#2a2b2d",
+        "rgb": "42, 43, 45"
+      },
+      "scrollbar": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "foreground": {
+      "primary": {
+        "hex": "#a7a7a8",
+        "rgb": "167, 167, 168"
+      },
+      "secondary": {
+        "hex": "#707072",
+        "rgb": "112, 112, 114"
+      },
+      "selected": {
+        "hex": "#dddede",
+        "rgb": "221, 222, 222"
+      }
+    }
+  },
+  "scheme": {
+    "background": "#1d1f21",
+    "caret": "#7b7c7d",
+    "foreground": "#c5c8c6",
+    "gutter": "#1d1f21",
+    "highlight": "#ffffff10",
+    "selection": "#ffffff15",
+    "invisibles": "#969896",
+    "base": {
+      "white": "#ffffff",
+      "black": "#000000",
+      "red": "#cc6666",
+      "orange": "#de935f",
+      "yellow": "#f0c674",
+      "green": "#b5bd68",
+      "cyan": "#8abeb7",
+      "blue": "#81a2be",
+      "purple": "#b294bb",
+      "brown": "#a3685a",
+      "pink": "#d75a64",
+      "violet": "#9f74ab"
+    }
+  }
+}

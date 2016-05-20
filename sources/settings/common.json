@@ -1,0 +1,74 @@
+{
+  "author": "Ihor Oleksandrov",
+  "comment": "Definitely, your next theme for Sublime Text 3",
+  "ui": {
+    "base": {
+      "black": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      },
+      "white": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "accents": [
+      {
+        "id": "blue",
+        "name": "Blue",
+        "hex": "#2497e3",
+        "rgb": "36, 151, 227",
+        "highlight": {
+          "hex": "#3aa2e6",
+          "rgb": "58, 162, 230"
+        },
+        "foreground": {
+          "hex": "#a7d5f4",
+          "rgb": "167, 213, 244"
+        }
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "hex": "#2ebc67",
+        "rgb": "46, 188, 103",
+        "highlight": {
+          "hex": "#43c376",
+          "rgb": "67, 195, 118"
+        },
+        "foreground": {
+          "hex": "#abe4c2",
+          "rgb": "171, 228, 194"
+        }
+      },
+      {
+        "id": "orange",
+        "name": "Orange",
+        "hex": "#f2683e",
+        "rgb": "242, 104, 62",
+        "highlight": {
+          "hex": "#f37752",
+          "rgb": "243, 119, 82"
+        },
+        "foreground": {
+          "hex": "#fac3b2",
+          "rgb": "250, 195, 178"
+        }
+      },
+      {
+        "id": "purple",
+        "name": "Purple",
+        "hex": "#8955a2",
+        "rgb": "137, 85, 162",
+        "highlight": {
+          "hex": "#9566ab",
+          "rgb": "149, 102, 171"
+        },
+        "foreground": {
+          "hex": "#d0bbda",
+          "rgb": "208, 187, 218"
+        }
+      }
+    ]
+  }
+}
