@@ -69,7 +69,7 @@ You can find [here][gallery] more examples how to personalize your experience wi
 [img-patreon]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon.png
 [img-flattr]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
-[img-gallery]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/showcase.gif
+[img-gallery]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/gallery.gif
 
 <!-- Temp -->
 [downloads-temp]: https://packagecontrol.io/packages/Theme%20-%20Otto
