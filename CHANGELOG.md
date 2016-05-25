@@ -22,6 +22,7 @@
 
 * add ace jump accent scopes ([4f0a6f7](https://github.com/oivva/boxy/commit/4f0a6f7))
 * add colored bar ([0d355d7](https://github.com/oivva/boxy/commit/0d355d7)), closes [#26](https://github.com/oivva/boxy/issues/26)
+* add grid border size options ([23553b0](https://github.com/oivva/boxy/commit/23553b0))
 * add json levels ([af78fa6](https://github.com/oivva/boxy/commit/af78fa6)), closes [#32](https://github.com/oivva/boxy/issues/32)
 * add new scrollbars by default ([fd8e678](https://github.com/oivva/boxy/commit/fd8e678))
 * add pug icon ([2a6825a](https://github.com/oivva/boxy/commit/2a6825a))
