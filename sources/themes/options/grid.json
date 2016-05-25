@@ -1,0 +1,29 @@
+// Grid Options
+// ===========================================================================
+
+// Grid Border Size
+// ---------------------------------------------------------------------------
+
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_grid_border_size_xs"],
+  "border_size": 1
+},
+
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_grid_border_size_sm"],
+  "border_size": 2
+},
+
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_grid_border_size_md"],
+  "border_size": 3
+},
+
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_grid_border_size_lg"],
+  "border_size": 4
+},

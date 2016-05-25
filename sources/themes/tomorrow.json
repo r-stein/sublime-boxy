@@ -39,6 +39,7 @@
   //
   //=include "common/grid.json"
   //=include "specific/grid.json"
+  //=include "options/grid.json"
   //
   // >> Minimap
   // ===========================================================================
