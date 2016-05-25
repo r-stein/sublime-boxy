@@ -1557,6 +1557,30 @@
     "border_color": [54, 55, 49]
   },
   
+  {
+    "class": "grid_layout_control",
+    "settings": ["theme_bar_margin_top_sm"],
+    "border_color": [46, 47, 41]
+  },
+  
+  {
+    "class": "grid_layout_control",
+    "settings": ["theme_bar_margin_top_md"],
+    "border_color": [46, 47, 41]
+  },
+  
+  {
+    "class": "grid_layout_control",
+    "settings": ["theme_bar_margin_top_lg"],
+    "border_color": [46, 47, 41]
+  },
+  
+  {
+    "class": "grid_layout_control",
+    "settings": ["!enable_tab_scrolling"],
+    "border_color": [46, 47, 41]
+  },
+  
   //
   // >> Minimap
   // ===========================================================================
