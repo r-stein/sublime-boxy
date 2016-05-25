@@ -1,9 +1,10 @@
 <a name="2.0.0"></a>
-# [2.0.0](https://github.com/oivva/boxy/compare/v1.1.1...v2.0.0) (2016-05-20)
+# [2.0.0](https://github.com/oivva/boxy/compare/v1.1.1...v2.0.0) (2016-05-25)
 
 
 ### Bug Fixes
 
+* change grid border color ([5179700](https://github.com/oivva/boxy/commit/5179700))
 * change scrollbar puck opacity ([feeb733](https://github.com/oivva/boxy/commit/feeb733))
 * display comment in italic by default ([0ae2e84](https://github.com/oivva/boxy/commit/0ae2e84)), closes [#36](https://github.com/oivva/boxy/issues/36)
 * global option overriding ([5313b31](https://github.com/oivva/boxy/commit/5313b31))
