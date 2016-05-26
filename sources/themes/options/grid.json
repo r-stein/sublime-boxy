@@ -27,3 +27,9 @@
   "settings": ["theme_grid_border_size_lg"],
   "border_size": 8
 },
+
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_grid_border_size_xl"],
+  "border_size": 10
+},

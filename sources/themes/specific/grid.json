@@ -47,6 +47,12 @@
 
 {
   "class": "grid_layout_control",
+  "settings": ["theme_grid_border_size_xl"],
+  "border_color": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "grid_layout_control",
   "settings": ["!enable_tab_scrolling"],
   "border_color": [<%= ui.background.primary.rgb %>]
 },
