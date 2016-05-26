@@ -1595,6 +1595,12 @@
   
   {
     "class": "grid_layout_control",
+    "settings": ["theme_grid_border_size_xl"],
+    "border_color": [34, 50, 58]
+  },
+  
+  {
+    "class": "grid_layout_control",
     "settings": ["!enable_tab_scrolling"],
     "border_color": [34, 50, 58]
   },
@@ -1627,6 +1633,12 @@
     "class": "grid_layout_control",
     "settings": ["theme_grid_border_size_lg"],
     "border_size": 8
+  },
+  
+  {
+    "class": "grid_layout_control",
+    "settings": ["theme_grid_border_size_xl"],
+    "border_size": 10
   },
   
   //
