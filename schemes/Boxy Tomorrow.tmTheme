@@ -737,6 +737,17 @@
 				<string>#969896</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>GutterColor</string>
+			<key>scope</key>
+			<string>gutter_color</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>21bb5fd7-098f-4cdd-86d7-f0b1a4a508ff</string>

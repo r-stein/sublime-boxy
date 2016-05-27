@@ -360,3 +360,10 @@ settings:
   scope: markup.untracked.git_gutter
   settings:
     foreground: '#969896'
+
+# >> Gutter Color
+
+- name: GutterColor
+  scope: gutter_color
+  settings:
+    foreground: '#ffffff'
