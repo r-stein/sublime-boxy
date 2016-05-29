@@ -32,6 +32,18 @@ settings:
   settings:
     foreground: '#cdd3de'
 
+- name: Invalid
+  scope: invalid
+  settings:
+    foreground: '#ffffff'
+    background: '#ec5f67'
+
+- name: Invalid
+  scope: invalid.deprecated
+  settings:
+    foreground: '#ffffff'
+    background: '#c594c5'
+
 - name: Keyword, Storage
   scope: keyword, storage.type, storage.modifier
   settings:
