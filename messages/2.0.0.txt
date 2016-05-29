@@ -25,3 +25,4 @@
 
 And many more exciting improvements and enhancements!
 See our wiki: https://github.com/oivva/boxy/wiki
+See change log: https://github.com/oivva/boxy/blob/master/CHANGELOG.md
