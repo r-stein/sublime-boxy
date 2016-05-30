@@ -32,6 +32,18 @@ settings:
   settings:
     foreground: '<%= scheme.foreground %>'
 
+- name: Invalid
+  scope: invalid
+  settings:
+    foreground: '<%= scheme.base.white %>'
+    background: '<%= scheme.base.red %>'
+
+- name: Invalid
+  scope: invalid.deprecated
+  settings:
+    foreground: '<%= scheme.base.white %>'
+    background: '<%= scheme.base.purple %>'
+
 - name: Keyword, Storage
   scope: keyword, storage.type, storage.modifier
   settings:
@@ -360,3 +372,10 @@ settings:
   scope: markup.untracked.git_gutter
   settings:
     foreground: '<%= scheme.invisibles %>'
+
+# >> Gutter Color
+
+- name: GutterColor
+  scope: gutter_color
+  settings:
+    foreground: '<%= scheme.base.white %>'

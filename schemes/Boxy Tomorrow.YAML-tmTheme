@@ -32,6 +32,18 @@ settings:
   settings:
     foreground: '#c5c8c6'
 
+- name: Invalid
+  scope: invalid
+  settings:
+    foreground: '#ffffff'
+    background: '#cc6666'
+
+- name: Invalid
+  scope: invalid.deprecated
+  settings:
+    foreground: '#ffffff'
+    background: '#b294bb'
+
 - name: Keyword, Storage
   scope: keyword, storage.type, storage.modifier
   settings:
@@ -360,3 +372,10 @@ settings:
   scope: markup.untracked.git_gutter
   settings:
     foreground: '#969896'
+
+# >> Gutter Color
+
+- name: GutterColor
+  scope: gutter_color
+  settings:
+    foreground: '#ffffff'

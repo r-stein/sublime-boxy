@@ -1,9 +1,11 @@
 <a name="2.0.0"></a>
-# [2.0.0](https://github.com/oivva/boxy/compare/v1.1.1...v2.0.0) (2016-05-20)
+# [2.0.0](https://github.com/oivva/boxy/compare/v1.1.1...v2.0.0) (2016-05-29)
 
 
 ### Bug Fixes
 
+* add highlighting of the invalid scope ([bd37f69](https://github.com/oivva/boxy/commit/bd37f69)), closes [#46](https://github.com/oivva/boxy/issues/46)
+* change grid border color ([5179700](https://github.com/oivva/boxy/commit/5179700))
 * change scrollbar puck opacity ([feeb733](https://github.com/oivva/boxy/commit/feeb733))
 * display comment in italic by default ([0ae2e84](https://github.com/oivva/boxy/commit/0ae2e84)), closes [#36](https://github.com/oivva/boxy/issues/36)
 * global option overriding ([5313b31](https://github.com/oivva/boxy/commit/5313b31))
@@ -21,6 +23,8 @@
 
 * add ace jump accent scopes ([4f0a6f7](https://github.com/oivva/boxy/commit/4f0a6f7))
 * add colored bar ([0d355d7](https://github.com/oivva/boxy/commit/0d355d7)), closes [#26](https://github.com/oivva/boxy/issues/26)
+* add grid border size options ([23553b0](https://github.com/oivva/boxy/commit/23553b0))
+* add Gutter Color support ([a1d69cc](https://github.com/oivva/boxy/commit/a1d69cc))
 * add json levels ([af78fa6](https://github.com/oivva/boxy/commit/af78fa6)), closes [#32](https://github.com/oivva/boxy/issues/32)
 * add new scrollbars by default ([fd8e678](https://github.com/oivva/boxy/commit/fd8e678))
 * add pug icon ([2a6825a](https://github.com/oivva/boxy/commit/2a6825a))

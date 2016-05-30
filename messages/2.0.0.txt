@@ -1,5 +1,25 @@
-👓 Version 2.0.0
+👓 Version 2.0.0 - Meet Boxy
 ===========================================================================
+
+Boxy has been recently re-named from Otto.
+Read more: https://github.com/oivva/boxy/wiki/Upgrading
+
+
+💻 Quick Activation
+-------------------
+
+"theme": "Boxy Yesterday.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+
+"theme": "Boxy Tomorrow.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
+
+"theme": "Boxy Ocean.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+
+"theme": "Boxy Monokai.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+
 
 💅 Themes
 -------------------
@@ -24,4 +44,5 @@
 
 
 And many more exciting improvements and enhancements!
+See change log: https://github.com/oivva/boxy/blob/master/CHANGELOG.md
 See our wiki: https://github.com/oivva/boxy/wiki

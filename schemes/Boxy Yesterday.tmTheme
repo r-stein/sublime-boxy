@@ -59,6 +59,32 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#c82829</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#8959a8</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Keyword, Storage</string>
 			<key>scope</key>
 			<string>keyword, storage.type, storage.modifier</string>
@@ -735,6 +761,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#8e908c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GutterColor</string>
+			<key>scope</key>
+			<string>gutter_color</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 	</array>
