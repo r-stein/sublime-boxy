@@ -17,11 +17,13 @@
 
 <a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/logo.gif" alt="BOXY"></a>
 
-A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Come in, both, light and dark variations. If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [Known Issues][known-issues] section before reporting a new one.
+A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Come in, both, light and dark variations. There are dozens of options that enable you to personalize your experience with **`Boxy`**. 
 
 Want to learn more? [**See the wiki &#8594;**][wiki].
 
-You can find [here][gallery] more examples how to personalize your experience with **Boxy**.
+If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [Known Issues][known-issues] section before reporting a new one.
+
+Also, check out our [Gallery][gallery] for more quick start examples.
 
 ![Gallery][img-gallery]
 
