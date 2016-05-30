@@ -1,7 +1,7 @@
 # ![Boxy - The Best Sublime Text 3 Theme of 2016][img-name]
 
 [![Release][img-release]][release]
-[![Downloads][img-downloads-temp]][downloads-temp]
+[![Downloads][img-downloads]][downloads]
 [![Build Status][img-build-status]][build-status]
 [![Gitter][img-gitter]][gitter]
 [![License][img-license]][license]&nbsp;
@@ -9,17 +9,9 @@
 [![Click here to lend your support to: Boxy and make a donation at flattr.com !][img-flattr]][flattr]&nbsp;
 [![Click here to lend your support to: Boxy and make a donation at bitcoin.com !][img-bitcoin]][bitcoin]
 
-> Boxy has been recently re-named from Otto. The website and package is still being updated. If you're new to Boxy, you should install the **`Boxy Theme`** package on [Package Control][downloads] when it [will be available][pr] or install it [manually][manual-install]. 
+> Boxy has been recently re-named from Otto. The website is still being updated. If you're new to Boxy, you should install the **`Boxy Theme`** package on [Package Control][downloads] or install it [manually][manual-install]. 
 
 > For those who updating read [Upgrading From 1.x.x][upgrading]. 
-
-> I highly recommend you:
-
-> 1. Install **`Boxy`** [manually][manual-install] before it will be released
-> 2. Review your [Settings][settings] or see the [Quick Start Gallery][gallery]
-> 3. Install or Upgrade via Package Control when 2.0.0 [will be available][pr].
-
-> Docs for 1.x.x can be found [here][docs1xx].
 
 > **I'm sorry for the inconvenience caused to you 🙍**
 
@@ -54,7 +46,6 @@ You can find [here][gallery] more examples how to personalize your experience wi
 [website]: http://www.oivva.com/boxy/
 [known-issues]: https://github.com/oivva/boxy/wiki#known-issues
 [pr]: https://github.com/wbond/package_control_channel/pull/5500
-[docs1xx]: https://github.com/oivva/boxy/blob/v1.1.1/README.md
 [manual-install]: https://github.com/oivva/boxy/wiki/Get-It#manual
 [settings]: https://github.com/oivva/boxy/wiki/Settings
 
@@ -70,7 +61,3 @@ You can find [here][gallery] more examples how to personalize your experience wi
 [img-flattr]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
 [img-gallery]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/gallery.gif
-
-<!-- Temp -->
-[downloads-temp]: https://packagecontrol.io/packages/Theme%20-%20Otto
-[img-downloads-temp]: https://img.shields.io/packagecontrol/dt/Theme%20-%20Otto.svg?maxAge=3600
