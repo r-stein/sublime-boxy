@@ -23,7 +23,7 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 
 If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [Known Issues][known-issues] section before reporting a new one.
 
-Check out our [Gallery][gallery] for more examples.
+Also, check out our [Gallery][gallery] for more quick start examples.
 
 ![Gallery][img-gallery]
 
