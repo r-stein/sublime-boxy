@@ -466,7 +466,7 @@
   "class": "tab_control",
   "settings": ["theme_tab_selected_underlined", "theme_bar", "theme_tab_selected_transparent"],
   "attributes": ["selected"],
-  "layer3.opacity": 1.0,
+  "layer3.opacity": <% if (ui.variant.id == "dark") { %>1.0<% } else { %>0.5<% } %>,
   "layer3.texture": "Boxy Theme/assets/common/bar/tab_selected_underlined_white.png"
 },
 
@@ -474,7 +474,7 @@
   "class": "tab_control",
   "settings": ["theme_tab_selected_underlined", "theme_bar", "theme_tab_selected_transparent", "theme_tab_line_size_sm"],
   "attributes": ["selected"],
-  "layer3.opacity": 1.0,
+  "layer3.opacity": <% if (ui.variant.id == "dark") { %>1.0<% } else { %>0.5<% } %>,
   "layer3.texture": "Boxy Theme/assets/common/bar/tab_selected_underlined_white_sm.png"
 },
 
@@ -482,7 +482,7 @@
   "class": "tab_control",
   "settings": ["theme_tab_selected_underlined", "theme_bar", "theme_tab_selected_transparent", "theme_tab_line_size_lg"],
   "attributes": ["selected"],
-  "layer3.opacity": 1.0,
+  "layer3.opacity": <% if (ui.variant.id == "dark") { %>1.0<% } else { %>0.5<% } %>,
   "layer3.texture": "Boxy Theme/assets/common/bar/tab_selected_underlined_white_lg.png"
 },
 
@@ -490,7 +490,7 @@
   "class": "tab_control",
   "settings": ["theme_tab_selected_prelined", "theme_bar", "theme_tab_selected_transparent"],
   "attributes": ["selected"],
-  "layer3.opacity": 1.0,
+  "layer3.opacity": <% if (ui.variant.id == "dark") { %>1.0<% } else { %>0.5<% } %>,
   "layer3.texture": "Boxy Theme/assets/common/bar/tab_selected_prelined_white.png"
 },
 
@@ -498,7 +498,7 @@
   "class": "tab_control",
   "settings": ["theme_tab_selected_prelined", "theme_bar", "theme_tab_selected_transparent", "theme_tab_line_size_sm"],
   "attributes": ["selected"],
-  "layer3.opacity": 1.0,
+  "layer3.opacity": <% if (ui.variant.id == "dark") { %>1.0<% } else { %>0.5<% } %>,
   "layer3.texture": "Boxy Theme/assets/common/bar/tab_selected_prelined_white_sm.png"
 },
 
@@ -506,6 +506,6 @@
   "class": "tab_control",
   "settings": ["theme_tab_selected_prelined", "theme_bar", "theme_tab_selected_transparent", "theme_tab_line_size_lg"],
   "attributes": ["selected"],
-  "layer3.opacity": 1.0,
+  "layer3.opacity": <% if (ui.variant.id == "dark") { %>1.0<% } else { %>0.5<% } %>,
   "layer3.texture": "Boxy Theme/assets/common/bar/tab_selected_prelined_white_lg.png"
 }
