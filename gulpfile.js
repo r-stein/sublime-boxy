@@ -252,7 +252,7 @@ gulp.task('convert:schemes', function() {
                       'To fix this error:\nAdd Sublime Text to the `PATH` and then install "AAAPackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
           this.emit('end');
         }))
-        .pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file" && subl --command "hide_panel"'));
+        .pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file"'));
     }));
 });
 
@@ -317,7 +317,7 @@ gulp.task('build:widget-settings', function() {
  * > Watch
  */
 
-gulp.task('watch', ['build'], function() {
+gulp.task('watch', function() {
   gulp.watch('./sources/themes/**/*.json', ['build:themes']);
   gulp.watch('./sources/schemes/scheme.YAML-tmTheme', ['build:schemes']);
   gulp.watch('./sources/widgets/widget.*', ['build:widgets']);
