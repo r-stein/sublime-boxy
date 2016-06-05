@@ -15,12 +15,16 @@
 		<dict>
 			<key>settings</key>
 			<dict>
+				<key>activeGuide</key>
+				<string>#f0c67490</string>
 				<key>background</key>
 				<string>#1d1f21</string>
 				<key>caret</key>
 				<string>#7b7c7d</string>
 				<key>foreground</key>
 				<string>#c5c8c6</string>
+				<key>guide</key>
+				<string>#ffffff10</string>
 				<key>gutter</key>
 				<string>#1d1f21</string>
 				<key>invisibles</key>
@@ -31,6 +35,8 @@
 				<string>#ffffff15</string>
 				<key>selectionBorder</key>
 				<string>#ffffff15</string>
+				<key>stackGuide</key>
+				<string>#ffffff25</string>
 			</dict>
 		</dict>
 		<dict>
