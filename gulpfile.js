@@ -249,7 +249,7 @@ gulp.task('convert:schemes', function() {
       return stream
         .pipe($.plumber(function(error) {
           console.log('[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
-                      'To fix this error:\nAdd Sublime Text to the `PATH` and then install "PackageDev" via "ackage Control.\nOpen Sublime Text before running the task. "'.bold.blue);
+                      'To fix this error:\nAdd Sublime Text to the `PATH` and then install "PackageDev" via "Package Control".\nOpen Sublime Text before running the task.'.bold.blue);
           this.emit('end');
         }))
         .pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file"'))
