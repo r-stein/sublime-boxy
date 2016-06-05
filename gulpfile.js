@@ -322,7 +322,7 @@ gulp.task('watch', function() {
   gulp.watch('./sources/themes/**/*.json', ['build:themes']);
   gulp.watch('./sources/schemes/scheme.YAML-tmTheme', ['build:schemes']);
   gulp.watch('./sources/widgets/widget.*', ['build:widgets']);
-  gulp.watch('./sources/settings/*.json', ['build:schemes', 'build:widgets', 'build:themes']);
+  gulp.watch('./sources/settings/**/*.json', ['build:schemes', 'build:widgets', 'build:themes']);
 });
 
 
