@@ -164,7 +164,7 @@ gulp.task('release', function(cb) {
 gulp.task('build', function(cb) {
   runSequence(
     'build:themes',
-    'build:schemes',
+    'prepare:schemes',
     'build:widgets',
     function (error) {
       if (error) {
