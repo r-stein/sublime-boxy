@@ -10,7 +10,7 @@
 
 ### Features
 
-* add monochrome variant of the tabs ([6eb390d](https://github.com/oivva/boxy/commit/6eb390d))
+* add monochrome variant of the folders ([6eb390d](https://github.com/oivva/boxy/commit/6eb390d))
 
 
 
