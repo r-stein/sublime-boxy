@@ -15,7 +15,7 @@
 
 > **I'm sorry for the inconvenience caused to you 🙍**
 
-<a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/logo.gif" alt="BOXY"></a>
+<a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/logo.png" alt="BOXY"></a>
 
 A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Come in, both, light and dark variations. There are dozens of options that enable you to personalize your experience with **`Boxy`**. 
 
