@@ -14,6 +14,7 @@ var gulp = require('gulp');
 var del = require('del');
 var path = require('path');
 var colors = require('colors');
+var sleep = require('sleep');
 var runSequence = require('run-sequence');
 var conventionalChangelog = require('conventional-changelog');
 var conventionalGithubReleaser = require('conventional-github-releaser');
@@ -194,8 +195,8 @@ gulp.task('build:themes', ['clean:themes'], function() {
     }))
     .pipe($.template())
     .pipe($.rename(function(path) {
-      path.basename = "Boxy " + _.startCase(path.basename);
-      path.extname = ".sublime-theme";
+      path.basename = 'Boxy ' + _.startCase(path.basename);
+      path.extname = '.sublime-theme';
     }))
     .pipe(gulp.dest('./'))
     .on('end', function() {
@@ -206,13 +207,25 @@ gulp.task('build:themes', ['clean:themes'], function() {
 /* >> Schemes */
 
 gulp.task('build:schemes', ['clean:schemes'], function(cb) {
+  runSequence(
+    'process:schemes',
+    'convert:schemes',
+    function (error) {
+      if (error) {
+        console.log('[build:schemes]'.bold.magenta + ' There was an issue building schemes:\n'.bold.red + error.message);
+      } else {
+        console.log('[build:schemes]'.bold.magenta + ' Finished successfully'.bold.green);
+      }
+
+      cb(error);
+    }
+  );
+});
+
+gulp.task('process:schemes', function(cb) {
   return gulp.src('./sources/settings/specific/*.json')
-    .pipe($.plumber(function(error) {
-      console.log('[build:schemes]'.bold.magenta + ' There was an issue building schemes:\n'.bold.red + error.message);
-      this.emit('end');
-    }))
     .pipe($.foreach(function(stream, file) {
-      var basename = "Boxy " + _.startCase(path.basename(file.path, path.extname(file.path)));
+      var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
       return gulp.src('./sources/schemes/scheme.YAML-tmTheme')
         .pipe($.data(function() {
@@ -225,20 +238,23 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
           scheme.basename = basename;
         }))
         .pipe(gulp.dest('./schemes'));
-    }))
-    .on('end', function() {
-      console.log('[build:schemes]'.bold.magenta + ' Finished successfully'.bold.green);
-    });
+    }));
 });
 
 gulp.task('convert:schemes', function() {
   return gulp.src('./schemes/*.YAML-tmTheme')
-    .pipe($.plumber(function(error) {
-      console.log('[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
-                  'To fix this error:\nAdd Sublime Text to the `PATH` and then install "AAAPackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
-      this.emit('end');
-    }))
-    .pipe($.exec('subl "<%= file.path %>" --b && subl --b --command "convert_file" && subl --b --command "close_file"'));
+    .pipe($.foreach(function(stream, file) {
+      sleep.sleep(2);
+
+      return stream
+        .pipe($.plumber(function(error) {
+          console.log('[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
+                      'To fix this error:\nAdd Sublime Text to the `PATH` and then install "PackageDev" via "Package Control".\nOpen Sublime Text before running the task.'.bold.blue);
+          this.emit('end');
+        }))
+        .pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file"'))
+        .pipe($.exec.reporter());
+    }));
 });
 
 /* >> Widgets */
@@ -262,7 +278,7 @@ gulp.task('build:widgets', ['clean:widgets'], function(cb) {
 gulp.task('build:widget-themes', function() {
   return gulp.src('./sources/settings/specific/*.json')
     .pipe($.foreach(function(stream, file) {
-      var basename = "Boxy " + _.startCase(path.basename(file.path, path.extname(file.path)));
+      var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
       return gulp.src('./sources/widgets/widget.stTheme')
         .pipe($.data(function() {
@@ -281,7 +297,7 @@ gulp.task('build:widget-themes', function() {
 gulp.task('build:widget-settings', function() {
   return gulp.src('./sources/settings/specific/*.json')
     .pipe($.foreach(function(stream, file) {
-      var basename = "Boxy " + _.startCase(path.basename(file.path, path.extname(file.path)));
+      var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
       return gulp.src('./sources/widgets/widget.sublime-settings')
         .pipe($.data(function() {
@@ -306,7 +322,7 @@ gulp.task('watch', function() {
   gulp.watch('./sources/themes/**/*.json', ['build:themes']);
   gulp.watch('./sources/schemes/scheme.YAML-tmTheme', ['build:schemes']);
   gulp.watch('./sources/widgets/widget.*', ['build:widgets']);
-  gulp.watch('./sources/settings/*.json', ['build:schemes', 'build:widgets']);
+  gulp.watch('./sources/settings/**/*.json', ['build:schemes', 'build:widgets', 'build:themes']);
 });
 
 

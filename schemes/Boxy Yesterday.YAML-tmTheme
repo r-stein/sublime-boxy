@@ -18,6 +18,9 @@ settings:
     lineHighlight: '#00000010'
     selection: '#00000015'
     selectionBorder: '#00000015'
+    activeGuide: '#c99e0090'
+    guide: '#00000010'
+    stackGuide: '#00000025'
 
 # >> General
 

@@ -18,6 +18,9 @@ settings:
     lineHighlight: '<%= scheme.highlight %>'
     selection: '<%= scheme.selection %>'
     selectionBorder: '<%= scheme.selection %>'
+    activeGuide: '<%= scheme.guide.active %>'
+    guide: '<%= scheme.guide.default %>'
+    stackGuide: '<%= scheme.guide.stack %>'
 
 # >> General
 

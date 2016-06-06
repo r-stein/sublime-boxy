@@ -45,6 +45,11 @@
     "highlight": "#ffffff10",
     "selection": "#ffffff15",
     "invisibles": "#65737e",
+    "guide": {
+      "default": "#ffffff10",
+      "stack": "#ffffff25",
+      "active": "#fac86390"
+    },
     "base": {
       "white": "#ffffff",
       "black": "#000000",
