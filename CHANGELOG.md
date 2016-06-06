@@ -1,15 +1,16 @@
-<a name="2.0.1"></a>
-## [2.0.1](https://github.com/oivva/boxy/compare/v2.0.0...v2.0.1) (2016-05-31)
+<a name="2.0.2"></a>
+## [2.0.2](https://github.com/oivva/boxy/compare/v2.0.1...v2.0.2) (2016-06-06)
 
 
 ### Bug Fixes
 
-* status bar font size ([bdd24a3](https://github.com/oivva/boxy/commit/bdd24a3)), closes [#48](https://github.com/oivva/boxy/issues/48)
-* tab line color ([8b1187f](https://github.com/oivva/boxy/commit/8b1187f))
+* add guide colors ([2066817](https://github.com/oivva/boxy/commit/2066817)), closes [#53](https://github.com/oivva/boxy/issues/53)
+* styles of the tab separator ([c349aef](https://github.com/oivva/boxy/commit/c349aef)), closes [#51](https://github.com/oivva/boxy/issues/51)
+
 
 ### Features
 
-* add postcss icon ([9999acf](https://github.com/oivva/boxy/commit/9999acf))
+* add monochrome variant of the tabs ([6eb390d](https://github.com/oivva/boxy/commit/6eb390d))
 
 
 
