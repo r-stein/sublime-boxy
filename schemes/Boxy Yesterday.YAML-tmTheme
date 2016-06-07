@@ -31,7 +31,7 @@ settings:
     fontStyle: 'italic'
 
 - name: Variable
-  scope: variable
+  scope: variable, string constant.other.placeholder
   settings:
     foreground: '#4d4d4c'
 
