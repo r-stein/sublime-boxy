@@ -1,16 +1,22 @@
-<a name="2.0.2"></a>
-## [2.0.2](https://github.com/oivva/boxy/compare/v2.0.1...v2.0.2) (2016-06-06)
+<a name="2.0.3"></a>
+## [2.0.3](https://github.com/oivva/boxy/compare/v2.0.2...v2.0.3) (2016-06-09)
 
 
 ### Bug Fixes
 
-* add guide colors ([2066817](https://github.com/oivva/boxy/commit/2066817)), closes [#53](https://github.com/oivva/boxy/issues/53)
-* styles of the tab separator ([c349aef](https://github.com/oivva/boxy/commit/c349aef)), closes [#51](https://github.com/oivva/boxy/issues/51)
+* hover state of the sidebar icons ([fc1eb1d](https://github.com/oivva/boxy/commit/fc1eb1d))
 
 
 ### Features
 
-* add monochrome variant of the folders ([6eb390d](https://github.com/oivva/boxy/commit/6eb390d))
+* add saturation levels of the sidebar icons ([443f701](https://github.com/oivva/boxy/commit/443f701))
+* additional colors for Widget ([4a1f852](https://github.com/oivva/boxy/commit/4a1f852))
+* highlight string interpolation placeholders ([d6e0567](https://github.com/oivva/boxy/commit/d6e0567))
 
 
+### Many thanks to
+
+[@michaelblyons](https://github.com/michaelblyons)
+
+for [4a1f852](https://github.com/oivva/boxy/commit/4a1f852) and [d6e0567](https://github.com/oivva/boxy/commit/d6e0567)
 
