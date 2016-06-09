@@ -178,6 +178,12 @@
 {
   "class": "icon_folder",
   "content_margin": [8, 8],
+  "layer0.opacity": 0.8
+},
+
+{
+  "class": "icon_folder",
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
   "layer0.opacity": 1.0
 },
 
@@ -187,8 +193,14 @@
 
 {
   "class": "icon_folder_dup",
-  "layer0.opacity": 1.0,
+  "layer0.opacity": 0.8,
   "content_margin": [8, 8]
+},
+
+{
+  "class": "icon_folder_dup",
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+  "layer0.opacity": 1.0
 },
 
 //
@@ -220,14 +232,14 @@
 {
   "class": "icon_folder",
   "settings": ["theme_sidebar_folder_arrow"],
-  "attributes": ["hover"],
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
   "layer0.opacity": 0.75
 },
 
 {
   "class": "icon_folder_dup",
   "settings": ["theme_sidebar_folder_arrow"],
-  "attributes": ["hover"],
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
   "layer0.opacity": 0.75
 },
 
@@ -240,7 +252,7 @@
 
 {
   "class": "icon_file_type",
-  "layer0.opacity": 0.9,
+  "layer0.opacity": 0.8,
   "content_margin": [8, 8]
 },
 
