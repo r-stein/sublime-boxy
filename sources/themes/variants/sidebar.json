@@ -27,6 +27,13 @@
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder.png"
 },
 
+{
+  "class": "icon_folder",
+  "settings": ["theme_sidebar_folder_monochrome"],
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+  "layer0.opacity": 0.4
+},
+
 // Opened
 
 {
@@ -43,6 +50,13 @@
   "settings": ["theme_sidebar_folder_monochrome"],
   "layer0.opacity": 0.3,
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_dup.png"
+},
+
+{
+  "class": "icon_folder_dup",
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+  "settings": ["theme_sidebar_folder_monochrome"],
+  "layer0.opacity": 0.4
 },
 
 // Symlink Opened
