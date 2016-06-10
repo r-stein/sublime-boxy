@@ -196,6 +196,24 @@
   "layer1.inner_margin": [20, 9, 0, 0]
 },
 
+{
+  "class": "sidebar_tree",
+  "settings": ["theme_sidebar_indent_sm"],
+  "indent": 5
+},
+
+{
+  "class": "sidebar_tree",
+  "settings": ["theme_sidebar_indent_md"],
+  "indent": 7
+},
+
+{
+  "class": "sidebar_tree",
+  "settings": ["theme_sidebar_indent_lg"],
+  "indent": 10
+},
+
 // Sidebar Hide File Icons
 // ---------------------------------------------------------------------------
 
