@@ -3716,6 +3716,19 @@
   
   {
     "class": "sidebar_tree",
+    "settings": ["theme_sidebar_size_xxs"],
+    "row_padding": [20, 3, 20, 2]
+  },
+  
+  {
+    "class": "tree_row",
+    "settings": ["theme_sidebar_size_xxs"],
+    "layer0.inner_margin": [20, 3, 0, 0],
+    "layer1.inner_margin": [20, 3, 0, 0]
+  },
+  
+  {
+    "class": "sidebar_tree",
     "settings": ["theme_sidebar_size_xs"],
     "row_padding": [20, 5, 20, 4]
   },
