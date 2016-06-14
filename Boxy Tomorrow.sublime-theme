@@ -6307,6 +6307,7 @@
   
   {
     "class": "tool_tip_label_control",
+    "font.size": 11,
     "color": [255, 255, 255]
   },
   
