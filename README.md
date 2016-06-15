@@ -13,12 +13,6 @@
 
 ***
 
-> Boxy has been recently re-named from Otto. The website is still being updated. If you're new to Boxy, you should install the **`Boxy Theme`** package on [Package Control][downloads] or install it [manually][manual-install]. 
-
-> For those who updating read [Upgrading From 1.x.x][upgrading]. 
-
-> **I'm sorry for the inconvenience caused to you 🙍**
-
 <a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/logo.png" alt="BOXY"></a>
 
 A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Come in, both, light and dark variations. There are dozens of [options][settings] that enable you to personalize your experience with **`Boxy Theme`**. 
