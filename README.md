@@ -1,4 +1,4 @@
-<h3 align="center"><a href="http://www.oivva.com/boxy" target="_blank"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.gif" alt="BOXY"></a></h3>
+<h3 align="center"><a href="http://www.oivva.com/boxy" target="_blank"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.gif?v=1" alt="BOXY"></a></h3>
 
 <p align="center">
   <a href="https://github.com/oivva/boxy/releases"><img src="https://img.shields.io/github/release/oivva/boxy.svg?maxAge=3600" alt="Release"></a>
@@ -111,7 +111,7 @@ See our [Gallery][gallery] for more quick start examples. All available options 
 
 <!--![Gallery][img-gallery]-->
 
-<!--<sup>&#x2733; THE FONT USED FOR THE CODE IS <a href="https://www.google.com/fonts/specimen/Roboto+Mono" target="_blank"><b>"ROBOTO MONO"</b></a> ON <b>WINDOWS</b> (SO YEAH, <b>OS X</b> FONT RENDERING LOOKS MUCH BETTER)</sup><br>-->
+<sup>&#x2733; THE FONT USED FOR THE CODE IS <a href="https://www.google.com/fonts/specimen/Roboto+Mono" target="_blank"><b>"ROBOTO MONO"</b></a> ON <b>WINDOWS</b> (SO YEAH, <b>OS X</b> FONT RENDERING LOOKS MUCH BETTER)</sup><br>
 <!--<sup>&#x2733;&#x2733; THE SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS</sup>-->
 
 
