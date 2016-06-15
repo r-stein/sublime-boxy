@@ -1,4 +1,4 @@
-<h3><a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.gif" alt="BOXY"></a></h3>
+<h3 align="center"><a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.gif" alt="BOXY"></a></h3>
 
 <p align="center">
   <a href="https://github.com/oivva/boxy/releases"><img src="https://img.shields.io/github/release/oivva/boxy.svg?maxAge=3600" alt="Release"></a>
