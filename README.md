@@ -1,4 +1,4 @@
-<h3 align="center"><a href="http://www.oivva.com/boxy" target="_blank"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.gif?v=1" alt="BOXY"></a></h3>
+<p align="center"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.gif?v=1" alt="BOXY"></p>
 
 <p align="center">
   <a href="https://github.com/oivva/boxy/releases"><img src="https://img.shields.io/github/release/oivva/boxy.svg?maxAge=3600" alt="Release"></a>
@@ -10,6 +10,8 @@
   <a href="https://flattr.com/profile/oivva" title="Donate with Flattr"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png" alt="Click here to lend your support to: Boxy and make a donation at flattr.com !"></a>&nbsp;
   <a href="https://www.coinbase.com/oivva" title="Donate with Bitcoin"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png" alt="Click here to lend your support to: Boxy and make a donation at coinbase.com !"></a>
 </p>
+
+***
 
 > Boxy has been recently re-named from Otto. The website is still being updated. If you're new to Boxy, you should install the **`Boxy Theme`** package on [Package Control][downloads] or install it [manually][manual-install]. 
 
@@ -24,6 +26,8 @@ A set of easy customizable interface and syntax themes for **Sublime Text 3 3103
 Want to learn more? [**See the wiki &#8594;**][wiki].
 
 If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [Known Issues][known-issues] section before reporting a new one.
+
+***
 
 ### Quick Start
 
