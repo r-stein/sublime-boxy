@@ -17,18 +17,100 @@
 
 <a href="http://www.oivva.com/boxy" target="_blank"><img align="left" src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/logo.png" alt="BOXY"></a>
 
-A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Come in, both, light and dark variations. There are dozens of options that enable you to personalize your experience with **`Boxy`**. 
+A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Come in, both, light and dark variations. There are dozens of [options][settings] that enable you to personalize your experience with **`Boxy Theme`**. 
 
 Want to learn more? [**See the wiki &#8594;**][wiki].
 
 If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [Known Issues][known-issues] section before reporting a new one.
 
-Also, check out our [Gallery][gallery] for more quick start examples.
+## Quick Start
 
-![Gallery][img-gallery]
+See our [Gallery][gallery] for more quick start examples. All available options can be found [here][settings].
 
-<sup>&#x2733; THE FONT USED FOR THE CODE IS <a href="https://www.google.com/fonts/specimen/Roboto+Mono" target="_blank"><b>"ROBOTO MONO"</b></a> ON <b>WINDOWS</b> (SO YEAH, <b>OS X</b> FONT RENDERING LOOKS MUCH BETTER)</sup><br>
-<sup>&#x2733;&#x2733; THE SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS</sup>
+### Boxy Yesterday
+
+![Boxy Yesterday][img-yesterday]
+
+```js
+// Activation
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+"theme": "Boxy Yesterday.sublime-theme",
+
+// Additional Settings
+"theme_bar_margin_top_sm": true,
+"theme_find_panel_close_hidden": true,
+"theme_size_md": true,
+"theme_tab_arrows_hidden": true,
+"theme_tab_selected_filled": true,
+"theme_tab_separator": true,
+```
+
+### Boxy Tomorrow
+
+![Boxy Tomorrow][img-tomorrow]
+
+```js
+// Activation
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
+"theme": "Boxy Tomorrow.sublime-theme",
+
+// Additional Settings
+"theme_accent_orange": true,
+"theme_find_panel_close_hidden": true,
+"theme_icon_button_highlighted": true,
+"theme_scrollbar_colored": true,
+"theme_scrollbar_line": true,
+"theme_sidebar_icon_saturation_hg": true,
+"theme_tab_selected_transparent": true,
+"theme_tab_selected_underlined": true,
+"theme_tab_size_lg": true,
+```
+
+### Boxy Ocean
+
+![Boxy Ocean][img-ocean]
+
+```js
+// Activation
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+"theme": "Boxy Ocean.sublime-theme",
+
+// Additional Settings
+"theme_accent_green": true,
+"theme_bar_margin_top_md": true,
+"theme_button_rounded": true,
+"theme_find_panel_close_hidden": true,
+"theme_find_panel_size_xs": true,
+"theme_tab_rounded": true,
+"theme_tab_selected_prelined": true,
+"theme_tab_size_md": true,
+```
+
+### Boxy Monokai
+
+![Boxy Monokai][img-monokai]
+
+```js
+// Activation
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+"theme": "Boxy Monokai.sublime-theme",
+
+// Additional Settings
+"theme_accent_purple": true,
+"theme_bar": true,
+"theme_sidebar_size_xs": true,
+"theme_size_lg": true,
+"theme_tab_arrows_hidden": true,
+"theme_tab_line_size_lg": true,
+"theme_tab_selected_transparent": true,
+"theme_tab_selected_underlined": true,
+```
+
+
+<!--![Gallery][img-gallery]-->
+
+<!--<sup>&#x2733; THE FONT USED FOR THE CODE IS <a href="https://www.google.com/fonts/specimen/Roboto+Mono" target="_blank"><b>"ROBOTO MONO"</b></a> ON <b>WINDOWS</b> (SO YEAH, <b>OS X</b> FONT RENDERING LOOKS MUCH BETTER)</sup><br>-->
+<!--<sup>&#x2733;&#x2733; THE SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS</sup>-->
 
 
 <!-- Links -->
@@ -63,3 +145,7 @@ Also, check out our [Gallery][gallery] for more quick start examples.
 [img-flattr]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
 [img-gallery]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/gallery.gif
+[img-yesterday]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/yesterday.png
+[img-tomorrow]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/tomorrow.png
+[img-ocean]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/ocean.png
+[img-monokai]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/monokai.png
