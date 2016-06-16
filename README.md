@@ -29,7 +29,9 @@ See our [Gallery][gallery] for more quick start examples. All available options 
 
 #### Boxy Yesterday
 
-The screenshot below shows next options in action:
+[![Boxy Yesterday][img-yesterday]][img-yesterday]
+
+The screenshot above shows next options in action:
 
 ```js
 // Activation
@@ -63,12 +65,12 @@ Installed packages:
 * [Sublime Linter][sublime-linter]
 * [Bracket Highlighter][bracket-highlighter]
 
-[![Boxy Yesterday][img-yesterday]][img-yesterday]
-
 
 #### Boxy Tomorrow
 
-The screenshot below shows next options in action:
+[![Boxy Tomorrow][img-tomorrow]][img-tomorrow]
+
+The screenshot above shows next options in action:
 
 ```js
 // Activation
@@ -95,12 +97,12 @@ Installed packages:
 * [Boxy Theme Addon - Font Face][addon-font-face]
 * [Boxy Theme Addon - Widget Font XL][addon-widget-font-xl]
 
-[![Boxy Tomorrow][img-tomorrow]][img-tomorrow]
-
 
 #### Boxy Ocean
 
-The screenshot below shows next options in action:
+[![Boxy Ocean][img-ocean]][img-ocean]
+
+The screenshot above shows next options in action:
 
 ```js
 // Activation
@@ -130,12 +132,12 @@ Installed packages:
 * [Color Highlighter][color-highlighter]
 * [Color ​Helper][color-helper]
 
-[![Boxy Ocean][img-ocean]][img-ocean]
-
 
 #### Boxy Monokai
 
-The screenshot below shows next options in action:
+[![Boxy Monokai][img-monokai]][img-monokai]
+
+The screenshot above shows next options in action:
 
 ```js
 // Activation
@@ -161,8 +163,6 @@ Installed packages:
 
 * [Boxy Theme Addon - Linter Theme][addon-linter-theme]
 * [Sublime Linter][sublime-linter]
-
-[![Boxy Monokai][img-monokai]][img-monokai]
 
 
 <!-- Links -->
