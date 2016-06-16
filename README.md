@@ -1,4 +1,6 @@
-<p align="center"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.gif?v=1" alt="BOXY"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.gif?v=17062016" alt="BOXY"></p>
+
+<p>&nbsp;</p>
 
 <p align="center">
   <a href="https://github.com/oivva/boxy/releases"><img src="https://img.shields.io/github/release/oivva/boxy.svg?maxAge=3600" alt="Release"></a>
@@ -10,6 +12,8 @@
   <a href="https://flattr.com/profile/oivva" title="Donate with Flattr"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png" alt="Click here to lend your support to: Boxy and make a donation at flattr.com !"></a>&nbsp;
   <a href="https://www.coinbase.com/oivva" title="Donate with Bitcoin"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png" alt="Click here to lend your support to: Boxy and make a donation at coinbase.com !"></a>
 </p>
+
+<p>&nbsp;</p>
 
 ***
 
@@ -27,7 +31,7 @@ See our [Gallery][gallery] for more quick start examples. All available options 
 
 #### Boxy Yesterday
 
-![Boxy Yesterday][img-yesterday]
+The screenshot below shows next options in action:
 
 ```js
 // Activation
@@ -36,16 +40,37 @@ See our [Gallery][gallery] for more quick start examples. All available options 
 
 // Additional Settings
 "theme_bar_margin_top_sm": true,
+"theme_button_rounded": true,
 "theme_find_panel_close_hidden": true,
-"theme_size_md": true,
+"theme_find_panel_size_xs": true,
+"theme_font_md": true,
+"theme_grid_border_size_lg": true,
+"theme_icon_button_highlighted": true,
+"theme_sidebar_font_lg": true,
 "theme_tab_arrows_hidden": true,
-"theme_tab_selected_filled": true,
+"theme_tab_rounded": true,
+"theme_tab_selected_prelined": true,
 "theme_tab_separator": true,
+"theme_tab_size_md": true,
 ```
+
+The operating system is **macOS**. The font used for the code is [**Fira Code**][fira-code]. The UI font is [San Francisco Text][san-francisco] (via [addon][addon-font-face]).
+
+Installed packages:
+
+* [Boxy Theme Addon - Font Face][addon-font-face]
+* [Boxy Theme Addon - Widget Font LG][addon-widget-font-lg]
+* [Boxy Theme Addon - Linter Theme][addon-linter-theme]
+* [Git Gutter][git-gutter]
+* [Sublime Linter][sublime-linter]
+* [Bracket Highlighter][bracket-highlighter]
+
+[![Boxy Yesterday][img-yesterday]][img-yesterday]
+
 
 #### Boxy Tomorrow
 
-![Boxy Tomorrow][img-tomorrow]
+The screenshot below shows next options in action:
 
 ```js
 // Activation
@@ -54,19 +79,30 @@ See our [Gallery][gallery] for more quick start examples. All available options 
 
 // Additional Settings
 "theme_accent_orange": true,
-"theme_find_panel_close_hidden": true,
-"theme_icon_button_highlighted": true,
+"theme_font_md": true,
 "theme_scrollbar_colored": true,
 "theme_scrollbar_line": true,
-"theme_sidebar_icon_saturation_hg": true,
+"theme_sidebar_folder_monochrome": true,
+"theme_tab_line_size_lg": true,
 "theme_tab_selected_transparent": true,
 "theme_tab_selected_underlined": true,
 "theme_tab_size_lg": true,
+"theme_sidebar_size_xs": true,
 ```
+
+The operating system is **Ubuntu**. The font used for the code is [**Ubuntu Mono**][ubuntu]. The UI font is [Ubuntu Medium][ubuntu] (via [addon][addon-font-face]).
+
+Installed packages:
+
+* [Boxy Theme Addon - Font Face][addon-font-face]
+* [Boxy Theme Addon - Widget Font XL][addon-widget-font-xl]
+
+[![Boxy Tomorrow][img-tomorrow]][img-tomorrow]
+
 
 #### Boxy Ocean
 
-![Boxy Ocean][img-ocean]
+The screenshot below shows next options in action:
 
 ```js
 // Activation
@@ -76,17 +112,32 @@ See our [Gallery][gallery] for more quick start examples. All available options 
 // Additional Settings
 "theme_accent_green": true,
 "theme_bar_margin_top_md": true,
-"theme_button_rounded": true,
-"theme_find_panel_close_hidden": true,
 "theme_find_panel_size_xs": true,
-"theme_tab_rounded": true,
-"theme_tab_selected_prelined": true,
+"theme_icon_button_highlighted": true,
+"theme_sidebar_size_md": true,
+"theme_statusbar_size_xs": true,
+"theme_tab_arrows_hidden": true,
+"theme_tab_selected_filled": true,
+"theme_tab_separator": true,
 "theme_tab_size_md": true,
 ```
 
+The operating system is **Windows**. The font used for the code is [**Roboto Mono**][ubuntu].
+
+Installed packages:
+
+* [Boxy Theme Addon - Linter Theme][addon-linter-theme]
+* [Sublime Linter][sublime-linter]
+* [Bracket Highlighter][bracket-highlighter]
+* [Color Highlighter][color-highlighter]
+* [Color ​Helper][color-helper]
+
+[![Boxy Ocean][img-ocean]][img-ocean]
+
+
 #### Boxy Monokai
 
-![Boxy Monokai][img-monokai]
+The screenshot below shows next options in action:
 
 ```js
 // Activation
@@ -96,19 +147,24 @@ See our [Gallery][gallery] for more quick start examples. All available options 
 // Additional Settings
 "theme_accent_purple": true,
 "theme_bar": true,
+"theme_find_panel_close_hidden": true,
+"theme_icon_button_highlighted": true,
+"theme_quick_panel_size_md": true,
 "theme_sidebar_size_xs": true,
-"theme_size_lg": true,
-"theme_tab_arrows_hidden": true,
 "theme_tab_line_size_lg": true,
 "theme_tab_selected_transparent": true,
 "theme_tab_selected_underlined": true,
+"theme_tab_size_xl": true,
 ```
 
+The operating system is **Windows**. The font used for the code is [**Source Code Pro**][source-code-pro].
 
-<!--![Gallery][img-gallery]-->
+Installed packages:
 
-<sup>&#x2733; THE FONT USED FOR THE CODE IS <a href="https://www.google.com/fonts/specimen/Roboto+Mono" target="_blank"><b>"ROBOTO MONO"</b></a> ON <b>WINDOWS</b> (SO YEAH, <b>OS X</b> FONT RENDERING LOOKS MUCH BETTER)</sup><br>
-<!--<sup>&#x2733;&#x2733; THE SCREENSHOTS CAN CONTAIN SOME GIF RECORDING ARTIFACTS</sup>-->
+* [Boxy Theme Addon - Linter Theme][addon-linter-theme]
+* [Sublime Linter][sublime-linter]
+
+[![Boxy Monokai][img-monokai]][img-monokai]
 
 
 <!-- Links -->
@@ -143,7 +199,27 @@ See our [Gallery][gallery] for more quick start examples. All available options 
 [img-flattr]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
 [img-gallery]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/gallery.gif
-[img-yesterday]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/yesterday.png
-[img-tomorrow]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/tomorrow.png
-[img-ocean]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/ocean.png
-[img-monokai]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/monokai.png
+[img-yesterday]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/yesterday.png?v=17062016
+[img-tomorrow]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/tomorrow.png?v=17062016
+[img-ocean]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/ocean.png?v=17062016
+[img-monokai]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/monokai.png?v=17062016
+
+<!-- Fonts -->
+
+[fira-code]: https://github.com/tonsky/FiraCode/blob/master/README.md
+[san-francisco]: https://developer.apple.com/fonts/
+[ubuntu]: http://font.ubuntu.com/
+[roboto-mono]: https://fonts.google.com/specimen/Roboto+Mono?query=Roboto
+[source-code-pro]: http://adobe-fonts.github.io/source-code-pro/
+
+<!-- Packages -->
+
+[addon-font-face]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Font%20Face
+[addon-widget-font-lg]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Widget%20Font%20LG
+[addon-widget-font-xl]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Widget%20Font%20XL
+[addon-linter-theme]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Linter%20Theme
+[git-gutter]: https://packagecontrol.io/packages/GitGutter
+[sublime-linter]: https://packagecontrol.io/packages/SublimeLinter
+[bracket-highlighter]: https://packagecontrol.io/packages/BracketHighlighter
+[color-highlighter]: https://packagecontrol.io/packages/Color%20Highlighter
+[color-helper]: https://packagecontrol.io/packages/ColorHelper
