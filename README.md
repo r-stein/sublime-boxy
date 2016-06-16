@@ -1,19 +1,15 @@
 <p align="center"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.gif?v=17062016" alt="BOXY"></p>
 
-<p>&nbsp;</p>
-
 <p align="center">
-  <a href="https://github.com/oivva/boxy/releases"><img src="https://img.shields.io/github/release/oivva/boxy.svg?maxAge=3600" alt="Release"></a>
-  <a href="https://packagecontrol.io/packages/Boxy%20Theme"><img src="https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?maxAge=3600" alt="Downloads"></a>
-  <a href="https://travis-ci.org/oivva/boxy"><img src="https://img.shields.io/travis/oivva/boxy.svg?maxAge=3600" alt="Build Status"></a>
-  <a href="https://gitter.im/oivva/boxy"><img src="https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000" alt="Gitter"></a>
-  <a href="https://github.com/oivva/boxy/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000" alt="License"></a>&nbsp;
+  <a href="https://github.com/oivva/boxy/releases"><img src="https://img.shields.io/github/release/oivva/boxy.svg?maxAge=3600?style=flat-square" alt="Release"></a>
+  <a href="https://packagecontrol.io/packages/Boxy%20Theme"><img src="https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?maxAge=3600?style=flat-square" alt="Downloads"></a>
+  <a href="https://travis-ci.org/oivva/boxy"><img src="https://img.shields.io/travis/oivva/boxy.svg?maxAge=3600?style=flat-square" alt="Build Status"></a>
+  <a href="https://gitter.im/oivva/boxy"><img src="https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000?style=flat-square" alt="Gitter"></a>
+  <a href="https://github.com/oivva/boxy/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000?style=flat-square" alt="License"></a>&nbsp;
   <a href="https://www.patreon.com/oivva" title="Donate with Patreon"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon.png" alt="Click here to lend your support to: Boxy and make a donation at patreon.com"></a>&nbsp;
   <a href="https://flattr.com/profile/oivva" title="Donate with Flattr"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png" alt="Click here to lend your support to: Boxy and make a donation at flattr.com !"></a>&nbsp;
   <a href="https://www.coinbase.com/oivva" title="Donate with Bitcoin"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png" alt="Click here to lend your support to: Boxy and make a donation at coinbase.com !"></a>
 </p>
-
-<p>&nbsp;</p>
 
 ***
 
@@ -190,11 +186,11 @@ Installed packages:
 <!-- Images -->
 
 [img-name]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.png
-[img-release]: https://img.shields.io/github/release/oivva/boxy.svg?maxAge=3600
-[img-downloads]: https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?maxAge=3600
-[img-build-status]: https://img.shields.io/travis/oivva/boxy.svg?maxAge=3600
-[img-gitter]: https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000
-[img-license]: https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000
+[img-release]: https://img.shields.io/github/release/oivva/boxy.svg?maxAge=3600?style=flat-square
+[img-downloads]: https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?maxAge=3600?style=flat-square
+[img-build-status]: https://img.shields.io/travis/oivva/boxy.svg?maxAge=3600?style=flat-square
+[img-gitter]: https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000?style=flat-square
+[img-license]: https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000?style=flat-square
 [img-patreon]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon.png
 [img-flattr]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
