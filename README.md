@@ -169,7 +169,7 @@ Installed packages:
 
 I've put a lot of time and effort into making **Boxy Theme** awesome. If you like the project and see its potential, pledge now. Every dollar helps! I promise it will be a good investment 😉
 
-[![Donate with][img-donate]][donate] &nbsp; [![Patreon][img-patreon-with-title]][patreon] &nbsp; [![Flattr][img-flattr-with-title]][flattr] &nbsp; [![Bitcoin][img-bitcoin-with-title]][bitcoin]
+![Donate with][img-donate] &nbsp; [![Patreon][img-patreon-with-title]][patreon] &nbsp; [![Flattr][img-flattr-with-title]][flattr] &nbsp; [![Bitcoin][img-bitcoin-with-title]][bitcoin]
 
 <!-- Links -->
 
