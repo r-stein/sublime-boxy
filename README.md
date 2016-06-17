@@ -21,8 +21,6 @@ If you have some problems, first search for a similar issue, and then report wit
 
 Want to learn more? [**See the wiki &#8594;**][wiki].
 
-[**Share the love &#8594;**](#share-the-love) ❤️
-
 ***
 
 ### Quick Start
