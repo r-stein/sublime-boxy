@@ -19,6 +19,8 @@ Want to contribute some code? Excellent! Read up on our [guidelines](https://git
 
 If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [Known Issues][known-issues] section before reporting a new one.
 
+[Share the ❤️](#share-the-love) . . .
+
 Want to learn more? [**See the wiki &#8594;**][wiki].
 
 ***
@@ -65,7 +67,6 @@ Installed packages:
 * [Sublime Linter][sublime-linter]
 * [Bracket Highlighter][bracket-highlighter]
 
-
 #### Boxy Tomorrow
 
 [![Boxy Tomorrow][img-tomorrow]][img-tomorrow]
@@ -96,7 +97,6 @@ Installed packages:
 
 * [Boxy Theme Addon - Font Face][addon-font-face]
 * [Boxy Theme Addon - Widget Font XL][addon-widget-font-xl]
-
 
 #### Boxy Ocean
 
@@ -132,7 +132,6 @@ Installed packages:
 * [Color Highlighter][color-highlighter]
 * [Color ​Helper][color-helper]
 
-
 #### Boxy Monokai
 
 [![Boxy Monokai][img-monokai]][img-monokai]
@@ -164,6 +163,13 @@ Installed packages:
 * [Boxy Theme Addon - Linter Theme][addon-linter-theme]
 * [Sublime Linter][sublime-linter]
 
+***
+
+### Share The Love
+
+I've put a lot of time and effort into making **Boxy Theme** awesome. If you like the project and see its potential, pledge now. Every dollar helps! I promise it will be a good investment 😉
+
+Donate with: [![Patreon][img-patreon-with-title]][patreon] &nbsp; [![Flattr][img-flattr-with-title]][flattr] &nbsp; [![Bitcoin][img-bitcoin-with-title]][bitcoin]
 
 <!-- Links -->
 
@@ -194,8 +200,11 @@ Installed packages:
 [img-gitter]: https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000?style=flat-square
 [img-license]: https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000?style=flat-square
 [img-patreon]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon.png
+[img-patreon-with-title]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon-with-title.png
 [img-flattr]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png
+[img-flattr-with-title]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr-with-title.png
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
+[img-bitcoin-with-title]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin-with-title.png
 [img-gallery]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/gallery.gif
 [img-yesterday]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/yesterday.png?v=17062016
 [img-tomorrow]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/tomorrow.png?v=17062016
