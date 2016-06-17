@@ -19,7 +19,7 @@ Want to contribute some code? Excellent! Read up on our [guidelines](https://git
 
 If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [Known Issues][known-issues] section before reporting a new one.
 
-[Share the love &#8594;](#share-the-love) ❤️
+[**Share the love &#8594;**](#share-the-love) ❤️
 
 Want to learn more? [**See the wiki &#8594;**][wiki].
 
@@ -167,7 +167,7 @@ Installed packages:
 
 ### Share The Love
 
-I've put a lot of time and effort into making **Boxy Theme** awesome. If you like the project and see its potential, pledge now. Every dollar helps! I promise it will be a good investment 😉
+I've put a lot of time and effort into making `Boxy Theme` awesome. If you like the project and see its potential, pledge now. Every dollar helps! I promise it will be a good investment 😉
 
 **Donate with:**
 
