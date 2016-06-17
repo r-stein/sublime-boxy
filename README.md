@@ -54,7 +54,7 @@ The screenshot above shows next options in action:
 "theme_tab_size_md": true,
 ```
 
-The operating system is **macOS**. The font used for the code is [**Fira Code**][fira-code]. The UI font is [San Francisco Text][san-francisco] (via [addon][addon-font-face]).
+The operating system is **macOS**. The font used for the code is [**Fira Code**][fira-code]. The UI font is [**San Francisco Text**][san-francisco] (via [addon][addon-font-face]).
 
 Installed packages:
 
@@ -90,7 +90,7 @@ The screenshot above shows next options in action:
 "theme_sidebar_size_xs": true,
 ```
 
-The operating system is **Ubuntu**. The font used for the code is [**Ubuntu Mono**][ubuntu]. The UI font is [Ubuntu Medium][ubuntu] (via [addon][addon-font-face]).
+The operating system is **Ubuntu**. The font used for the code is [**Ubuntu Mono**][ubuntu]. The UI font is [**Ubuntu Medium**][ubuntu] (via [addon][addon-font-face]).
 
 Installed packages:
 
