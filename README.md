@@ -19,9 +19,9 @@ Want to contribute some code? Excellent! Read up on our [guidelines](https://git
 
 If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [Known Issues][known-issues] section before reporting a new one.
 
-[**Share the love &#8594;**](#share-the-love) ❤️
-
 Want to learn more? [**See the wiki &#8594;**][wiki].
+
+[**Share the love &#8594;**](#share-the-love) ❤️
 
 ***
 
