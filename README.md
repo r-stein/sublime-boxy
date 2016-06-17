@@ -19,7 +19,7 @@ Want to contribute some code? Excellent! Read up on our [guidelines](https://git
 
 If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [Known Issues][known-issues] section before reporting a new one.
 
-[Share the ❤️ &#8594;](#share-the-love).
+[Share the love &#8594;](#share-the-love) ❤️
 
 Want to learn more? [**See the wiki &#8594;**][wiki].
 
@@ -169,7 +169,9 @@ Installed packages:
 
 I've put a lot of time and effort into making **Boxy Theme** awesome. If you like the project and see its potential, pledge now. Every dollar helps! I promise it will be a good investment 😉
 
-![Donate with][img-donate] &nbsp; [![Patreon][img-patreon-with-title]][patreon] &nbsp; [![Flattr][img-flattr-with-title]][flattr] &nbsp; [![Bitcoin][img-bitcoin-with-title]][bitcoin]
+**Donate with:**
+
+[![Patreon][img-patreon-with-title]][patreon] &nbsp; [![Flattr][img-flattr-with-title]][flattr] &nbsp; [![Bitcoin][img-bitcoin-with-title]][bitcoin]
 
 <!-- Links -->
 
@@ -199,7 +201,6 @@ I've put a lot of time and effort into making **Boxy Theme** awesome. If you lik
 [img-build-status]: https://img.shields.io/travis/oivva/boxy.svg?maxAge=3600?style=flat-square
 [img-gitter]: https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000?style=flat-square
 [img-license]: https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000?style=flat-square
-[img-donate]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/donate.png
 [img-patreon]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon.png
 [img-patreon-with-title]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon-with-title.png
 [img-flattr]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png
