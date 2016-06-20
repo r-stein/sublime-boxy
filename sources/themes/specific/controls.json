@@ -22,7 +22,7 @@
 
 {
   "class": "label_control",
-  "color": [<%= ui.foreground.primary.rgb %>]
+  "color": [<%= ui.foreground.default.rgb %>]
 },
 
 // Buttons

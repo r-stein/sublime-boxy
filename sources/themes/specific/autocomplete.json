@@ -14,5 +14,5 @@
 
 {
   "class": "auto_complete_label",
-  "fg": [<%= ui.foreground.primary.rgb %>]
+  "fg": [<%= ui.foreground.default.rgb %>]
 },

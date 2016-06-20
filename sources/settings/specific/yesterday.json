@@ -23,11 +23,15 @@
       }
     },
     "foreground": {
-      "primary": {
-        "hex": "#636363",
-        "rgb": "99, 99, 99"
+      "default": {
+        "hex": "#7b7b7b",
+        "rgb": "123, 123, 123"
       },
-      "secondary": {
+      "highlighted": {
+        "hex": "#565656",
+        "rgb": "86, 86, 86"
+      },
+      "disabled": {
         "hex": "#a1a1a1",
         "rgb": "161, 161, 161"
       },

@@ -41,13 +41,61 @@
   "layer2.opacity": 0
 },
 
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_tab_highlight_text_only", "theme_tab_separator"],
+  "layer3.opacity": 0.05
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_tab_rounded", "theme_tab_separator", "theme_tab_highlight_text_only"],
+  "layer3.opacity": 0.09
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_bar_margin_top_sm", "theme_tab_separator", "theme_tab_highlight_text_only"],
+  "layer3.opacity": 0.09
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_bar_margin_top_md", "theme_tab_separator", "theme_tab_highlight_text_only"],
+  "layer3.opacity": 0.09
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_bar_margin_top_lg", "theme_tab_separator", "theme_tab_highlight_text_only"],
+  "layer3.opacity": 0.09
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_bar", "theme_tab_separator", "theme_tab_highlight_text_only"],
+  "layer3.opacity": 0.25
+},
+
 //
 // Tab Labels
 //
 
 {
   "class": "tab_label",
-  "fg": [<%= ui.foreground.primary.rgb %>, 255]
+  "fg": [<%= ui.foreground.default.rgb %>]
+},
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+  "fg": [<%= ui.foreground.highlighted.rgb %>]
 },
 
 // Light Color Scheme
@@ -88,6 +136,6 @@
   "class": "tab_label",
   "parents": [{"class": "tab_control", "attributes": ["selected"]}],
   "settings": ["theme_tab_selected_transparent"],
-  "fg": [<%= ui.foreground.selected.rgb %>, 255]
+  "fg": [<%= ui.foreground.selected.rgb %>]
 },
 

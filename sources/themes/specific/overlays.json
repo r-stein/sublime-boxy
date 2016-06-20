@@ -58,16 +58,16 @@
 
 {
   "class": "quick_panel_label",
-  "fg": [<%= ui.foreground.primary.rgb %>, 255]
+  "fg": [<%= ui.foreground.default.rgb %>, 255]
 },
 
 {
   "class": "quick_panel_label",
   "parents": [{"class": "overlay_control"}],
-  "fg": [<%= ui.foreground.primary.rgb %>, 255]
+  "fg": [<%= ui.foreground.default.rgb %>, 255]
 },
 
 {
   "class": "quick_panel_path_label",
-  "fg": [<%= ui.foreground.secondary.rgb %>, 255]
+  "fg": [<%= ui.foreground.disabled.rgb %>, 255]
 },
