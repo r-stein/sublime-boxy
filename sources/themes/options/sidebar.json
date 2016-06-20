@@ -8,7 +8,7 @@
 
 {
   "class": "sidebar_container",
-  "settings": ["theme_bar_margin_top_sm"],
+  "settings": ["theme_bar_margin_top_sm", "!theme_bar"],
   "content_margin": [0, 4, 0, 0]
 },
 
@@ -16,7 +16,7 @@
 
 {
   "class": "sidebar_container",
-  "settings": ["theme_bar_margin_top_md"],
+  "settings": ["theme_bar_margin_top_md", "!theme_bar"],
   "content_margin": [0, 6, 0, 0]
 },
 
@@ -24,7 +24,7 @@
 
 {
   "class": "sidebar_container",
-  "settings": ["theme_bar_margin_top_lg"],
+  "settings": ["theme_bar_margin_top_lg", "!theme_bar"],
   "content_margin": [0, 8, 0, 0]
 },
 
@@ -39,19 +39,19 @@
 
 {
   "class": "sidebar_container",
-  "settings": ["theme_bar_margin_top_sm", "theme_sidebar_border"],
+  "settings": ["theme_bar_margin_top_sm", "theme_sidebar_border", "!theme_bar"],
   "content_margin": [0, 4, 1, 0]
 },
 
 {
   "class": "sidebar_container",
-  "settings": ["theme_bar_margin_top_md", "theme_sidebar_border"],
+  "settings": ["theme_bar_margin_top_md", "theme_sidebar_border", "!theme_bar"],
   "content_margin": [0, 6, 1, 0]
 },
 
 {
   "class": "sidebar_container",
-  "settings": ["theme_bar_margin_top_lg", "theme_sidebar_border"],
+  "settings": ["theme_bar_margin_top_lg", "theme_sidebar_border", "!theme_bar"],
   "content_margin": [0, 8, 1, 0]
 },
 
