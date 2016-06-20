@@ -23,28 +23,13 @@
 {
   "class": "tab_control",
   "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab.png",
-  "layer1.tint": [<%= ui.background.secondary.rgb %>]
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_hovered.png"
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_tab_rounded"],
-  "layer1.opacity": 0
-},
-
-{
-  "class": "tab_control",
-  "settings": ["theme_tab_rounded"],
-  "attributes": ["hover"],
-  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab_hovered_rounded.png",
-  "layer0.opacity": 1.0
-},
-
-{
-  "class": "tab_control",
-  "settings": ["theme_tab_rounded"],
-  "attributes": ["selected"],
-  "layer0.opacity": 0
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_hovered_rounded.png"
 },
 
 {
@@ -54,13 +39,6 @@
   "layer0.opacity": 1.0,
   "layer1.opacity": 0,
   "layer2.opacity": 0
-},
-
-{
-  "class": "tab_control",
-  "settings": ["theme_tab_rounded", "theme_tab_selected_transparent"],
-  "attributes": ["selected", "hover"],
-  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab.png"
 },
 
 //

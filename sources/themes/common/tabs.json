@@ -20,12 +20,6 @@
   "mouse_wheel_switch": false
 },
 
-{
-  "class": "tabset_control",
-  "settings": ["theme_tab_separator"],
-  "tab_overlap": 1
-},
-
 // Tabset Scrolling
 // ---------------------------------------------------------------------------
 
