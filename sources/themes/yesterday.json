@@ -124,5 +124,6 @@
   // ===========================================================================
   //
   //=include "common/bar.json"
+  //=include "variants/bar.json"
   //=include "accents/bar.json"
 ]
