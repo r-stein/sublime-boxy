@@ -473,4 +473,4 @@
   "settings": ["theme_bar_colored", "theme_tab_selected_filled"],
   "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
   "layer0.opacity": 1.0
-},
+}
