@@ -68,7 +68,7 @@
 {
   "class": "tab_control",
   "settings": ["theme_bar", "theme_tab_separator"],
-  "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png",
+  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png",
   "layer3.opacity": 0.1
 },
 
