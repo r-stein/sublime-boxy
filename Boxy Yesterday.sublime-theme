@@ -2913,9 +2913,15 @@
   
   {
     "class": "close_button",
-    "layer0.opacity": 0.5,
+    "layer0.opacity": 0,
     "layer1.opacity": 0,
     "content_margin": [8, 8]
+  },
+  
+  {
+    "class": "close_button",
+    "settings": ["theme_sidebar_close_always_visible"],
+    "layer0.opacity": 0.5
   },
   
   {
@@ -2928,6 +2934,41 @@
   //
   // Hovered
   //
+  
+  {
+    "class": "close_button",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "settings": ["!theme_sidebar_close_always_visible"],
+    "layer0.opacity": 0.5,
+    "layer1.opacity": 0
+  },
+  
+  {
+    "class": "close_button",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "settings": ["!theme_sidebar_close_always_visible"],
+    "attributes": ["dirty"],
+    "layer0.opacity": 0,
+    "layer1.opacity": 0.5
+  },
+  
+  {
+    "class": "close_button",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "settings": ["!theme_sidebar_close_always_visible"],
+    "attributes": ["hover"],
+    "layer0.opacity": 0.75,
+    "layer1.opacity": 0
+  },
+  
+  {
+    "class": "close_button",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "settings": ["!theme_sidebar_close_always_visible"],
+    "attributes": ["dirty", "hover"],
+    "layer0.opacity": 0.75,
+    "layer1.opacity": 0
+  },
   
   {
     "class": "close_button",
@@ -4523,8 +4564,148 @@
     "layer0.tint": [238, 238, 238]
   },
   
+  
+  // Status Bar Blue Accent
+  // ===========================================================================
+  
+  // Status Bar Container
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "status_bar",
+    "settings": ["theme_statusbar_colored"],
+    "layer0.tint": [36, 151, 227]
+  },
+  
+  // Status Bar Panel Switcher
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_statusbar_colored"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher.png"
+  },
+  
+  // Status Bar Labels
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "label_control",
+    "settings": ["theme_statusbar_colored"],
+    "parents": [{"class": "status_bar"}],
+    "color": [255, 255, 255]
+  },
+  
+  
+  // Status Bar Green Accent
+  // ===========================================================================
+  
+  // Status Bar Container
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "status_bar",
+    "settings": ["theme_statusbar_colored", "theme_accent_green"],
+    "layer0.tint": [46, 188, 103]
+  },
+  
+  // Status Bar Panel Switcher
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_statusbar_colored", "theme_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher.png"
+  },
+  
+  // Status Bar Labels
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "label_control",
+    "settings": ["theme_statusbar_colored", "theme_accent_green"],
+    "parents": [{"class": "status_bar"}],
+    "color": [255, 255, 255]
+  },
+  
+  
+  // Status Bar Orange Accent
+  // ===========================================================================
+  
+  // Status Bar Container
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "status_bar",
+    "settings": ["theme_statusbar_colored", "theme_accent_orange"],
+    "layer0.tint": [242, 104, 62]
+  },
+  
+  // Status Bar Panel Switcher
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_statusbar_colored", "theme_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher.png"
+  },
+  
+  // Status Bar Labels
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "label_control",
+    "settings": ["theme_statusbar_colored", "theme_accent_orange"],
+    "parents": [{"class": "status_bar"}],
+    "color": [255, 255, 255]
+  },
+  
+  
+  // Status Bar Purple Accent
+  // ===========================================================================
+  
+  // Status Bar Container
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "status_bar",
+    "settings": ["theme_statusbar_colored", "theme_accent_purple"],
+    "layer0.tint": [137, 85, 162]
+  },
+  
+  // Status Bar Panel Switcher
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_statusbar_colored", "theme_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher.png"
+  },
+  
+  // Status Bar Labels
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "label_control",
+    "settings": ["theme_statusbar_colored", "theme_accent_purple"],
+    "parents": [{"class": "status_bar"}],
+    "color": [255, 255, 255]
+  },
+  
+  
+  
   // Status Bar Options
   // ===========================================================================
+  
+  // Status Bar Labels
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "label_control",
+    "settings": ["theme_statusbar_label_bold"],
+    "parents": [{"class": "status_bar"}],
+    "font.bold": true,
+  },
   
   // Status Bar Sizes
   // ---------------------------------------------------------------------------
@@ -4890,8 +5071,35 @@
     "class": "tab_close_button",
     "content_margin": [0, 0],
   
-    "layer0.opacity": 0.5,
+    "layer0.opacity": 0,
     "layer0.inner_margin": [0, 0]
+  },
+  
+  {
+    "class": "tab_close_button",
+    "settings": ["theme_tab_close_always_visible"],
+    "layer0.opacity": 0.5
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "settings": ["!theme_tab_close_always_visible"],
+    "layer0.opacity": 0.5
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+    "settings": ["!theme_tab_close_always_visible"],
+    "layer0.opacity": 0.5
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+    "settings": ["!theme_tab_close_always_visible"],
+    "layer0.opacity": 0.5
   },
   
   // Hovered
