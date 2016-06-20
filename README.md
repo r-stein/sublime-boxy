@@ -165,7 +165,7 @@ Installed packages:
 
 ### Share The Love
 
-I've put a lot of time and effort into making `Boxy Theme` awesome. If you like the project and see its potential, pledge now. Every dollar helps! I promise it will be a good investment 😉
+I've put a lot of time and effort into making `Boxy Theme` awesome. If you love it, you can buy me a coffee. Every cup helps! I promise it will be a good investment 😉
 
 **Donate with:**
 
