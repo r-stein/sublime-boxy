@@ -662,27 +662,27 @@
 
 {
   "class": "icon_folder",
-  "settings": ["theme_sidebar_icon_saturation_lw", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_lw", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.5
 },
 
 {
   "class": "icon_folder",
   "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-  "settings": ["theme_sidebar_icon_saturation_lw", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_lw", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.7
 },
 
 {
   "class": "icon_folder_dup",
-  "settings": ["theme_sidebar_icon_saturation_lw", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_lw", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.5
 },
 
 {
   "class": "icon_folder_dup",
   "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-  "settings": ["theme_sidebar_icon_saturation_lw", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_lw", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.7
 },
 
@@ -712,27 +712,27 @@
 
 {
   "class": "icon_folder",
-  "settings": ["theme_sidebar_icon_saturation_md", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_md", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.6
 },
 
 {
   "class": "icon_folder",
   "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-  "settings": ["theme_sidebar_icon_saturation_md", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_md", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.8
 },
 
 {
   "class": "icon_folder_dup",
-  "settings": ["theme_sidebar_icon_saturation_md", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_md", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.6
 },
 
 {
   "class": "icon_folder_dup",
   "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-  "settings": ["theme_sidebar_icon_saturation_md", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_md", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.8
 },
 
@@ -762,27 +762,27 @@
 
 {
   "class": "icon_folder",
-  "settings": ["theme_sidebar_icon_saturation_hg", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_hg", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.7
 },
 
 {
   "class": "icon_folder",
   "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-  "settings": ["theme_sidebar_icon_saturation_hg", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_hg", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.9
 },
 
 {
   "class": "icon_folder_dup",
-  "settings": ["theme_sidebar_icon_saturation_hg", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_hg", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.7
 },
 
 {
   "class": "icon_folder_dup",
   "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-  "settings": ["theme_sidebar_icon_saturation_hg", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_hg", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.9
 },
 
@@ -812,27 +812,27 @@
 
 {
   "class": "icon_folder",
-  "settings": ["theme_sidebar_icon_saturation_xh", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_xh", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.8
 },
 
 {
   "class": "icon_folder",
   "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-  "settings": ["theme_sidebar_icon_saturation_xh", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_xh", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 1.0
 },
 
 {
   "class": "icon_folder_dup",
-  "settings": ["theme_sidebar_icon_saturation_xh", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_xh", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 0.8
 },
 
 {
   "class": "icon_folder_dup",
   "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-  "settings": ["theme_sidebar_icon_saturation_xh", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_monochrome"],
+  "settings": ["theme_sidebar_icon_saturation_xh", "!theme_sidebar_folder_arrow", "!theme_sidebar_folder_mono"],
   "layer0.opacity": 1.0
 },
 
