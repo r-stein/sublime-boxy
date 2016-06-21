@@ -23,7 +23,7 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 
 ***
 
-<sub>JUMP TO: <a href="#boxy-yesterday">YESTERDAY</a> ▪ <a href="#boxy-tomorrow">TOMORROW</a> ▪ <a href="#boxy-ocean">OCEAN</a> ▪<a href="#boxy-monokai">MONOKAI</a> ▪ <a href="#share-the-love">SHARE THE LOVE</a><b></sub>
+<p><sub>JUMP TO: <a href="#boxy-yesterday">YESTERDAY</a>&nbsp;&#183;&nbsp;<a href="#boxy-tomorrow">TOMORROW</a>&nbsp;&#183;&nbsp;<a href="#boxy-ocean">OCEAN</a>&nbsp;&#183;&nbsp;<a href="#boxy-monokai">MONOKAI</a>&nbsp;&#183;&nbsp;<a href="#share-the-love">SHARE THE LOVE</a><b></sub></p>
 
 ***
 
