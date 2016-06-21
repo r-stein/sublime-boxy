@@ -67,7 +67,7 @@ settings:
     foreground: '#d75a64'
 
 - name: Function, Special Method, Block Level
-  scope: entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method,
+  scope: entity.name.function, variable.function, support.function, keyword.other.special-method,
     meta.block-level
   settings:
     foreground: '#81a2be'
