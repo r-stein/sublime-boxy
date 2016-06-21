@@ -26,6 +26,12 @@
   "layer0.opacity": 1.0
 },
 
+{
+  "class": "sidebar_tree",
+  "settings": ["theme_sidebar_disclosure"],
+  "indent_offset": -1
+},
+
 // Sidebar Tree Row
 // ---------------------------------------------------------------------------
 
@@ -202,13 +208,27 @@
 // ---------------------------------------------------------------------------
 
 //
-// Hide Folder Icons
+// Disclosure Icons
 //
 
 {
   "class": "disclosure_button_control",
   "content_margin": [0, 0],
   "layer0.opacity": 0
+},
+
+{
+  "class": "disclosure_button_control",
+  "settings": ["theme_sidebar_disclosure"],
+  "content_margin": [8, 8],
+  "layer0.opacity": 0.25
+},
+
+{
+  "class": "disclosure_button_control",
+  "settings": ["theme_sidebar_disclosure"],
+  "attributes": ["hover"],
+  "layer0.opacity": 0.35
 },
 
 //

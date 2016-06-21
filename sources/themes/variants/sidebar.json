@@ -32,6 +32,50 @@
 // Sidebar Folders
 //
 
+//
+// Disclosure Icons
+//
+
+{
+  "class": "disclosure_button_control",
+  "settings": ["theme_sidebar_disclosure"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/disclosure.png"
+},
+
+{
+  "class": "disclosure_button_control",
+  "settings": ["theme_sidebar_disclosure", "theme_hidpi_2x"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/disclosure@2x.png"
+},
+
+{
+  "class": "disclosure_button_control",
+  "settings": ["theme_sidebar_disclosure", "theme_hidpi_3x"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/disclosure@3x.png"
+},
+
+{
+  "class": "disclosure_button_control",
+  "settings": ["theme_sidebar_disclosure"],
+  "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/disclosure_expanded.png"
+},
+
+{
+  "class": "disclosure_button_control",
+  "settings": ["theme_sidebar_disclosure", "theme_hidpi_2x"],
+  "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/disclosure_expanded@2x.png"
+},
+
+{
+  "class": "disclosure_button_control",
+  "settings": ["theme_sidebar_disclosure", "theme_hidpi_3x"],
+  "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/disclosure_expanded@3x.png"
+},
+
+
 // Defaults
 
 {
