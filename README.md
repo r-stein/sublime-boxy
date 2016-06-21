@@ -23,6 +23,10 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 
 ***
 
+<sub>JUMP TO: <a href="#boxy-yesterday">YESTERDAY</a><b> ▪ </b><a href="#boxy-tomorrow">TOMORROW</a><b> ▪️</b><a href="#boxy-ocean">OCEAN</a><b> ▪️</b><a href="#boxy-monokai">MONOKAI</a><b> ▪️</b><a href="#share-the-love">SHARE THE LOVE</a><b></sub>
+
+***
+
 ### Quick Start
 
 See our [Gallery][gallery] for more quick start examples. All available options can be found [here][settings].
