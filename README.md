@@ -13,7 +13,7 @@
 
 ***
 
-A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Comes in, both, light and dark variations. There are dozens of [options][settings] that enable you to personalize your experience with `Boxy Theme`, don't forget to check [them][settings] out. 
+A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Comes in, both, light and dark variations. There are dozens of [**options**][settings] that enable you to personalize your experience with `Boxy Theme`, don't forget to check [them][settings] out.
 
 Want to contribute some code? Excellent! Read up on our [guidelines](https://github.com/oivva/boxy/wiki/Contributing).
 
@@ -29,7 +29,7 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 
 ### Quick Start
 
-See our [Gallery][gallery] for more quick start examples. All available options can be found [here][settings].
+See our [Gallery][gallery] for more quick start examples. **All available options** can be found [**here**][settings].
 
 #### Boxy Yesterday
 
