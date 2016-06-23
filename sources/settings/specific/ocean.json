@@ -43,7 +43,7 @@
   },
   "scheme": {
     "background": "#1b2b34",
-    "caret": "#c0c5ce",
+    "caret": "#cdd3de",
     "foreground": "#cdd3de",
     "gutter": "#1b2b34",
     "highlight": "#ffffff10",
