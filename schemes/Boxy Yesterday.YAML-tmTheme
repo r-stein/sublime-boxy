@@ -11,7 +11,7 @@ semanticClass: boxy.yesterday.light
 settings:
 - settings:
     background: '#ffffff'
-    caret: '#969896'
+    caret: '#4d4d4c'
     foreground: '#4d4d4c'
     gutter: '#ffffff'
     invisibles: '#8e908c'
