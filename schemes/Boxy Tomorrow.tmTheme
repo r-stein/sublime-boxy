@@ -31,6 +31,33 @@
 				<string>#969896</string>
 				<key>lineHighlight</key>
 				<string>#ffffff10</string>
+				<key>popupCss</key>
+				<string>
+html {
+  background-color: #2a2b2d;
+  color: #c5c8c6;
+}
+
+body {
+  font-size: 1.1em;
+}
+
+a {
+  color: #81a2be;
+}
+
+.error, .deleted {
+  color: #cc6666;
+}
+
+.success, .inserted {
+  color: #b5bd68;
+}
+
+.warning, .modified {
+  color: #f0c674;
+}
+</string>
 				<key>selection</key>
 				<string>#ffffff15</string>
 				<key>selectionBorder</key>

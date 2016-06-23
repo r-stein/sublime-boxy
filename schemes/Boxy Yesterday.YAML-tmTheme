@@ -21,6 +21,32 @@ settings:
     activeGuide: '#c99e0090'
     guide: '#00000010'
     stackGuide: '#00000025'
+    popupCss: |
+
+      html {
+        background-color: #eeeeee;
+        color: #4d4d4c;
+      }
+
+      body {
+        font-size: 1.1em;
+      }
+
+      a {
+        color: #4271ae;
+      }
+
+      .error, .deleted {
+        color: #c82829;
+      }
+
+      .success, .inserted {
+        color: #718c00;
+      }
+
+      .warning, .modified {
+        color: #c99e00;
+      }
 
 # >> General
 
