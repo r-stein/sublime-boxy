@@ -14,27 +14,11 @@
   "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty.png"
 },
 
-{
-  "class": "close_button",
-  "settings": ["theme_hidpi_2x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_close@2x.png",
-  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty@2x.png"
-},
-
-{
-  "class": "close_button",
-  "settings": ["theme_hidpi_3x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_close@3x.png",
-  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty@3x.png"
-},
-
 //
 // Sidebar Folders
 //
 
-//
 // Disclosure Icons
-//
 
 {
   "class": "disclosure_button_control",
@@ -44,37 +28,10 @@
 
 {
   "class": "disclosure_button_control",
-  "settings": ["theme_sidebar_disclosure", "theme_hidpi_2x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/disclosure@2x.png"
-},
-
-{
-  "class": "disclosure_button_control",
-  "settings": ["theme_sidebar_disclosure", "theme_hidpi_3x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/disclosure@3x.png"
-},
-
-{
-  "class": "disclosure_button_control",
   "settings": ["theme_sidebar_disclosure"],
   "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/disclosure_expanded.png"
 },
-
-{
-  "class": "disclosure_button_control",
-  "settings": ["theme_sidebar_disclosure", "theme_hidpi_2x"],
-  "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/disclosure_expanded@2x.png"
-},
-
-{
-  "class": "disclosure_button_control",
-  "settings": ["theme_sidebar_disclosure", "theme_hidpi_3x"],
-  "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/disclosure_expanded@3x.png"
-},
-
 
 // Defaults
 
@@ -83,18 +40,6 @@
   "settings": ["theme_sidebar_folder_mono"],
   "layer0.opacity": 0.3,
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder.png"
-},
-
-{
-  "class": "icon_folder",
-  "settings": ["theme_sidebar_folder_mono", "theme_hidpi_2x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder@2x.png"
-},
-
-{
-  "class": "icon_folder",
-  "settings": ["theme_sidebar_folder_mono", "theme_hidpi_3x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder@3x.png"
 },
 
 {
@@ -113,20 +58,6 @@
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_expanded.png"
 },
 
-{
-  "class": "icon_folder",
-  "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-  "settings": ["theme_sidebar_folder_mono", "theme_hidpi_2x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_expanded@2x.png"
-},
-
-{
-  "class": "icon_folder",
-  "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-  "settings": ["theme_sidebar_folder_mono", "theme_hidpi_3x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_expanded@3x.png"
-},
-
 // Symlink
 
 {
@@ -134,18 +65,6 @@
   "settings": ["theme_sidebar_folder_mono"],
   "layer0.opacity": 0.3,
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_dup.png"
-},
-
-{
-  "class": "icon_folder_dup",
-  "settings": ["theme_sidebar_folder_mono", "theme_hidpi_2x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_dup@2x.png"
-},
-
-{
-  "class": "icon_folder_dup",
-  "settings": ["theme_sidebar_folder_mono", "theme_hidpi_3x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_dup@3x.png"
 },
 
 {
@@ -164,20 +83,6 @@
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_dup_expanded.png"
 },
 
-{
-  "class": "icon_folder_dup",
-  "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
-  "settings": ["theme_sidebar_folder_mono", "theme_hidpi_2x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_dup_expanded@2x.png"
-},
-
-{
-  "class": "icon_folder_dup",
-  "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
-  "settings": ["theme_sidebar_folder_mono", "theme_hidpi_3x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_dup_expanded@3x.png"
-},
-
 // Arrows
 
 {
@@ -188,35 +93,9 @@
 
 {
   "class": "icon_folder",
-  "settings": ["theme_sidebar_folder_arrow", "theme_hidpi_2x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow@2x.png"
-},
-
-{
-  "class": "icon_folder",
-  "settings": ["theme_sidebar_folder_arrow", "theme_hidpi_3x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow@3x.png"
-},
-
-{
-  "class": "icon_folder",
   "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
   "settings": ["theme_sidebar_folder_arrow"],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow_expanded.png"
-},
-
-{
-  "class": "icon_folder",
-  "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-  "settings": ["theme_sidebar_folder_arrow", "theme_hidpi_2x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow_expanded@2x.png"
-},
-
-{
-  "class": "icon_folder",
-  "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-  "settings": ["theme_sidebar_folder_arrow", "theme_hidpi_3x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow_expanded@3x.png"
 },
 
 {
@@ -227,34 +106,7 @@
 
 {
   "class": "icon_folder_dup",
-  "settings": ["theme_sidebar_folder_arrow", "theme_hidpi_2x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow@2x.png"
-},
-
-{
-  "class": "icon_folder_dup",
-  "settings": ["theme_sidebar_folder_arrow", "theme_hidpi_3x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow@3x.png"
-},
-
-{
-  "class": "icon_folder_dup",
   "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
   "settings": ["theme_sidebar_folder_arrow"],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow_expanded.png"
 },
-
-{
-  "class": "icon_folder_dup",
-  "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-  "settings": ["theme_sidebar_folder_arrow", "theme_hidpi_2x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow_expanded@2x.png"
-},
-
-{
-  "class": "icon_folder_dup",
-  "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-  "settings": ["theme_sidebar_folder_arrow", "theme_hidpi_3x"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow_expanded@3x.png"
-},
-
