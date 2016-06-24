@@ -39,12 +39,6 @@
   "layer2.opacity": 0
 },
 
-{
-  "class": "sidebar_container",
-  "settings": ["theme_bar_colored", "theme_sidebar_border"],
-  "layer2.opacity": 0
-},
-
 //
 // Extra Small
 //

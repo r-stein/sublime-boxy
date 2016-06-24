@@ -132,7 +132,7 @@
 
 {
   "class": "tab_control",
-  "settings": ["theme_tab_rounded"],
+  "settings": ["theme_tab_rounded", "!theme_bar"],
   "layer2.texture": "Boxy Theme/assets/common/tabs/tab_selected_rounded.png"
 },
 
@@ -187,7 +187,7 @@
 {
   "class": "tab_control",
   "attributes": ["selected"],
-  "settings": ["theme_tab_rounded"],
+  "settings": ["theme_tab_rounded", "!theme_bar"],
   "layer3.opacity": 0.9
 },
 

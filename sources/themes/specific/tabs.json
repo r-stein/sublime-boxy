@@ -28,7 +28,7 @@
 
 {
   "class": "tab_control",
-  "settings": ["theme_tab_rounded"],
+  "settings": ["theme_tab_rounded", "!theme_bar"],
   "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_hovered_rounded.png"
 },
 
@@ -51,7 +51,7 @@
 {
   "class": "tab_control",
   "attributes": ["hover"],
-  "settings": ["theme_tab_rounded", "theme_tab_separator", "theme_tab_highlight_text_only"],
+  "settings": ["theme_tab_rounded", "!theme_bar", "theme_tab_separator", "theme_tab_highlight_text_only"],
   "layer3.opacity": 0.1
 },
 

@@ -39,7 +39,7 @@
 
 {
   "class": "tab_control",
-  "settings": ["theme_tab_rounded", "theme_tab_separator"],
+  "settings": ["theme_tab_rounded", "theme_tab_separator", "!theme_bar"],
   "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png",
   "layer3.opacity": 0.1
 },
