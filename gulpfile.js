@@ -14,6 +14,7 @@ var gulp = require('gulp');
 var del = require('del');
 var path = require('path');
 var colors = require('colors');
+var changed = require('./changed');
 var sleep = require('sleep');
 var runSequence = require('run-sequence');
 var conventionalChangelog = require('conventional-changelog');
@@ -311,6 +312,61 @@ gulp.task('build:widget-settings', function() {
         }))
         .pipe(gulp.dest('./widgets'));
     }));
+});
+
+
+/*
+ * > Images
+ */
+
+function getCache() {
+  var cache = {};
+
+  try {
+    cache = JSON.parse(fs.readFileSync('./images.cache', 'utf8'));
+  }
+  catch(e) {
+    console.log('No `images.cache` file!');
+  }
+  finally {
+    return cache;
+  }
+}
+
+gulp.task('images', function(cb) {
+  runSequence(
+    'assets',
+    'icons',
+    function (error) {
+      if (error) {
+        console.log('[images]'.bold.magenta + ' There was an issue optimizing images:\n'.bold.red + error.message);
+      } else {
+        console.log('[images]'.bold.magenta + ' Finished successfully'.bold.green);
+      }
+
+      cb(error);
+    }
+  );
+});
+
+gulp.task('assets', function() {
+  return gulp.src('./assets/**/*.png')
+    .pipe(changed({
+      firstPass: true,
+      cache: getCache()
+    }))
+    .pipe($.imagemin())
+    .pipe(gulp.dest('./assets'));
+});
+
+gulp.task('icons', function() {
+  return gulp.src('./icons/**/*.png')
+    .pipe(changed({
+      firstPass: true,
+      cache: getCache()
+    }))
+    .pipe($.imagemin())
+    .pipe(gulp.dest('./icons'));
 });
 
 

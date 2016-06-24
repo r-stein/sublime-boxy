@@ -6,6 +6,8 @@
 *.cache
 node_modules/
 
+!images.cache
+
 
 # OS
 # =============================
