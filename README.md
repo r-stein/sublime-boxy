@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.gif?v=17062016" alt="BOXY"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.gif?v=240620161444" alt="BOXY"></p>
 
 <p align="center">
   <a href="https://github.com/oivva/boxy/releases"><img src="https://img.shields.io/github/release/oivva/boxy.svg?maxAge=3600&style=flat-square" alt="Release"></a>
@@ -23,7 +23,7 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 
 ***
 
-<p><small>Jump&nbsp;&rArr;&nbsp;<a href="#boxy-yesterday">Yesterday</a>&nbsp;&blacksquare;&nbsp;<a href="#boxy-tomorrow">Tomorrow</a>&nbsp;&blacksquare;&nbsp;<a href="#boxy-ocean">Ocean</a>&nbsp;&blacksquare;&nbsp;<a href="#boxy-monokai">Monokai</a>&nbsp;&blacksquare;&nbsp;<a href="#share-the-love">Share The Love</a></small></p>
+<p><small><a href="#boxy-yesterday">Yesterday</a>&nbsp;&blacksquare;&nbsp;<a href="#boxy-tomorrow">Tomorrow</a>&nbsp;&blacksquare;&nbsp;<a href="#boxy-ocean">Ocean</a>&nbsp;&blacksquare;&nbsp;<a href="#boxy-monokai">Monokai</a>&nbsp;&blacksquare;&nbsp;<a href="#share-the-love">Share The Love</a></small></p>
 
 ***
 
@@ -210,10 +210,10 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
 [img-bitcoin-with-title]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin-with-title.png
 [img-gallery]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/gallery.gif
-[img-yesterday]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/yesterday.png?v=17062016
-[img-tomorrow]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/tomorrow.png?v=17062016
-[img-ocean]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/ocean.png?v=17062016
-[img-monokai]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/monokai.png?v=17062016
+[img-yesterday]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/yesterday.png?v=240620161444
+[img-tomorrow]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/tomorrow.png?v=240620161444
+[img-ocean]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/ocean.png?v=240620161444
+[img-monokai]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/monokai.png?v=240620161444
 
 <!-- Fonts -->
 
