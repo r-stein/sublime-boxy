@@ -59,9 +59,9 @@ a {
 }
 </string>
 				<key>selection</key>
-				<string>#ffffff15</string>
+				<string>#ffffff16</string>
 				<key>selectionBorder</key>
-				<string>#ffffff15</string>
+				<string>#ffffff16</string>
 				<key>stackGuide</key>
 				<string>#ffffff25</string>
 			</dict>
@@ -630,7 +630,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff05</string>
+				<string>#ffffff08</string>
 				<key>foreground</key>
 				<string>#c5c8c6</string>
 			</dict>
@@ -643,7 +643,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff05</string>
+				<string>#ffffff08</string>
 				<key>foreground</key>
 				<string>#969896</string>
 			</dict>
@@ -669,7 +669,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff05</string>
+				<string>#ffffff08</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>

@@ -46,9 +46,9 @@
     "caret": "#c5c8c6",
     "foreground": "#c5c8c6",
     "gutter": "#1d1f21",
-    "invisible": "#ffffff05",
+    "invisible": "#ffffff08",
     "highlight": "#ffffff10",
-    "selection": "#ffffff15",
+    "selection": "#ffffff16",
     "comment": "#969896",
     "guide": {
       "default": "#ffffff10",
