@@ -333,22 +333,6 @@ function getCache() {
   }
 }
 
-gulp.task('images', function(cb) {
-  runSequence(
-    'assets',
-    'icons',
-    function (error) {
-      if (error) {
-        console.log('[images]'.bold.magenta + ' There was an issue optimizing images:\n'.bold.red + error.message);
-      } else {
-        console.log('[images]'.bold.magenta + ' Finished successfully'.bold.green);
-      }
-
-      cb(error);
-    }
-  );
-});
-
 gulp.task('assets', function() {
   return gulp.src('./assets/**/*.png')
     .pipe(changed({
