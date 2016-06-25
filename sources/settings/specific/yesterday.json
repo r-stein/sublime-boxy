@@ -46,9 +46,10 @@
     "caret": "#4d4d4c",
     "foreground": "#4d4d4c",
     "gutter": "#ffffff",
+    "invisible": "#00000005",
     "highlight": "#00000010",
     "selection": "#00000015",
-    "invisibles": "#8e908c",
+    "comment": "#8e908c",
     "guide": {
       "default": "#00000010",
       "stack": "#00000025",

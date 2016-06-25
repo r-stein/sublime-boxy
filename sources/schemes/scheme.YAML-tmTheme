@@ -14,7 +14,7 @@ settings:
     caret: '<%= scheme.caret %>'
     foreground: '<%= scheme.foreground %>'
     gutter: '<%= scheme.gutter %>'
-    invisibles: '<%= scheme.invisibles %>'
+    invisibles: '<%= scheme.comment %>'
     lineHighlight: '<%= scheme.highlight %>'
     selection: '<%= scheme.selection %>'
     selectionBorder: '<%= scheme.selection %>'
@@ -53,7 +53,7 @@ settings:
 - name: Comments
   scope: comment, punctuation.definition.comment
   settings:
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.comment %>'
     fontStyle: 'italic'
 
 - name: Variable
@@ -262,7 +262,7 @@ settings:
 - name: Markdown - Line Break
   scope: text.html.markdown meta.dummy.line-break
   settings:
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.comment %>'
 
 - name: Markdown - Heading
   scope: markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown
@@ -319,27 +319,27 @@ settings:
 - name: Markdown - Raw Block Fenced
   scope: markup.raw.block.fenced.markdown
   settings:
-    background: '<%= scheme.highlight %>'
+    background: '<%= scheme.invisible %>'
     foreground: '<%= scheme.foreground %>'
 
 - name: Markdown - Fenced Bode Block
   scope: punctuation.definition.fenced.markdown, variable.language.fenced.markdown
   settings:
-    background: '<%= scheme.highlight %>'
-    foreground: '<%= scheme.invisibles %>'
+    background: '<%= scheme.invisible %>'
+    foreground: '<%= scheme.comment %>'
 
 - name: Markdown - Fenced Language
   scope: variable.language.fenced.markdown
   settings:
     fontStyle: ''
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.comment %>'
 
 - name: Markdown - Separator
   scope: meta.separator
   settings:
-    background: '<%= scheme.highlight %>'
+    background: '<%= scheme.invisible %>'
     fontStyle: 'bold'
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.comment %>'
 
 - name: Markup - Table
   scope: markup.table
@@ -395,12 +395,12 @@ settings:
 - name: GitGutter Ignored
   scope: markup.ignored.git_gutter
   settings:
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.comment %>'
 
 - name: GitGutter Untracked
   scope: markup.untracked.git_gutter
   settings:
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.comment %>'
 
 # >> Gutter Color
 
