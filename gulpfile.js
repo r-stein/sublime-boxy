@@ -355,7 +355,7 @@ gulp.task('assets', function() {
       firstPass: true,
       cache: getCache()
     }))
-    .pipe($.imagemin())
+    .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
     .pipe(gulp.dest('./assets'));
 });
 
@@ -365,7 +365,7 @@ gulp.task('icons', function() {
       firstPass: true,
       cache: getCache()
     }))
-    .pipe($.imagemin())
+    .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
     .pipe(gulp.dest('./icons'));
 });
 
