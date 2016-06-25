@@ -630,7 +630,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff10</string>
+				<string>#ffffff05</string>
 				<key>foreground</key>
 				<string>#f8f8f2</string>
 			</dict>
@@ -643,7 +643,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff10</string>
+				<string>#ffffff05</string>
 				<key>foreground</key>
 				<string>#75715e</string>
 			</dict>
@@ -669,7 +669,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff10</string>
+				<string>#ffffff05</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
