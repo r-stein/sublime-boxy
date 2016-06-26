@@ -17,7 +17,7 @@
         "hex": "#2d3c44",
         "rgb": "45, 60, 68"
       },
-      "scrollbar": {
+      "base": {
         "hex": "#ffffff",
         "rgb": "255, 255, 255"
       }
