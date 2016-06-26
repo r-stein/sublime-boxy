@@ -3326,6 +3326,12 @@
   
   {
     "class": "icon_folder",
+    "settings": ["theme_sidebar_folder_mono", "theme_icons_atomized"],
+    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_atomized.png"
+  },
+  
+  {
+    "class": "icon_folder",
     "settings": ["theme_sidebar_folder_mono"],
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
     "layer0.opacity": 0.4
@@ -3347,6 +3353,13 @@
     "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_material_expanded.png"
   },
   
+  {
+    "class": "icon_folder",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+    "settings": ["theme_sidebar_folder_mono", "theme_icons_atomized"],
+    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_atomized_expanded.png"
+  },
+  
   // Symlink
   
   {
@@ -3360,6 +3373,12 @@
     "class": "icon_folder_dup",
     "settings": ["theme_sidebar_folder_mono", "theme_icons_material"],
     "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_material.png"
+  },
+  
+  {
+    "class": "icon_folder_dup",
+    "settings": ["theme_sidebar_folder_mono", "theme_icons_atomized"],
+    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_atomized.png"
   },
   
   {
@@ -3383,6 +3402,13 @@
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["theme_sidebar_folder_mono", "theme_icons_material"],
     "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_material_expanded.png"
+  },
+  
+  {
+    "class": "icon_folder_dup",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+    "settings": ["theme_sidebar_folder_mono", "theme_icons_atomized"],
+    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_atomized_expanded.png"
   },
   
   // Arrows
@@ -3537,6 +3563,12 @@
     "layer0.texture": "Boxy Theme/assets/accents/blue/sidebar/folder_material.png"
   },
   
+  {
+    "class": "icon_folder",
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow"],
+    "layer0.texture": "Boxy Theme/assets/accents/blue/sidebar/folder_atomized.png"
+  },
+  
   // Opened
   
   {
@@ -3553,6 +3585,13 @@
     "layer0.texture": "Boxy Theme/assets/accents/blue/sidebar/folder_material_expanded.png"
   },
   
+  {
+    "class": "icon_folder",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow"],
+    "layer0.texture": "Boxy Theme/assets/accents/blue/sidebar/folder_atomized_expanded.png"
+  },
+  
   // Symlink
   
   {
@@ -3565,6 +3604,12 @@
     "class": "icon_folder_dup",
     "settings": ["theme_icons_material", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow"],
     "layer0.texture": "Boxy Theme/assets/accents/blue/sidebar/folder_dup_material.png"
+  },
+  
+  {
+    "class": "icon_folder_dup",
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow"],
+    "layer0.texture": "Boxy Theme/assets/accents/blue/sidebar/folder_dup_atomized.png"
   },
   
   // Symlink Opened
@@ -3581,6 +3626,13 @@
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["theme_icons_material", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow"],
     "layer0.texture": "Boxy Theme/assets/accents/blue/sidebar/folder_dup_material_expanded.png"
+  },
+  
+  {
+    "class": "icon_folder_dup",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow"],
+    "layer0.texture": "Boxy Theme/assets/accents/blue/sidebar/folder_dup_atomized_expanded.png"
   },
   
   // Loading
@@ -3648,6 +3700,12 @@
     "layer0.texture": "Boxy Theme/assets/accents/green/sidebar/folder_material.png"
   },
   
+  {
+    "class": "icon_folder",
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/accents/green/sidebar/folder_atomized.png"
+  },
+  
   // Opened
   
   {
@@ -3664,6 +3722,13 @@
     "layer0.texture": "Boxy Theme/assets/accents/green/sidebar/folder_material_expanded.png"
   },
   
+  {
+    "class": "icon_folder",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/accents/green/sidebar/folder_atomized_expanded.png"
+  },
+  
   // Symlink
   
   {
@@ -3676,6 +3741,12 @@
     "class": "icon_folder_dup",
     "settings": ["theme_icons_material", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_green"],
     "layer0.texture": "Boxy Theme/assets/accents/green/sidebar/folder_dup_material.png"
+  },
+  
+  {
+    "class": "icon_folder_dup",
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/accents/green/sidebar/folder_dup_atomized.png"
   },
   
   // Symlink Opened
@@ -3692,6 +3763,13 @@
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["theme_icons_material", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_green"],
     "layer0.texture": "Boxy Theme/assets/accents/green/sidebar/folder_dup_material_expanded.png"
+  },
+  
+  {
+    "class": "icon_folder_dup",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/accents/green/sidebar/folder_dup_atomized_expanded.png"
   },
   
   // Loading
@@ -3759,6 +3837,12 @@
     "layer0.texture": "Boxy Theme/assets/accents/orange/sidebar/folder_material.png"
   },
   
+  {
+    "class": "icon_folder",
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/accents/orange/sidebar/folder_atomized.png"
+  },
+  
   // Opened
   
   {
@@ -3775,6 +3859,13 @@
     "layer0.texture": "Boxy Theme/assets/accents/orange/sidebar/folder_material_expanded.png"
   },
   
+  {
+    "class": "icon_folder",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/accents/orange/sidebar/folder_atomized_expanded.png"
+  },
+  
   // Symlink
   
   {
@@ -3787,6 +3878,12 @@
     "class": "icon_folder_dup",
     "settings": ["theme_icons_material", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_orange"],
     "layer0.texture": "Boxy Theme/assets/accents/orange/sidebar/folder_dup_material.png"
+  },
+  
+  {
+    "class": "icon_folder_dup",
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/accents/orange/sidebar/folder_dup_atomized.png"
   },
   
   // Symlink Opened
@@ -3803,6 +3900,13 @@
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["theme_icons_material", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_orange"],
     "layer0.texture": "Boxy Theme/assets/accents/orange/sidebar/folder_dup_material_expanded.png"
+  },
+  
+  {
+    "class": "icon_folder_dup",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/accents/orange/sidebar/folder_dup_atomized_expanded.png"
   },
   
   // Loading
@@ -3870,6 +3974,12 @@
     "layer0.texture": "Boxy Theme/assets/accents/purple/sidebar/folder_material.png"
   },
   
+  {
+    "class": "icon_folder",
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/accents/purple/sidebar/folder_atomized.png"
+  },
+  
   // Opened
   
   {
@@ -3886,6 +3996,13 @@
     "layer0.texture": "Boxy Theme/assets/accents/purple/sidebar/folder_material_expanded.png"
   },
   
+  {
+    "class": "icon_folder",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/accents/purple/sidebar/folder_atomized_expanded.png"
+  },
+  
   // Symlink
   
   {
@@ -3898,6 +4015,12 @@
     "class": "icon_folder_dup",
     "settings": ["theme_icons_material", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_purple"],
     "layer0.texture": "Boxy Theme/assets/accents/purple/sidebar/folder_dup_material.png"
+  },
+  
+  {
+    "class": "icon_folder_dup",
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/accents/purple/sidebar/folder_dup_atomized.png"
   },
   
   // Symlink Opened
@@ -3914,6 +4037,13 @@
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["theme_icons_material", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_purple"],
     "layer0.texture": "Boxy Theme/assets/accents/purple/sidebar/folder_dup_material_expanded.png"
+  },
+  
+  {
+    "class": "icon_folder_dup",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+    "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow", "theme_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/accents/purple/sidebar/folder_dup_atomized_expanded.png"
   },
   
   // Loading
