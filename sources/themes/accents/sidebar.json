@@ -45,6 +45,12 @@
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_material.png"
 },
 
+{
+  "class": "icon_folder",
+  "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_atomized.png"
+},
+
 // Opened
 
 {
@@ -61,6 +67,13 @@
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_material_expanded.png"
 },
 
+{
+  "class": "icon_folder",
+  "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+  "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_atomized_expanded.png"
+},
+
 // Symlink
 
 {
@@ -73,6 +86,12 @@
   "class": "icon_folder_dup",
   "settings": ["theme_icons_material", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_dup_material.png"
+},
+
+{
+  "class": "icon_folder_dup",
+  "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_dup_atomized.png"
 },
 
 // Symlink Opened
@@ -89,6 +108,13 @@
   "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
   "settings": ["theme_icons_material", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_dup_material_expanded.png"
+},
+
+{
+  "class": "icon_folder_dup",
+  "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+  "settings": ["theme_icons_atomized", "!theme_sidebar_folder_mono", "!theme_sidebar_folder_arrow"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_dup_atomized_expanded.png"
 },
 
 // Loading
