@@ -7,14 +7,14 @@
   "class": "quick_panel_row",
   "attributes": ["selected"],
   "layer1.opacity": 1.0,
-  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_hovered.png"
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight.png"
 },
 
 {
   "class": "mini_quick_panel_row",
   "attributes": ["selected"],
   "layer1.opacity": 1.0,
-  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_hovered.png"
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight.png"
 },
 
 <% for (var i = 0; i < ui.accents.length; i++) { %>
