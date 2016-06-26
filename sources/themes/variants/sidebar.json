@@ -44,6 +44,12 @@
 
 {
   "class": "icon_folder",
+  "settings": ["theme_sidebar_folder_mono", "theme_icons_material"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_material.png"
+},
+
+{
+  "class": "icon_folder",
   "settings": ["theme_sidebar_folder_mono"],
   "parents": [{"class": "tree_row", "attributes": ["hover"]}],
   "layer0.opacity": 0.4
@@ -58,6 +64,13 @@
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_expanded.png"
 },
 
+{
+  "class": "icon_folder",
+  "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+  "settings": ["theme_sidebar_folder_mono", "theme_icons_material"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_material_expanded.png"
+},
+
 // Symlink
 
 {
@@ -65,6 +78,12 @@
   "settings": ["theme_sidebar_folder_mono"],
   "layer0.opacity": 0.3,
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_dup.png"
+},
+
+{
+  "class": "icon_folder_dup",
+  "settings": ["theme_sidebar_folder_mono", "theme_icons_material"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_dup_material.png"
 },
 
 {
@@ -81,6 +100,13 @@
   "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
   "settings": ["theme_sidebar_folder_mono"],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_dup_expanded.png"
+},
+
+{
+  "class": "icon_folder_dup",
+  "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+  "settings": ["theme_sidebar_folder_mono", "theme_icons_material"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_dup_material_expanded.png"
 },
 
 // Arrows
