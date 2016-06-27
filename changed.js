@@ -35,7 +35,7 @@ module.exports = function(options) {
 
     done();
   }, function(done) {
-    fs.writeFileSync('./images.cache', JSON.stringify(cache), 'utf-8');
+    fs.writeFileSync('./images.cache', JSON.stringify(cache, null, 2), 'utf-8');
 
     done();
   });

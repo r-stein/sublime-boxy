@@ -333,7 +333,23 @@ function getCache() {
   }
 }
 
-gulp.task('assets', function() {
+gulp.task('optimize', function(cb) {
+  runSequence(
+    'optimize:assets',
+    'optimize:icons',
+    function (error) {
+      if (error) {
+        console.log('[optimize]'.bold.magenta + ' There was an issue optimizing images:\n'.bold.red + error.message);
+      } else {
+        console.log('[optimize]'.bold.magenta + ' Finished successfully'.bold.green);
+      }
+
+      cb(error);
+    }
+  );
+});
+
+gulp.task('optimize:assets', function() {
   return gulp.src('./assets/**/*.png')
     .pipe(changed({
       firstPass: true,
@@ -343,7 +359,7 @@ gulp.task('assets', function() {
     .pipe(gulp.dest('./assets'));
 });
 
-gulp.task('icons', function() {
+gulp.task('optimize:icons', function() {
   return gulp.src('./icons/**/*.png')
     .pipe(changed({
       firstPass: true,
