@@ -6639,13 +6639,19 @@
   // Sizes
   //
   
-  // Auto Width
+  // Width
   
   {
     "class": "tabset_control",
-    "settings": ["theme_tab_width_auto"],
+    "settings": ["theme_tab_width_auto", "enable_tab_scrolling"],
     "tab_width": 0,
     "tab_min_width": 64
+  },
+  
+  {
+    "class": "tabset_control",
+    "settings": ["!enable_tab_scrolling"],
+    "tab_min_width": 48
   },
   
   // Global
