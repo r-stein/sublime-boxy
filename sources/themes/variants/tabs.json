@@ -27,6 +27,30 @@
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown.png"
 },
 
+{
+  "class": "show_tabs_dropdown_button",
+  "settings": ["theme_icons_material"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_material.png"
+},
+
+{
+  "class": "show_tabs_dropdown_button",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_atomized.png"
+},
+
+{
+  "class": "show_tabs_dropdown_button",
+  "settings": ["theme_button_dropdown_material"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_material.png"
+},
+
+{
+  "class": "show_tabs_dropdown_button",
+  "settings": ["theme_button_dropdown_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_atomized.png"
+},
+
 // Tab
 // ---------------------------------------------------------------------------
 
@@ -141,7 +165,7 @@
 
 {
   "class": "tab_close_button",
-  "settings": ["theme_bar_dirty_material"],
+  "settings": ["theme_button_dirty_material"],
   "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty_material.png"
 },

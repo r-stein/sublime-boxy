@@ -92,3 +92,28 @@
   "class": "dropdown_button_control",
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown.png"
 },
+
+{
+  "class": "dropdown_button_control",
+  "settings": ["theme_icons_material"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_material.png"
+},
+
+{
+  "class": "dropdown_button_control",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_atomized.png"
+},
+
+{
+  "class": "dropdown_button_control",
+  "settings": ["theme_button_dropdown_material"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_material.png"
+},
+
+{
+  "class": "dropdown_button_control",
+  "settings": ["theme_button_dropdown_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_atomized.png"
+},
+
