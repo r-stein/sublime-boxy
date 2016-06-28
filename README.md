@@ -17,7 +17,7 @@ A set of easy customizable interface and syntax themes for **Sublime Text 3 3103
 
 Want to contribute some code? Excellent! Read up on our [guidelines](https://github.com/oivva/boxy/wiki/Contributing).
 
-If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [Known Issues][known-issues] section before reporting a new one.
+If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [**Known Issues**][known-issues] section before reporting a new one.
 
 Want to learn more? [**See the wiki &#8594;**][wiki].
 
