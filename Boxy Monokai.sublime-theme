@@ -5378,6 +5378,30 @@
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher.png"
   },
   
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_icons_material"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_material.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_icons_atomized"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_button_panel_switcher_material"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_material.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_button_panel_switcher_atomized"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
+  },
+  
   // Status Bar Theme Specific Styles
   // ===========================================================================
   
@@ -5409,6 +5433,30 @@
     "class": "panel_button_control",
     "settings": ["theme_statusbar_colored"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_icons_material", "theme_statusbar_colored"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_material.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_icons_atomized", "theme_statusbar_colored"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_button_panel_switcher_material", "theme_statusbar_colored"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_material.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_button_panel_switcher_atomized", "theme_statusbar_colored"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
   },
   
   // Status Bar Labels
@@ -5443,6 +5491,30 @@
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher.png"
   },
   
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_icons_material", "theme_statusbar_colored", "theme_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_material.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_icons_atomized", "theme_statusbar_colored", "theme_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_button_panel_switcher_material", "theme_statusbar_colored", "theme_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_material.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_button_panel_switcher_atomized", "theme_statusbar_colored", "theme_accent_green"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
+  },
+  
   // Status Bar Labels
   // ---------------------------------------------------------------------------
   
@@ -5475,6 +5547,30 @@
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher.png"
   },
   
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_icons_material", "theme_statusbar_colored", "theme_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_material.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_icons_atomized", "theme_statusbar_colored", "theme_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_button_panel_switcher_material", "theme_statusbar_colored", "theme_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_material.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_button_panel_switcher_atomized", "theme_statusbar_colored", "theme_accent_orange"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
+  },
+  
   // Status Bar Labels
   // ---------------------------------------------------------------------------
   
@@ -5505,6 +5601,30 @@
     "class": "panel_button_control",
     "settings": ["theme_statusbar_colored", "theme_accent_purple"],
     "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_icons_material", "theme_statusbar_colored", "theme_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_material.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_icons_atomized", "theme_statusbar_colored", "theme_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_button_panel_switcher_material", "theme_statusbar_colored", "theme_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_material.png"
+  },
+  
+  {
+    "class": "panel_button_control",
+    "settings": ["theme_button_panel_switcher_atomized", "theme_statusbar_colored", "theme_accent_purple"],
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
   },
   
   // Status Bar Labels
