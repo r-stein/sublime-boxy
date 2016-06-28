@@ -1,6 +1,20 @@
 // Controls <%= ui.variant.name %> Styles
 // ===========================================================================
 
+// Popup
+// ---------------------------------------------------------------------------
+
+
+{
+  "class": "popup_control",
+  "settings": ["theme_popup_border"],
+  "layer0.tint": [<%= ui.background.secondary.rgb %>, 255],
+  "layer0.opacity": 1.0,
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight.png",
+  "layer1.opacity": 1.0,
+  "content_margin": [2, 2]
+},
+
 // Buttons
 // ---------------------------------------------------------------------------
 
