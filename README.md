@@ -31,6 +31,8 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 
 See our [Gallery][gallery] for more quick start examples. **All available options** can be found [**here**][settings].
 
+> DON'T FORGET TO RESTART SUBLIME TEXT AFTER ACTIVATING OR RE-ACTIVATING THE THEME.
+
 #### Boxy Yesterday
 
 [![Boxy Yesterday][img-yesterday]][img-yesterday]
