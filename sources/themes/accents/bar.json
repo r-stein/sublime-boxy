@@ -380,6 +380,20 @@
 
 {
   "class": "tab_close_button",
+  "settings": ["theme_bar_colored", "theme_icons_material"],
+  "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+  "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_material.png"
+},
+
+{
+  "class": "tab_close_button",
+  "settings": ["theme_bar_colored", "theme_bar_dirty_material"],
+  "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+  "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_material.png"
+},
+
+{
+  "class": "tab_close_button",
   "settings": ["theme_bar_colored"],
   "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
   "attributes": ["hover"],
@@ -428,6 +442,20 @@
 {
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+  "settings": ["theme_icons_material", "theme_bar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_material_selected.png"
+},
+
+{
+  "class": "tab_close_button",
+  "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+  "settings": ["theme_bar_dirty_material", "theme_bar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_material_selected.png"
+},
+
+{
+  "class": "tab_close_button",
+  "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
   "settings": ["theme_bar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
   "attributes": ["hover"],
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_close_selected.png",
@@ -446,6 +474,20 @@
 {
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+  "settings": ["theme_bar_colored", "theme_tab_selected_transparent", "theme_icons_material"],
+  "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_material.png"
+},
+
+{
+  "class": "tab_close_button",
+  "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+  "settings": ["theme_bar_colored", "theme_tab_selected_transparent", "theme_bar_dirty_material"],
+  "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_material.png"
+},
+
+{
+  "class": "tab_close_button",
+  "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
   "attributes": ["hover"],
   "settings": ["theme_bar_colored", "theme_tab_selected_transparent"],
   "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
@@ -458,6 +500,20 @@
   "settings": ["theme_bar_colored", "theme_tab_selected_filled"],
   "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png",
   "layer0.opacity": 1.0
+},
+
+{
+  "class": "tab_close_button",
+  "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+  "settings": ["theme_bar_colored", "theme_tab_selected_filled", "theme_icons_material"],
+  "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_material.png"
+},
+
+{
+  "class": "tab_close_button",
+  "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+  "settings": ["theme_bar_colored", "theme_tab_selected_filled", "theme_bar_dirty_material"],
+  "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_material.png"
 },
 
 {

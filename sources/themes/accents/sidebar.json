@@ -27,6 +27,22 @@
   "layer1.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_selected.png"
 },
 
+{
+  "class": "close_button",
+  "settings": ["theme_icons_material"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+  "attributes": ["dirty"],
+  "layer1.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_material_selected.png"
+},
+
+{
+  "class": "close_button",
+  "settings": ["theme_bar_dirty_material"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+  "attributes": ["dirty"],
+  "layer1.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_material_selected.png"
+},
+
 //
 // Sidebar Folders
 //

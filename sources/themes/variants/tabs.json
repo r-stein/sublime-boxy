@@ -134,6 +134,20 @@
 
 {
   "class": "tab_close_button",
+  "settings": ["theme_icons_material"],
+  "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty_material.png"
+},
+
+{
+  "class": "tab_close_button",
+  "settings": ["theme_bar_dirty_material"],
+  "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty_material.png"
+},
+
+{
+  "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
   "attributes": ["hover"],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_close.png"

@@ -14,6 +14,18 @@
   "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty.png"
 },
 
+{
+  "class": "close_button",
+  "settings": ["theme_icons_material"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty_material.png"
+},
+
+{
+  "class": "close_button",
+  "settings": ["theme_bar_dirty_material"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty_material.png"
+},
+
 //
 // Sidebar Folders
 //
