@@ -41,13 +41,13 @@
 
 {
   "class": "show_tabs_dropdown_button",
-  "settings": ["theme_button_dropdown_materialized"],
+  "settings": ["theme_dropdown_materialized"],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_materialized.png"
 },
 
 {
   "class": "show_tabs_dropdown_button",
-  "settings": ["theme_button_dropdown_atomized"],
+  "settings": ["theme_dropdown_atomized"],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_atomized.png"
 },
 
@@ -165,7 +165,7 @@
 
 {
   "class": "tab_close_button",
-  "settings": ["theme_button_dirty_materialized"],
+  "settings": ["theme_dirty_materialized"],
   "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty_materialized.png"
 },

@@ -22,7 +22,7 @@
 
 {
   "class": "close_button",
-  "settings": ["theme_button_dirty_materialized"],
+  "settings": ["theme_dirty_materialized"],
   "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty_materialized.png"
 },
 

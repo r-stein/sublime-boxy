@@ -34,13 +34,13 @@
 
 {
   "class": "panel_button_control",
-  "settings": ["theme_button_panel_switcher_materialized", "theme_statusbar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "settings": ["theme_panel_switcher_materialized", "theme_statusbar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
   "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_materialized.png"
 },
 
 {
   "class": "panel_button_control",
-  "settings": ["theme_button_panel_switcher_atomized", "theme_statusbar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "settings": ["theme_panel_switcher_atomized", "theme_statusbar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
   "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
 },
 

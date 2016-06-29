@@ -170,13 +170,13 @@
 
 {
   "class": "show_tabs_dropdown_button",
-  "settings": ["theme_bar_colored", "theme_button_dropdown_materialized"],
+  "settings": ["theme_bar_colored", "theme_dropdown_materialized"],
   "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown_materialized.png"
 },
 
 {
   "class": "show_tabs_dropdown_button",
-  "settings": ["theme_bar_colored", "theme_button_dropdown_atomized"],
+  "settings": ["theme_bar_colored", "theme_dropdown_atomized"],
   "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown_atomized.png"
 },
 
@@ -411,7 +411,7 @@
 
 {
   "class": "tab_close_button",
-  "settings": ["theme_bar_colored", "theme_button_dirty_materialized"],
+  "settings": ["theme_bar_colored", "theme_dirty_materialized"],
   "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
   "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_materialized.png"
 },
@@ -473,7 +473,7 @@
 {
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-  "settings": ["theme_button_dirty_materialized", "theme_bar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "settings": ["theme_dirty_materialized", "theme_bar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_materialized_selected.png"
 },
 
@@ -505,7 +505,7 @@
 {
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-  "settings": ["theme_bar_colored", "theme_tab_selected_transparent", "theme_button_dirty_materialized"],
+  "settings": ["theme_bar_colored", "theme_tab_selected_transparent", "theme_dirty_materialized"],
   "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_materialized.png"
 },
 
@@ -536,7 +536,7 @@
 {
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-  "settings": ["theme_bar_colored", "theme_tab_selected_filled", "theme_button_dirty_materialized"],
+  "settings": ["theme_bar_colored", "theme_tab_selected_filled", "theme_dirty_materialized"],
   "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_materialized.png"
 },
 

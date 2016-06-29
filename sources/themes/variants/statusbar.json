@@ -23,12 +23,12 @@
 
 {
   "class": "panel_button_control",
-  "settings": ["theme_button_panel_switcher_materialized"],
+  "settings": ["theme_panel_switcher_materialized"],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_panel_switcher_materialized.png"
 },
 
 {
   "class": "panel_button_control",
-  "settings": ["theme_button_panel_switcher_atomized"],
+  "settings": ["theme_panel_switcher_atomized"],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_panel_switcher_atomized.png"
 },
