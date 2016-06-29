@@ -352,7 +352,6 @@ gulp.task('optimize', function(cb) {
 gulp.task('optimize:assets', function() {
   return gulp.src('./assets/**/*.png')
     .pipe(changed({
-      firstPass: true,
       cache: getCache()
     }))
     .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
@@ -362,7 +361,6 @@ gulp.task('optimize:assets', function() {
 gulp.task('optimize:icons', function() {
   return gulp.src('./icons/**/*.png')
     .pipe(changed({
-      firstPass: true,
       cache: getCache()
     }))
     .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
