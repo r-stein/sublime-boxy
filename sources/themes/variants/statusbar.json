@@ -11,8 +11,8 @@
 
 {
   "class": "panel_button_control",
-  "settings": ["theme_icons_material"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_panel_switcher_material.png"
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_panel_switcher_materialized.png"
 },
 
 {
@@ -23,8 +23,8 @@
 
 {
   "class": "panel_button_control",
-  "settings": ["theme_button_panel_switcher_material"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_panel_switcher_material.png"
+  "settings": ["theme_button_panel_switcher_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_panel_switcher_materialized.png"
 },
 
 {

@@ -95,8 +95,8 @@
 
 {
   "class": "dropdown_button_control",
-  "settings": ["theme_icons_material"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_material.png"
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_materialized.png"
 },
 
 {
@@ -107,8 +107,8 @@
 
 {
   "class": "dropdown_button_control",
-  "settings": ["theme_button_dropdown_material"],
-  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_material.png"
+  "settings": ["theme_button_dropdown_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_materialized.png"
 },
 
 {
