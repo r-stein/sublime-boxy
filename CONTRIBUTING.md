@@ -20,8 +20,8 @@ then run watcher by:
 $ gulp watch
 ```
 
-You can now edit the source files under **`sources`** folder that will be compiled (don't edit compiled files, all sources are inside **`sources`**).
+You can now edit the source files under `sources` folder that will be compiled (don't edit compiled files, all sources are inside `sources`).
 
-If you'd like to add some rules and styles to the template of the color schemes, please, do it inside **`sources\schemes\scheme.YAML-tmTheme`**. Run **`gulp build:schemes`** and then generate **`*.tmTheme`** files in **`schemes`** folder with such tool as [PackageDev](https://github.com/SublimeText/PackageDev).
+If you'd like to add some rules and styles to the template of the color schemes, please, do it inside `sources\schemes\scheme.YAML-tmTheme`. Run `gulp build:schemes` and then generate `*.tmTheme` files in `schemes` folder with such tool as [PackageDev](https://github.com/SublimeText/PackageDev).
 
-All colors can be found in **`sources\settings`** folder.
+All colors can be found in `sources\settings` folder.
