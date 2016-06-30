@@ -46,6 +46,34 @@
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_regex_on.png"
 },
 
+{
+  "class": "icon_regex",
+  "settings": ["theme_icons_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_regex_materialized_on.png"
+},
+
+{
+  "class": "icon_regex",
+  "settings": ["theme_icons_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_regex_atomized_on.png"
+},
+
+{
+  "class": "icon_regex",
+  "settings": ["theme_find_panel_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_regex_materialized_on.png"
+},
+
+{
+  "class": "icon_regex",
+  "settings": ["theme_find_panel_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_regex_atomized_on.png"
+},
+
 // Case Sensitive Search Button
 
 {
@@ -54,6 +82,34 @@
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_case_on.png"
+},
+
+{
+  "class": "icon_case",
+  "settings": ["theme_icons_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_case_materialized_on.png"
+},
+
+{
+  "class": "icon_case",
+  "settings": ["theme_icons_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_case_atomized_on.png"
+},
+
+{
+  "class": "icon_case",
+  "settings": ["theme_find_panel_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_case_materialized_on.png"
+},
+
+{
+  "class": "icon_case",
+  "settings": ["theme_find_panel_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_case_atomized_on.png"
 },
 
 // Match Whole Word Search Button
@@ -66,6 +122,34 @@
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_word_on.png"
 },
 
+{
+  "class": "icon_whole_word",
+  "settings": ["theme_icons_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_word_materialized_on.png"
+},
+
+{
+  "class": "icon_whole_word",
+  "settings": ["theme_icons_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_word_atomized_on.png"
+},
+
+{
+  "class": "icon_whole_word",
+  "settings": ["theme_find_panel_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_word_materialized_on.png"
+},
+
+{
+  "class": "icon_whole_word",
+  "settings": ["theme_find_panel_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_word_atomized_on.png"
+},
+
 // Search Wrap Button
 
 {
@@ -74,6 +158,34 @@
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_wrap_on.png"
+},
+
+{
+  "class": "icon_wrap",
+  "settings": ["theme_icons_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_wrap_materialized_on.png"
+},
+
+{
+  "class": "icon_wrap",
+  "settings": ["theme_icons_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_wrap_atomized_on.png"
+},
+
+{
+  "class": "icon_wrap",
+  "settings": ["theme_find_panel_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_wrap_materialized_on.png"
+},
+
+{
+  "class": "icon_wrap",
+  "settings": ["theme_find_panel_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_wrap_atomized_on.png"
 },
 
 // Show Search Context Button
@@ -86,6 +198,34 @@
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_context_on.png"
 },
 
+{
+  "class": "icon_context",
+  "settings": ["theme_icons_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_context_materialized_on.png"
+},
+
+{
+  "class": "icon_context",
+  "settings": ["theme_icons_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_context_atomized_on.png"
+},
+
+{
+  "class": "icon_context",
+  "settings": ["theme_find_panel_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_context_materialized_on.png"
+},
+
+{
+  "class": "icon_context",
+  "settings": ["theme_find_panel_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_context_atomized_on.png"
+},
+
 // Use Search Buffer
 
 {
@@ -94,6 +234,34 @@
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_buffer_on.png"
+},
+
+{
+  "class": "icon_use_buffer",
+  "settings": ["theme_icons_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_buffer_materialized_on.png"
+},
+
+{
+  "class": "icon_use_buffer",
+  "settings": ["theme_icons_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_buffer_atomized_on.png"
+},
+
+{
+  "class": "icon_use_buffer",
+  "settings": ["theme_find_panel_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_buffer_materialized_on.png"
+},
+
+{
+  "class": "icon_use_buffer",
+  "settings": ["theme_find_panel_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_buffer_atomized_on.png"
 },
 
 // Reverse Search Direction Button
@@ -116,6 +284,34 @@
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_selection_on.png"
 },
 
+{
+  "class": "icon_in_selection",
+  "settings": ["theme_icons_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_selection_materialized_on.png"
+},
+
+{
+  "class": "icon_in_selection",
+  "settings": ["theme_icons_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_selection_atomized_on.png"
+},
+
+{
+  "class": "icon_in_selection",
+  "settings": ["theme_find_panel_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_selection_materialized_on.png"
+},
+
+{
+  "class": "icon_in_selection",
+  "settings": ["theme_find_panel_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_selection_atomized_on.png"
+},
+
 // Preserve Case Button
 
 {
@@ -126,6 +322,34 @@
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_preserve_on.png"
 },
 
+{
+  "class": "icon_preserve_case",
+  "settings": ["theme_icons_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_preserve_materialized_on.png"
+},
+
+{
+  "class": "icon_preserve_case",
+  "settings": ["theme_icons_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_preserve_atomized_on.png"
+},
+
+{
+  "class": "icon_preserve_case",
+  "settings": ["theme_find_panel_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_preserve_materialized_on.png"
+},
+
+{
+  "class": "icon_preserve_case",
+  "settings": ["theme_find_panel_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_preserve_atomized_on.png"
+},
+
 // Highlight Results Button
 
 {
@@ -134,5 +358,33 @@
   "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
   "layer0.opacity": 1.0,
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_highlight_on.png"
+},
+
+{
+  "class": "icon_highlight",
+  "settings": ["theme_icons_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_highlight_materialized_on.png"
+},
+
+{
+  "class": "icon_highlight",
+  "settings": ["theme_icons_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_highlight_atomized_on.png"
+},
+
+{
+  "class": "icon_highlight",
+  "settings": ["theme_find_panel_materialized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_highlight_materialized_on.png"
+},
+
+{
+  "class": "icon_highlight",
+  "settings": ["theme_find_panel_atomized"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_highlight_atomized_on.png"
 },
 <% } %>
