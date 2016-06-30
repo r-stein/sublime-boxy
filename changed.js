@@ -12,7 +12,6 @@ module.exports = function(options) {
   options = options || {};
 
   var cache = options.cache || GLOBAL_CACHE;
-  var firstPass = options.firstPass === true;
 
   return through.obj(function(file, encoding, done) {
     if (file.contents === null) {
@@ -29,7 +28,7 @@ module.exports = function(options) {
     var currentHash = cache[filepath];
     cache[filepath] = newHash;
 
-    if ((!currentHash && firstPass) || (currentHash && currentHash !== newHash)) {
+    if ((!currentHash) || (currentHash && currentHash !== newHash)) {
       this.push(file);
     }
 
