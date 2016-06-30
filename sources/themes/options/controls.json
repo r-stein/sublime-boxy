@@ -6,7 +6,7 @@
 
 {
   "class": "popup_control",
-  "settings": ["theme_popup_border"],
+  "settings": ["theme_popup_border_visible"],
   "content_margin": [2, 2]
 },
 

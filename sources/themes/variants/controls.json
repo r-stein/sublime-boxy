@@ -7,7 +7,7 @@
 
 {
   "class": "popup_control",
-  "settings": ["theme_popup_border"],
+  "settings": ["theme_popup_border_visible"],
   "layer0.tint": [<%= ui.background.secondary.rgb %>, 255],
   "layer0.opacity": 1.0,
   "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight.png",
