@@ -76,6 +76,22 @@
             "rgb": "236, 229, 240"
           }
         }
+      },
+      {
+        "id": "tangerine",
+        "name": "Tangerine",
+        "hex": "#f2865e",
+        "rgb": "242, 134, 94",
+        "foreground": {
+          "default": {
+            "hex": "#fad5c7",
+            "rgb": "250, 213, 199"
+          },
+          "highlighted": {
+            "hex": "#fdede7",
+            "rgb": "253, 237, 231"
+          }
+        }
       }
     ]
   }
