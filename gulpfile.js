@@ -14,7 +14,6 @@ var gulp = require('gulp');
 var del = require('del');
 var path = require('path');
 var colors = require('colors');
-var changed = require('./changed');
 var sleep = require('sleep');
 var runSequence = require('run-sequence');
 var conventionalChangelog = require('conventional-changelog');
@@ -351,18 +350,12 @@ gulp.task('optimize', function(cb) {
 
 gulp.task('optimize:assets', function() {
   return gulp.src('./assets/**/*.png')
-    .pipe(changed({
-      cache: getCache()
-    }))
     .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
     .pipe(gulp.dest('./assets'));
 });
 
 gulp.task('optimize:icons', function() {
   return gulp.src('./icons/**/*.png')
-    .pipe(changed({
-      cache: getCache()
-    }))
     .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
     .pipe(gulp.dest('./icons'));
 });
