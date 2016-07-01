@@ -401,6 +401,45 @@
 {
   "class": "scroll_tabs_left_button",
   "settings": ["theme_bar_colored"],
+  "layer0.opacity": 0.65
+},
+
+{
+  "class": "scroll_tabs_left_button",
+  "settings": ["theme_bar_colored"],
+  "attributes": ["hover"],
+  "layer0.opacity": 0.85
+},
+
+{
+  "class": "scroll_tabs_right_button",
+  "settings": ["theme_bar_colored"],
+  "layer0.opacity": 0.65
+},
+
+{
+  "class": "scroll_tabs_right_button",
+  "settings": ["theme_bar_colored"],
+  "attributes": ["hover"],
+  "layer0.opacity": 0.85
+},
+
+{
+  "class": "show_tabs_dropdown_button",
+  "settings": ["theme_bar_colored"],
+  "layer0.opacity": 0.65
+},
+
+{
+  "class": "show_tabs_dropdown_button",
+  "settings": ["theme_bar_colored"],
+  "attributes": ["hover"],
+  "layer0.opacity": 0.85
+},
+
+{
+  "class": "scroll_tabs_left_button",
+  "settings": ["theme_bar_colored"],
   "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_arrow_left.png"
 },
 
@@ -624,6 +663,46 @@
 //
 // Buttons
 //
+
+{
+  "class": "tab_close_button",
+  "settings": ["theme_bar_colored"],
+  "layer0.opacity": 0
+},
+
+{
+  "class": "tab_close_button",
+  "settings": ["theme_tab_close_always_visible", "theme_bar_colored"],
+  "layer0.opacity": 0.65
+},
+
+{
+  "class": "tab_close_button",
+  "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+  "settings": ["!theme_tab_close_always_visible", "theme_bar_colored"],
+  "layer0.opacity": 0.65
+},
+
+{
+  "class": "tab_close_button",
+  "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+  "settings": ["!theme_tab_close_always_visible", "theme_bar_colored"],
+  "layer0.opacity": 0.65
+},
+
+{
+  "class": "tab_close_button",
+  "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+  "settings": ["!theme_tab_close_always_visible", "theme_bar_colored"],
+  "layer0.opacity": 0.65
+},
+
+{
+  "class": "tab_close_button",
+  "attributes": ["hover"],
+  "settings": ["theme_bar_colored"],
+  "layer0.opacity": 0.85
+},
 
 {
   "class": "tab_close_button",

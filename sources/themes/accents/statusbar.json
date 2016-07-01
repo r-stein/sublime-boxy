@@ -16,6 +16,19 @@
 
 {
   "class": "panel_button_control",
+  "settings": ["theme_statusbar_colored"],
+  "layer0.opacity": 0.65
+},
+
+{
+  "class": "panel_button_control",
+  "settings": ["theme_statusbar_colored"],
+  "attributes": ["hover"],
+  "layer0.opacity": 0.85
+},
+
+{
+  "class": "panel_button_control",
   "settings": ["theme_statusbar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
   "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher.png"
 },
@@ -51,7 +64,7 @@
   "class": "label_control",
   "settings": ["theme_statusbar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
   "parents": [{"class": "status_bar"}],
-  "color": [<%= ui.base.white.rgb %>]
+  "color": [<%= ui.accents[i].foreground.highlighted.rgb %>]
 },
 
 <% } %>
