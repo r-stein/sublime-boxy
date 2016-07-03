@@ -24,7 +24,7 @@
 				<key>foreground</key>
 				<string>#c5c8c6</string>
 				<key>guide</key>
-				<string>#ffffff10</string>
+				<string>#ffffff25</string>
 				<key>gutter</key>
 				<string>#1d1f21</string>
 				<key>invisibles</key>
@@ -63,7 +63,7 @@ a {
 				<key>selectionBorder</key>
 				<string>#ffffff16</string>
 				<key>stackGuide</key>
-				<string>#ffffff25</string>
+				<string>#ffffff40</string>
 			</dict>
 		</dict>
 		<dict>
