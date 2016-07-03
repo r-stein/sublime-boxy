@@ -226,3 +226,21 @@
   "settings": ["theme_sidebar_folder_arrow"],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/folder_arrow_expanded.png"
 },
+
+// Loading
+
+{
+  "class": "icon_folder_loading",
+  "layer0.texture":
+  {
+    "keyframes":
+    [
+      "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/spinner-4.png",
+      "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/spinner-3.png",
+      "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/spinner-2.png",
+      "Boxy Theme/assets/variants/<%= ui.variant.id %>/sidebar/spinner-1.png"
+    ],
+    "loop": true,
+    "frame_time": 0.25
+  }
+},
