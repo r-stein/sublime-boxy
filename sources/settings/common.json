@@ -140,6 +140,22 @@
             "rgb": "253, 234, 235"
           }
         }
+      },
+      {
+        "id": "sky",
+        "name": "Sky",
+        "hex": "#528bff",
+        "rgb": "82, 139, 255",
+        "foreground": {
+          "default": {
+            "hex": "#c3d7ff",
+            "rgb": "195, 215, 255"
+          },
+          "highlighted": {
+            "hex": "#e5eeff",
+            "rgb": "229, 238, 255"
+          }
+        }
       }
     ]
   }
