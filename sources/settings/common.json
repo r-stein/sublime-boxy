@@ -92,6 +92,22 @@
             "rgb": "253, 237, 231"
           }
         }
+      },
+      {
+        "id": "cyan",
+        "name": "Cyan",
+        "hex": "#74cac2",
+        "rgb": "116, 202, 194",
+        "foreground": {
+          "default": {
+            "hex": "#ceedea",
+            "rgb": "206, 237, 234"
+          },
+          "highlighted": {
+            "hex": "#eaf7f6",
+            "rgb": "234, 247, 246"
+          }
+        }
       }
     ]
   }
