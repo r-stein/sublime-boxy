@@ -349,28 +349,10 @@ settings:
 
 # >> AceJump
 
-- name: AceJump Label - Blue
-  scope: acejump.label.blue
+- name: AceJump Label
+  scope: acejump.label
   settings:
-    background: '<%= ui.accents[0].hex %>'
-    foreground: '<%= scheme.base.white %>'
-
-- name: AceJump Label - Green
-  scope: acejump.label.green
-  settings:
-    background: '<%= ui.accents[1].hex %>'
-    foreground: '<%= scheme.base.white %>'
-
-- name: AceJump Label - Orange
-  scope: acejump.label.orange
-  settings:
-    background: '<%= ui.accents[2].hex %>'
-    foreground: '<%= scheme.base.white %>'
-
-- name: AceJump Label - Purple
-  scope: acejump.label.purple
-  settings:
-    background: '<%= ui.accents[3].hex %>'
+    background: '<%= ui.accents[8].hex %>'
     foreground: '<%= scheme.base.white %>'
 
 # >> Sublime Linter
