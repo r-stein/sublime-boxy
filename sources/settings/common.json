@@ -108,6 +108,22 @@
             "rgb": "234, 247, 246"
           }
         }
+      },
+      {
+        "id": "lime",
+        "name": "Lime",
+        "hex": "#84bc44",
+        "rgb": "132, 188, 68",
+        "foreground": {
+          "default": {
+            "hex": "#d4e8be",
+            "rgb": "212, 232, 190"
+          },
+          "highlighted": {
+            "hex": "#ebf4e1",
+            "rgb": "235, 244, 225"
+          }
+        }
       }
     ]
   }
