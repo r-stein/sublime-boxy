@@ -124,6 +124,22 @@
             "rgb": "235, 244, 225"
           }
         }
+      },
+      {
+        "id": "pink",
+        "name": "Pink",
+        "hex": "#f07178",
+        "rgb": "240, 113, 120",
+        "foreground": {
+          "default": {
+            "hex": "#facdd0",
+            "rgb": "250, 205, 208"
+          },
+          "highlighted": {
+            "hex": "#fdeaeb",
+            "rgb": "253, 234, 235"
+          }
+        }
       }
     ]
   }
