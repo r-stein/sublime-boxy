@@ -6,6 +6,7 @@
   <a href="https://travis-ci.org/oivva/boxy"><img src="https://img.shields.io/travis/oivva/boxy.svg?maxAge=3600&style=flat-square" alt="Build Status"></a>
   <a href="https://gitter.im/oivva/boxy"><img src="https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000&style=flat-square" alt="Gitter"></a>
   <a href="https://github.com/oivva/boxy/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000&style=flat-square" alt="License"></a>&nbsp;
+  <a href="https://twitter.com/oivvatweets" title="Share via Twitter"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/twitter.png" alt="Twitter"></a>&nbsp;
   <a href="https://www.patreon.com/oivva" title="Donate with Patreon"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon.png" alt="Click here to lend your support to: Boxy and make a donation at patreon.com"></a>&nbsp;
   <a href="https://flattr.com/profile/oivva" title="Donate with Flattr"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png" alt="Click here to lend your support to: Boxy and make a donation at flattr.com !"></a>&nbsp;
   <a href="https://www.coinbase.com/oivva" title="Donate with Bitcoin"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png" alt="Click here to lend your support to: Boxy and make a donation at coinbase.com !"></a>
