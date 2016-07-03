@@ -691,52 +691,13 @@ a {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>AceJump Label - Blue</string>
+			<string>AceJump Label</string>
 			<key>scope</key>
-			<string>acejump.label.blue</string>
+			<string>acejump.label</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#2497e3</string>
-				<key>foreground</key>
-				<string>#ffffff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>AceJump Label - Green</string>
-			<key>scope</key>
-			<string>acejump.label.green</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#2ebc67</string>
-				<key>foreground</key>
-				<string>#ffffff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>AceJump Label - Orange</string>
-			<key>scope</key>
-			<string>acejump.label.orange</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#f2683e</string>
-				<key>foreground</key>
-				<string>#ffffff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>AceJump Label - Purple</string>
-			<key>scope</key>
-			<string>acejump.label.purple</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#8955a2</string>
+				<string>#528bff</string>
 				<key>foreground</key>
 				<string>#ffffff</string>
 			</dict>
