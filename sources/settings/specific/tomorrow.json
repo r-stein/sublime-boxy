@@ -53,7 +53,7 @@
     "guide": {
       "default": "#ffffff25",
       "stack": "#ffffff40",
-      "active": "#f0c67490"
+      "active": "#b5bd68aa"
     },
     "base": {
       "white": "#ffffff",
