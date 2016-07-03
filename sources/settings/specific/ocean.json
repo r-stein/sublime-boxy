@@ -51,8 +51,8 @@
     "selection": "#ffffff16",
     "comment": "#65737e",
     "guide": {
-      "default": "#ffffff10",
-      "stack": "#ffffff25",
+      "default": "#ffffff25",
+      "stack": "#ffffff40",
       "active": "#fac86390"
     },
     "base": {
