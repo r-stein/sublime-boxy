@@ -45,7 +45,13 @@
 
 {
   "class": "sidebar_heading",
-  "color": [<%= ui.foreground.primary.rgb %>]
+  "color": [<%= ui.foreground.default.rgb %>]
+},
+
+{
+  "class": "sidebar_heading",
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+  "color": [<%= ui.foreground.highlighted.rgb %>]
 },
 
 //
@@ -54,7 +60,13 @@
 
 {
   "class": "sidebar_label",
-  "color": [<%= ui.foreground.primary.rgb %>]
+  "color": [<%= ui.foreground.default.rgb %>]
+},
+
+{
+  "class": "sidebar_label",
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+  "color": [<%= ui.foreground.highlighted.rgb %>]
 },
 
 {

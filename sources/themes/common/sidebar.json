@@ -19,11 +19,24 @@
 
 {
   "class": "sidebar_tree",
-  "row_padding": [20, 6, 20, 5],
+  "row_padding": [8, 6, 8, 5],
   "indent": 10,
-  "indent_offset": -8,
+  "indent_offset": 4,
   "indent_top_level": true,
   "layer0.opacity": 1.0
+},
+
+{
+  "class": "sidebar_tree",
+  "settings": ["theme_sidebar_indent_top_level_disabled"],
+  "indent_offset": 12,
+  "indent_top_level": false
+},
+
+{
+  "class": "sidebar_tree",
+  "settings": ["!theme_sidebar_indent_top_level_disabled", "theme_sidebar_disclosure"],
+  "indent_offset": 8
 },
 
 // Sidebar Tree Row
@@ -35,9 +48,9 @@
 
 {
   "class": "tree_row",
-  "layer0.inner_margin": [20, 6, 0, 0],
+  "layer0.inner_margin": [8, 6, 0, 0],
   "layer0.opacity": 0,
-  "layer1.inner_margin": [20, 6, 0, 0],
+  "layer1.inner_margin": [8, 6, 0, 0],
   "layer1.opacity": 0
 },
 
@@ -70,8 +83,7 @@
 
 {
   "class": "sidebar_heading",
-  "font.size": 11,
-  "font.bold": true
+  "font.size": 11
 },
 
 // Sidebar Entry
@@ -115,9 +127,15 @@
 
 {
   "class": "close_button",
-  "layer0.opacity": 0.5,
+  "layer0.opacity": 0,
   "layer1.opacity": 0,
   "content_margin": [8, 8]
+},
+
+{
+  "class": "close_button",
+  "settings": ["theme_sidebar_close_always_visible"],
+  "layer0.opacity": 0.5
 },
 
 {
@@ -130,6 +148,41 @@
 //
 // Hovered
 //
+
+{
+  "class": "close_button",
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+  "settings": ["!theme_sidebar_close_always_visible"],
+  "layer0.opacity": 0.5,
+  "layer1.opacity": 0
+},
+
+{
+  "class": "close_button",
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+  "settings": ["!theme_sidebar_close_always_visible"],
+  "attributes": ["dirty"],
+  "layer0.opacity": 0,
+  "layer1.opacity": 0.5
+},
+
+{
+  "class": "close_button",
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+  "settings": ["!theme_sidebar_close_always_visible"],
+  "attributes": ["hover"],
+  "layer0.opacity": 0.75,
+  "layer1.opacity": 0
+},
+
+{
+  "class": "close_button",
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+  "settings": ["!theme_sidebar_close_always_visible"],
+  "attributes": ["dirty", "hover"],
+  "layer0.opacity": 0.75,
+  "layer1.opacity": 0
+},
 
 {
   "class": "close_button",
@@ -162,13 +215,27 @@
 // ---------------------------------------------------------------------------
 
 //
-// Hide Folder Icons
+// Disclosure Icons
 //
 
 {
   "class": "disclosure_button_control",
   "content_margin": [0, 0],
   "layer0.opacity": 0
+},
+
+{
+  "class": "disclosure_button_control",
+  "settings": ["theme_sidebar_disclosure"],
+  "content_margin": [8, 8],
+  "layer0.opacity": 0.25
+},
+
+{
+  "class": "disclosure_button_control",
+  "settings": ["theme_sidebar_disclosure"],
+  "attributes": ["hover"],
+  "layer0.opacity": 0.35
 },
 
 //

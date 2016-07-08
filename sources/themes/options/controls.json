@@ -1,6 +1,15 @@
 // Controls Options
 // ===========================================================================
 
+// Popup Border
+// ---------------------------------------------------------------------------
+
+{
+  "class": "popup_control",
+  "settings": ["theme_popup_border_visible"],
+  "content_margin": [2, 2]
+},
+
 // Hide Find & Replace Panel Close Button
 // ---------------------------------------------------------------------------
 
@@ -15,9 +24,42 @@
 
 {
   "class": "button_control",
+  "settings": ["theme_button_inverted"],
+  "layer2.opacity": 0.09
+},
+
+{
+  "class": "button_control",
+  "settings": ["theme_button_inverted"],
+  "attributes": ["hover"],
+  "layer2.opacity": 0
+},
+
+{
+  "class": "button_control",
   "settings": ["theme_button_rounded"],
   "layer0.opacity": 0,
-  "layer1.opacity": 1
+  "layer1.opacity": 1,
+  "layer2.opacity": 0
+},
+
+{
+  "class": "button_control",
+  "settings": ["theme_button_rounded", "theme_button_inverted"],
+  "layer3.opacity": 0.09
+},
+
+{
+  "class": "button_control",
+  "settings": ["theme_button_rounded", "theme_button_inverted"],
+  "attributes": ["hover"],
+  "layer3.opacity": 0
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_button_inverted", "theme_icon_button_highlighted"],
+  "layer2.opacity": 0.09
 },
 
 {
@@ -34,6 +76,22 @@
   "attributes": ["right"],
   "layer0.opacity": 0,
   "layer1.opacity": 1
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_button_rounded", "theme_icon_button_highlighted", "theme_button_inverted"],
+  "attributes": ["left"],
+  "layer2.opacity": 0,
+  "layer3.opacity": 0.09
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_button_rounded", "theme_icon_button_highlighted", "theme_button_inverted"],
+  "attributes": ["right"],
+  "layer2.opacity": 0,
+  "layer3.opacity": 0.09
 },
 
 

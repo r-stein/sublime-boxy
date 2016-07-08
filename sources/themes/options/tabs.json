@@ -28,7 +28,7 @@
 
 {
   "class": "tabset_control",
-  "settings": ["theme_bar_margin_top_sm"],
+  "settings": ["theme_bar_margin_top_sm", "!theme_bar"],
   "content_margin": [0, 4, 0, 0]
 },
 
@@ -36,7 +36,7 @@
 
 {
   "class": "tabset_control",
-  "settings": ["theme_bar_margin_top_md"],
+  "settings": ["theme_bar_margin_top_md", "!theme_bar"],
   "content_margin": [0, 6, 0, 0]
 },
 
@@ -44,7 +44,7 @@
 
 {
   "class": "tabset_control",
-  "settings": ["theme_bar_margin_top_lg"],
+  "settings": ["theme_bar_margin_top_lg", "!theme_bar"],
   "content_margin": [0, 8, 0, 0]
 },
 
@@ -52,13 +52,19 @@
 // Sizes
 //
 
-// Auto Width
+// Width
 
 {
   "class": "tabset_control",
-  "settings": ["theme_tab_width_auto"],
+  "settings": ["theme_tab_width_auto", "enable_tab_scrolling"],
   "tab_width": 0,
   "tab_min_width": 64
+},
+
+{
+  "class": "tabset_control",
+  "settings": ["!enable_tab_scrolling"],
+  "tab_min_width": 48
 },
 
 // Global
@@ -330,6 +336,16 @@
 
 // Tab Options
 // ---------------------------------------------------------------------------
+
+//
+// Highlight Text Only
+//
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_highlight_text_only"],
+  "layer1.opacity": 0
+},
 
 //
 // Bold Labels

@@ -3,8 +3,8 @@
 
 *.sublime-project
 *.sublime-workspace
-*.cache
 node_modules/
+schemes/*.YAML-tmTheme
 
 
 # OS

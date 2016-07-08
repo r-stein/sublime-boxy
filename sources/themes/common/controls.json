@@ -23,6 +23,14 @@
   "content_margin": [0, 6]
 },
 
+// Popup
+// ===========================================================================
+
+{
+  "class": "popup_control",
+  "content_margin": 0
+},
+
 // Labels
 // ===========================================================================
 
@@ -50,7 +58,11 @@
   "layer0.opacity": 1,
   "layer0.inner_margin": [10, 10],
   "layer1.opacity": 0,
-  "layer1.inner_margin": [10, 10]
+  "layer1.inner_margin": [10, 10],
+  "layer2.opacity": 0,
+  "layer2.inner_margin": [10, 10],
+  "layer3.opacity": 0,
+  "layer3.inner_margin": [10, 10]
 },
 
 // Groups
@@ -62,7 +74,11 @@
   "layer0.inner_margin": [10, 10],
   "content_margin": [11, 11],
   "layer1.opacity": 0,
-  "layer1.inner_margin": [10, 10]
+  "layer1.inner_margin": [10, 10],
+  "layer2.opacity": 0,
+  "layer2.inner_margin": [10, 10],
+  "layer3.opacity": 0,
+  "layer3.inner_margin": [10, 10]
 },
 
 // Close

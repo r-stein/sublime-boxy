@@ -315,6 +315,53 @@ gulp.task('build:widget-settings', function() {
 
 
 /*
+ * > Images
+ */
+
+function getCache() {
+  var cache = {};
+
+  try {
+    cache = JSON.parse(fs.readFileSync('./images.cache', 'utf8'));
+  }
+  catch(e) {
+    console.log('No `images.cache` file!');
+  }
+  finally {
+    return cache;
+  }
+}
+
+gulp.task('optimize', function(cb) {
+  runSequence(
+    'optimize:assets',
+    'optimize:icons',
+    function (error) {
+      if (error) {
+        console.log('[optimize]'.bold.magenta + ' There was an issue optimizing images:\n'.bold.red + error.message);
+      } else {
+        console.log('[optimize]'.bold.magenta + ' Finished successfully'.bold.green);
+      }
+
+      cb(error);
+    }
+  );
+});
+
+gulp.task('optimize:assets', function() {
+  return gulp.src('./assets/**/*.png')
+    .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
+    .pipe(gulp.dest('./assets'));
+});
+
+gulp.task('optimize:icons', function() {
+  return gulp.src('./icons/**/*.png')
+    .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
+    .pipe(gulp.dest('./icons'));
+});
+
+
+/*
  * > Watch
  */
 

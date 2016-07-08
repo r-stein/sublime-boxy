@@ -17,17 +17,21 @@
         "hex": "#363731",
         "rgb": "54, 55, 49"
       },
-      "scrollbar": {
+      "base": {
         "hex": "#ffffff",
         "rgb": "255, 255, 255"
       }
     },
     "foreground": {
-      "primary": {
-        "hex": "#abaca9",
-        "rgb": "171, 172, 169"
+      "default": {
+        "hex": "#979794",
+        "rgb": "151, 151, 148"
       },
-      "secondary": {
+      "highlighted": {
+        "hex": "#b3b3b1",
+        "rgb": "179, 179, 177"
+      },
+      "disabled": {
         "hex": "#777874",
         "rgb": "119, 120, 116"
       },
@@ -39,16 +43,17 @@
   },
   "scheme": {
     "background": "#272822",
-    "caret": "#686965",
+    "caret": "#f8f8f2",
     "foreground": "#f8f8f2",
     "gutter": "#272822",
+    "invisible": "#ffffff08",
     "highlight": "#ffffff10",
-    "selection": "#ffffff15",
-    "invisibles": "#75715e",
+    "selection": "#ffffff16",
+    "comment": "#75715e",
     "guide": {
-      "default": "#ffffff10",
-      "stack": "#ffffff25",
-      "active": "#e6db7490"
+      "default": "#ffffff25",
+      "stack": "#ffffff40",
+      "active": "#a6e22eaa"
     },
     "base": {
       "white": "#ffffff",

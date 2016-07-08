@@ -27,6 +27,30 @@
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown.png"
 },
 
+{
+  "class": "show_tabs_dropdown_button",
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_materialized.png"
+},
+
+{
+  "class": "show_tabs_dropdown_button",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_atomized.png"
+},
+
+{
+  "class": "show_tabs_dropdown_button",
+  "settings": ["theme_dropdown_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_materialized.png"
+},
+
+{
+  "class": "show_tabs_dropdown_button",
+  "settings": ["theme_dropdown_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_atomized.png"
+},
+
 // Tab
 // ---------------------------------------------------------------------------
 
@@ -34,38 +58,49 @@
   "class": "tab_control",
   "settings": ["theme_tab_separator"],
   "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator.png",
-  "layer3.opacity": 0.08
+  "layer3.opacity": 0.05
 },
 
 {
   "class": "tab_control",
-  "settings": ["theme_tab_rounded", "theme_tab_separator"],
-  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png"
+  "settings": ["theme_tab_rounded", "theme_tab_separator", "!theme_bar"],
+  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png",
+  "layer3.opacity": 0.1
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_bar_margin_top_sm", "theme_tab_separator"],
-  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png"
+  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png",
+  "layer3.opacity": 0.1
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_bar_margin_top_md", "theme_tab_separator"],
-  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png"
+  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png",
+  "layer3.opacity": 0.1
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_bar_margin_top_lg", "theme_tab_separator"],
-  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png"
+  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png",
+  "layer3.opacity": 0.1
 },
 
 {
   "class": "tab_control",
   "settings": ["theme_bar", "theme_tab_separator"],
+  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_separator_universal.png",
+  "layer3.opacity": 0.1
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_bar_colored", "theme_tab_separator"],
   "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png",
-  "layer3.opacity": 0.25
+  "layer3.opacity": 0.2
 },
 
 {
@@ -119,6 +154,20 @@
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty.png"
+},
+
+{
+  "class": "tab_close_button",
+  "settings": ["theme_icons_materialized"],
+  "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty_materialized.png"
+},
+
+{
+  "class": "tab_close_button",
+  "settings": ["theme_dirty_materialized"],
+  "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dirty_materialized.png"
 },
 
 {

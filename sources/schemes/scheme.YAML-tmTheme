@@ -14,20 +14,46 @@ settings:
     caret: '<%= scheme.caret %>'
     foreground: '<%= scheme.foreground %>'
     gutter: '<%= scheme.gutter %>'
-    invisibles: '<%= scheme.invisibles %>'
+    invisibles: '<%= scheme.comment %>'
     lineHighlight: '<%= scheme.highlight %>'
     selection: '<%= scheme.selection %>'
     selectionBorder: '<%= scheme.selection %>'
     activeGuide: '<%= scheme.guide.active %>'
     guide: '<%= scheme.guide.default %>'
     stackGuide: '<%= scheme.guide.stack %>'
+    popupCss: |
+
+      html {
+        background-color: <%= ui.background.secondary.hex %>;
+        color: <%= scheme.foreground %>;
+      }
+
+      body {
+        font-size: 1.1em;
+      }
+
+      a {
+        color: <%= scheme.base.blue %>;
+      }
+
+      .error, .deleted {
+        color: <%= scheme.base.red %>;
+      }
+
+      .success, .inserted {
+        color: <%= scheme.base.green %>;
+      }
+
+      .warning, .modified {
+        color: <%= scheme.base.yellow %>;
+      }
 
 # >> General
 
 - name: Comments
   scope: comment, punctuation.definition.comment
   settings:
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.comment %>'
     fontStyle: 'italic'
 
 - name: Variable
@@ -67,7 +93,7 @@ settings:
     foreground: '<%= scheme.base.pink %>'
 
 - name: Function, Special Method, Block Level
-  scope: entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method,
+  scope: entity.name.function, variable.function, support.function, keyword.other.special-method,
     meta.block-level
   settings:
     foreground: '<%= scheme.base.blue %>'
@@ -91,7 +117,7 @@ settings:
     fontStyle: normal
 
 - name: Class, Support
-  scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php,
+  scope: entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php,
     meta.use.php, support.other.namespace.php, markup.changed.git_gutter
   settings:
     foreground: '<%= scheme.base.yellow %>'
@@ -179,27 +205,27 @@ settings:
 - name: JSON Key - Level 8
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '<%= scheme.base.yellow %>'
+    foreground: '<%= scheme.base.red %>bf'
 
 - name: JSON Key - Level 7
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '<%= scheme.base.purple %>'
+    foreground: '<%= scheme.base.blue %>bf'
 
 - name: JSON Key - Level 6
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '<%= scheme.base.pink %>'
+    foreground: '<%= scheme.base.yellow %>bf'
 
 - name: JSON Key - Level 5
   scope: source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '<%= scheme.base.blue %>'
+    foreground: '<%= scheme.base.purple %>bf'
 
 - name: JSON Key - Level 4
   scope: source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '<%= scheme.base.brown %>'
+    foreground: '<%= scheme.base.orange %>'
 
 - name: JSON Key - Level 3
   scope: source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -209,7 +235,7 @@ settings:
 - name: JSON Key - Level 2
   scope: source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '<%= scheme.base.orange %>'
+    foreground: '<%= scheme.base.blue %>'
 
 - name: JSON Key - Level 1
   scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -236,7 +262,7 @@ settings:
 - name: Markdown - Line Break
   scope: text.html.markdown meta.dummy.line-break
   settings:
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.comment %>'
 
 - name: Markdown - Heading
   scope: markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown
@@ -293,27 +319,27 @@ settings:
 - name: Markdown - Raw Block Fenced
   scope: markup.raw.block.fenced.markdown
   settings:
-    background: '<%= scheme.highlight %>'
+    background: '<%= scheme.invisible %>'
     foreground: '<%= scheme.foreground %>'
 
 - name: Markdown - Fenced Bode Block
   scope: punctuation.definition.fenced.markdown, variable.language.fenced.markdown
   settings:
-    background: '<%= scheme.highlight %>'
-    foreground: '<%= scheme.invisibles %>'
+    background: '<%= scheme.invisible %>'
+    foreground: '<%= scheme.comment %>'
 
 - name: Markdown - Fenced Language
   scope: variable.language.fenced.markdown
   settings:
     fontStyle: ''
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.comment %>'
 
 - name: Markdown - Separator
   scope: meta.separator
   settings:
-    background: '<%= scheme.highlight %>'
+    background: '<%= scheme.invisible %>'
     fontStyle: 'bold'
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.comment %>'
 
 - name: Markup - Table
   scope: markup.table
@@ -323,28 +349,10 @@ settings:
 
 # >> AceJump
 
-- name: AceJump Label - Blue
-  scope: acejump.label.blue
+- name: AceJump Label
+  scope: acejump.label
   settings:
-    background: '<%= ui.accents[0].hex %>'
-    foreground: '<%= scheme.base.white %>'
-
-- name: AceJump Label - Green
-  scope: acejump.label.green
-  settings:
-    background: '<%= ui.accents[1].hex %>'
-    foreground: '<%= scheme.base.white %>'
-
-- name: AceJump Label - Orange
-  scope: acejump.label.orange
-  settings:
-    background: '<%= ui.accents[2].hex %>'
-    foreground: '<%= scheme.base.white %>'
-
-- name: AceJump Label - Purple
-  scope: acejump.label.purple
-  settings:
-    background: '<%= ui.accents[3].hex %>'
+    background: '<%= ui.accents[8].hex %>'
     foreground: '<%= scheme.base.white %>'
 
 # >> Sublime Linter
@@ -369,12 +377,12 @@ settings:
 - name: GitGutter Ignored
   scope: markup.ignored.git_gutter
   settings:
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.comment %>'
 
 - name: GitGutter Untracked
   scope: markup.untracked.git_gutter
   settings:
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.comment %>'
 
 # >> Gutter Color
 

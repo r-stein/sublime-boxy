@@ -16,27 +16,54 @@
 			<key>settings</key>
 			<dict>
 				<key>activeGuide</key>
-				<string>#e6db7490</string>
+				<string>#a6e22eaa</string>
 				<key>background</key>
 				<string>#272822</string>
 				<key>caret</key>
-				<string>#686965</string>
+				<string>#f8f8f2</string>
 				<key>foreground</key>
 				<string>#f8f8f2</string>
 				<key>guide</key>
-				<string>#ffffff10</string>
+				<string>#ffffff25</string>
 				<key>gutter</key>
 				<string>#272822</string>
 				<key>invisibles</key>
 				<string>#75715e</string>
 				<key>lineHighlight</key>
 				<string>#ffffff10</string>
+				<key>popupCss</key>
+				<string>
+html {
+  background-color: #363731;
+  color: #f8f8f2;
+}
+
+body {
+  font-size: 1.1em;
+}
+
+a {
+  color: #66d9ef;
+}
+
+.error, .deleted {
+  color: #f92672;
+}
+
+.success, .inserted {
+  color: #a6e22e;
+}
+
+.warning, .modified {
+  color: #e6db74;
+}
+</string>
 				<key>selection</key>
-				<string>#ffffff15</string>
+				<string>#ffffff16</string>
 				<key>selectionBorder</key>
-				<string>#ffffff15</string>
+				<string>#ffffff16</string>
 				<key>stackGuide</key>
-				<string>#ffffff25</string>
+				<string>#ffffff40</string>
 			</dict>
 		</dict>
 		<dict>
@@ -126,7 +153,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>entity.name.function, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -172,7 +199,7 @@
 			<key>name</key>
 			<string>Class, Support</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter</string>
+			<string>entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -358,7 +385,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e6db74</string>
+				<string>#f92672bf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -369,7 +396,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ae81ff</string>
+				<string>#66d9efbf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -380,7 +407,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f94989</string>
+				<string>#e6db74bf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -391,7 +418,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66d9ef</string>
+				<string>#ae81ffbf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -402,7 +429,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cc6633</string>
+				<string>#fd971f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -424,7 +451,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fd971f</string>
+				<string>#66d9ef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -603,7 +630,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff10</string>
+				<string>#ffffff08</string>
 				<key>foreground</key>
 				<string>#f8f8f2</string>
 			</dict>
@@ -616,7 +643,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff10</string>
+				<string>#ffffff08</string>
 				<key>foreground</key>
 				<string>#75715e</string>
 			</dict>
@@ -642,7 +669,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff10</string>
+				<string>#ffffff08</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
@@ -664,52 +691,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>AceJump Label - Blue</string>
+			<string>AceJump Label</string>
 			<key>scope</key>
-			<string>acejump.label.blue</string>
+			<string>acejump.label</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#2497e3</string>
-				<key>foreground</key>
-				<string>#ffffff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>AceJump Label - Green</string>
-			<key>scope</key>
-			<string>acejump.label.green</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#2ebc67</string>
-				<key>foreground</key>
-				<string>#ffffff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>AceJump Label - Orange</string>
-			<key>scope</key>
-			<string>acejump.label.orange</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#f2683e</string>
-				<key>foreground</key>
-				<string>#ffffff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>AceJump Label - Purple</string>
-			<key>scope</key>
-			<string>acejump.label.purple</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#8955a2</string>
+				<string>#528bff</string>
 				<key>foreground</key>
 				<string>#ffffff</string>
 			</dict>

@@ -18,13 +18,15 @@
         "name": "Blue",
         "hex": "#2497e3",
         "rgb": "36, 151, 227",
-        "highlight": {
-          "hex": "#3aa2e6",
-          "rgb": "58, 162, 230"
-        },
         "foreground": {
-          "hex": "#a7d5f4",
-          "rgb": "167, 213, 244"
+          "default": {
+            "hex": "#b3dbf5",
+            "rgb": "179, 219, 245"
+          },
+          "highlighted": {
+            "hex": "#def0fb",
+            "rgb": "222, 240, 251"
+          }
         }
       },
       {
@@ -32,13 +34,15 @@
         "name": "Green",
         "hex": "#2ebc67",
         "rgb": "46, 188, 103",
-        "highlight": {
-          "hex": "#43c376",
-          "rgb": "67, 195, 118"
-        },
         "foreground": {
-          "hex": "#abe4c2",
-          "rgb": "171, 228, 194"
+          "default": {
+            "hex": "#b6e8ca",
+            "rgb": "182, 232, 202"
+          },
+          "highlighted": {
+            "hex": "#d3f1de",
+            "rgb": "211, 241, 222"
+          }
         }
       },
       {
@@ -46,13 +50,15 @@
         "name": "Orange",
         "hex": "#f2683e",
         "rgb": "242, 104, 62",
-        "highlight": {
-          "hex": "#f37752",
-          "rgb": "243, 119, 82"
-        },
         "foreground": {
-          "hex": "#fac3b2",
-          "rgb": "250, 195, 178"
+          "default": {
+            "hex": "#facabc",
+            "rgb": "250, 202, 188"
+          },
+          "highlighted": {
+            "hex": "#fde8e2",
+            "rgb": "253, 232, 226"
+          }
         }
       },
       {
@@ -60,13 +66,95 @@
         "name": "Purple",
         "hex": "#8955a2",
         "rgb": "137, 85, 162",
-        "highlight": {
-          "hex": "#9566ab",
-          "rgb": "149, 102, 171"
-        },
         "foreground": {
-          "hex": "#d0bbda",
-          "rgb": "208, 187, 218"
+          "default": {
+            "hex": "#d6c4df",
+            "rgb": "214, 196, 223"
+          },
+          "highlighted": {
+            "hex": "#ece5f0",
+            "rgb": "236, 229, 240"
+          }
+        }
+      },
+      {
+        "id": "tangerine",
+        "name": "Tangerine",
+        "hex": "#f2865e",
+        "rgb": "242, 134, 94",
+        "foreground": {
+          "default": {
+            "hex": "#fad5c7",
+            "rgb": "250, 213, 199"
+          },
+          "highlighted": {
+            "hex": "#fdede7",
+            "rgb": "253, 237, 231"
+          }
+        }
+      },
+      {
+        "id": "cyan",
+        "name": "Cyan",
+        "hex": "#74cac2",
+        "rgb": "116, 202, 194",
+        "foreground": {
+          "default": {
+            "hex": "#ceedea",
+            "rgb": "206, 237, 234"
+          },
+          "highlighted": {
+            "hex": "#eaf7f6",
+            "rgb": "234, 247, 246"
+          }
+        }
+      },
+      {
+        "id": "lime",
+        "name": "Lime",
+        "hex": "#84bc44",
+        "rgb": "132, 188, 68",
+        "foreground": {
+          "default": {
+            "hex": "#d4e8be",
+            "rgb": "212, 232, 190"
+          },
+          "highlighted": {
+            "hex": "#ebf4e1",
+            "rgb": "235, 244, 225"
+          }
+        }
+      },
+      {
+        "id": "pink",
+        "name": "Pink",
+        "hex": "#f07178",
+        "rgb": "240, 113, 120",
+        "foreground": {
+          "default": {
+            "hex": "#facdd0",
+            "rgb": "250, 205, 208"
+          },
+          "highlighted": {
+            "hex": "#fdeaeb",
+            "rgb": "253, 234, 235"
+          }
+        }
+      },
+      {
+        "id": "sky",
+        "name": "Sky",
+        "hex": "#528bff",
+        "rgb": "82, 139, 255",
+        "foreground": {
+          "default": {
+            "hex": "#c3d7ff",
+            "rgb": "195, 215, 255"
+          },
+          "highlighted": {
+            "hex": "#e5eeff",
+            "rgb": "229, 238, 255"
+          }
         }
       }
     ]
