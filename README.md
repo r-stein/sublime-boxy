@@ -24,7 +24,7 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 
 ***
 
-<div><a href="#boxy-yesterday">Yesterday</a>&nbsp;▪&nbsp;<a href="#boxy-tomorrow">Tomorrow</a>&nbsp;▪&nbsp;<a href="#boxy-ocean">Ocean</a>&nbsp;▪&nbsp;<a href="#boxy-monokai">Monokai</a>&nbsp;▪&nbsp;<a href="#share-the-love">Share The Love</a></div>
+<div><a href="#boxy-yesterday">Yesterday</a>&nbsp;▪&nbsp;<a href="#boxy-tomorrow">Tomorrow</a>&nbsp;▪&nbsp;<a href="#boxy-ocean">Ocean</a>&nbsp;▪&nbsp;<a href="#boxy-monokai">Monokai</a>&nbsp;▪&nbsp;<a href="https://forum.sublimetext.com/t/boxy-3-0-0-the-most-hackable-theme-for-sublime-text-3/20564">News & Discussion</a>▪&nbsp;<a href="#share-the-love">Share The Love</a></div>
 
 ***
 
