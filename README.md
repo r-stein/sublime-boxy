@@ -46,15 +46,22 @@ The screenshot above shows next options in action:
 "theme": "Boxy Yesterday.sublime-theme",
 
 // Additional Settings
+"theme_accent_sky": true,
 "theme_bar_margin_top_sm": true,
+"theme_button_inverted": true,
 "theme_button_rounded": true,
 "theme_find_panel_close_hidden": true,
 "theme_find_panel_size_xs": true,
 "theme_font_md": true,
 "theme_grid_border_size_lg": true,
 "theme_icon_button_highlighted": true,
+"theme_icons_atomized": true,
+"theme_popup_border_visible": true,
+"theme_quick_panel_size_lg": true,
+"theme_scrollbar_rounded": true,
+"theme_sidebar_disclosure": true,
 "theme_sidebar_font_lg": true,
-"theme_tab_arrows_hidden": true,
+"theme_sidebar_indent_top_level_disabled": true,
 "theme_tab_rounded": true,
 "theme_tab_selected_prelined": true,
 "theme_tab_separator": true,
@@ -66,10 +73,7 @@ The operating system is **macOS**. The font used for the code is [**Fira Code**]
 Installed packages:
 
 * [Boxy Theme Addon - Font Face][addon-font-face]
-* [Boxy Theme Addon - Widget Font LG][addon-widget-font-lg]
-* [Boxy Theme Addon - Linter Theme][addon-linter-theme]
-* [Git Gutter][git-gutter]
-* [Sublime Linter][sublime-linter]
+* [Boxy Theme Addon - Widget Font XL][addon-widget-font-xl]
 * [Bracket Highlighter][bracket-highlighter]
 
 #### Boxy Tomorrow
@@ -84,24 +88,26 @@ The screenshot above shows next options in action:
 "theme": "Boxy Tomorrow.sublime-theme",
 
 // Additional Settings
-"theme_accent_orange": true,
-"theme_font_md": true,
+"theme_accent_tangerine": true,
+"theme_bar": true,
+"theme_dirty_materialized": true,
 "theme_scrollbar_colored": true,
 "theme_scrollbar_line": true,
-"theme_sidebar_folder_monochrome": true,
+"theme_sidebar_folder_mono": true,
+"theme_tab_arrows_hidden": true,
 "theme_tab_line_size_lg": true,
 "theme_tab_selected_transparent": true,
 "theme_tab_selected_underlined": true,
 "theme_tab_size_lg": true,
-"theme_sidebar_size_xs": true,
 ```
 
-The operating system is **Ubuntu**. The font used for the code is [**Ubuntu Mono**][ubuntu]. The UI font is [**Ubuntu Medium**][ubuntu] (via [addon][addon-font-face]).
+The operating system is **Windows**. The font used for the code is [**Operator Mono**][operator-mono]. The UI font is [**Segoe UI Semibold**][segoe-ui] (via [addon][addon-font-face])
 
 Installed packages:
 
 * [Boxy Theme Addon - Font Face][addon-font-face]
-* [Boxy Theme Addon - Widget Font XL][addon-widget-font-xl]
+* [Boxy Theme Addon - Mono File Icons - Dark UI][addon-mono-file-icons-dark-ui]
+* [Bracket Highlighter][bracket-highlighter]
 
 #### Boxy Ocean
 
@@ -115,25 +121,25 @@ The screenshot above shows next options in action:
 "theme": "Boxy Ocean.sublime-theme",
 
 // Additional Settings
-"theme_accent_green": true,
-"theme_bar_margin_top_md": true,
-"theme_find_panel_size_xs": true,
-"theme_icon_button_highlighted": true,
-"theme_sidebar_size_md": true,
-"theme_statusbar_size_xs": true,
-"theme_tab_arrows_hidden": true,
+"theme_accent_cyan": true,
+"theme_button_rounded": true,
+"theme_find_panel_font_sm": true,
+"theme_font_md": true,
+"theme_icons_materialized": true,
+"theme_sidebar_disclosure": true,
+"theme_sidebar_highlight_text_only": true,
+"theme_sidebar_indent_sm": true,
+"theme_sidebar_indent_top_level_disabled": true,
+"theme_size_md": true,
+"theme_statusbar_colored": true,
 "theme_tab_selected_filled": true,
-"theme_tab_separator": true,
-"theme_tab_size_md": true,
 ```
 
-The operating system is **Windows**. The font used for the code is [**Roboto Mono**][ubuntu].
+The operating system is **Ubuntu**. The font used for the code is [**Roboto Mono**][roboto-mono]. The UI font is [**Ubuntu Medium**][ubuntu] (via [addon][addon-font-face]).
 
 Installed packages:
 
-* [Boxy Theme Addon - Linter Theme][addon-linter-theme]
-* [Sublime Linter][sublime-linter]
-* [Bracket Highlighter][bracket-highlighter]
+* [Boxy Theme Addon - Font Face][addon-font-face]
 * [Color Highlighter][color-highlighter]
 * [Color ​Helper][color-helper]
 
@@ -149,23 +155,35 @@ The screenshot above shows next options in action:
 "theme": "Boxy Monokai.sublime-theme",
 
 // Additional Settings
-"theme_accent_purple": true,
+"theme_accent_lime": true,
 "theme_bar": true,
-"theme_find_panel_close_hidden": true,
+"theme_bar_colored": true,
+"theme_bar_logo_atomized": true,
+"theme_button_inverted": true,
+"theme_button_rounded": true,
+"theme_dropdown_materialized": true,
+"theme_find_panel_atomized": true,
 "theme_icon_button_highlighted": true,
+"theme_panel_switcher_materialized": true,
+"theme_quick_panel_item_selected_colored": true,
 "theme_quick_panel_size_md": true,
-"theme_sidebar_size_xs": true,
+"theme_sidebar_file_icons_hidden": true,
+"theme_sidebar_folder_arrow": true,
+"theme_sidebar_indent_sm": true,
+"theme_sidebar_indent_top_level_disabled": true,
+"theme_tab_close_always_visible": true,
 "theme_tab_line_size_lg": true,
 "theme_tab_selected_transparent": true,
 "theme_tab_selected_underlined": true,
 "theme_tab_size_xl": true,
 ```
 
-The operating system is **Windows**. The font used for the code is [**Source Code Pro**][source-code-pro].
+The operating system is **Windows**. The font used for the code is [**Hack**][hack].
 
 Installed packages:
 
 * [Boxy Theme Addon - Linter Theme][addon-linter-theme]
+* [Bracket Highlighter][bracket-highlighter]
 * [Sublime Linter][sublime-linter]
 
 ***
@@ -213,10 +231,10 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
 [img-bitcoin-with-title]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin-with-title.png
 [img-gallery]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/gallery.gif
-[img-yesterday]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/yesterday.png?v=240620161444
-[img-tomorrow]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/tomorrow.png?v=240620161444
-[img-ocean]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/ocean.png?v=240620161444
-[img-monokai]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/monokai.png?v=240620161444
+[img-yesterday]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.0.0/yesterday.png?v=080720161139
+[img-tomorrow]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.0.0/tomorrow.png?v=080720161139
+[img-ocean]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.0.0/ocean.png?v=080720161139
+[img-monokai]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.0.0/monokai.png?v=080720161139
 
 <!-- Fonts -->
 
@@ -224,7 +242,9 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [san-francisco]: https://developer.apple.com/fonts/
 [ubuntu]: http://font.ubuntu.com/
 [roboto-mono]: https://fonts.google.com/specimen/Roboto+Mono?query=Roboto
-[source-code-pro]: http://adobe-fonts.github.io/source-code-pro/
+[hack]: https://sourcefoundry.org/hack/
+[operator-mono]: http://www.typography.com/fonts/operator/styles/operatorscreensmartpro
+[segoe-ui]: https://www.microsoft.com/typography/Fonts/family.aspx?FID=331
 
 <!-- Packages -->
 
@@ -232,6 +252,7 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [addon-widget-font-lg]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Widget%20Font%20LG
 [addon-widget-font-xl]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Widget%20Font%20XL
 [addon-linter-theme]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Linter%20Theme
+[addon-mono-file-icons-dark-ui]: https://github.com/search?q=user%3Aoivva+boxy-addon-mono
 [git-gutter]: https://packagecontrol.io/packages/GitGutter
 [sublime-linter]: https://packagecontrol.io/packages/SublimeLinter
 [bracket-highlighter]: https://packagecontrol.io/packages/BracketHighlighter
