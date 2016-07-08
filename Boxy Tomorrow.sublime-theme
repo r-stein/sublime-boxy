@@ -6812,7 +6812,7 @@
   {
     "class": "sidebar_tree",
     "settings": ["theme_sidebar_indent_top_level_disabled"],
-    "indent_offset": 16,
+    "indent_offset": 12,
     "indent_top_level": false
   },
   
