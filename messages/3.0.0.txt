@@ -1,7 +1,8 @@
 👓 Version 3.0.0
 ===========================================================================
 
-All renamed and new options can be found here: https://github.com/oivva/boxy/wiki/v3.0.0. There aren't many breaking changes.
+All renamed and new options can be found here: https://github.com/oivva/boxy/wiki/v3.0.0.
+There aren't many breaking changes.
 
 💅 Themes
 -------------------
