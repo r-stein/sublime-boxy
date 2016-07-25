@@ -28,7 +28,7 @@ var $ = require('gulp-load-plugins')();
  * > Settings
  */
 
-var common = require('./.sources/settings/common.json');
+var common = require('./.src/settings/common.json');
 
 
 /*
@@ -181,14 +181,14 @@ gulp.task('build', function(cb) {
 /* >> Themes */
 
 gulp.task('build:themes', ['clean:themes'], function() {
-  return gulp.src('./.sources/themes/*.json')
+  return gulp.src('./.src/themes/*.json')
     .pipe($.plumber(function(error) {
       console.log('[build:themes]'.bold.magenta + ' There was an issue building themes:\n'.bold.red + error.message);
       this.emit('end');
     }))
     .pipe($.include())
     .pipe($.data(function(file) {
-      var specific = require('./.sources/settings/specific/' +
+      var specific = require('./.src/settings/specific/' +
           path.basename(file.path));
 
       return _.merge(common, specific);
@@ -223,11 +223,11 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
 });
 
 gulp.task('process:schemes', function(cb) {
-  return gulp.src('./.sources/settings/specific/*.json')
+  return gulp.src('./.src/settings/specific/*.json')
     .pipe($.foreach(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
-      return gulp.src('./.sources/schemes/scheme.YAML-tmTheme')
+      return gulp.src('./.src/schemes/scheme.YAML-tmTheme')
         .pipe($.data(function() {
           var specific = require(file.path);
 
@@ -276,11 +276,11 @@ gulp.task('build:widgets', ['clean:widgets'], function(cb) {
 });
 
 gulp.task('build:widget-themes', function() {
-  return gulp.src('./.sources/settings/specific/*.json')
+  return gulp.src('./.src/settings/specific/*.json')
     .pipe($.foreach(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
-      return gulp.src('./.sources/widgets/widget.stTheme')
+      return gulp.src('./.src/widgets/widget.stTheme')
         .pipe($.data(function() {
           var specific = require(file.path);
 
@@ -295,11 +295,11 @@ gulp.task('build:widget-themes', function() {
 });
 
 gulp.task('build:widget-settings', function() {
-  return gulp.src('./.sources/settings/specific/*.json')
+  return gulp.src('./.src/settings/specific/*.json')
     .pipe($.foreach(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
-      return gulp.src('./.sources/widgets/widget.sublime-settings')
+      return gulp.src('./.src/widgets/widget.sublime-settings')
         .pipe($.data(function() {
           var specific = require(file.path);
 
@@ -366,10 +366,10 @@ gulp.task('optimize:icons', function() {
  */
 
 gulp.task('watch', function() {
-  gulp.watch('./.sources/themes/**/*.json', ['build:themes']);
-  gulp.watch('./.sources/schemes/scheme.YAML-tmTheme', ['build:schemes']);
-  gulp.watch('./.sources/widgets/widget.*', ['build:widgets']);
-  gulp.watch('./.sources/settings/**/*.json', ['build:schemes', 'build:widgets', 'build:themes']);
+  gulp.watch('./.src/themes/**/*.json', ['build:themes']);
+  gulp.watch('./.src/schemes/scheme.YAML-tmTheme', ['build:schemes']);
+  gulp.watch('./.src/widgets/widget.*', ['build:widgets']);
+  gulp.watch('./.src/settings/**/*.json', ['build:schemes', 'build:widgets', 'build:themes']);
 });
 
 
