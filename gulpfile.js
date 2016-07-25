@@ -36,7 +36,7 @@ var common = require('./.sources/settings/common.json');
  */
 
 gulp.task('clean:themes', function() {
-  return del(['./themes/*.sublime-theme']);
+  return del(['./*.sublime-theme']);
 });
 
 gulp.task('clean:schemes', function() {
@@ -198,7 +198,7 @@ gulp.task('build:themes', ['clean:themes'], function() {
       path.basename = 'Boxy ' + _.startCase(path.basename);
       path.extname = '.sublime-theme';
     }))
-    .pipe(gulp.dest('./themes'))
+    .pipe(gulp.dest('./'))
     .on('end', function() {
       console.log('[build:themes]'.bold.magenta + ' Finished successfully'.bold.green);
     });
