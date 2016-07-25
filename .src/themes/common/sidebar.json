@@ -11,6 +11,12 @@
   "content_margin": [0, 0, 0, 0]
 },
 
+{
+  "class": "sidebar_container",
+  "settings": ["theme_tab_rounded", "!theme_bar"],
+  "content_margin": [0, 4, 0, 0]
+},
+
 // Sidebar Tree
 // ===========================================================================
 

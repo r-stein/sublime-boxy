@@ -26,6 +26,12 @@
   "tab_overlap": 1
 },
 
+{
+  "class": "tabset_control",
+  "settings": ["theme_tab_rounded", "!theme_bar"],
+  "content_margin": [0, 4, 0, 0]
+},
+
 // Tabset Scrolling
 // ---------------------------------------------------------------------------
 
