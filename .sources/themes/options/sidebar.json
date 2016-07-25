@@ -27,6 +27,13 @@
   "layer0.opacity": 1
 },
 
+{
+  "class": "tree_row",
+  "settings": ["theme_sidebar_highlight_selected_text_only"],
+  "attributes": ["selected"],
+  "layer0.opacity": 0
+},
+
 // Sidebar Top Margin
 // ---------------------------------------------------------------------------
 
