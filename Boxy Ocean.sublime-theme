@@ -1,4 +1,4 @@
-// > BOXY YESTERDAY
+// > BOXY OCEAN
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Definitely, your next theme for Sublime Text 3
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -62,7 +62,7 @@
   
   {
     "class": "auto_complete",
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   // Autocomplete Foreground
@@ -70,8 +70,8 @@
   
   {
     "class": "auto_complete_label",
-    "fg": [123, 123, 123],
-    "selected_fg": [86, 86, 86]
+    "fg": [145, 153, 157],
+    "selected_fg": [178, 183, 186]
   },
   
   // Autocomplete Accents
@@ -196,7 +196,7 @@
   
   {
     "class": "table_row",
-    "layer0.texture": "Boxy Theme/assets/variants/light/highlight.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/highlight.png"
   },
   
   
@@ -588,7 +588,7 @@
     "layer0.opacity": 0.75
   },
   
-  // Controls Light Styles
+  // Controls Dark Styles
   // ===========================================================================
   
   // Popup
@@ -598,9 +598,9 @@
   {
     "class": "popup_control",
     "settings": ["theme_popup_border_visible"],
-    "layer0.tint": [238, 238, 238, 255],
+    "layer0.tint": [45, 60, 68, 255],
     "layer0.opacity": 1.0,
-    "layer1.texture": "Boxy Theme/assets/variants/light/highlight.png",
+    "layer1.texture": "Boxy Theme/assets/variants/dark/highlight.png",
     "layer1.opacity": 1.0,
     "content_margin": [2, 2]
   },
@@ -614,7 +614,7 @@
   
   {
     "class": "panel_close_button",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_close.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
   },
   
   //
@@ -623,268 +623,268 @@
   
   {
     "class": "icon_regex",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_regex.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_regex.png"
   },
   
   {
     "class": "icon_regex",
     "settings": ["theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_regex_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_regex_materialized.png"
   },
   
   {
     "class": "icon_regex",
     "settings": ["theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_regex_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_regex_atomized.png"
   },
   
   {
     "class": "icon_regex",
     "settings": ["theme_find_panel_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_regex_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_regex_materialized.png"
   },
   
   {
     "class": "icon_regex",
     "settings": ["theme_find_panel_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_regex_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_regex_atomized.png"
   },
   
   {
     "class": "icon_case",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_case.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_case.png"
   },
   
   {
     "class": "icon_case",
     "settings": ["theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_case_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_case_materialized.png"
   },
   
   {
     "class": "icon_case",
     "settings": ["theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_case_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_case_atomized.png"
   },
   
   {
     "class": "icon_case",
     "settings": ["theme_find_panel_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_case_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_case_materialized.png"
   },
   
   {
     "class": "icon_case",
     "settings": ["theme_find_panel_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_case_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_case_atomized.png"
   },
   
   {
     "class": "icon_whole_word",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_word.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_word.png"
   },
   
   {
     "class": "icon_whole_word",
     "settings": ["theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_word_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_word_materialized.png"
   },
   
   {
     "class": "icon_whole_word",
     "settings": ["theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_word_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_word_atomized.png"
   },
   
   {
     "class": "icon_whole_word",
     "settings": ["theme_find_panel_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_word_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_word_materialized.png"
   },
   
   {
     "class": "icon_whole_word",
     "settings": ["theme_find_panel_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_word_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_word_atomized.png"
   },
   
   {
     "class": "icon_wrap",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_wrap.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_wrap.png"
   },
   
   {
     "class": "icon_wrap",
     "settings": ["theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_wrap_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_wrap_materialized.png"
   },
   
   {
     "class": "icon_wrap",
     "settings": ["theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_wrap_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_wrap_atomized.png"
   },
   
   {
     "class": "icon_wrap",
     "settings": ["theme_find_panel_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_wrap_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_wrap_materialized.png"
   },
   
   {
     "class": "icon_wrap",
     "settings": ["theme_find_panel_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_wrap_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_wrap_atomized.png"
   },
   
   {
     "class": "icon_context",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_context.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_context.png"
   },
   
   {
     "class": "icon_context",
     "settings": ["theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_context_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_context_materialized.png"
   },
   
   {
     "class": "icon_context",
     "settings": ["theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_context_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_context_atomized.png"
   },
   
   {
     "class": "icon_context",
     "settings": ["theme_find_panel_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_context_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_context_materialized.png"
   },
   
   {
     "class": "icon_context",
     "settings": ["theme_find_panel_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_context_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_context_atomized.png"
   },
   
   {
     "class": "icon_use_buffer",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_buffer.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_buffer.png"
   },
   
   {
     "class": "icon_use_buffer",
     "settings": ["theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_buffer_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_buffer_materialized.png"
   },
   
   {
     "class": "icon_use_buffer",
     "settings": ["theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_buffer_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_buffer_atomized.png"
   },
   
   {
     "class": "icon_use_buffer",
     "settings": ["theme_find_panel_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_buffer_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_buffer_materialized.png"
   },
   
   {
     "class": "icon_use_buffer",
     "settings": ["theme_find_panel_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_buffer_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_buffer_atomized.png"
   },
   
   {
     "class": "icon_reverse",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_reverse.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_reverse.png"
   },
   
   {
     "class": "icon_in_selection",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_selection.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_selection.png"
   },
   
   {
     "class": "icon_in_selection",
     "settings": ["theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_selection_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_selection_materialized.png"
   },
   
   {
     "class": "icon_in_selection",
     "settings": ["theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_selection_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_selection_atomized.png"
   },
   
   {
     "class": "icon_in_selection",
     "settings": ["theme_find_panel_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_selection_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_selection_materialized.png"
   },
   
   {
     "class": "icon_in_selection",
     "settings": ["theme_find_panel_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_selection_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_selection_atomized.png"
   },
   
   {
     "class": "icon_preserve_case",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_preserve.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_preserve.png"
   },
   
   {
     "class": "icon_preserve_case",
     "settings": ["theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_preserve_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_preserve_materialized.png"
   },
   
   {
     "class": "icon_preserve_case",
     "settings": ["theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_preserve_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_preserve_atomized.png"
   },
   
   {
     "class": "icon_preserve_case",
     "settings": ["theme_find_panel_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_preserve_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_preserve_materialized.png"
   },
   
   {
     "class": "icon_preserve_case",
     "settings": ["theme_find_panel_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_preserve_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_preserve_atomized.png"
   },
   
   {
     "class": "icon_highlight",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_highlight.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_highlight.png"
   },
   
   {
     "class": "icon_highlight",
     "settings": ["theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_highlight_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_highlight_materialized.png"
   },
   
   {
     "class": "icon_highlight",
     "settings": ["theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_highlight_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_highlight_atomized.png"
   },
   
   {
     "class": "icon_highlight",
     "settings": ["theme_find_panel_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_highlight_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_highlight_materialized.png"
   },
   
   {
     "class": "icon_highlight",
     "settings": ["theme_find_panel_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_highlight_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_highlight_atomized.png"
   },
   
   // Fields
@@ -896,31 +896,31 @@
   
   {
     "class": "dropdown_button_control",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dropdown.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown.png"
   },
   
   {
     "class": "dropdown_button_control",
     "settings": ["theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dropdown_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown_materialized.png"
   },
   
   {
     "class": "dropdown_button_control",
     "settings": ["theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dropdown_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown_atomized.png"
   },
   
   {
     "class": "dropdown_button_control",
     "settings": ["theme_dropdown_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dropdown_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown_materialized.png"
   },
   
   {
     "class": "dropdown_button_control",
     "settings": ["theme_dropdown_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dropdown_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown_atomized.png"
   },
   
   
@@ -932,7 +932,7 @@
   
   {
     "class": "panel_control",
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   // Progress Bar
@@ -940,7 +940,7 @@
   
   {
     "class": "progress_bar_control",
-    "layer0.tint": [247, 247, 247]
+    "layer0.tint": [34, 50, 58]
   },
   
   // Labels
@@ -948,7 +948,7 @@
   
   {
     "class": "label_control",
-    "color": [123, 123, 123]
+    "color": [145, 153, 157]
   },
   
   // Buttons
@@ -956,46 +956,46 @@
   
   {
     "class": "button_control",
-    "layer0.tint": [247, 247, 247],
-    "layer1.texture": "Boxy Theme/assets/specific/yesterday/buttons/button_rounded.png",
-    "layer2.tint": [0, 0, 0],
-    "layer3.texture": "Boxy Theme/assets/variants/light/buttons/button_rounded.png"
+    "layer0.tint": [34, 50, 58],
+    "layer1.texture": "Boxy Theme/assets/specific/ocean/buttons/button_rounded.png",
+    "layer2.tint": [255, 255, 255],
+    "layer3.texture": "Boxy Theme/assets/variants/dark/buttons/button_rounded.png"
   },
   
   {
     "class": "icon_button_control",
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   {
     "class": "icon_button_control",
     "settings": ["theme_icon_button_highlighted"],
-    "layer0.tint": [247, 247, 247],
-    "layer2.tint": [0, 0, 0],
+    "layer0.tint": [34, 50, 58],
+    "layer2.tint": [255, 255, 255],
   },
   
   {
     "class": "icon_button_control",
     "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
     "attributes": ["left"],
-    "layer1.texture": "Boxy Theme/assets/specific/yesterday/buttons/button_rounded_left.png",
-    "layer3.texture": "Boxy Theme/assets/variants/light/buttons/button_rounded_left.png"
+    "layer1.texture": "Boxy Theme/assets/specific/ocean/buttons/button_rounded_left.png",
+    "layer3.texture": "Boxy Theme/assets/variants/dark/buttons/button_rounded_left.png"
   },
   
   {
     "class": "icon_button_control",
     "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
     "attributes": ["right"],
-    "layer1.texture": "Boxy Theme/assets/specific/yesterday/buttons/button_rounded_right.png",
-    "layer3.texture": "Boxy Theme/assets/variants/light/buttons/button_rounded_right.png"
+    "layer1.texture": "Boxy Theme/assets/specific/ocean/buttons/button_rounded_right.png",
+    "layer3.texture": "Boxy Theme/assets/variants/dark/buttons/button_rounded_right.png"
   },
   
   {
     "class": "icon_button_control",
     "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
     "attributes": ["left", "right"],
-    "layer1.texture": "Boxy Theme/assets/specific/yesterday/buttons/button_rounded.png",
-    "layer3.texture": "Boxy Theme/assets/variants/light/buttons/button_rounded.png"
+    "layer1.texture": "Boxy Theme/assets/specific/ocean/buttons/button_rounded.png",
+    "layer3.texture": "Boxy Theme/assets/variants/dark/buttons/button_rounded.png"
   },
   
   
@@ -1004,13 +1004,13 @@
   
   {
     "class": "text_line_control",
-    "layer0.texture": "Boxy Theme/assets/specific/yesterday/fields/field.png"
+    "layer0.texture": "Boxy Theme/assets/specific/ocean/fields/field.png"
   },
   
   {
     "class": "text_line_control",
     "parents": [{"class": "overlay_control"}],
-    "layer0.texture": "Boxy Theme/assets/specific/yesterday/fields/field_overlay.png"
+    "layer0.texture": "Boxy Theme/assets/specific/ocean/fields/field_overlay.png"
   },
   
   
@@ -4972,55 +4972,55 @@
   
   {
     "class": "grid_layout_control",
-    "border_color": [238, 238, 238]
+    "border_color": [45, 60, 68]
   },
   
   {
     "class": "grid_layout_control",
     "settings": ["theme_bar_margin_top_sm"],
-    "border_color": [247, 247, 247]
+    "border_color": [34, 50, 58]
   },
   
   {
     "class": "grid_layout_control",
     "settings": ["theme_bar_margin_top_md"],
-    "border_color": [247, 247, 247]
+    "border_color": [34, 50, 58]
   },
   
   {
     "class": "grid_layout_control",
     "settings": ["theme_bar_margin_top_lg"],
-    "border_color": [247, 247, 247]
+    "border_color": [34, 50, 58]
   },
   
   {
     "class": "grid_layout_control",
     "settings": ["theme_grid_border_size_sm"],
-    "border_color": [247, 247, 247]
+    "border_color": [34, 50, 58]
   },
   
   {
     "class": "grid_layout_control",
     "settings": ["theme_grid_border_size_md"],
-    "border_color": [247, 247, 247]
+    "border_color": [34, 50, 58]
   },
   
   {
     "class": "grid_layout_control",
     "settings": ["theme_grid_border_size_lg"],
-    "border_color": [247, 247, 247]
+    "border_color": [34, 50, 58]
   },
   
   {
     "class": "grid_layout_control",
     "settings": ["theme_grid_border_size_xl"],
-    "border_color": [247, 247, 247]
+    "border_color": [34, 50, 58]
   },
   
   {
     "class": "grid_layout_control",
     "settings": ["!enable_tab_scrolling"],
-    "border_color": [247, 247, 247]
+    "border_color": [34, 50, 58]
   },
   
   // Grid Options
@@ -5259,7 +5259,7 @@
   
   {
     "class": "overlay_control",
-    "layer0.texture": "Boxy Theme/assets/specific/yesterday/overlays/overlay.png"
+    "layer0.texture": "Boxy Theme/assets/specific/ocean/overlays/overlay.png"
   },
   
   // Quick Panel
@@ -5271,24 +5271,24 @@
   
   {
     "class": "quick_panel",
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   {
     "class": "quick_panel_row",
-    "layer0.tint": [238, 238, 238, 0]
+    "layer0.tint": [45, 60, 68, 0]
   },
   
   {
     "class": "quick_panel_row",
     "parents": [{"class": "overlay_control"}],
-    "layer0.tint": [238, 238, 238, 0]
+    "layer0.tint": [45, 60, 68, 0]
   },
   
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
-    "layer0.tint": [238, 238, 238, 0]
+    "layer0.tint": [45, 60, 68, 0]
   },
   
   //
@@ -5297,12 +5297,12 @@
   
   {
     "class": "mini_quick_panel",
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   {
     "class": "mini_quick_panel_row",
-    "layer0.tint": [238, 238, 238, 0]
+    "layer0.tint": [45, 60, 68, 0]
   },
   
   //
@@ -5311,21 +5311,21 @@
   
   {
     "class": "quick_panel_label",
-    "fg": [123, 123, 123, 255],
-    "selected_fg": [86, 86, 86, 255]
+    "fg": [145, 153, 157, 255],
+    "selected_fg": [178, 183, 186, 255]
   },
   
   {
     "class": "quick_panel_label",
     "parents": [{"class": "overlay_control"}],
-    "fg": [123, 123, 123, 255],
-    "selected_fg": [86, 86, 86, 255]
+    "fg": [145, 153, 157, 255],
+    "selected_fg": [178, 183, 186, 255]
   },
   
   {
     "class": "quick_panel_path_label",
-    "fg": [161, 161, 161, 255],
-    "selected_fg": [161, 161, 161, 255]
+    "fg": [111, 122, 127, 255],
+    "selected_fg": [111, 122, 127, 255]
   },
   
   // Overlays Accents
@@ -5337,14 +5337,14 @@
     "class": "quick_panel_row",
     "attributes": ["selected"],
     "layer1.opacity": 1.0,
-    "layer1.texture": "Boxy Theme/assets/variants/light/highlight.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/highlight.png"
   },
   
   {
     "class": "mini_quick_panel_row",
     "attributes": ["selected"],
     "layer1.opacity": 1.0,
-    "layer1.texture": "Boxy Theme/assets/variants/light/highlight.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/highlight.png"
   },
   
   
@@ -6132,7 +6132,7 @@
     "blur": false
   },
   
-  // Scrollbars Light Styles
+  // Scrollbars Dark Styles
   // ===========================================================================
   
   // Scrollbar Default
@@ -6144,19 +6144,19 @@
   
   {
     "class": "puck_control",
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/scrollbars/puck_vertical.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["theme_scrollbar_line"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical_line.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/scrollbars/puck_vertical_line.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["theme_scrollbar_rounded"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical_rounded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/scrollbars/puck_vertical_rounded.png"
   },
   
   //
@@ -6166,21 +6166,21 @@
   {
     "class": "puck_control",
     "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/scrollbars/puck_horizontal.png"
   },
   
   {
     "class": "puck_control",
     "attributes": ["horizontal"],
     "settings": ["theme_scrollbar_line"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal_line.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/scrollbars/puck_horizontal_line.png"
   },
   
   {
     "class": "puck_control",
     "attributes": ["horizontal"],
     "settings": ["theme_scrollbar_rounded"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal_rounded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/scrollbars/puck_horizontal_rounded.png"
   },
   
   // Scrollbar Overlayed
@@ -6193,19 +6193,19 @@
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical_overlay.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/scrollbars/puck_vertical_overlay.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_scrollbar_line"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical_overlay_line.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/scrollbars/puck_vertical_overlay_line.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_scrollbar_rounded"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_vertical_overlay_rounded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/scrollbars/puck_vertical_overlay_rounded.png"
   },
   
   //
@@ -6216,21 +6216,21 @@
     "class": "puck_control",
     "settings": ["overlay_scroll_bars"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal_overlay.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/scrollbars/puck_horizontal_overlay.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_scrollbar_line"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal_overlay_line.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/scrollbars/puck_horizontal_overlay_line.png"
   },
   
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "theme_scrollbar_rounded"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/scrollbars/puck_horizontal_overlay_rounded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/scrollbars/puck_horizontal_overlay_rounded.png"
   },
   
   // Scrollbars Theme Specific Styles
@@ -6245,7 +6245,7 @@
   
   {
     "class": "scroll_corner_control",
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   //
@@ -6256,7 +6256,7 @@
   
   {
     "class": "scroll_bar_control",
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   //
@@ -6268,7 +6268,7 @@
   {
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   // Scrollbar Overlayed
@@ -6283,7 +6283,7 @@
   {
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars"],
-    "layer0.tint": [0, 0, 0]
+    "layer0.tint": [255, 255, 255]
   },
   
   //
@@ -6296,7 +6296,7 @@
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars"],
     "attributes": ["horizontal"],
-    "layer0.tint": [0, 0, 0]
+    "layer0.tint": [255, 255, 255]
   },
   
   {
@@ -6794,6 +6794,12 @@
     "content_margin": [0, 0, 0, 0]
   },
   
+  {
+    "class": "sidebar_container",
+    "settings": ["theme_tab_rounded", "!theme_bar"],
+    "content_margin": [0, 4, 0, 0]
+  },
+  
   // Sidebar Tree
   // ===========================================================================
   
@@ -7126,7 +7132,7 @@
     "layer0.opacity": 1.0
   },
   
-  // Sidebar Light Styles
+  // Sidebar Dark Styles
   // ===========================================================================
   
   // Sidebar Icons
@@ -7138,20 +7144,20 @@
   
   {
     "class": "close_button",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_close.png",
-    "layer1.texture": "Boxy Theme/assets/variants/light/buttons/button_dirty.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png",
+    "layer1.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png"
   },
   
   {
     "class": "close_button",
     "settings": ["theme_icons_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/buttons/button_dirty_materialized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_materialized.png"
   },
   
   {
     "class": "close_button",
     "settings": ["theme_dirty_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/buttons/button_dirty_materialized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_materialized.png"
   },
   
   //
@@ -7163,14 +7169,14 @@
   {
     "class": "disclosure_button_control",
     "settings": ["theme_sidebar_disclosure"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/disclosure.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/disclosure.png"
   },
   
   {
     "class": "disclosure_button_control",
     "settings": ["theme_sidebar_disclosure"],
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/disclosure_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/disclosure_expanded.png"
   },
   
   // Defaults
@@ -7179,31 +7185,31 @@
     "class": "icon_folder",
     "settings": ["theme_sidebar_folder_mono"],
     "layer0.opacity": 0.3,
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder.png"
   },
   
   {
     "class": "icon_folder",
     "settings": ["theme_sidebar_folder_mono", "theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_materialized.png"
   },
   
   {
     "class": "icon_folder",
     "settings": ["theme_sidebar_folder_mono", "theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_atomized.png"
   },
   
   {
     "class": "icon_folder",
     "settings": ["theme_sidebar_folder_mono", "theme_sidebar_folder_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_materialized.png"
   },
   
   {
     "class": "icon_folder",
     "settings": ["theme_sidebar_folder_mono", "theme_sidebar_folder_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_atomized.png"
   },
   
   {
@@ -7219,35 +7225,35 @@
     "class": "icon_folder",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["theme_sidebar_folder_mono"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_expanded.png"
   },
   
   {
     "class": "icon_folder",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["theme_sidebar_folder_mono", "theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_materialized_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_materialized_expanded.png"
   },
   
   {
     "class": "icon_folder",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["theme_sidebar_folder_mono", "theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_atomized_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_atomized_expanded.png"
   },
   
   {
     "class": "icon_folder",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["theme_sidebar_folder_mono", "theme_sidebar_folder_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_materialized_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_materialized_expanded.png"
   },
   
   {
     "class": "icon_folder",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["theme_sidebar_folder_mono", "theme_sidebar_folder_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_atomized_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_atomized_expanded.png"
   },
   
   // Symlink
@@ -7256,31 +7262,31 @@
     "class": "icon_folder_dup",
     "settings": ["theme_sidebar_folder_mono"],
     "layer0.opacity": 0.3,
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_dup.png"
   },
   
   {
     "class": "icon_folder_dup",
     "settings": ["theme_sidebar_folder_mono", "theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_dup_materialized.png"
   },
   
   {
     "class": "icon_folder_dup",
     "settings": ["theme_sidebar_folder_mono", "theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_dup_atomized.png"
   },
   
   {
     "class": "icon_folder_dup",
     "settings": ["theme_sidebar_folder_mono", "theme_sidebar_folder_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_dup_materialized.png"
   },
   
   {
     "class": "icon_folder_dup",
     "settings": ["theme_sidebar_folder_mono", "theme_sidebar_folder_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_dup_atomized.png"
   },
   
   {
@@ -7296,35 +7302,35 @@
     "class": "icon_folder_dup",
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["theme_sidebar_folder_mono"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_dup_expanded.png"
   },
   
   {
     "class": "icon_folder_dup",
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["theme_sidebar_folder_mono", "theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_materialized_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_dup_materialized_expanded.png"
   },
   
   {
     "class": "icon_folder_dup",
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["theme_sidebar_folder_mono", "theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_atomized_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_dup_atomized_expanded.png"
   },
   
   {
     "class": "icon_folder_dup",
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["theme_sidebar_folder_mono", "theme_sidebar_folder_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_materialized_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_dup_materialized_expanded.png"
   },
   
   {
     "class": "icon_folder_dup",
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
     "settings": ["theme_sidebar_folder_mono", "theme_sidebar_folder_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_dup_atomized_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_dup_atomized_expanded.png"
   },
   
   // Arrows
@@ -7332,27 +7338,27 @@
   {
     "class": "icon_folder",
     "settings": ["theme_sidebar_folder_arrow"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_arrow.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_arrow.png"
   },
   
   {
     "class": "icon_folder",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["theme_sidebar_folder_arrow"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_arrow_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_arrow_expanded.png"
   },
   
   {
     "class": "icon_folder_dup",
     "settings": ["theme_sidebar_folder_arrow"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_arrow.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_arrow.png"
   },
   
   {
     "class": "icon_folder_dup",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "settings": ["theme_sidebar_folder_arrow"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/sidebar/folder_arrow_expanded.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/sidebar/folder_arrow_expanded.png"
   },
   
   // Loading
@@ -7363,10 +7369,10 @@
     {
       "keyframes":
       [
-        "Boxy Theme/assets/variants/light/sidebar/spinner-4.png",
-        "Boxy Theme/assets/variants/light/sidebar/spinner-3.png",
-        "Boxy Theme/assets/variants/light/sidebar/spinner-2.png",
-        "Boxy Theme/assets/variants/light/sidebar/spinner-1.png"
+        "Boxy Theme/assets/variants/dark/sidebar/spinner-4.png",
+        "Boxy Theme/assets/variants/dark/sidebar/spinner-3.png",
+        "Boxy Theme/assets/variants/dark/sidebar/spinner-2.png",
+        "Boxy Theme/assets/variants/dark/sidebar/spinner-1.png"
       ],
       "loop": true,
       "frame_time": 0.25
@@ -7381,13 +7387,13 @@
   
   {
     "class": "sidebar_container",
-    "layer0.tint": [247, 247, 247]
+    "layer0.tint": [34, 50, 58]
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_sidebar_border"],
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   // Sidebar Tree
@@ -7399,7 +7405,7 @@
   
   {
     "class": "sidebar_tree",
-    "layer0.tint": [247, 247, 247]
+    "layer0.tint": [34, 50, 58]
   },
   
   //
@@ -7408,7 +7414,7 @@
   
   {
     "class": "tree_row",
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   // Sidebar Labels
@@ -7420,13 +7426,13 @@
   
   {
     "class": "sidebar_heading",
-    "color": [123, 123, 123]
+    "color": [145, 153, 157]
   },
   
   {
     "class": "sidebar_heading",
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-    "color": [86, 86, 86]
+    "color": [178, 183, 186]
   },
   
   //
@@ -7435,19 +7441,19 @@
   
   {
     "class": "sidebar_label",
-    "color": [123, 123, 123]
+    "color": [145, 153, 157]
   },
   
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-    "color": [86, 86, 86]
+    "color": [178, 183, 186]
   },
   
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-    "color": [38, 38, 38, 255]
+    "color": [221, 223, 225, 255]
   },
   
   
@@ -10054,7 +10060,7 @@
     "layer0.opacity": 0.75
   },
   
-  // Status Bar Light Styles
+  // Status Bar Dark Styles
   // ===========================================================================
   
   // Status Bar Panel Switcher
@@ -10062,31 +10068,31 @@
   
   {
     "class": "panel_button_control",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_panel_switcher.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher.png"
   },
   
   {
     "class": "panel_button_control",
     "settings": ["theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_panel_switcher_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_materialized.png"
   },
   
   {
     "class": "panel_button_control",
     "settings": ["theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_panel_switcher_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
   },
   
   {
     "class": "panel_button_control",
     "settings": ["theme_panel_switcher_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_panel_switcher_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_materialized.png"
   },
   
   {
     "class": "panel_button_control",
     "settings": ["theme_panel_switcher_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_panel_switcher_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_panel_switcher_atomized.png"
   },
   
   // Status Bar Theme Specific Styles
@@ -10097,7 +10103,7 @@
   
   {
     "class": "status_bar",
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   
@@ -10922,6 +10928,12 @@
     "tab_overlap": 1
   },
   
+  {
+    "class": "tabset_control",
+    "settings": ["theme_tab_rounded", "!theme_bar"],
+    "content_margin": [0, 4, 0, 0]
+  },
+  
   // Tabset Scrolling
   // ---------------------------------------------------------------------------
   
@@ -11213,7 +11225,7 @@
     "content_margin": [14, 4, 9, 4]
   },
   
-  // Tabs Light Styles
+  // Tabs Dark Styles
   // ===========================================================================
   
   // Tabset
@@ -11225,12 +11237,12 @@
   
   {
     "class": "scroll_tabs_left_button",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_arrow_left.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_arrow_left.png"
   },
   
   {
     "class": "scroll_tabs_right_button",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_arrow_right.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_arrow_right.png"
   },
   
   //
@@ -11239,31 +11251,31 @@
   
   {
     "class": "show_tabs_dropdown_button",
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dropdown.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown.png"
   },
   
   {
     "class": "show_tabs_dropdown_button",
     "settings": ["theme_icons_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dropdown_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown_materialized.png"
   },
   
   {
     "class": "show_tabs_dropdown_button",
     "settings": ["theme_icons_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dropdown_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown_atomized.png"
   },
   
   {
     "class": "show_tabs_dropdown_button",
     "settings": ["theme_dropdown_materialized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dropdown_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown_materialized.png"
   },
   
   {
     "class": "show_tabs_dropdown_button",
     "settings": ["theme_dropdown_atomized"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dropdown_atomized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dropdown_atomized.png"
   },
   
   // Tab
@@ -11272,43 +11284,43 @@
   {
     "class": "tab_control",
     "settings": ["theme_tab_separator"],
-    "layer3.texture": "Boxy Theme/assets/variants/light/tabs/tab_separator.png",
-    "layer3.opacity": 0.05
+    "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator.png",
+    "layer3.opacity": 0.1
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_rounded", "theme_tab_separator", "!theme_bar"],
-    "layer3.texture": "Boxy Theme/assets/variants/light/tabs/tab_separator_universal.png",
-    "layer3.opacity": 0.1
+    "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png",
+    "layer3.opacity": 0.15
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_bar_margin_top_sm", "theme_tab_separator"],
-    "layer3.texture": "Boxy Theme/assets/variants/light/tabs/tab_separator_universal.png",
-    "layer3.opacity": 0.1
+    "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png",
+    "layer3.opacity": 0.15
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_bar_margin_top_md", "theme_tab_separator"],
-    "layer3.texture": "Boxy Theme/assets/variants/light/tabs/tab_separator_universal.png",
-    "layer3.opacity": 0.1
+    "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png",
+    "layer3.opacity": 0.15
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_bar_margin_top_lg", "theme_tab_separator"],
-    "layer3.texture": "Boxy Theme/assets/variants/light/tabs/tab_separator_universal.png",
-    "layer3.opacity": 0.1
+    "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png",
+    "layer3.opacity": 0.15
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_bar", "theme_tab_separator"],
-    "layer3.texture": "Boxy Theme/assets/variants/light/tabs/tab_separator_universal.png",
-    "layer3.opacity": 0.1
+    "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_separator_universal.png",
+    "layer3.opacity": 0.15
   },
   
   {
@@ -11338,6 +11350,12 @@
   
   {
     "class": "tab_close_button",
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
+  },
+  
+  {
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_close.png"
   },
   
@@ -11362,35 +11380,35 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dirty.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty.png"
   },
   
   {
     "class": "tab_close_button",
     "settings": ["theme_icons_materialized"],
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dirty_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_materialized.png"
   },
   
   {
     "class": "tab_close_button",
     "settings": ["theme_dirty_materialized"],
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_dirty_materialized.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_dirty_materialized.png"
   },
   
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
     "attributes": ["hover"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_close.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
   },
   
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "settings": ["theme_tab_selected_transparent"],
-    "layer0.texture": "Boxy Theme/assets/variants/light/buttons/button_close.png"
+    "layer0.texture": "Boxy Theme/assets/variants/dark/buttons/button_close.png"
   },
   
   
@@ -11406,7 +11424,7 @@
   
   {
     "class": "tabset_control",
-    "layer0.tint": [247, 247, 247]
+    "layer0.tint": [34, 50, 58]
   },
   
   // Tab
@@ -11418,14 +11436,14 @@
   
   {
     "class": "tab_control",
-    "layer0.texture": "Boxy Theme/assets/specific/yesterday/tabs/tab.png",
-    "layer1.texture": "Boxy Theme/assets/variants/light/tabs/tab_hovered.png"
+    "layer0.texture": "Boxy Theme/assets/specific/ocean/tabs/tab.png",
+    "layer1.texture": "Boxy Theme/assets/variants/dark/tabs/tab_hovered.png"
   },
   
   {
     "class": "tab_control",
     "settings": ["theme_tab_rounded", "!theme_bar"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/tabs/tab_hovered_rounded.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/tabs/tab_hovered_rounded.png"
   },
   
   {
@@ -11441,42 +11459,42 @@
     "class": "tab_control",
     "attributes": ["hover"],
     "settings": ["theme_tab_highlight_text_only", "theme_tab_separator"],
-    "layer3.opacity": 0.05
+    "layer3.opacity": 0.1
   },
   
   {
     "class": "tab_control",
     "attributes": ["hover"],
     "settings": ["theme_tab_rounded", "!theme_bar", "theme_tab_separator", "theme_tab_highlight_text_only"],
-    "layer3.opacity": 0.1
+    "layer3.opacity": 0.15
   },
   
   {
     "class": "tab_control",
     "attributes": ["hover"],
     "settings": ["theme_bar_margin_top_sm", "theme_tab_separator", "theme_tab_highlight_text_only"],
-    "layer3.opacity": 0.1
+    "layer3.opacity": 0.15
   },
   
   {
     "class": "tab_control",
     "attributes": ["hover"],
     "settings": ["theme_bar_margin_top_md", "theme_tab_separator", "theme_tab_highlight_text_only"],
-    "layer3.opacity": 0.1
+    "layer3.opacity": 0.15
   },
   
   {
     "class": "tab_control",
     "attributes": ["hover"],
     "settings": ["theme_bar_margin_top_lg", "theme_tab_separator", "theme_tab_highlight_text_only"],
-    "layer3.opacity": 0.1
+    "layer3.opacity": 0.15
   },
   
   {
     "class": "tab_control",
     "attributes": ["hover"],
     "settings": ["theme_bar", "theme_tab_separator", "theme_tab_highlight_text_only"],
-    "layer3.opacity": 0.1
+    "layer3.opacity": 0.15
   },
   
   {
@@ -11492,13 +11510,13 @@
   
   {
     "class": "tab_label",
-    "fg": [123, 123, 123]
+    "fg": [145, 153, 157]
   },
   
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-    "fg": [86, 86, 86]
+    "fg": [178, 183, 186]
   },
   
   // Light Color Scheme
@@ -11539,7 +11557,7 @@
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "settings": ["theme_tab_selected_transparent"],
-    "fg": [38, 38, 38]
+    "fg": [221, 223, 225]
   },
   
   
@@ -13961,12 +13979,12 @@
   
   {
     "class": "sheet_container_control",
-    "layer0.tint": [247, 247, 247]
+    "layer0.tint": [34, 50, 58]
   },
   
   {
     "class": "dialog",
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   //
@@ -13984,7 +14002,7 @@
   {
     "class": "grid_layout_control",
     "settings": ["theme_bar"],
-    "border_color": [238, 238, 238]
+    "border_color": [45, 60, 68]
   },
   
   // Sidebar
@@ -13994,7 +14012,7 @@
     "class": "sidebar_container",
     "settings": ["theme_bar"],
     "content_margin": [0, 32, 0, 0],
-    "layer0.tint": [238, 238, 238],
+    "layer0.tint": [45, 60, 68],
     "layer1.inner_margin": [120, 32, 0, 0],
     "layer1.opacity": 1,
     "layer2.inner_margin": [0, 0, 7, 32],
@@ -14002,7 +14020,7 @@
   },
   
   
-  // Bar Light Styles
+  // Bar Dark Styles
   // ===========================================================================
   
   // Tabset
@@ -14011,7 +14029,7 @@
   {
     "class": "tabset_control",
     "settings": ["theme_bar"],
-    "layer0.tint": [238, 238, 238]
+    "layer0.tint": [45, 60, 68]
   },
   
   // Tab
@@ -14020,7 +14038,7 @@
   {
     "class": "tab_control",
     "settings": ["theme_bar"],
-    "layer0.texture": "Boxy Theme/assets/specific/yesterday/tabs/tab_overlay.png"
+    "layer0.texture": "Boxy Theme/assets/specific/ocean/tabs/tab_overlay.png"
   },
   
   // Sidebar
@@ -14029,33 +14047,33 @@
   {
     "class": "sidebar_container",
     "settings": ["theme_bar"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo.png",
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo.png",
     "layer1.opacity": 0.55,
-    "layer2.opacity": 0.25
+    "layer2.opacity": 0.5
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_icons_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_icons_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_bar_logo_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_bar_logo_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized.png"
   },
   
   {
@@ -14079,7 +14097,7 @@
     "settings": ["theme_bar", "theme_size_xs"],
     "content_margin": [0, 28, 0, 0],
     "layer1.inner_margin": [120, 28, 0, 0],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_xs.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_xs.png"
   },
   
   {
@@ -14087,55 +14105,55 @@
     "settings": ["theme_bar", "theme_tab_size_xs"],
     "content_margin": [0, 28, 0, 0],
     "layer1.inner_margin": [120, 28, 0, 0],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_xs.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_xs.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_xs", "theme_icons_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_xs.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_xs.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_xs", "theme_icons_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_xs.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_xs.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_xs", "theme_icons_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_xs.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_xs.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_xs", "theme_icons_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_xs.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_xs.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_xs", "theme_bar_logo_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_xs.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_xs.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_xs", "theme_bar_logo_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_xs.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_xs.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_xs", "theme_bar_logo_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_xs.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_xs.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_xs", "theme_bar_logo_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_xs.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_xs.png"
   },
   
   {
@@ -14159,7 +14177,7 @@
     "settings": ["theme_bar", "theme_size_sm"],
     "content_margin": [0, 32, 0, 0],
     "layer1.inner_margin": [120, 32, 0, 0],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo.png"
   },
   
   {
@@ -14167,55 +14185,55 @@
     "settings": ["theme_bar", "theme_tab_size_sm"],
     "content_margin": [0, 32, 0, 0],
     "layer1.inner_margin": [120, 32, 0, 0],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_sm", "theme_icons_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_sm", "theme_icons_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_sm", "theme_icons_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_sm", "theme_icons_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_sm", "theme_bar_logo_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_sm", "theme_bar_logo_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_sm", "theme_bar_logo_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_sm", "theme_bar_logo_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized.png"
   },
   
   {
@@ -14239,7 +14257,7 @@
     "settings": ["theme_bar", "theme_size_md"],
     "content_margin": [0, 36, 0, 0],
     "layer1.inner_margin": [120, 36, 0, 0],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_md.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_md.png"
   },
   
   {
@@ -14247,55 +14265,55 @@
     "settings": ["theme_bar", "theme_tab_size_md"],
     "content_margin": [0, 36, 0, 0],
     "layer1.inner_margin": [120, 36, 0, 0],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_md.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_md.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_md", "theme_icons_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_md.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_md.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_md", "theme_icons_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_md.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_md.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_md", "theme_icons_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_md.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_md.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_md", "theme_icons_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_md.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_md.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_md", "theme_bar_logo_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_md.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_md.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_md", "theme_bar_logo_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_md.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_md.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_md", "theme_bar_logo_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_md.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_md.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_md", "theme_bar_logo_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_md.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_md.png"
   },
   
   {
@@ -14319,7 +14337,7 @@
     "settings": ["theme_bar", "theme_size_lg"],
     "content_margin": [0, 40, 0, 0],
     "layer1.inner_margin": [120, 40, 0, 0],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_lg.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_lg.png"
   },
   
   {
@@ -14327,55 +14345,55 @@
     "settings": ["theme_bar", "theme_tab_size_lg"],
     "content_margin": [0, 40, 0, 0],
     "layer1.inner_margin": [120, 40, 0, 0],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_lg.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_lg.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_lg", "theme_icons_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_lg.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_lg.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_lg", "theme_icons_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_lg.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_lg.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_lg", "theme_icons_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_lg.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_lg.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_lg", "theme_icons_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_lg.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_lg.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_lg", "theme_bar_logo_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_lg.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_lg.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_lg", "theme_bar_logo_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_lg.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_lg.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_lg", "theme_bar_logo_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_lg.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_lg.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_lg", "theme_bar_logo_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_lg.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_lg.png"
   },
   
   {
@@ -14399,7 +14417,7 @@
     "settings": ["theme_bar", "theme_size_xl"],
     "content_margin": [0, 44, 0, 0],
     "layer1.inner_margin": [120, 44, 0, 0],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_xl.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_xl.png"
   },
   
   {
@@ -14407,55 +14425,55 @@
     "settings": ["theme_bar", "theme_tab_size_xl"],
     "content_margin": [0, 44, 0, 0],
     "layer1.inner_margin": [120, 44, 0, 0],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_xl.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_xl.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_xl", "theme_icons_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_xl.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_xl.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_xl", "theme_icons_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_xl.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_xl.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_xl", "theme_icons_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_xl.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_xl.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_xl", "theme_icons_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_xl.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_xl.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_xl", "theme_bar_logo_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_xl.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_xl.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_xl", "theme_bar_logo_materialized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_materialized_xl.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_xl.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_size_xl", "theme_bar_logo_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_xl.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_xl.png"
   },
   
   {
     "class": "sidebar_container",
     "settings": ["theme_bar", "theme_tab_size_xl", "theme_bar_logo_atomized"],
-    "layer1.texture": "Boxy Theme/assets/variants/light/bar/logo_atomized_xl.png"
+    "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_xl.png"
   },
   
   {
@@ -15222,7 +15240,7 @@
     "class": "tab_control",
     "settings": ["theme_tab_selected_underlined", "theme_bar_colored", "theme_tab_selected_transparent"],
     "attributes": ["selected"],
-    "layer3.opacity": 0.5,
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/common/bar/tab_selected_underlined_white.png"
   },
   
@@ -15230,7 +15248,7 @@
     "class": "tab_control",
     "settings": ["theme_tab_selected_underlined", "theme_bar_colored", "theme_tab_selected_transparent", "theme_tab_line_size_sm"],
     "attributes": ["selected"],
-    "layer3.opacity": 0.5,
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/common/bar/tab_selected_underlined_white_sm.png"
   },
   
@@ -15238,7 +15256,7 @@
     "class": "tab_control",
     "settings": ["theme_tab_selected_underlined", "theme_bar_colored", "theme_tab_selected_transparent", "theme_tab_line_size_lg"],
     "attributes": ["selected"],
-    "layer3.opacity": 0.5,
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/common/bar/tab_selected_underlined_white_lg.png"
   },
   
@@ -15246,7 +15264,7 @@
     "class": "tab_control",
     "settings": ["theme_tab_selected_prelined", "theme_bar_colored", "theme_tab_selected_transparent"],
     "attributes": ["selected"],
-    "layer3.opacity": 0.5,
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/common/bar/tab_selected_prelined_white.png"
   },
   
@@ -15254,7 +15272,7 @@
     "class": "tab_control",
     "settings": ["theme_tab_selected_prelined", "theme_bar_colored", "theme_tab_selected_transparent", "theme_tab_line_size_sm"],
     "attributes": ["selected"],
-    "layer3.opacity": 0.5,
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/common/bar/tab_selected_prelined_white_sm.png"
   },
   
@@ -15262,7 +15280,7 @@
     "class": "tab_control",
     "settings": ["theme_tab_selected_prelined", "theme_bar_colored", "theme_tab_selected_transparent", "theme_tab_line_size_lg"],
     "attributes": ["selected"],
-    "layer3.opacity": 0.5,
+    "layer3.opacity": 1.0,
     "layer3.texture": "Boxy Theme/assets/common/bar/tab_selected_prelined_white_lg.png"
   },
   
