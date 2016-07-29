@@ -38,10 +38,6 @@ html {
   color: #cdd3de;
 }
 
-body {
-  font-size: 1.1em;
-}
-
 a {
   color: #6699cc;
 }
