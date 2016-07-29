@@ -28,10 +28,6 @@ settings:
         color: <%= scheme.foreground %>;
       }
 
-      body {
-        font-size: 1.1em;
-      }
-
       a {
         color: <%= scheme.base.blue %>;
       }
