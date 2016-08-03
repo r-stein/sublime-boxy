@@ -24,13 +24,13 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 
 ***
 
-<div><a href="#boxy-yesterday">Yesterday</a>&nbsp;▪&nbsp;<a href="#boxy-tomorrow">Tomorrow</a>&nbsp;▪&nbsp;<a href="#boxy-ocean">Ocean</a>&nbsp;▪&nbsp;<a href="#boxy-monokai">Monokai</a>&nbsp;▪&nbsp;<a href="https://github.com/oivva/boxy/wiki/Get-It">Get It</a>&nbsp;▪&nbsp;<a href="https://forum.sublimetext.com/t/boxy-3-0-0-the-most-hackable-theme-for-sublime-text-3/20564">News & Discussion</a>&nbsp;▪&nbsp;<a href="#share-the-love">Share The Love</a></div>
+<div><a href="#boxy-yesterday">Yesterday</a>&nbsp;▪&nbsp;<a href="#boxy-tomorrow">Tomorrow</a>&nbsp;▪&nbsp;<a href="#boxy-ocean">Ocean</a>&nbsp;▪&nbsp;<a href="#boxy-monokai">Monokai</a>&nbsp;▪&nbsp;<a href="https://github.com/oivva/boxy/wiki">Docs</a>&nbsp;▪&nbsp;<a href="https://forum.sublimetext.com/t/boxy-the-most-hackable-theme-for-sublime-text-3/20564">Forum</a>&nbsp;▪&nbsp;<a href="#share-the-love">Share The Love</a></div>
 
 ***
 
 ### Quick Start
 
-See our [Gallery][gallery] for more quick start examples. **All available options** can be found [**here**][settings].
+> **All available options** can be found [**here**][settings].
 
 > DON'T FORGET TO RESTART SUBLIME TEXT AFTER ACTIVATING OR RE-ACTIVATING THE THEME.
 
