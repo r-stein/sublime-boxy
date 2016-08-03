@@ -1,4 +1,9 @@
-"""Boxy Theme Links."""
+# -*- coding: utf-8 -*-
+
+"""
+Boxy Theme Links
+"""
+
 import sublime
 import sublime_plugin
 import webbrowser
