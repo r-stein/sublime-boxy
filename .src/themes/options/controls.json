@@ -1,6 +1,33 @@
 // Controls Options
 // ===========================================================================
 
+// Panel
+// ---------------------------------------------------------------------------
+
+{
+  "class": "panel_control",
+  "settings": ["theme_find_panel_padding_sm"],
+  "content_margin": [1, 2]
+},
+
+{
+  "class": "panel_control",
+  "settings": ["theme_find_panel_padding_md"],
+  "content_margin": [2, 3]
+},
+
+{
+  "class": "panel_control",
+  "settings": ["theme_find_panel_padding_lg"],
+  "content_margin": [4, 5]
+},
+
+{
+  "class": "panel_control",
+  "settings": ["theme_find_panel_padding_xl"],
+  "content_margin": [5, 6]
+},
+
 // Popup Border
 // ---------------------------------------------------------------------------
 

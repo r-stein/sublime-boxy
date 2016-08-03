@@ -38,6 +38,7 @@ SUB_SECTIONS = OrderedDict(
 			[
 				"Find Panel Size",
 				"Find Panel Font",
+				"Find Panel Padding",
 				"Find Panel Misc"
 			]
 		),
@@ -197,6 +198,16 @@ SUB_SECTION_OPTIONS = OrderedDict(
 				"theme_find_panel_font_md",
 				"theme_find_panel_font_lg",
 				"theme_find_panel_font_xl"
+			]
+		),
+		(
+			"Find Panel Padding",
+			[
+				"theme_find_panel_padding_xs",
+				"theme_find_panel_padding_sm",
+				"theme_find_panel_padding_md",
+				"theme_find_panel_padding_lg",
+				"theme_find_panel_padding_xl"
 			]
 		),
 		(

@@ -6,7 +6,7 @@
   "class": "panel_control",
   "layer0.inner_margin": [2, 2],
   "layer0.opacity": 1.0,
-  "content_margin": [-2, 2, -2, 2]
+  "content_margin": [0, 1]
 },
 
 // Progress Bar
@@ -272,7 +272,7 @@
 {
   "class": "text_line_control",
   "layer0.opacity": 1.0,
-  "layer0.inner_margin": [20, 5, 20, 5],
+  "layer0.inner_margin": [20, 5],
   "tint_index": 1,
   "content_margin": [11, 7]
 },
