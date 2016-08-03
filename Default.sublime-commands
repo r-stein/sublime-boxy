@@ -1,0 +1,26 @@
+[
+  {
+    "caption": "Boxy Theme: Configuration",
+    "command": "boxy_config"
+  },
+  {
+    "caption": "Boxy Theme: Docs",
+    "command": "boxy_docs"
+  },
+  {
+    "caption": "Boxy Theme: Forum",
+    "command": "boxy_forum"
+  },
+  {
+    "caption": "Boxy Theme: Issues",
+    "command": "boxy_issues"
+  },
+  {
+    "caption": "Boxy Theme: Package Control",
+    "command": "boxy_package_control"
+  },
+  {
+    "caption": "Boxy Theme: Repository",
+    "command": "boxy_repo"
+  }
+]

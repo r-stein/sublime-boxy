@@ -1,0 +1,43 @@
+[
+  {
+    "caption": "Boxy Theme",
+    "children":
+    [
+      {
+        "caption": "Configuration",
+        "command": "boxy_config"
+      },
+      {
+        "caption": "Issues",
+        "command": "boxy_issues"
+      },
+      { "caption": "-" },
+      {
+        "caption": "Docs",
+        "command": "boxy_docs"
+      },
+      {
+        "caption": "Forum",
+        "command": "boxy_forum"
+      },
+      { "caption": "-" },
+      {
+        "caption": "Repository",
+        "command": "boxy_repo"
+      },
+      {
+        "caption": "Package Control",
+        "command": "boxy_package_control"
+      },
+      { "caption": "-" },
+      {
+        "caption": "Changelog",
+        "command": "boxy_changelog"
+      },
+      {
+        "caption": "Donate",
+        "command": "boxy_donate"
+      }
+    ]
+  }
+]
