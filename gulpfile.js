@@ -225,7 +225,7 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
 
 gulp.task('process:schemes', function(cb) {
   return gulp.src('./.src/settings/specific/*.json')
-    .pipe($.foreach(function(stream, file) {
+    .pipe($.flatmap(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
       return gulp.src('./.src/schemes/scheme.YAML-tmTheme')
@@ -244,7 +244,7 @@ gulp.task('process:schemes', function(cb) {
 
 gulp.task('convert:schemes', function() {
   return gulp.src('./schemes/*.YAML-tmTheme')
-    .pipe($.foreach(function(stream, file) {
+    .pipe($.flatmap(function(stream, file) {
       sleep.sleep(2);
 
       return stream
@@ -278,7 +278,7 @@ gulp.task('build:widgets', ['clean:widgets'], function(cb) {
 
 gulp.task('build:widget-themes', function() {
   return gulp.src('./.src/settings/specific/*.json')
-    .pipe($.foreach(function(stream, file) {
+    .pipe($.flatmap(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
       return gulp.src('./.src/widgets/widget.stTheme')
@@ -297,7 +297,7 @@ gulp.task('build:widget-themes', function() {
 
 gulp.task('build:widget-settings', function() {
   return gulp.src('./.src/settings/specific/*.json')
-    .pipe($.foreach(function(stream, file) {
+    .pipe($.flatmap(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
       return gulp.src('./.src/widgets/widget.sublime-settings')
