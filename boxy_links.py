@@ -8,10 +8,6 @@ import sublime
 import sublime_plugin
 import webbrowser
 
-class BoxyDocsCommand(sublime_plugin.WindowCommand):
-	def run(self):
-		webbrowser.open_new_tab('https://github.com/oivva/boxy/wiki')
-
 class BoxyDonateCommand(sublime_plugin.WindowCommand):
 	def run(self):
 		webbrowser.open_new_tab('https://github.com/oivva/boxy#share-the-love')
