@@ -29,6 +29,7 @@ var $ = require('gulp-load-plugins')();
  */
 
 var common = require('./.src/settings/common.json');
+var envRegExp = new RegExp('([\'|\"]?__version__[\'|\"]?[ ]*[:|\=][ ]*[\'|\"]?)(\\d+\\.\\d+\\.\\d+(-\\.\\d+)?(-\\d+)?)[\\d||A-a|.|-]*([\'|\"]?)', 'i');
 
 
 /*
@@ -81,8 +82,8 @@ gulp.task('github-release', function(done) {
 
 gulp.task('bump', function(cb) {
   runSequence(
-    'bump-version',
-    'commit-version',
+    'bump-pkg-version',
+    'bump-env-version',
     function (error) {
       if (error) {
         console.log('[bump]'.bold.magenta + ' There was an issue bumping version:\n'.bold.red + error.message);
@@ -94,7 +95,7 @@ gulp.task('bump', function(cb) {
   );
 });
 
-gulp.task('bump-version', function() {
+gulp.task('bump-pkg-version', function() {
   return gulp.src('./package.json')
     .pipe($.if((Object.keys(argv).length === 2), $.bump()))
     .pipe($.if(argv.patch, $.bump()))
@@ -103,6 +104,14 @@ gulp.task('bump-version', function() {
     .pipe(gulp.dest('./'));
 });
 
+gulp.task('bump-env-version', function() {
+  return gulp.src('./boxy_environment.py')
+    .pipe($.if((Object.keys(argv).length === 2), $.bump({ regex: envRegExp })))
+    .pipe($.if(argv.patch, $.bump({ regex: envRegExp })))
+    .pipe($.if(argv.minor, $.bump({ type: 'minor', regex: envRegExp })))
+    .pipe($.if(argv.major, $.bump({ type: 'major', regex: envRegExp })))
+    .pipe(gulp.dest('./'));
+});
 
 /*
  * > Git

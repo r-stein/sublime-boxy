@@ -7,15 +7,8 @@ Boxy Theme Environment
 import sublime
 import sublime_plugin
 import textwrap
-import json
-from os.path import join, dirname, realpath
 
-pkg_path = join(dirname(realpath(__file__)), 'package.json')
-
-with open(pkg_path) as pkg_str:
-	pkg_data = json.load(pkg_str)
-
-__version__ = pkg_data['version']
+__version__ = '3.1.1'
 __pc_name__ = 'Boxy Theme'
 
 def list2string(obj):
