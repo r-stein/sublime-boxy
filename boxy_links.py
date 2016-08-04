@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Boxy Theme URLs
+Boxy Theme Links
 """
 
 import sublime

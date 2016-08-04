@@ -370,23 +370,23 @@ SECTION_OPTIONS = OrderedDict(
 	]
 )
 
-BACK = '[&larr; Back](back-Home){: .boxy-config .ui-control .ui-control-back }'
+BACK = '[&larr; Back](back-Home){: .boxy-control .boxy-control-back }'
 BACK_TO_SUBMENU = ''
-SECTIONS = '- [%(section)s](::%(section)s){: .boxy-config .ui-control }\n'
+SECTIONS = '- [%(section)s](::%(section)s){: .boxy-control }\n'
 SECTION_LABEL = '\n\n# BOXY CONFIG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n\n***\n\n## %s\n\n'
 SECTIONS_LABEL = '\n\n# BOXY CONFIG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n\n***\n\n## Main Sections\n\n'
-GENERAL_SETTING = '''- [**%(status)s**{: .boxy-config %(class)s} %(name)s](%(name)s:%(set)s:%(section)s)\
-{: .boxy-config .ui-control }\n'''
-SCHEME = '''- [**%(status)s**{: .boxy-config %(class)s} %(name)s](color_scheme:%(set)s:%(section)s)\
-{: .boxy-config .ui-control }\n'''
+GENERAL_SETTING = '''- [**%(status)s**{: %(class)s} %(name)s](%(name)s:%(set)s:%(section)s)\
+{: .boxy-control }\n'''
+SCHEME = '''- [**%(status)s**{: %(class)s} %(name)s](color_scheme:%(set)s:%(section)s)\
+{: .boxy-control }\n'''
 THEME_LABEL = '\n\n# BOXY CONFIG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n\n***\n\n## UI Theme\n\n'
 SCHEME_LABEL = '\n\n# BOXY CONFIG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n\n***\n\n## Color Scheme\n\n'
-OTHER_SCHEME = '''- [**%(status)s**{: .boxy-config .ui-control %(class)s} Other: %(name)s]\
-(color_scheme:%(set)s:%(section)s){: .boxy-config .ui-control }\n'''
-THEME = '''- [**%(status)s**{: .boxy-config .ui-control %(class)s} %(name)s](theme:%(set)s:%(section)s)\
-{: .boxy-config .ui-control }\n'''
-OTHER_THEME = '''- [**%(status)s**{: .boxy-config .ui-control %(class)s} Other: %(name)s](theme:%(set)s:%(section)s)\
-{: .boxy-config .ui-control }\n'''
+OTHER_SCHEME = '''- [**%(status)s**{: .boxy-control %(class)s} Other: %(name)s]\
+(color_scheme:%(set)s:%(section)s){: .boxy-control }\n'''
+THEME = '''- [**%(status)s**{: .boxy-control %(class)s} %(name)s](theme:%(set)s:%(section)s)\
+{: .boxy-control }\n'''
+OTHER_THEME = '''- [**%(status)s**{: .boxy-control %(class)s} Other: %(name)s](theme:%(set)s:%(section)s)\
+{: .boxy-control }\n'''
 MARKED = "✓"
 UNMARKED = "✗"
 RADIO_MARKED = "☒"
@@ -397,7 +397,7 @@ body {
 	padding: 0;
 }
 
-{%- if var.sublime_version < 3119 %}
+{% if var.sublime_version < 3119 %}
 .markdown {
 	padding: 0.5em;
 }
@@ -424,19 +424,19 @@ a {
 	display: inline-block;
 	padding: 0.25em 0;
 }
-.boxy-config.ui-control {
+.boxy-control {
 	font-size: 1em;
 	text-decoration: none;
 }
-.boxy-config.ui-control-back {
+.boxy-control-back {
 	{{'.foreground'|css}}
 }
-.boxy-config.ui-control-back {
+.boxy-control-back {
 	display: block;
 	margin: 0.5em 0 0 0;
 	padding: 0;
 }
-{%- else %}
+{% else %}
 .mdpopups {
 	padding: 0.5rem;
 }
@@ -463,32 +463,26 @@ a {
 	display: inline-block;
 	padding: 0.25rem 0;
 }
-.mdpopups .boxy-config.ui-control {
+.mdpopups .boxy-control {
 	font-size: 1rem;
 	text-decoration: none;
 }
-.mdpopups .boxy-config.ui-control-back {
+.mdpopups .boxy-control-back {
 	{{'.foreground'|css}}
 }
-.mdpopups .boxy-config.ui-control-back {
+.mdpopups .boxy-control-back {
 	display: block;
 	margin: 0.5rem 0 0 0;
 	padding: 0;
 }
-{%- endif %}
+{% endif %}
 """
 
 def is_boxy_res(item):
-	"""Check if a boxy resource."""
-
 	return item.startswith('Packages/Boxy Theme/')
 
 class BoxyConfigCommand(sublime_plugin.TextCommand):
-	"""Boxy configuration."""
-
 	def on_navigate(self, href):
-		"""Handle option selection."""
-
 		if href.startswith('back'):
 			self.show_popup(href[5:])
 		else:
@@ -508,8 +502,6 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 			self.show_popup(section)
 
 	def show_popup(self, menu):
-		"""Show config popup."""
-
 		settings = sublime.load_settings('Preferences.sublime-settings')
 		popup = []
 		global BACK
@@ -577,8 +569,8 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 			popup.append(SECTION_LABEL % menu)
 			for k in SUB_SECTIONS[menu]:
 				popup.append(SECTIONS % {"section": k})
-			BACK = '[← Back](back-Home){: .boxy-config .ui-control .ui-control-back }'
-			BACK_TO_SUBMENU = '[← Back](back-%s){: .boxy-config .ui-control .ui-control-back }' % (menu)
+			BACK = '[← Back](back-Home){: .boxy-control .boxy-control-back }'
+			BACK_TO_SUBMENU = '[← Back](back-%s){: .boxy-control .boxy-control-back }' % (menu)
 		elif menu in SECTION_OPTIONS.keys():
 			popup.append(SECTION_LABEL % menu)
 			for option in SECTION_OPTIONS[menu]:
@@ -592,7 +584,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 						"section": menu
 					}
 				)
-			BACK = '[← Back](back-Home){: .boxy-config .ui-control .ui-control-back }'
+			BACK = '[← Back](back-Home){: .boxy-control .boxy-control-back }'
 		else:
 			popup.append(SECTION_LABEL % menu)
 			for option in SUB_SECTION_OPTIONS[menu]:
@@ -622,6 +614,4 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 		)
 
 	def run(self, edit):
-		"""Run Command."""
-
 		self.show_popup('Home')
