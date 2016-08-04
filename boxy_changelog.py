@@ -6,6 +6,7 @@ Boxy Theme Changelog
 
 import sublime
 import sublime_plugin
+import webbrowser
 
 STYLES = '''
 .mdpopups {
@@ -29,6 +30,8 @@ STYLES = '''
 '''
 
 class BoxyChangelogCommand(sublime_plugin.WindowCommand):
+	def on_navigate(self, href):
+		webbrowser.open_new_tab(href)
 
 	def run(self):
 		import mdpopups
@@ -37,7 +40,7 @@ class BoxyChangelogCommand(sublime_plugin.WindowCommand):
 		view.set_name('Boxy Theme Changelog')
 		view.settings().set('gutter', False)
 		html = '<div class="boxy-changelog">%s</div>' % mdpopups.md2html(view, text)
-		mdpopups.add_phantom(view, 'changelog', sublime.Region(0), html, sublime.LAYOUT_INLINE, css=STYLES)
+		mdpopups.add_phantom(view, 'changelog', sublime.Region(0), html, sublime.LAYOUT_INLINE, css=STYLES, on_navigate=self.on_navigate)
 		view.set_read_only(True)
 		view.set_scratch(True)
 
