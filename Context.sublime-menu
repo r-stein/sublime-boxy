@@ -8,32 +8,36 @@
         "command": "boxy_config"
       },
       {
-        "caption": "Issues",
-        "command": "boxy_issues"
-      },
-      { "caption": "-" },
-      {
         "caption": "Docs",
         "command": "boxy_docs"
       },
+      { "caption": "-" },
       {
         "caption": "Forum",
         "command": "boxy_forum"
       },
-      { "caption": "-" },
-      {
-        "caption": "Repository",
-        "command": "boxy_repo"
-      },
       {
         "caption": "Package Control",
         "command": "boxy_package_control"
+      },
+      {
+        "caption": "Repository",
+        "command": "boxy_repo"
       },
       { "caption": "-" },
       {
         "caption": "Changelog",
         "command": "boxy_changelog"
       },
+      {
+        "caption": "Environment",
+        "command": "boxy_environment"
+      },
+      {
+        "caption": "Issues",
+        "command": "boxy_issues"
+      },
+      { "caption": "-" },
       {
         "caption": "Donate",
         "command": "boxy_donate"
