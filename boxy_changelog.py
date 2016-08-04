@@ -11,18 +11,20 @@ STYLES = '''
 .mdpopups {
 	{{'.background'|css}}
 }
-
 .boxy-changelog a {
 	text-decoration: none;
 }
-
 .boxy-changelog h1,
 .boxy-changelog h2,
 .boxy-changelog h3,
 .boxy-changelog h4,
 .boxy-changelog h5,
 .boxy-changelog h6 {
+	margin: 1rem;
 	{{'.string'|css('color')}}
+}
+.boxy-changelog ul {
+	margin: 0.75rem 1rem;
 }
 '''
 
@@ -45,6 +47,6 @@ class BoxyChangelogCommand(sublime_plugin.WindowCommand):
 		except Exception:
 			return False
 
-		return (mdpopups.version() >= (1, 7, 3)) and (int(sublime.version()) >= 3118)
+		return (mdpopups.version() >= (1, 9, 0)) and (int(sublime.version()) >= 3119)
 
 	is_visible = is_enabled

@@ -396,7 +396,6 @@ html,
 body {
 	padding: 0;
 }
-
 {% if var.sublime_version < 3119 %}
 .markdown {
 	padding: 0.5em;
