@@ -420,20 +420,18 @@ li {
 	display: block;
 }
 a {
-	display: inline-block;
-	padding: 0.25em 0;
+	display: block;
+	padding: 0.125em 0;
 }
 .boxy-control {
 	font-size: 1em;
 	text-decoration: none;
 }
 .boxy-control-back {
-	{{'.foreground'|css}}
+	{{'.foreground'|css('color')}}
 }
 .boxy-control-back {
-	display: block;
-	margin: 0.5em 0 0 0;
-	padding: 0;
+	display: inline;
 }
 {% else %}
 .mdpopups {
@@ -459,20 +457,18 @@ a {
 	display: block;
 }
 .mdpopups a {
-	display: inline-block;
-	padding: 0.25rem 0;
+	display: block;
+	padding: 0.125rem 0;
 }
 .mdpopups .boxy-control {
 	font-size: 1rem;
 	text-decoration: none;
 }
 .mdpopups .boxy-control-back {
-	{{'.foreground'|css}}
+	{{'.foreground'|css('color')}}
 }
 .mdpopups .boxy-control-back {
-	display: block;
-	margin: 0.5rem 0 0 0;
-	padding: 0;
+	display: inline;
 }
 {% endif %}
 """
