@@ -13,62 +13,62 @@ from collections import OrderedDict
 SUB_SECTIONS = OrderedDict(
 	[
 		(
-			"Global",
+			'Global',
 			[
-				"Size",
-				"Font",
-				"Accent",
-				"Icons"
+				'Size',
+				'Font',
+				'Accent',
+				'Icons'
 			]
 		),
 		(
-			"Bar",
+			'Bar',
 			[
-				"Bar Flavors",
-				"Bar Margin"
+				'Bar Flavors',
+				'Bar Margin'
 			]
 		),
 		(
-			"Tabs",
+			'Tabs',
 			[
-				"Tab Size",
-				"Tab Font",
-				"Tab Flavors",
-				"Tab Misc"
+				'Tab Size',
+				'Tab Font',
+				'Tab Flavors',
+				'Tab Misc'
 			]
 		),
 		(
-			"Find Panels",
+			'Find Panels',
 			[
-				"Find Panel Size",
-				"Find Panel Font",
-				"Find Panel Padding",
-				"Find Panel Misc"
+				'Find Panel Size',
+				'Find Panel Font',
+				'Find Panel Padding',
+				'Find Panel Misc'
 			]
 		),
 		(
-			"Quick Panels",
+			'Quick Panels',
 			[
-				"Quick Panel Size",
-				"Quick Panel Misc"
+				'Quick Panel Size',
+				'Quick Panel Misc'
 			]
 		),
 		(
-			"Sidebar",
+			'Sidebar',
 			[
-				"Sidebar Size",
-				"Sidebar Font",
-				"Sidebar Indent",
-				"Sidebar Icons",
-				"Sidebar Misc"
+				'Sidebar Size',
+				'Sidebar Font',
+				'Sidebar Indent',
+				'Sidebar Icons',
+				'Sidebar Misc'
 			]
 		),
 		(
-			"Status Bar",
+			'Status Bar',
 			[
-				"Status Bar Size",
-				"Status Bar Font",
-				"Status Bar Flavors"
+				'Status Bar Size',
+				'Status Bar Font',
+				'Status Bar Flavors'
 			]
 		)
 	]
@@ -77,254 +77,254 @@ SUB_SECTIONS = OrderedDict(
 SUB_SECTION_OPTIONS = OrderedDict(
 	[
 		(
-			"Size",
+			'Size',
 			[
-				"theme_size_xs",
-				"theme_size_sm",
-				"theme_size_md",
-				"theme_size_lg",
-				"theme_size_xl"
+				'theme_size_xs',
+				'theme_size_sm',
+				'theme_size_md',
+				'theme_size_lg',
+				'theme_size_xl'
 			]
 		),
 		(
-			"Font",
+			'Font',
 			[
-				"theme_font_xs",
-				"theme_font_sm",
-				"theme_font_md",
-				"theme_font_lg",
-				"theme_font_xl"
+				'theme_font_xs',
+				'theme_font_sm',
+				'theme_font_md',
+				'theme_font_lg',
+				'theme_font_xl'
 			]
 		),
 		(
-			"Accent",
+			'Accent',
 			[
-				"theme_accent_blue",
-				"theme_accent_green",
-				"theme_accent_orange",
-				"theme_accent_purple",
-				"theme_accent_tangerine",
-				"theme_accent_cyan",
-				"theme_accent_lime",
-				"theme_accent_pink",
-				"theme_accent_sky"
+				'theme_accent_blue',
+				'theme_accent_green',
+				'theme_accent_orange',
+				'theme_accent_purple',
+				'theme_accent_tangerine',
+				'theme_accent_cyan',
+				'theme_accent_lime',
+				'theme_accent_pink',
+				'theme_accent_sky'
 			]
 		),
 		(
-			"Icons",
+			'Icons',
 			[
-				"theme_icons_flat",
-				"theme_icons_materialized",
-				"theme_icons_atomized"
+				'theme_icons_flat',
+				'theme_icons_materialized',
+				'theme_icons_atomized'
 			]
 		),
 		(
-			"Bar Flavors",
+			'Bar Flavors',
 			[
-				"theme_bar",
-				"theme_bar_colored",
-				"theme_bar_logo_materialized",
-				"theme_bar_logo_atomized",
-				"theme_bar_shadow_hidden"
+				'theme_bar',
+				'theme_bar_colored',
+				'theme_bar_logo_materialized',
+				'theme_bar_logo_atomized',
+				'theme_bar_shadow_hidden'
 			]
 		),
 		(
-			"Bar Margin",
+			'Bar Margin',
 			[
-				"theme_bar_margin_top_sm",
-				"theme_bar_margin_top_md",
-				"theme_bar_margin_top_lg"
+				'theme_bar_margin_top_sm',
+				'theme_bar_margin_top_md',
+				'theme_bar_margin_top_lg'
 			]
 		),
 		(
-			"Tab Size",
+			'Tab Size',
 			[
-				"theme_tab_size_xs",
-				"theme_tab_size_sm",
-				"theme_tab_size_md",
-				"theme_tab_size_lg",
-				"theme_tab_size_xl",
-				"theme_tab_width_auto"
+				'theme_tab_size_xs',
+				'theme_tab_size_sm',
+				'theme_tab_size_md',
+				'theme_tab_size_lg',
+				'theme_tab_size_xl',
+				'theme_tab_width_auto'
 			]
 		),
 		(
-			"Tab Font",
+			'Tab Font',
 			[
-				"theme_tab_font_xs",
-				"theme_tab_font_sm",
-				"theme_tab_font_md",
-				"theme_tab_font_lg",
-				"theme_tab_font_xl",
-				"theme_tab_label_bold",
-				"theme_tab_selected_label_bold"
+				'theme_tab_font_xs',
+				'theme_tab_font_sm',
+				'theme_tab_font_md',
+				'theme_tab_font_lg',
+				'theme_tab_font_xl',
+				'theme_tab_label_bold',
+				'theme_tab_selected_label_bold'
 			]
 		),
 		(
-			"Tab Flavors",
+			'Tab Flavors',
 			[
-				"theme_tab_rounded",
-				"theme_tab_selected_underlined",
-				"theme_tab_selected_prelined",
-				"theme_tab_selected_filled",
-				"theme_tab_selected_transparent",
-				"theme_tab_line_size_sm",
-				"theme_tab_line_size_lg"
+				'theme_tab_rounded',
+				'theme_tab_selected_underlined',
+				'theme_tab_selected_prelined',
+				'theme_tab_selected_filled',
+				'theme_tab_selected_transparent',
+				'theme_tab_line_size_sm',
+				'theme_tab_line_size_lg'
 			]
 		),
 		(
-			"Tab Misc",
+			'Tab Misc',
 			[
-				"theme_tab_arrows_hidden",
-				"theme_tab_mouse_wheel_switch",
-				"theme_tab_separator",
-				"theme_tab_highlight_text_only",
-				"theme_tab_close_always_visible",
-				"theme_dirty_materialized",
-				"theme_dropdown_materialized",
-				"theme_dropdown_atomized"
+				'theme_tab_arrows_hidden',
+				'theme_tab_mouse_wheel_switch',
+				'theme_tab_separator',
+				'theme_tab_highlight_text_only',
+				'theme_tab_close_always_visible',
+				'theme_dirty_materialized',
+				'theme_dropdown_materialized',
+				'theme_dropdown_atomized'
 			]
 		),
 		(
-			"Find Panel Size",
+			'Find Panel Size',
 			[
-				"theme_find_panel_size_xs",
-				"theme_find_panel_size_sm",
-				"theme_find_panel_size_md",
-				"theme_find_panel_size_lg",
-				"theme_find_panel_size_xl"
+				'theme_find_panel_size_xs',
+				'theme_find_panel_size_sm',
+				'theme_find_panel_size_md',
+				'theme_find_panel_size_lg',
+				'theme_find_panel_size_xl'
 			]
 		),
 		(
-			"Find Panel Font",
+			'Find Panel Font',
 			[
-				"theme_find_panel_font_xs",
-				"theme_find_panel_font_sm",
-				"theme_find_panel_font_md",
-				"theme_find_panel_font_lg",
-				"theme_find_panel_font_xl"
+				'theme_find_panel_font_xs',
+				'theme_find_panel_font_sm',
+				'theme_find_panel_font_md',
+				'theme_find_panel_font_lg',
+				'theme_find_panel_font_xl'
 			]
 		),
 		(
-			"Find Panel Padding",
+			'Find Panel Padding',
 			[
-				"theme_find_panel_padding_xs",
-				"theme_find_panel_padding_sm",
-				"theme_find_panel_padding_md",
-				"theme_find_panel_padding_lg",
-				"theme_find_panel_padding_xl"
+				'theme_find_panel_padding_xs',
+				'theme_find_panel_padding_sm',
+				'theme_find_panel_padding_md',
+				'theme_find_panel_padding_lg',
+				'theme_find_panel_padding_xl'
 			]
 		),
 		(
-			"Find Panel Misc",
+			'Find Panel Misc',
 			[
-				"theme_find_panel_close_hidden",
-				"theme_button_rounded",
-				"theme_icon_button_highlighted",
-				"theme_button_inverted",
-				"theme_find_panel_materialized",
-				"theme_find_panel_atomized"
+				'theme_find_panel_close_hidden',
+				'theme_button_rounded',
+				'theme_icon_button_highlighted',
+				'theme_button_inverted',
+				'theme_find_panel_materialized',
+				'theme_find_panel_atomized'
 			]
 		),
 		(
-			"Quick Panel Size",
+			'Quick Panel Size',
 			[
-				"theme_quick_panel_size_xs",
-				"theme_quick_panel_size_sm",
-				"theme_quick_panel_size_md",
-				"theme_quick_panel_size_lg",
-				"theme_quick_panel_size_xl"
+				'theme_quick_panel_size_xs',
+				'theme_quick_panel_size_sm',
+				'theme_quick_panel_size_md',
+				'theme_quick_panel_size_lg',
+				'theme_quick_panel_size_xl'
 			]
 		),
 		(
-			"Quick Panel Misc",
+			'Quick Panel Misc',
 			[
-				"theme_quick_panel_item_selected_colored"
+				'theme_quick_panel_item_selected_colored'
 			]
 		),
 		(
-			"Sidebar Size",
+			'Sidebar Size',
 			[
-				"theme_sidebar_size_xxs",
-				"theme_sidebar_size_xs",
-				"theme_sidebar_size_sm",
-				"theme_sidebar_size_md",
-				"theme_sidebar_size_lg",
-				"theme_sidebar_size_xl"
+				'theme_sidebar_size_xxs',
+				'theme_sidebar_size_xs',
+				'theme_sidebar_size_sm',
+				'theme_sidebar_size_md',
+				'theme_sidebar_size_lg',
+				'theme_sidebar_size_xl'
 			]
 		),
 		(
-			"Sidebar Font",
+			'Sidebar Font',
 			[
-				"theme_sidebar_font_xs",
-				"theme_sidebar_font_sm",
-				"theme_sidebar_font_md",
-				"theme_sidebar_font_lg",
-				"theme_sidebar_font_xl"
+				'theme_sidebar_font_xs',
+				'theme_sidebar_font_sm',
+				'theme_sidebar_font_md',
+				'theme_sidebar_font_lg',
+				'theme_sidebar_font_xl'
 			]
 		),
 		(
-			"Sidebar Indent",
+			'Sidebar Indent',
 			[
-				"theme_sidebar_indent_xs",
-				"theme_sidebar_indent_sm",
-				"theme_sidebar_indent_md",
-				"theme_sidebar_indent_lg",
-				"theme_sidebar_indent_xl"
+				'theme_sidebar_indent_xs',
+				'theme_sidebar_indent_sm',
+				'theme_sidebar_indent_md',
+				'theme_sidebar_indent_lg',
+				'theme_sidebar_indent_xl'
 			]
 		),
 		(
-			"Sidebar Icons",
+			'Sidebar Icons',
 			[
-				"theme_sidebar_file_icons_hidden",
-				"theme_sidebar_folder_arrow",
-				"theme_sidebar_disclosure",
-				"theme_sidebar_folder_mono",
-				"theme_sidebar_close_always_visible",
-				"theme_sidebar_folder_materialized",
-				"theme_sidebar_folder_atomized",
-				"theme_sidebar_icon_saturation_lw",
-				"theme_sidebar_icon_saturation_md",
-				"theme_sidebar_icon_saturation_hg",
-				"theme_sidebar_icon_saturation_xh"
+				'theme_sidebar_file_icons_hidden',
+				'theme_sidebar_folder_arrow',
+				'theme_sidebar_disclosure',
+				'theme_sidebar_folder_mono',
+				'theme_sidebar_close_always_visible',
+				'theme_sidebar_folder_materialized',
+				'theme_sidebar_folder_atomized',
+				'theme_sidebar_icon_saturation_lw',
+				'theme_sidebar_icon_saturation_md',
+				'theme_sidebar_icon_saturation_hg',
+				'theme_sidebar_icon_saturation_xh'
 			]
 		),
 		(
-			"Sidebar Misc",
+			'Sidebar Misc',
 			[
-				"theme_sidebar_border",
-				"theme_sidebar_indent_top_level_disabled",
-				"theme_sidebar_highlight_text_only",
-				"theme_sidebar_highlight_selected_text_only",
-				"theme_sidebar_heading_bold"
+				'theme_sidebar_border',
+				'theme_sidebar_indent_top_level_disabled',
+				'theme_sidebar_highlight_text_only',
+				'theme_sidebar_highlight_selected_text_only',
+				'theme_sidebar_heading_bold'
 			]
 		),
 		(
-			"Status Bar Size",
+			'Status Bar Size',
 			[
-				"theme_statusbar_size_xs",
-				"theme_statusbar_size_sm",
-				"theme_statusbar_size_md",
-				"theme_statusbar_size_lg",
-				"theme_statusbar_size_xl"
+				'theme_statusbar_size_xs',
+				'theme_statusbar_size_sm',
+				'theme_statusbar_size_md',
+				'theme_statusbar_size_lg',
+				'theme_statusbar_size_xl'
 			]
 		),
 		(
-			"Status Bar Font",
+			'Status Bar Font',
 			[
-				"theme_statusbar_label_bold",
-				"theme_statusbar_font_xs",
-				"theme_statusbar_font_sm",
-				"theme_statusbar_font_md",
-				"theme_statusbar_font_lg",
-				"theme_statusbar_font_xl"
+				'theme_statusbar_label_bold',
+				'theme_statusbar_font_xs',
+				'theme_statusbar_font_sm',
+				'theme_statusbar_font_md',
+				'theme_statusbar_font_lg',
+				'theme_statusbar_font_xl'
 			]
 		),
 		(
-			"Status Bar Flavors",
+			'Status Bar Flavors',
 			[
-				"theme_statusbar_colored",
-				"theme_panel_switcher_materialized",
-				"theme_panel_switcher_atomized"
+				'theme_statusbar_colored',
+				'theme_panel_switcher_materialized',
+				'theme_panel_switcher_atomized'
 			]
 		)
 	]
@@ -333,38 +333,38 @@ SUB_SECTION_OPTIONS = OrderedDict(
 SECTION_OPTIONS = OrderedDict(
 	[
 		(
-			"Scrollbars",
+			'Scrollbars',
 			[
-				"theme_scrollbar_line",
-				"theme_scrollbar_colored",
-				"theme_scrollbar_rounded"
+				'theme_scrollbar_line',
+				'theme_scrollbar_colored',
+				'theme_scrollbar_rounded'
 			]
 		),
 		(
-			"Tooltips",
+			'Tooltips',
 			[
-				"theme_tooltips_font_xs",
-				"theme_tooltips_font_sm",
-				"theme_tooltips_font_md",
-				"theme_tooltips_font_lg",
-				"theme_tooltips_font_xl"
+				'theme_tooltips_font_xs',
+				'theme_tooltips_font_sm',
+				'theme_tooltips_font_md',
+				'theme_tooltips_font_lg',
+				'theme_tooltips_font_xl'
 			]
 		),
 		(
-			"Grid",
+			'Grid',
 			[
-				"theme_grid_border_size_xs",
-				"theme_grid_border_size_sm",
-				"theme_grid_border_size_md",
-				"theme_grid_border_size_lg",
-				"theme_grid_border_size_xl"
+				'theme_grid_border_size_xs',
+				'theme_grid_border_size_sm',
+				'theme_grid_border_size_md',
+				'theme_grid_border_size_lg',
+				'theme_grid_border_size_xl'
 			]
 		),
 		(
-			"Popups",
+			'Popups',
 			[
-				"theme_autocomplete_item_selected_colored",
-				"theme_popup_border_visible"
+				'theme_autocomplete_item_selected_colored',
+				'theme_popup_border_visible'
 			]
 		)
 	]
@@ -387,11 +387,11 @@ THEME = '''- [**%(status)s**{: .boxy-control %(class)s} %(name)s](theme:%(set)s:
 {: .boxy-control }\n'''
 OTHER_THEME = '''- [**%(status)s**{: .boxy-control %(class)s} Other: %(name)s](theme:%(set)s:%(section)s)\
 {: .boxy-control }\n'''
-MARKED = "✓"
-UNMARKED = "✗"
-RADIO_MARKED = "☒"
-RADIO_UNMARKED = "☐"
-STYLES = """\
+MARKED = '✓'
+UNMARKED = '✗'
+RADIO_MARKED = '☒'
+RADIO_UNMARKED = '☐'
+STYLES = '''\
 html,
 body {
 	padding: 0;
@@ -471,7 +471,7 @@ a {
 	display: inline;
 }
 {% endif %}
-"""
+'''
 
 def is_boxy_res(item):
 	return item.startswith('Packages/Boxy Theme/')
@@ -505,7 +505,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 		if menu == 'Home':
 			popup.append(SECTIONS_LABEL)
 			for k in ['UI Theme', 'Color Scheme'] + list(SUB_SECTIONS.keys()) + list(SECTION_OPTIONS.keys()):
-				popup.append(SECTIONS % {"section": k})
+				popup.append(SECTIONS % {'section': k})
 		elif menu == 'UI Theme':
 			theme = settings.get('theme', '')
 			boxy_themes = [
@@ -516,21 +516,21 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				option_value = theme == option
 				popup.append(
 					THEME % {
-						"name": option,
-						"status": RADIO_MARKED if option_value else RADIO_UNMARKED,
-						"set": option,
-						"class": '.success' if option_value else '.error',
-						'section': "UI Theme"
+						'name': option,
+						'status': RADIO_MARKED if option_value else RADIO_UNMARKED,
+						'set': option,
+						'class': '.success' if option_value else '.error',
+						'section': 'UI Theme'
 					}
 				)
 			if theme is not None and theme not in boxy_themes:
 				popup.append(
 					OTHER_THEME % {
-						"name": theme,
-						"status": RADIO_MARKED,
-						"set": option,
-						"class": '.success' if option_value else '.error',
-						'section': "UI Theme"
+						'name': theme,
+						'status': RADIO_MARKED,
+						'set': option,
+						'class': '.success' if option_value else '.error',
+						'section': 'UI Theme'
 					}
 				)
 		elif menu == 'Color Scheme':
@@ -543,27 +543,27 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				option_value = scheme == option
 				popup.append(
 					SCHEME % {
-						"name": option,
-						"status": RADIO_MARKED if option_value else RADIO_UNMARKED,
-						"set": option,
-						"class": '.success' if option_value else '.error',
-						"section": 'Color Scheme'
+						'name': option,
+						'status': RADIO_MARKED if option_value else RADIO_UNMARKED,
+						'set': option,
+						'class': '.success' if option_value else '.error',
+						'section': 'Color Scheme'
 					}
 				)
 			if scheme is not None and scheme not in boxy_schemes:
 				popup.append(
 					OTHER_SCHEME % {
-						"name": scheme,
-						"status": RADIO_MARKED,
-						"set": option,
-						"class": '.success',
-						"section": 'Color Scheme'
+						'name': scheme,
+						'status': RADIO_MARKED,
+						'set': option,
+						'class': '.success',
+						'section': 'Color Scheme'
 					}
 				)
 		elif menu in SUB_SECTIONS.keys():
 			popup.append(SECTION_LABEL % menu)
 			for k in SUB_SECTIONS[menu]:
-				popup.append(SECTIONS % {"section": k})
+				popup.append(SECTIONS % {'section': k})
 			BACK = '[← Back](back-Home){: .boxy-control .boxy-control-back }'
 			BACK_TO_SUBMENU = '[← Back](back-%s){: .boxy-control .boxy-control-back }' % (menu)
 		elif menu in SECTION_OPTIONS.keys():
@@ -572,11 +572,11 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				option_value = bool(settings.get(option, False))
 				popup.append(
 					GENERAL_SETTING % {
-						"name": option,
-						"status": MARKED if option_value else UNMARKED,
-						"set": str(not option_value),
-						"class": '.success' if option_value else '.error',
-						"section": menu
+						'name': option,
+						'status': MARKED if option_value else UNMARKED,
+						'set': str(not option_value),
+						'class': '.success' if option_value else '.error',
+						'section': menu
 					}
 				)
 			BACK = '[← Back](back-Home){: .boxy-control .boxy-control-back }'
@@ -586,11 +586,11 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				option_value = bool(settings.get(option, False))
 				popup.append(
 					GENERAL_SETTING % {
-						"name": option,
-						"status": MARKED if option_value else UNMARKED,
-						"set": str(not option_value),
-						"class": '.success' if option_value else '.error',
-						"section": menu
+						'name': option,
+						'status': MARKED if option_value else UNMARKED,
+						'set': str(not option_value),
+						'class': '.success' if option_value else '.error',
+						'section': menu
 					}
 				)
 			BACK = BACK_TO_SUBMENU

@@ -36,38 +36,38 @@ class BoxyEnvironmentCommand(sublime_plugin.ApplicationCommand):
 	def run(self):
 		info = {}
 
-		info["platform"] = sublime.platform()
-		info["version"] = sublime.version()
-		info["arch"] = sublime.arch()
-		info["boxy_version"] = __version__
-		info["pc_install"] = is_installed_by_package_control()
+		info['platform'] = sublime.platform()
+		info['version'] = sublime.version()
+		info['arch'] = sublime.arch()
+		info['boxy_version'] = __version__
+		info['pc_install'] = is_installed_by_package_control()
 
 		try:
 			import mdpopups
-			info["mdpopups_version"] = format_version(mdpopups, 'version', call=True)
+			info['mdpopups_version'] = format_version(mdpopups, 'version', call=True)
 		except Exception:
-			info["mdpopups_version"] = 'Version could not be acquired!'
+			info['mdpopups_version'] = 'Version could not be acquired!'
 
 		try:
 			import markdown
-			info["markdown_version"] = format_version(markdown, 'version')
+			info['markdown_version'] = format_version(markdown, 'version')
 		except Exception:
-			info["markdown_version"] = 'Version could not be acquired!'
+			info['markdown_version'] = 'Version could not be acquired!'
 
 		try:
 			import jinja2
-			info["jinja_version"] = format_version(jinja2, '__version__')
+			info['jinja_version'] = format_version(jinja2, '__version__')
 		except Exception:
-			info["jinja_version"] = 'Version could not be acquired!'
+			info['jinja_version'] = 'Version could not be acquired!'
 
 		try:
 			import pygments
-			info["pygments_version"] = format_version(pygments, '__version__')
+			info['pygments_version'] = format_version(pygments, '__version__')
 		except Exception:
-			info["pygments_version"] = 'Version could not be acquired!'
+			info['pygments_version'] = 'Version could not be acquired!'
 
 		msg = textwrap.dedent(
-			"""\
+			'''\
 			- Boxy Theme: %(boxy_version)s
 			- Sublime Text: %(version)s
 			- Platform: %(platform)s
@@ -77,7 +77,7 @@ class BoxyEnvironmentCommand(sublime_plugin.ApplicationCommand):
 				* markdown: %(markdown_version)s
 				* pygments: %(pygments_version)s
 				* jinja2: %(jinja_version)s
-			""" % info
+			''' % info
 		)
 
 		sublime.message_dialog(msg + '\nInfo has been copied to the clipboard.')
