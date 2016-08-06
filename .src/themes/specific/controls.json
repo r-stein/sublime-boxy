@@ -25,54 +25,6 @@
   "color": [<%= ui.foreground.default.rgb %>]
 },
 
-// Buttons
-// ---------------------------------------------------------------------------
-
-{
-  "class": "button_control",
-  "layer0.tint": [<%= ui.background.primary.rgb %>],
-  "layer1.texture": "Boxy Theme/assets/specific/<%= ui.id %>/buttons/button_rounded.png",
-  "layer2.tint": [<%= ui.background.base.rgb %>],
-  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_rounded.png"
-},
-
-{
-  "class": "icon_button_control",
-  "layer0.tint": [<%= ui.background.secondary.rgb %>]
-},
-
-{
-  "class": "icon_button_control",
-  "settings": ["theme_icon_button_highlighted"],
-  "layer0.tint": [<%= ui.background.primary.rgb %>],
-  "layer2.tint": [<%= ui.background.base.rgb %>],
-},
-
-{
-  "class": "icon_button_control",
-  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
-  "attributes": ["left"],
-  "layer1.texture": "Boxy Theme/assets/specific/<%= ui.id %>/buttons/button_rounded_left.png",
-  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_rounded_left.png"
-},
-
-{
-  "class": "icon_button_control",
-  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
-  "attributes": ["right"],
-  "layer1.texture": "Boxy Theme/assets/specific/<%= ui.id %>/buttons/button_rounded_right.png",
-  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_rounded_right.png"
-},
-
-{
-  "class": "icon_button_control",
-  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
-  "attributes": ["left", "right"],
-  "layer1.texture": "Boxy Theme/assets/specific/<%= ui.id %>/buttons/button_rounded.png",
-  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_rounded.png"
-},
-
-
 // Fields
 // ---------------------------------------------------------------------------
 

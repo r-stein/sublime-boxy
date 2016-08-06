@@ -18,6 +18,53 @@
 // Buttons
 // ---------------------------------------------------------------------------
 
+{
+  "class": "button_control",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight_without_transparency.png",
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_rounded.png"
+},
+
+{
+  "class": "icon_button_control",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight_without_transparency.png",
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight_without_transparency.png"
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_icon_button_highlighted"],
+  "layer0.opacity": 0.05
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_icon_button_highlighted"],
+  "attributes": ["hover"],
+  "layer0.opacity": 0.09
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
+  "attributes": ["left"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_rounded_left.png"
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
+  "attributes": ["right"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_rounded_right.png"
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
+  "attributes": ["left", "right"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_rounded.png"
+},
+
+
 //
 // Close
 //
