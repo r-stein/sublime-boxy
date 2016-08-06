@@ -319,14 +319,16 @@
     "content_margin": [11, 12],
     "min_size": [70, 0],
   
-    "layer0.opacity": 1,
+    "layer0.opacity": 0.05,
     "layer0.inner_margin": [10, 10],
     "layer1.opacity": 0,
-    "layer1.inner_margin": [10, 10],
-    "layer2.opacity": 0,
-    "layer2.inner_margin": [10, 10],
-    "layer3.opacity": 0,
-    "layer3.inner_margin": [10, 10]
+    "layer1.inner_margin": [10, 10]
+  },
+  
+  {
+    "class": "button_control",
+    "attributes": ["hover"],
+    "layer0.opacity": 0.09
   },
   
   // Groups
@@ -334,15 +336,12 @@
   
   {
     "class": "icon_button_control",
-    "layer0.opacity": 1,
-    "layer0.inner_margin": [10, 10],
     "content_margin": [11, 11],
+  
+    "layer0.opacity": 0,
+    "layer0.inner_margin": [10, 10],
     "layer1.opacity": 0,
-    "layer1.inner_margin": [10, 10],
-    "layer2.opacity": 0,
-    "layer2.inner_margin": [10, 10],
-    "layer3.opacity": 0,
-    "layer3.inner_margin": [10, 10]
+    "layer1.inner_margin": [10, 10]
   },
   
   // Close
@@ -607,6 +606,53 @@
   
   // Buttons
   // ---------------------------------------------------------------------------
+  
+  {
+    "class": "button_control",
+    "layer0.texture": "Boxy Theme/assets/variants/dark/highlight_without_transparency.png",
+    "layer1.texture": "Boxy Theme/assets/variants/dark/buttons/button_rounded.png"
+  },
+  
+  {
+    "class": "icon_button_control",
+    "layer0.texture": "Boxy Theme/assets/variants/dark/highlight_without_transparency.png",
+    "layer1.texture": "Boxy Theme/assets/variants/dark/highlight_without_transparency.png"
+  },
+  
+  {
+    "class": "icon_button_control",
+    "settings": ["theme_icon_button_highlighted"],
+    "layer0.opacity": 0.05
+  },
+  
+  {
+    "class": "icon_button_control",
+    "settings": ["theme_icon_button_highlighted"],
+    "attributes": ["hover"],
+    "layer0.opacity": 0.09
+  },
+  
+  {
+    "class": "icon_button_control",
+    "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
+    "attributes": ["left"],
+    "layer1.texture": "Boxy Theme/assets/variants/dark/buttons/button_rounded_left.png"
+  },
+  
+  {
+    "class": "icon_button_control",
+    "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
+    "attributes": ["right"],
+    "layer1.texture": "Boxy Theme/assets/variants/dark/buttons/button_rounded_right.png"
+  },
+  
+  {
+    "class": "icon_button_control",
+    "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
+    "attributes": ["left", "right"],
+    "layer1.texture": "Boxy Theme/assets/variants/dark/buttons/button_rounded.png"
+  },
+  
   
   //
   // Close
@@ -951,54 +997,6 @@
     "color": [145, 153, 157]
   },
   
-  // Buttons
-  // ---------------------------------------------------------------------------
-  
-  {
-    "class": "button_control",
-    "layer0.tint": [34, 50, 58],
-    "layer1.texture": "Boxy Theme/assets/specific/ocean/buttons/button_rounded.png",
-    "layer2.tint": [255, 255, 255],
-    "layer3.texture": "Boxy Theme/assets/variants/dark/buttons/button_rounded.png"
-  },
-  
-  {
-    "class": "icon_button_control",
-    "layer0.tint": [45, 60, 68]
-  },
-  
-  {
-    "class": "icon_button_control",
-    "settings": ["theme_icon_button_highlighted"],
-    "layer0.tint": [34, 50, 58],
-    "layer2.tint": [255, 255, 255],
-  },
-  
-  {
-    "class": "icon_button_control",
-    "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
-    "attributes": ["left"],
-    "layer1.texture": "Boxy Theme/assets/specific/ocean/buttons/button_rounded_left.png",
-    "layer3.texture": "Boxy Theme/assets/variants/dark/buttons/button_rounded_left.png"
-  },
-  
-  {
-    "class": "icon_button_control",
-    "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
-    "attributes": ["right"],
-    "layer1.texture": "Boxy Theme/assets/specific/ocean/buttons/button_rounded_right.png",
-    "layer3.texture": "Boxy Theme/assets/variants/dark/buttons/button_rounded_right.png"
-  },
-  
-  {
-    "class": "icon_button_control",
-    "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
-    "attributes": ["left", "right"],
-    "layer1.texture": "Boxy Theme/assets/specific/ocean/buttons/button_rounded.png",
-    "layer3.texture": "Boxy Theme/assets/variants/dark/buttons/button_rounded.png"
-  },
-  
-  
   // Fields
   // ---------------------------------------------------------------------------
   
@@ -1028,24 +1026,6 @@
   
   // Buttons
   // ---------------------------------------------------------------------------
-  
-  //
-  // Hovered
-  //
-  
-  {
-    "class": "button_control",
-    
-    "attributes": ["hover"],
-    "layer0.tint": [36, 151, 227],
-    "layer1.texture": "Boxy Theme/assets/accents/blue/buttons/button_rounded.png"
-  },
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "button_control", "attributes": ["hover"]}],
-    "color": [255, 255, 255]
-  },
   
   //
   // Icons
@@ -1419,24 +1399,6 @@
   // ---------------------------------------------------------------------------
   
   //
-  // Hovered
-  //
-  
-  {
-    "class": "button_control",
-    "settings": ["theme_accent_green"],
-    "attributes": ["hover"],
-    "layer0.tint": [46, 188, 103],
-    "layer1.texture": "Boxy Theme/assets/accents/green/buttons/button_rounded.png"
-  },
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "button_control", "attributes": ["hover"]}],
-    "color": [255, 255, 255]
-  },
-  
-  //
   // Icons
   //
   
@@ -1806,24 +1768,6 @@
   
   // Buttons
   // ---------------------------------------------------------------------------
-  
-  //
-  // Hovered
-  //
-  
-  {
-    "class": "button_control",
-    "settings": ["theme_accent_orange"],
-    "attributes": ["hover"],
-    "layer0.tint": [242, 104, 62],
-    "layer1.texture": "Boxy Theme/assets/accents/orange/buttons/button_rounded.png"
-  },
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "button_control", "attributes": ["hover"]}],
-    "color": [255, 255, 255]
-  },
   
   //
   // Icons
@@ -2197,24 +2141,6 @@
   // ---------------------------------------------------------------------------
   
   //
-  // Hovered
-  //
-  
-  {
-    "class": "button_control",
-    "settings": ["theme_accent_purple"],
-    "attributes": ["hover"],
-    "layer0.tint": [137, 85, 162],
-    "layer1.texture": "Boxy Theme/assets/accents/purple/buttons/button_rounded.png"
-  },
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "button_control", "attributes": ["hover"]}],
-    "color": [255, 255, 255]
-  },
-  
-  //
   // Icons
   //
   
@@ -2584,24 +2510,6 @@
   
   // Buttons
   // ---------------------------------------------------------------------------
-  
-  //
-  // Hovered
-  //
-  
-  {
-    "class": "button_control",
-    "settings": ["theme_accent_tangerine"],
-    "attributes": ["hover"],
-    "layer0.tint": [242, 134, 94],
-    "layer1.texture": "Boxy Theme/assets/accents/tangerine/buttons/button_rounded.png"
-  },
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "button_control", "attributes": ["hover"]}],
-    "color": [255, 255, 255]
-  },
   
   //
   // Icons
@@ -2975,24 +2883,6 @@
   // ---------------------------------------------------------------------------
   
   //
-  // Hovered
-  //
-  
-  {
-    "class": "button_control",
-    "settings": ["theme_accent_cyan"],
-    "attributes": ["hover"],
-    "layer0.tint": [116, 202, 194],
-    "layer1.texture": "Boxy Theme/assets/accents/cyan/buttons/button_rounded.png"
-  },
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "button_control", "attributes": ["hover"]}],
-    "color": [255, 255, 255]
-  },
-  
-  //
   // Icons
   //
   
@@ -3362,24 +3252,6 @@
   
   // Buttons
   // ---------------------------------------------------------------------------
-  
-  //
-  // Hovered
-  //
-  
-  {
-    "class": "button_control",
-    "settings": ["theme_accent_lime"],
-    "attributes": ["hover"],
-    "layer0.tint": [132, 188, 68],
-    "layer1.texture": "Boxy Theme/assets/accents/lime/buttons/button_rounded.png"
-  },
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "button_control", "attributes": ["hover"]}],
-    "color": [255, 255, 255]
-  },
   
   //
   // Icons
@@ -3753,24 +3625,6 @@
   // ---------------------------------------------------------------------------
   
   //
-  // Hovered
-  //
-  
-  {
-    "class": "button_control",
-    "settings": ["theme_accent_pink"],
-    "attributes": ["hover"],
-    "layer0.tint": [240, 113, 120],
-    "layer1.texture": "Boxy Theme/assets/accents/pink/buttons/button_rounded.png"
-  },
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "button_control", "attributes": ["hover"]}],
-    "color": [255, 255, 255]
-  },
-  
-  //
   // Icons
   //
   
@@ -4140,24 +3994,6 @@
   
   // Buttons
   // ---------------------------------------------------------------------------
-  
-  //
-  // Hovered
-  //
-  
-  {
-    "class": "button_control",
-    "settings": ["theme_accent_sky"],
-    "attributes": ["hover"],
-    "layer0.tint": [82, 139, 255],
-    "layer1.texture": "Boxy Theme/assets/accents/sky/buttons/button_rounded.png"
-  },
-  
-  {
-    "class": "label_control",
-    "parents": [{"class": "button_control", "attributes": ["hover"]}],
-    "color": [255, 255, 255]
-  },
   
   //
   // Icons
@@ -4569,76 +4405,31 @@
   
   {
     "class": "button_control",
-    "settings": ["theme_button_inverted"],
-    "layer2.opacity": 0.09
-  },
-  
-  {
-    "class": "button_control",
-    "settings": ["theme_button_inverted"],
-    "attributes": ["hover"],
-    "layer2.opacity": 0
+    "settings": ["theme_button_rounded"],
+    "layer0.opacity": 0,
+    "layer1.opacity": 0.05
   },
   
   {
     "class": "button_control",
     "settings": ["theme_button_rounded"],
-    "layer0.opacity": 0,
-    "layer1.opacity": 1,
-    "layer2.opacity": 0
-  },
-  
-  {
-    "class": "button_control",
-    "settings": ["theme_button_rounded", "theme_button_inverted"],
-    "layer3.opacity": 0.09
-  },
-  
-  {
-    "class": "button_control",
-    "settings": ["theme_button_rounded", "theme_button_inverted"],
     "attributes": ["hover"],
-    "layer3.opacity": 0
+    "layer1.opacity": 0.09
   },
   
   {
     "class": "icon_button_control",
-    "settings": ["theme_button_inverted", "theme_icon_button_highlighted"],
-    "layer2.opacity": 0.09
-  },
-  
-  {
-    "class": "icon_button_control",
-    "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
-    "attributes": ["left"],
+    "settings": ["theme_icon_button_highlighted", "theme_button_rounded"],
     "layer0.opacity": 0,
-    "layer1.opacity": 1
+    "layer1.opacity": 0.05
   },
   
   {
     "class": "icon_button_control",
-    "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
-    "attributes": ["right"],
-    "layer0.opacity": 0,
-    "layer1.opacity": 1
+    "settings": ["theme_icon_button_highlighted", "theme_button_rounded"],
+    "attributes": ["hover"],
+    "layer1.opacity": 0.09
   },
-  
-  {
-    "class": "icon_button_control",
-    "settings": ["theme_button_rounded", "theme_icon_button_highlighted", "theme_button_inverted"],
-    "attributes": ["left"],
-    "layer2.opacity": 0,
-    "layer3.opacity": 0.09
-  },
-  
-  {
-    "class": "icon_button_control",
-    "settings": ["theme_button_rounded", "theme_icon_button_highlighted", "theme_button_inverted"],
-    "attributes": ["right"],
-    "layer2.opacity": 0,
-    "layer3.opacity": 0.09
-  },
-  
   
   // Find & Replace Sizes
   // ---------------------------------------------------------------------------
