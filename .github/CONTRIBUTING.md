@@ -2,6 +2,10 @@
 
 If you have some problems, first search for a similar issue, and then report with [new one](https://github.com/oivva/boxy/issues) (don't forget to **follow the issue template**). Please read the [**Known Issues**](https://github.com/oivva/boxy/wiki#known-issues) section before reporting a new one.
 
+Don't forget to provide your environment details:
+
+[![Environment][https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/wiki/env.gif]](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/wiki/env.gif)
+
 ## Git Commit Guidelines
 
 We have very precise rules over how our git commit messages can be formatted. This leads to more readable messages that are easy to follow when looking through the project history. But also, we use the git commit messages to generate the **Boxy** change log. 
