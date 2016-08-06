@@ -4,7 +4,7 @@ If you have some problems, first search for a similar issue, and then report wit
 
 Don't forget to provide your environment details:
 
-[![Environment][https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/wiki/env.gif]](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/wiki/env.gif)
+[![Environment](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/wiki/env.gif)](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/wiki/env.gif)
 
 ## Git Commit Guidelines
 
