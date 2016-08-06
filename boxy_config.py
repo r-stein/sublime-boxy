@@ -220,7 +220,6 @@ SUB_SECTION_OPTIONS = OrderedDict(
 				'theme_find_panel_close_hidden',
 				'theme_button_rounded',
 				'theme_icon_button_highlighted',
-				'theme_button_inverted',
 				'theme_find_panel_materialized',
 				'theme_find_panel_atomized'
 			]

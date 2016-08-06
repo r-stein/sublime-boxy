@@ -46,7 +46,6 @@ The screenshot above shows next options in action:
 // Additional Settings
 "theme_accent_sky": true,
 "theme_bar_margin_top_sm": true,
-"theme_button_inverted": true,
 "theme_button_rounded": true,
 "theme_find_panel_close_hidden": true,
 "theme_find_panel_size_xs": true,
@@ -157,7 +156,6 @@ The screenshot above shows next options in action:
 "theme_bar": true,
 "theme_bar_colored": true,
 "theme_bar_logo_atomized": true,
-"theme_button_inverted": true,
 "theme_button_rounded": true,
 "theme_dropdown_materialized": true,
 "theme_find_panel_atomized": true,

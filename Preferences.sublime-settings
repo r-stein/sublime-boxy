@@ -400,9 +400,6 @@
   // Highlight icon buttons in find panel
   "theme_icon_button_highlighted": false,
 
-  // Invert the background color of the buttons
-  "theme_button_inverted": false,
-
   // Enable beautiful Material UI find panel icons
   "theme_find_panel_materialized": false,
 
