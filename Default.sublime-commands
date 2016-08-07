@@ -1,5 +1,9 @@
 [
   {
+    "caption": "Boxy Theme: Activation",
+    "command": "boxy_activate"
+  },
+  {
     "caption": "Boxy Theme: Configuration",
     "command": "boxy_config"
   },
@@ -16,7 +20,7 @@
     "command": "boxy_environment"
   },
   {
-    "caption": "Boxy Theme: Issues",
-    "command": "boxy_issues"
+    "caption": "Boxy Theme: Presets",
+    "command": "boxy_presets"
   }
 ]
