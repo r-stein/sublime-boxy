@@ -318,6 +318,33 @@
   // Enable a beautiful Material UI dirty pencil icon
   "theme_dirty_materialized": false,
 
+  // The default accent of the dirty state
+  "theme_dirty_accent_blue": false,
+
+  // Set green accent color for the dirty state
+  "theme_dirty_accent_green": false,
+
+  // Set orange accent color for the dirty state
+  "theme_dirty_accent_orange": false,
+
+  // Set purple accent color for the dirty state
+  "theme_dirty_accent_purple": false,
+
+  // Set tangerine accent color for the dirty state
+  "theme_dirty_accent_tangerine": false,
+
+  // Set cyan accent color for the dirty state
+  "theme_dirty_accent_cyan": false,
+
+  // Set lime accent color for the dirty state
+  "theme_dirty_accent_lime": false,
+
+  // Set pink accent color for the dirty state
+  "theme_dirty_accent_pink": false,
+
+  // Set sky accent color for the dirty state
+  "theme_dirty_accent_sky": false,
+
   // Enable a beautiful Material UI dropdown icon
   "theme_dropdown_materialized": false,
 
