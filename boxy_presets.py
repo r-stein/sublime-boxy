@@ -177,10 +177,8 @@ PRESETS = OrderedDict(
 			'Atom',
 			[
 				'theme_accent_sky',
-				'theme_bar_margin_top_sm',
 				'theme_button_rounded',
 				'theme_find_panel_close_hidden',
-				'theme_find_panel_size_xs',
 				'theme_grid_border_size_lg',
 				'theme_icon_button_highlighted',
 				'theme_icons_atomized',
@@ -194,30 +192,21 @@ PRESETS = OrderedDict(
 			]
 		),
 		(
-			'Code',
-			[
-				'theme_accent_cyan',
-				'theme_button_rounded',
-				'theme_icons_materialized',
-				'theme_sidebar_disclosure',
-				'theme_sidebar_highlight_text_only',
-				'theme_sidebar_indent_sm',
-				'theme_sidebar_indent_top_level_disabled',
-				'theme_size_md',
-				'theme_statusbar_colored',
-				'theme_tab_selected_filled'
-			]
-		),
-		(
-			'Flat',
+			'Predawn',
 			[
 				'theme_accent_tangerine',
-				'theme_bar',
+				'theme_autocomplete_item_selected_colored',
 				'theme_dirty_materialized',
+				'theme_dropdown_atomized',
+				'theme_icon_button_highlighted',
+				'theme_panel_switcher_atomized',
+				'theme_quick_panel_item_selected_colored',
 				'theme_scrollbar_colored',
 				'theme_scrollbar_line',
+				'theme_sidebar_close_always_visible',
+				'theme_sidebar_folder_atomized',
 				'theme_sidebar_folder_mono',
-				'theme_tab_arrows_hidden',
+				'theme_tab_close_always_visible',
 				'theme_tab_line_size_lg',
 				'theme_tab_selected_transparent',
 				'theme_tab_selected_underlined'
@@ -231,24 +220,26 @@ PRESETS = OrderedDict(
 				'theme_bar_colored',
 				'theme_bar_logo_atomized',
 				'theme_button_rounded',
-				'theme_dropdown_materialized',
-				'theme_find_panel_atomized',
-				'theme_icon_button_highlighted',
-				'theme_panel_switcher_materialized',
-				'theme_quick_panel_item_selected_colored',
-				'theme_sidebar_file_icons_hidden',
-				'theme_sidebar_folder_arrow',
-				'theme_sidebar_indent_sm',
+				'theme_icons_materialized',
+				'theme_scrollbar_rounded',
+				'theme_sidebar_highlight_selected_text_only',
+				'theme_sidebar_highlight_text_only',
 				'theme_sidebar_indent_top_level_disabled',
-				'theme_tab_close_always_visible',
+				'theme_tab_highlight_text_only',
 				'theme_tab_line_size_lg',
 				'theme_tab_selected_transparent',
 				'theme_tab_selected_underlined'
 			]
 		),
 		(
-			'Minimal',
+			'Code',
 			[
+				'theme_accent_purple',
+				'theme_bar',
+				'theme_sidebar_disclosure',
+				'theme_sidebar_indent_sm',
+				'theme_statusbar_colored',
+				'theme_tab_highlight_text_only'
 			]
 		)
 	]
