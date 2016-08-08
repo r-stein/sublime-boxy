@@ -1,3 +1,13 @@
+<a name="3.2.1"></a>
+## [3.2.1](https://github.com/oivva/boxy/compare/v3.2.0...v3.2.1) (2016-08-08)
+
+
+### Bug Fixes
+
+* remove default key binding due to conflicts ([589f5bc](https://github.com/oivva/boxy/commit/589f5bc))
+
+
+
 <a name="3.2.0"></a>
 # [3.2.0](https://github.com/oivva/boxy/compare/v3.1.1...v3.2.0) (2016-08-08)
 
