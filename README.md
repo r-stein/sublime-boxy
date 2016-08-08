@@ -25,7 +25,7 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 ***
 
 <div>
-<a href="https://github.com/oivva/boxy#getting-started">Getting Started</a>&nbsp;
+<!-- <a href="https://github.com/oivva/boxy#getting-started">Getting Started</a>&nbsp; -->
 ▪&nbsp;<a href="https://github.com/oivva/boxy#installation">Installation</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/boxy#activation">Activation</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/boxy#presets">Presets</a>&nbsp;
@@ -36,7 +36,7 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 
 ***
 
-### Getting Started
+<!-- ### Getting Started -->
 
 ### Installation
 
