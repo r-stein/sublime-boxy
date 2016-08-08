@@ -275,39 +275,22 @@
 
 
 <a name="1.0.0"></a>
-# [1.0.0](https://github.com/oivva/boxy/compare/v0.4.0...v1.0.0) (2016-02-25)
-
-
-### Bug Fixes
-
-* dirty state icon color ([a4de9f7](https://github.com/oivva/boxy/commit/a4de9f7))
-* improve the monokai color scheme to better fit with the theme ([55b3538](https://github.com/oivva/boxy/commit/55b3538))
-* simplify styling of the widget buttons ([2eb0f85](https://github.com/oivva/boxy/commit/2eb0f85))
-
-
-### Features
-
-* add monokai color scheme ([813745d](https://github.com/oivva/boxy/commit/813745d)), closes [#14](https://github.com/oivva/boxy/issues/14)
-* add monokai version of the theme ([92e57cd](https://github.com/oivva/boxy/commit/92e57cd)), closes [#12](https://github.com/oivva/boxy/issues/12)
-* add oceanic color scheme ([c8fe22e](https://github.com/oivva/boxy/commit/c8fe22e)), closes [#15](https://github.com/oivva/boxy/issues/15)
-* add oceanic version of the theme ([9dd5a24](https://github.com/oivva/boxy/commit/9dd5a24)), closes [#13](https://github.com/oivva/boxy/issues/13)
-
-
-
-<a name="0.4.0"></a>
-# [0.4.0](https://github.com/oivva/boxy/compare/v0.3.0...v0.4.0) (2016-02-20)
+# [1.0.0](https://github.com/oivva/boxy/compare/6a19ff6...v1.0.0) (2016-02-25)
 
 
 ### Bug Fixes
 
 * change line highlight color ([645aa9f](https://github.com/oivva/boxy/commit/645aa9f))
 * close button color of the selected filled tab ([63e76df](https://github.com/oivva/boxy/commit/63e76df))
+* dirty state icon color ([a4de9f7](https://github.com/oivva/boxy/commit/a4de9f7))
 * improve the light color scheme ([86649c4](https://github.com/oivva/boxy/commit/86649c4))
+* improve the monokai color scheme to better fit with the theme ([55b3538](https://github.com/oivva/boxy/commit/55b3538))
 * make the dark theme easy on the eyes ([51c42e1](https://github.com/oivva/boxy/commit/51c42e1))
 * remove overlined tab styles ([a6985b7](https://github.com/oivva/boxy/commit/a6985b7))
 * rename themes ([c8485c4](https://github.com/oivva/boxy/commit/c8485c4))
 * replace dark color scheme ([353988b](https://github.com/oivva/boxy/commit/353988b))
 * simplify styling of the minimap ([649d947](https://github.com/oivva/boxy/commit/649d947))
+* simplify styling of the widget buttons ([2eb0f85](https://github.com/oivva/boxy/commit/2eb0f85))
 
 
 ### Features
@@ -329,6 +312,10 @@
 * add dark styling of the tabs ([758e48a](https://github.com/oivva/boxy/commit/758e48a))
 * add file type icons ([baaaa94](https://github.com/oivva/boxy/commit/baaaa94)), closes [#5](https://github.com/oivva/boxy/issues/5)
 * add green accent color ([2ffa6f1](https://github.com/oivva/boxy/commit/2ffa6f1)), closes [#3](https://github.com/oivva/boxy/issues/3)
+* add monokai color scheme ([813745d](https://github.com/oivva/boxy/commit/813745d)), closes [#14](https://github.com/oivva/boxy/issues/14)
+* add monokai version of the theme ([92e57cd](https://github.com/oivva/boxy/commit/92e57cd)), closes [#12](https://github.com/oivva/boxy/issues/12)
+* add oceanic color scheme ([c8fe22e](https://github.com/oivva/boxy/commit/c8fe22e)), closes [#15](https://github.com/oivva/boxy/issues/15)
+* add oceanic version of the theme ([9dd5a24](https://github.com/oivva/boxy/commit/9dd5a24)), closes [#13](https://github.com/oivva/boxy/issues/13)
 * add orange accent color ([ce04966](https://github.com/oivva/boxy/commit/ce04966)), closes [#4](https://github.com/oivva/boxy/issues/4)
 * add purple accent color ([f32fb5e](https://github.com/oivva/boxy/commit/f32fb5e)), closes [#8](https://github.com/oivva/boxy/issues/8)
 * improve syntax highlighting ([4dfab1a](https://github.com/oivva/boxy/commit/4dfab1a))
