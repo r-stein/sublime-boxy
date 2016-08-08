@@ -25,12 +25,13 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 ***
 
 <div>
-<!-- <a href="https://github.com/oivva/boxy#getting-started">Getting Started</a>&nbsp; -->
+<a href="https://github.com/oivva/boxy#getting-started">Getting Started</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/boxy#installation">Installation</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/boxy#activation">Activation</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/boxy#presets">Presets</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/boxy/wiki/Settings">Settings</a>&nbsp;
 ▪&nbsp;<a href="https://forum.sublimetext.com/t/boxy-the-most-hackable-theme-for-sublime-text-3/20564">Forum</a>&nbsp;
+▪&nbsp;<a href="https://packagecontrol.io/packages/Boxy%20Theme">Package Control</a>
 ▪&nbsp;<a href="https://github.com/oivva/boxy#share-the-love">Share The Love</a>
 </div>
 
