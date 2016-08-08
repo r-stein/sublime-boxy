@@ -8,16 +8,16 @@
     "command": "boxy_config"
   },
   {
-    "caption": "Boxy Theme: Documentation",
+    "caption": "Boxy Theme: Environment",
+    "command": "boxy_environment"
+  },
+  {
+    "caption": "Boxy Theme: Preferences",
     "command": "edit_settings", "args":
     {
         "base_file": "${packages}/Boxy Theme/Preferences.sublime-settings",
         "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
     }
-  },
-  {
-    "caption": "Boxy Theme: Environment",
-    "command": "boxy_environment"
   },
   {
     "caption": "Boxy Theme: Presets",

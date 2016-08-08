@@ -21,7 +21,7 @@
                 "command": "boxy_config"
               },
               {
-                "caption": "Documentation",
+                "caption": "Preferences",
                 "command": "edit_settings", "args":
                 {
                   "base_file": "${packages}/Boxy Theme/Preferences.sublime-settings",
@@ -31,6 +31,10 @@
               {
                 "caption": "Presets",
                 "command": "boxy_presets"
+              },
+              {
+                "caption": "Wiki",
+                "command": "boxy_wiki"
               },
               { "caption": "-" },
               {

@@ -28,3 +28,6 @@ class BoxyRepoCommand(sublime_plugin.WindowCommand):
 	def run(self):
 		webbrowser.open_new_tab('https://github.com/oivva/boxy')
 
+class BoxyWikiCommand(sublime_plugin.WindowCommand):
+	def run(self):
+		webbrowser.open_new_tab('https://github.com/oivva/boxy/wiki')
