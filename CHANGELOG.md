@@ -1,3 +1,25 @@
+<a name="3.2.0"></a>
+# [3.2.0](https://github.com/oivva/boxy/compare/v3.1.1...v3.2.0) (2016-08-08)
+
+
+### Bug Fixes
+
+* base tooltip font size ([9ca27d9](https://github.com/oivva/boxy/commit/9ca27d9))
+* simplify button styling ([d11d2cd](https://github.com/oivva/boxy/commit/d11d2cd))
+
+
+### Features
+
+* add changelog command ([2370366](https://github.com/oivva/boxy/commit/2370366))
+* add dirty accents ([91a0b3d](https://github.com/oivva/boxy/commit/91a0b3d)), closes [#105](https://github.com/oivva/boxy/issues/105)
+* add find panel (console, output panel) padding options ([e903bfe](https://github.com/oivva/boxy/commit/e903bfe)), closes [#104](https://github.com/oivva/boxy/issues/104)
+* add internal docs ([e556bd7](https://github.com/oivva/boxy/commit/e556bd7))
+* add preset activator ([7903c2c](https://github.com/oivva/boxy/commit/7903c2c)), closes [#95](https://github.com/oivva/boxy/issues/95)
+* add theme activator ([89258cf](https://github.com/oivva/boxy/commit/89258cf))
+* add theme configurator ([2ebfd0b](https://github.com/oivva/boxy/commit/2ebfd0b)), closes [#97](https://github.com/oivva/boxy/issues/97)
+
+
+
 <a name="3.1.1"></a>
 ## [3.1.1](https://github.com/oivva/boxy/compare/v3.1.0...v3.1.1) (2016-07-25)
 
