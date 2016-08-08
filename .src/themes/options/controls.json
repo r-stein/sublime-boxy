@@ -1,6 +1,33 @@
 // Controls Options
 // ===========================================================================
 
+// Panel
+// ---------------------------------------------------------------------------
+
+{
+  "class": "panel_control",
+  "settings": ["theme_find_panel_padding_sm"],
+  "content_margin": [1, 2]
+},
+
+{
+  "class": "panel_control",
+  "settings": ["theme_find_panel_padding_md"],
+  "content_margin": [2, 3]
+},
+
+{
+  "class": "panel_control",
+  "settings": ["theme_find_panel_padding_lg"],
+  "content_margin": [4, 5]
+},
+
+{
+  "class": "panel_control",
+  "settings": ["theme_find_panel_padding_xl"],
+  "content_margin": [5, 6]
+},
+
 // Popup Border
 // ---------------------------------------------------------------------------
 
@@ -24,76 +51,31 @@
 
 {
   "class": "button_control",
-  "settings": ["theme_button_inverted"],
-  "layer2.opacity": 0.09
-},
-
-{
-  "class": "button_control",
-  "settings": ["theme_button_inverted"],
-  "attributes": ["hover"],
-  "layer2.opacity": 0
+  "settings": ["theme_button_rounded"],
+  "layer0.opacity": 0,
+  "layer1.opacity": 0.05
 },
 
 {
   "class": "button_control",
   "settings": ["theme_button_rounded"],
-  "layer0.opacity": 0,
-  "layer1.opacity": 1,
-  "layer2.opacity": 0
-},
-
-{
-  "class": "button_control",
-  "settings": ["theme_button_rounded", "theme_button_inverted"],
-  "layer3.opacity": 0.09
-},
-
-{
-  "class": "button_control",
-  "settings": ["theme_button_rounded", "theme_button_inverted"],
   "attributes": ["hover"],
-  "layer3.opacity": 0
+  "layer1.opacity": 0.09
 },
 
 {
   "class": "icon_button_control",
-  "settings": ["theme_button_inverted", "theme_icon_button_highlighted"],
-  "layer2.opacity": 0.09
-},
-
-{
-  "class": "icon_button_control",
-  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
-  "attributes": ["left"],
+  "settings": ["theme_icon_button_highlighted", "theme_button_rounded"],
   "layer0.opacity": 0,
-  "layer1.opacity": 1
+  "layer1.opacity": 0.05
 },
 
 {
   "class": "icon_button_control",
-  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
-  "attributes": ["right"],
-  "layer0.opacity": 0,
-  "layer1.opacity": 1
+  "settings": ["theme_icon_button_highlighted", "theme_button_rounded"],
+  "attributes": ["hover"],
+  "layer1.opacity": 0.09
 },
-
-{
-  "class": "icon_button_control",
-  "settings": ["theme_button_rounded", "theme_icon_button_highlighted", "theme_button_inverted"],
-  "attributes": ["left"],
-  "layer2.opacity": 0,
-  "layer3.opacity": 0.09
-},
-
-{
-  "class": "icon_button_control",
-  "settings": ["theme_button_rounded", "theme_icon_button_highlighted", "theme_button_inverted"],
-  "attributes": ["right"],
-  "layer2.opacity": 0,
-  "layer3.opacity": 0.09
-},
-
 
 // Find & Replace Sizes
 // ---------------------------------------------------------------------------

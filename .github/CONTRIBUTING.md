@@ -1,6 +1,10 @@
-## Found an Issue? Want a Feature?
+## Found an Issue?
 
 If you have some problems, first search for a similar issue, and then report with [new one](https://github.com/oivva/boxy/issues) (don't forget to **follow the issue template**). Please read the [**Known Issues**](https://github.com/oivva/boxy/wiki#known-issues) section before reporting a new one.
+
+Don't forget to provide your environment details:
+
+[![Environment](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/wiki/env.gif)](https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/wiki/env.gif)
 
 ## Git Commit Guidelines
 

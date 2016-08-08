@@ -185,3 +185,30 @@
   "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/sidebar/folder_dup_atomized_expanded.png"
 },
 <% } %>
+
+<% for (var i = 0; i < ui.accents.length; i++) { %>
+{
+  "class": "close_button",
+  "settings": ["theme_dirty_accent_<%= ui.accents[i].id %>"],
+  "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+  "attributes": ["dirty"],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_close_selected.png",
+  "layer1.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_selected.png"
+},
+
+{
+  "class": "close_button",
+  "settings": ["theme_icons_materialized", "theme_dirty_accent_<%= ui.accents[i].id %>"],
+  "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+  "attributes": ["dirty"],
+  "layer1.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_materialized_selected.png"
+},
+
+{
+  "class": "close_button",
+  "settings": ["theme_dirty_materialized", "theme_dirty_accent_<%= ui.accents[i].id %>"],
+  "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+  "attributes": ["dirty"],
+  "layer1.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/buttons/button_dirty_materialized_selected.png"
+},
+<% } %>

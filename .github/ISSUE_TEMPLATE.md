@@ -9,7 +9,7 @@
   - [Windows] `File -> Exit`
   - [Linux]   `File -> Exit`
 
-2. Go to `Sublime Text -> Preferences -> Browse Packages ...` and remove `Boxy Theme` directory if it exists, then repeat step 1.
+2. Go to `Sublime Text -> Preferences -> Browse Packages ...` and remove `[Boxy Theme]` directory if it exists, then repeat step 1.
 
 3. Clear your Sublime Text cache and indexes via removing these folders
 
@@ -18,6 +18,10 @@
   - [Linux] `~/.config/sublime-text-3/Cache` and `~/.config/sublime-text-3/Index`
 
   then repeat step 1.
+
+4. Go to `Sublime Text -> Preferences -> Browse Packages ...` and remove `[markupsafe], [mdpopups], [pygments], [python-jinja2], [python-markdown]` directories if they exist, restart ST (step 1).
+
+5. Start Sublime Text and run `Package Control: Satisfy Dependencies` via `Command Palette`, then restart ST (step 1)
 -->
 
 <!-- Provide a general summary of the issue in the Title above -->
@@ -40,7 +44,6 @@
 1.
 2.
 3.
-4.
 
 #### Context
 <!-- How has this issue affected you? What are you trying to accomplish? -->
@@ -48,6 +51,5 @@
 
 #### Your Environment
 <!-- Include as many relevant details about the environment you experienced the bug in -->
-* Version used (e.g. Boxy Ocean v2.0.3):
-* Environment name and version (e.g. Sublime Text 3 r3117):
-* Operating System and version (e.g. Windows 10):
+<!-- You can paste here the output of `Package Settings -> Boxy Theme -> Environment` command (also available via Command Palette) -->
+<!-- Also don't forget to provide ST Console output (`View -> Show Console`) -->
