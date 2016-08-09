@@ -395,10 +395,6 @@ THEME = '''- [**%(status)s**{: .boxy-control %(class)s} %(name)s](theme:%(set)s:
 {: .boxy-control }\n'''
 OTHER_THEME = '''- [**%(status)s**{: .boxy-control %(class)s} Other: %(name)s](theme:%(set)s:%(section)s)\
 {: .boxy-control }\n'''
-MARKED = '✓'
-UNMARKED = '✗'
-RADIO_MARKED = '☒'
-RADIO_UNMARKED = '☐'
 STYLES = '''\
 html,
 body {
@@ -442,40 +438,41 @@ a {
 	display: inline;
 }
 {% else %}
-.mdpopups {
-	padding: 0.5rem;
+div.boxy-config {
+	padding: 0.8rem;
+	padding-bottom: 0.4rem;
 }
-.mdpopups h1,
-.mdpopups h2 {
+.boxy-config h1,
+.boxy-config h2 {
 	margin: 0 0 0.5rem;
 }
-.mdpopups h1 {
+.boxy-config h1 {
 	font-size: 1.1rem;
 }
-.mdpopups h2 {
+.boxy-config h2 {
 	font-size: 1rem;
 }
-.mdpopups hr {
+.boxy-config hr {
 	margin: 0.5rem 0;
 }
-.mdpopups ul,
-.mdpopups li {
+.boxy-config ul,
+.boxy-config li {
 	margin: 0;
 	padding: 0;
 	display: block;
 }
-.mdpopups a {
+.boxy-config a {
 	display: block;
 	padding: 0.125rem 0;
 }
-.mdpopups .boxy-control {
+.boxy-config .boxy-control {
 	font-size: 1rem;
 	text-decoration: none;
 }
-.mdpopups .boxy-control-back {
+.boxy-config .boxy-control-back {
 	{{'.foreground'|css('color')}}
 }
-.mdpopups .boxy-control-back {
+.boxy-config .boxy-control-back {
 	display: inline;
 }
 {% endif %}
@@ -505,10 +502,16 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 			self.show_popup(section)
 
 	def show_popup(self, menu):
-		settings = sublime.load_settings('Preferences.sublime-settings')
-		popup = []
 		global BACK
 		global BACK_TO_SUBMENU
+
+		settings = sublime.load_settings('Preferences.sublime-settings')
+		popup = []
+
+		marked = settings.get('theme_config_marked')
+		unmarked = settings.get('theme_config_unmarked')
+		radio_marked = settings.get('theme_config_radio_marked')
+		radio_unmarked = settings.get('theme_config_radio_unmarked')
 
 		if menu == 'Home':
 			popup.append(SECTIONS_LABEL)
@@ -525,7 +528,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				popup.append(
 					THEME % {
 						'name': option,
-						'status': RADIO_MARKED if option_value else RADIO_UNMARKED,
+						'status': radio_marked if option_value else radio_unmarked,
 						'set': option,
 						'class': '.success' if option_value else '.error',
 						'section': 'UI Theme'
@@ -535,7 +538,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				popup.append(
 					OTHER_THEME % {
 						'name': theme,
-						'status': RADIO_MARKED,
+						'status': radio_marked,
 						'set': option,
 						'class': '.success' if option_value else '.error',
 						'section': 'UI Theme'
@@ -552,7 +555,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				popup.append(
 					SCHEME % {
 						'name': option,
-						'status': RADIO_MARKED if option_value else RADIO_UNMARKED,
+						'status': radio_marked if option_value else radio_unmarked,
 						'set': option,
 						'class': '.success' if option_value else '.error',
 						'section': 'Color Scheme'
@@ -562,7 +565,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				popup.append(
 					OTHER_SCHEME % {
 						'name': scheme,
-						'status': RADIO_MARKED,
+						'status': radio_marked,
 						'set': option,
 						'class': '.success',
 						'section': 'Color Scheme'
@@ -581,7 +584,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				popup.append(
 					GENERAL_SETTING % {
 						'name': option,
-						'status': MARKED if option_value else UNMARKED,
+						'status': marked if option_value else unmarked,
 						'set': str(not option_value),
 						'class': '.success' if option_value else '.error',
 						'section': menu
@@ -595,7 +598,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				popup.append(
 					GENERAL_SETTING % {
 						'name': option,
-						'status': MARKED if option_value else UNMARKED,
+						'status': marked if option_value else unmarked,
 						'set': str(not option_value),
 						'class': '.success' if option_value else '.error',
 						'section': menu
@@ -611,6 +614,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 			self.view,
 			''.join(popup),
 			css=STYLES,
+			wrapper_class='boxy-config',
 			on_navigate=self.on_navigate,
 			max_width=1024,
 			max_height=1024

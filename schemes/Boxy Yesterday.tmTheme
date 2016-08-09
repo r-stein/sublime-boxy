@@ -32,28 +32,7 @@
 				<key>lineHighlight</key>
 				<string>#00000010</string>
 				<key>popupCss</key>
-				<string>
-html {
-  background-color: #eeeeee;
-  color: #4d4d4c;
-}
-
-a {
-  color: #4271ae;
-}
-
-.error, .deleted {
-  color: #c82829;
-}
-
-.success, .inserted {
-  color: #718c00;
-}
-
-.warning, .modified {
-  color: #c99e00;
-}
-</string>
+				<string>html { background-color: #eeeeee; color: #4d4d4c; } a { color: #4271ae; } .error, .deleted { color: #c82829; } .success, .inserted { color: #718c00; } .warning, .modified { color: #c99e00; }</string>
 				<key>selection</key>
 				<string>#00000016</string>
 				<key>selectionBorder</key>

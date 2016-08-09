@@ -15,6 +15,7 @@
 // -----------------------------------------------------------------------------
 // Use https://github.com/kizza/Table-of-comments for the quick navigation
 
+//  0 Configuration
 //  1 Activation
 //  2 Global
 //    2.1 Size
@@ -51,6 +52,15 @@
 // 12 Popups
 
 {
+  // > 0 Configuration
+  // -----------------------------------
+  // Change configurator icon symbols.
+
+  "theme_config_marked": "✓",
+  "theme_config_unmarked": "✗",
+  "theme_config_radio_marked": "☒",
+  "theme_config_radio_unmarked": "☐",
+
   // > 1 Activation
   // -----------------------------------
   // Activate the UI theme and color scheme by modifying your user preferences
