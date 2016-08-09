@@ -22,7 +22,6 @@ settings:
     guide: '<%= scheme.guide.default %>'
     stackGuide: '<%= scheme.guide.stack %>'
     popupCss: 'html { background-color: <%= ui.background.secondary.hex %>; color: <%= scheme.foreground %>; } a { color: <%= scheme.base.blue %>; } .error, .deleted { color: <%= scheme.base.red %>; } .success, .inserted { color: <%= scheme.base.green %>; } .warning, .modified { color: <%= scheme.base.yellow %>; }'
-    phantomCss: 'html { position: relative; }'
 
 # >> General
 
