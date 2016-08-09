@@ -395,10 +395,6 @@ THEME = '''- [**%(status)s**{: .boxy-control %(class)s} %(name)s](theme:%(set)s:
 {: .boxy-control }\n'''
 OTHER_THEME = '''- [**%(status)s**{: .boxy-control %(class)s} Other: %(name)s](theme:%(set)s:%(section)s)\
 {: .boxy-control }\n'''
-MARKED = '✓'
-UNMARKED = '✗'
-RADIO_MARKED = '☒'
-RADIO_UNMARKED = '☐'
 STYLES = '''\
 html,
 body {
@@ -506,10 +502,16 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 			self.show_popup(section)
 
 	def show_popup(self, menu):
-		settings = sublime.load_settings('Preferences.sublime-settings')
-		popup = []
 		global BACK
 		global BACK_TO_SUBMENU
+
+		settings = sublime.load_settings('Preferences.sublime-settings')
+		popup = []
+
+		marked = settings.get('theme_config_marked')
+		unmarked = settings.get('theme_config_unmarked')
+		radio_marked = settings.get('theme_config_radio_marked')
+		radio_unmarked = settings.get('theme_config_radio_unmarked')
 
 		if menu == 'Home':
 			popup.append(SECTIONS_LABEL)
@@ -526,7 +528,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				popup.append(
 					THEME % {
 						'name': option,
-						'status': RADIO_MARKED if option_value else RADIO_UNMARKED,
+						'status': radio_marked if option_value else radio_unmarked,
 						'set': option,
 						'class': '.success' if option_value else '.error',
 						'section': 'UI Theme'
@@ -536,7 +538,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				popup.append(
 					OTHER_THEME % {
 						'name': theme,
-						'status': RADIO_MARKED,
+						'status': radio_marked,
 						'set': option,
 						'class': '.success' if option_value else '.error',
 						'section': 'UI Theme'
@@ -553,7 +555,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				popup.append(
 					SCHEME % {
 						'name': option,
-						'status': RADIO_MARKED if option_value else RADIO_UNMARKED,
+						'status': radio_marked if option_value else radio_unmarked,
 						'set': option,
 						'class': '.success' if option_value else '.error',
 						'section': 'Color Scheme'
@@ -563,7 +565,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				popup.append(
 					OTHER_SCHEME % {
 						'name': scheme,
-						'status': RADIO_MARKED,
+						'status': radio_marked,
 						'set': option,
 						'class': '.success',
 						'section': 'Color Scheme'
@@ -582,7 +584,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				popup.append(
 					GENERAL_SETTING % {
 						'name': option,
-						'status': MARKED if option_value else UNMARKED,
+						'status': marked if option_value else unmarked,
 						'set': str(not option_value),
 						'class': '.success' if option_value else '.error',
 						'section': menu
@@ -596,7 +598,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 				popup.append(
 					GENERAL_SETTING % {
 						'name': option,
-						'status': MARKED if option_value else UNMARKED,
+						'status': marked if option_value else unmarked,
 						'set': str(not option_value),
 						'class': '.success' if option_value else '.error',
 						'section': menu
