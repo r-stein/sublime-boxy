@@ -1,3 +1,19 @@
+<a name="3.2.2"></a>
+## [3.2.2](https://github.com/oivva/boxy/compare/v3.2.1...v3.2.2) (2016-08-09)
+
+
+### Bug Fixes
+
+* popup styling bug when theme is installed manually ([d383d40](https://github.com/oivva/boxy/commit/d383d40))
+* update configurator styles to support the latest mdpopups ([18371e9](https://github.com/oivva/boxy/commit/18371e9))
+
+
+### Features
+
+* add possibility to change icon symbols of the configurator ([d940e62](https://github.com/oivva/boxy/commit/d940e62))
+
+
+
 <a name="3.2.1"></a>
 ## [3.2.1](https://github.com/oivva/boxy/compare/v3.2.0...v3.2.1) (2016-08-08)
 
