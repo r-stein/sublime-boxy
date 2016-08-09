@@ -442,40 +442,41 @@ a {
 	display: inline;
 }
 {% else %}
-.mdpopups {
-	padding: 0.5rem;
+div.boxy-config {
+	padding: 0.8rem;
+	padding-bottom: 0.4rem;
 }
-.mdpopups h1,
-.mdpopups h2 {
+.boxy-config h1,
+.boxy-config h2 {
 	margin: 0 0 0.5rem;
 }
-.mdpopups h1 {
+.boxy-config h1 {
 	font-size: 1.1rem;
 }
-.mdpopups h2 {
+.boxy-config h2 {
 	font-size: 1rem;
 }
-.mdpopups hr {
+.boxy-config hr {
 	margin: 0.5rem 0;
 }
-.mdpopups ul,
-.mdpopups li {
+.boxy-config ul,
+.boxy-config li {
 	margin: 0;
 	padding: 0;
 	display: block;
 }
-.mdpopups a {
+.boxy-config a {
 	display: block;
 	padding: 0.125rem 0;
 }
-.mdpopups .boxy-control {
+.boxy-config .boxy-control {
 	font-size: 1rem;
 	text-decoration: none;
 }
-.mdpopups .boxy-control-back {
+.boxy-config .boxy-control-back {
 	{{'.foreground'|css('color')}}
 }
-.mdpopups .boxy-control-back {
+.boxy-config .boxy-control-back {
 	display: inline;
 }
 {% endif %}
@@ -611,6 +612,7 @@ class BoxyConfigCommand(sublime_plugin.TextCommand):
 			self.view,
 			''.join(popup),
 			css=STYLES,
+			wrapper_class='boxy-config',
 			on_navigate=self.on_navigate,
 			max_width=1024,
 			max_height=1024
