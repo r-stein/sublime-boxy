@@ -1,3 +1,13 @@
+<a name="3.2.3"></a>
+## [3.2.3](https://github.com/oivva/boxy/compare/v3.2.2...v3.2.3) (2016-08-09)
+
+
+### Bug Fixes
+
+* changelog styling regression ([0536c6c](https://github.com/oivva/boxy/commit/0536c6c))
+
+
+
 <a name="3.2.2"></a>
 ## [3.2.2](https://github.com/oivva/boxy/compare/v3.2.1...v3.2.2) (2016-08-09)
 
