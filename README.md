@@ -290,7 +290,7 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [settings]: https://github.com/oivva/boxy/wiki/Settings
 [pc]: https://packagecontrol.io/
 [theme]: https://packagecontrol.io/packages/Boxy%20Theme
-[getting-started]: https://youtu.be/3QXwR5hgrhs
+[getting-started]: https://youtu.be/3QXwR5hgrhs "Watch 'Getting Started with Boxy Theme' on YouTube"
 
 
 <!-- Images -->
