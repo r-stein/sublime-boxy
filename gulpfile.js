@@ -328,20 +328,6 @@ gulp.task('build:widget-settings', function() {
  * > Images
  */
 
-function getCache() {
-  var cache = {};
-
-  try {
-    cache = JSON.parse(fs.readFileSync('./images.cache', 'utf8'));
-  }
-  catch(e) {
-    console.log('No `images.cache` file!');
-  }
-  finally {
-    return cache;
-  }
-}
-
 gulp.task('optimize', function(cb) {
   runSequence(
     'optimize:assets',
