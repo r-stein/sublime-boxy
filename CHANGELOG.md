@@ -1,3 +1,14 @@
+<a name="3.2.4"></a>
+## [3.2.4](https://github.com/oivva/boxy/compare/v3.2.3...v3.2.4) (2016-08-12)
+
+
+### Bug Fixes
+
+* coffeescript icon ([4520b03](https://github.com/oivva/boxy/commit/4520b03))
+* R icon ([c870eec](https://github.com/oivva/boxy/commit/c870eec))
+
+
+
 <a name="3.2.3"></a>
 ## [3.2.3](https://github.com/oivva/boxy/compare/v3.2.2...v3.2.3) (2016-08-09)
 
