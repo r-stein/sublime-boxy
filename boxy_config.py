@@ -405,8 +405,13 @@ body {
 	padding: 0;
 }
 {% if var.sublime_version < 3119 %}
-.markdown {
-	padding: 0.5em;
+body {
+	padding: 8px;
+	{% if var.is_light %}
+	{{'.background'|css|brightness(0.98)}}
+	padding: 16px;
+	{% endif %}
+	padding-bottom: 4px;
 }
 h1,
 h2 {
