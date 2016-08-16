@@ -1,3 +1,13 @@
+<a name="3.3.1"></a>
+## [3.3.1](https://github.com/oivva/boxy/compare/v3.3.0...v3.3.1) (2016-08-16)
+
+
+### Bug Fixes
+
+* env typo that breaks plugin ([1f56543](https://github.com/oivva/boxy/commit/1f56543))
+
+
+
 <a name="3.3.0"></a>
 # [3.3.0](https://github.com/oivva/boxy/compare/v3.2.4...v3.3.0) (2016-08-16)
 
