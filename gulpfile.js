@@ -29,7 +29,7 @@ var $ = require('gulp-load-plugins')();
  */
 
 var common = require('./.src/settings/common.json');
-var envRegExp = new RegExp('([\'|\"]?__version__[\'|\"]?[ ]*[:|\=][ ]*[\'|\"]?)(\\d+\\.\\d+\\.\\d+(-\\.\\d+)?(-\\d+)?)[\\d||A-a|.|-]*([\'|\"]?)', 'i');
+var envRegExp = new RegExp('([\'|\"]?__version__[\'|\"]?[ ]*[:|=][ ]*[\'|\"]?)(\\d+\\.\\d+\\.\\d+)(-[0-9A-Za-z\.-]+)?([\'|\"]?)', 'i');
 
 
 /*
