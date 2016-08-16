@@ -1,3 +1,16 @@
+<a name="3.3.0"></a>
+# [3.3.0](https://github.com/oivva/boxy/compare/v3.2.4...v3.3.0) (2016-08-16)
+
+
+### Bug Fixes
+
+* configurator when it's running right after installation ([f9f7f23](https://github.com/oivva/boxy/commit/f9f7f23))
+* improve markdown highlighting ([ca8f41d](https://github.com/oivva/boxy/commit/ca8f41d)), closes [#110](https://github.com/oivva/boxy/issues/110)
+* improve python icon ([033b919](https://github.com/oivva/boxy/commit/033b919)), closes [#111](https://github.com/oivva/boxy/issues/111)
+* popup styling in ST < 3119 ([bada684](https://github.com/oivva/boxy/commit/bada684))
+
+
+
 <a name="3.2.4"></a>
 ## [3.2.4](https://github.com/oivva/boxy/compare/v3.2.3...v3.2.4) (2016-08-12)
 
