@@ -151,8 +151,6 @@ gulp.task('create-new-tag', function(cb) {
 
 gulp.task('release', function(cb) {
   runSequence(
-    'changelog',
-    'commit-changelog',
     'create-new-tag',
     'github-release',
     function (error) {
