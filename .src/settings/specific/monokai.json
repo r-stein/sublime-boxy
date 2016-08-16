@@ -49,6 +49,7 @@
     "invisible": "#ffffff08",
     "highlight": "#ffffff10",
     "selection": "#ffffff16",
+    "punctuation": "#ffffff50",
     "comment": "#75715e",
     "guide": {
       "default": "#ffffff25",
