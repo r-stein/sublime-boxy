@@ -61,5 +61,12 @@
       "pink": "#f94989",
       "violet": "#8d62da"
     }
+  },
+  "extras": {
+    "plainTasks": {
+      "name": "Plain Tasks",
+      "semanticClass": "boxy.monokai.dark.plain.tasks",
+      "uuid": "283e6e2b-e31c-47a3-807f-28467f2f19d8"
+    }
   }
 }

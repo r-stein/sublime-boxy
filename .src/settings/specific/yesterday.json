@@ -61,5 +61,12 @@
       "pink": "#df5b66",
       "violet": "#794b96"
     }
+  },
+  "extras": {
+    "plainTasks": {
+      "name": "Plain Tasks",
+      "semanticClass": "boxy.yesterday.light.plain.tasks",
+      "uuid": "204f5a96-7a49-4108-ad2c-452b0a547b87"
+    }
   }
 }

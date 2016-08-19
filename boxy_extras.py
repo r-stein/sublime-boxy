@@ -6,7 +6,6 @@ Boxy Theme Extras
 
 import sublime
 import sublime_plugin
-import functools
 from collections import OrderedDict
 
 NO_SELECTION = -1
@@ -38,7 +37,7 @@ EXTRAS = OrderedDict(
 	]
 )
 
-SCHEMES = [
+THEMES = [
 	'Boxy Yesterday',
 	'Boxy Tomorrow',
 	'Boxy Ocean',
@@ -55,21 +54,28 @@ def get_theme(pkg):
 	settings = get_settings(pkg)
 
 	if pkg is SUBLIME_LINTER:
-		items = settings.get('user', False)
-		if items != False:
-			return items.get('gutter_theme')
+		items = settings.get('user', '')
+		if items != '':
+			return items.get('gutter_theme', '')
 
-def set_theme(pkg, path=''):
+	if pkg is PLAIN_TASKS:
+		return settings.get('color_scheme', '')
+
+def set_theme(pkg, path):
 	settings = get_settings(pkg)
 
 	if pkg is SUBLIME_LINTER:
-		items = settings.get('user', False)
-		if items != False:
-			if path == '':
-				items['gutter_theme'] = EXTRAS[pkg].get('boxy')
-			else:
-				items['gutter_theme'] = path
-			settings.set('user', items)
+		items = settings.get('user', '')
+		if items != '':
+			items['gutter_theme'] = path
+			return settings.set('user', items)
+
+	if pkg is PLAIN_TASKS:
+		return settings.set('color_scheme', path)
+
+def activate_theme(pkg, path):
+	set_theme(pkg, path)
+	save_settings(pkg)
 
 class BoxyExtrasCommand(sublime_plugin.WindowCommand):
 
@@ -100,14 +106,42 @@ class BoxyExtrasCommand(sublime_plugin.WindowCommand):
 			default = self.extras[SUBLIME_LINTER].get('default')
 
 			if current == boxy:
-				set_theme(SUBLIME_LINTER, default)
+				return activate_theme(SUBLIME_LINTER, default)
 			else:
-				set_theme(SUBLIME_LINTER)
+				return activate_theme(SUBLIME_LINTER, boxy)
 
-			save_settings(SUBLIME_LINTER)
+		if index is 1:
+			self.window.run_command('boxy_plain_tasks')
 
 	def run(self):
 		self.display_list(EXTRAS)
+
+class BoxyPlainTasksCommand(sublime_plugin.WindowCommand):
+
+	def display_list(self, themes):
+		self.themes = themes
+		self.initial_theme = get_theme(PLAIN_TASKS)
+
+		quick_list = [theme for theme in self.themes]
+		self.quick_list = quick_list
+
+		self.window.show_quick_panel(quick_list, self.on_done, on_highlight=self.on_highlighted)
+
+	def on_highlighted(self, index):
+		set_theme(PLAIN_TASKS, self._quick_list_to_theme(index))
+
+	def on_done(self, index):
+		if index is NO_SELECTION:
+			set_theme(PLAIN_TASKS, self.initial_theme)
+			return
+
+		activate_theme(PLAIN_TASKS, self._quick_list_to_theme(index))
+
+	def _quick_list_to_theme(self, index):
+		return 'Packages/Boxy Theme/extras/PlainTasks/%s.hidden-tmTheme' % self.quick_list[index]
+
+	def run(self):
+		self.display_list(THEMES)
 
 # Fix SublimeLinter Gutter Theme
 # TODO: Remove it when 4.0.0 will be released
@@ -116,8 +150,7 @@ def fix_linter_gutter_theme():
 	theme = get_theme(SUBLIME_LINTER)
 
 	if theme == 'Packages/Boxy Theme/linter/Boxy.gutter-theme' or theme == 'Packages/Boxy Theme Addon - Linter Theme/Boxy.gutter-theme':
-		set_theme(SUBLIME_LINTER)
-		save_settings(SUBLIME_LINTER)
+		activate_theme(SUBLIME_LINTER, EXTRAS[SUBLIME_LINTER].get('boxy'))
 
 def plugin_loaded():
 	fix_linter_gutter_theme()
