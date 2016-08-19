@@ -12,6 +12,10 @@
     "command": "boxy_environment"
   },
   {
+    "caption": "Boxy Theme: Extras",
+    "command": "boxy_extras"
+  },
+  {
     "caption": "Boxy Theme: Preferences",
     "command": "edit_settings", "args":
     {
