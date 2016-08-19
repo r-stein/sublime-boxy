@@ -783,9 +783,42 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>GutterColor</string>
+			<string>GitGutter Inserted</string>
 			<key>scope</key>
-			<string>gutter_color</string>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#718c00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter Changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c99e00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter Deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c82829</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gutter Color Fix</string>
+			<key>scope</key>
+			<string>gutter_color, mcol</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
