@@ -381,6 +381,21 @@ settings:
   settings:
     foreground: '<%= scheme.comment %>'
 
+- name: GitGutter Inserted
+  scope: markup.inserted.git_gutter
+  settings:
+    foreground: '<%= scheme.base.green %>'
+
+- name: GitGutter Changed
+  scope: markup.changed.git_gutter
+  settings:
+    foreground: '<%= scheme.base.yellow %>'
+
+- name: GitGutter Deleted
+  scope: markup.deleted.git_gutter
+  settings:
+    foreground: '<%= scheme.base.red %>'
+
 # >> Gutter Color
 
 - name: GutterColor
