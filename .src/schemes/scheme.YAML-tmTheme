@@ -19,8 +19,8 @@ settings:
     selection: '<%= ui.variant.highlight.hex %>16'
     selectionBorder: '<%= ui.variant.highlight.hex %>16'
     guide: '<%= ui.variant.highlight.hex %>25'
-    stackGuide: '<%= ui.variant.highlight.hex %>50'
-    activeGuide: '<%= ui.variant.highlight.hex %>75'
+    stackGuide: '<%= ui.variant.highlight.hex %>40'
+    activeGuide: '<%= ui.variant.highlight.hex %>55'
     popupCss: 'html { background-color: <%= ui.background.secondary.hex %>; color: <%= scheme.foreground %>; } a { color: <%= scheme.base.blue %>; } .error, .deleted { color: <%= scheme.base.red %>; } .success, .inserted { color: <%= scheme.base.green %>; } .warning, .modified { color: <%= scheme.base.yellow %>; }'
 
 # >> General
