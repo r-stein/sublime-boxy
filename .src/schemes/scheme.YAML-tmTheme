@@ -396,9 +396,11 @@ settings:
   settings:
     foreground: '<%= scheme.base.red %>'
 
-# >> Gutter Color
+<% if (ui.variant.id == 'light') { %>
+# >> Gutter Color & Color Highlighter
 
-- name: GutterColor
-  scope: gutter_color
+- name: Gutter Color Fix
+  scope: gutter_color, mcol
   settings:
     foreground: '<%= scheme.base.white %>'
+<% } %>
