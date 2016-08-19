@@ -6,7 +6,11 @@
     "id": "monokai",
     "variant": {
       "id": "dark",
-      "name": "Dark"
+      "name": "Dark",
+      "highlight": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
     },
     "background": {
       "primary": {
@@ -16,10 +20,6 @@
       "secondary": {
         "hex": "#363731",
         "rgb": "54, 55, 49"
-      },
-      "base": {
-        "hex": "#ffffff",
-        "rgb": "255, 255, 255"
       }
     },
     "foreground": {
@@ -46,16 +46,7 @@
     "caret": "#f8f8f2",
     "foreground": "#f8f8f2",
     "gutter": "#272822",
-    "invisible": "#ffffff08",
-    "highlight": "#ffffff10",
-    "selection": "#ffffff16",
-    "punctuation": "#ffffff50",
     "comment": "#75715e",
-    "guide": {
-      "default": "#ffffff25",
-      "stack": "#ffffff40",
-      "active": "#a6e22eaa"
-    },
     "base": {
       "white": "#ffffff",
       "black": "#000000",

@@ -6,7 +6,11 @@
     "id": "ocean",
     "variant": {
       "id": "dark",
-      "name": "Dark"
+      "name": "Dark",
+      "highlight": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
     },
     "background": {
       "primary": {
@@ -16,10 +20,6 @@
       "secondary": {
         "hex": "#2d3c44",
         "rgb": "45, 60, 68"
-      },
-      "base": {
-        "hex": "#ffffff",
-        "rgb": "255, 255, 255"
       }
     },
     "foreground": {
@@ -46,16 +46,7 @@
     "caret": "#cdd3de",
     "foreground": "#cdd3de",
     "gutter": "#1b2b34",
-    "invisible": "#ffffff08",
-    "highlight": "#ffffff10",
-    "selection": "#ffffff16",
-    "punctuation": "#ffffff50",
     "comment": "#65737e",
-    "guide": {
-      "default": "#ffffff25",
-      "stack": "#ffffff40",
-      "active": "#99c794aa"
-    },
     "base": {
       "white": "#ffffff",
       "black": "#000000",

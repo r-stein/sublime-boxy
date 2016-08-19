@@ -15,12 +15,12 @@ settings:
     foreground: '<%= scheme.foreground %>'
     gutter: '<%= scheme.gutter %>'
     invisibles: '<%= scheme.comment %>'
-    lineHighlight: '<%= scheme.highlight %>'
-    selection: '<%= scheme.selection %>'
-    selectionBorder: '<%= scheme.selection %>'
-    activeGuide: '<%= scheme.guide.active %>'
-    guide: '<%= scheme.guide.default %>'
-    stackGuide: '<%= scheme.guide.stack %>'
+    lineHighlight: '<%= ui.variant.highlight.hex %>10'
+    selection: '<%= ui.variant.highlight.hex %>16'
+    selectionBorder: '<%= ui.variant.highlight.hex %>16'
+    guide: '<%= ui.variant.highlight.hex %>25'
+    stackGuide: '<%= ui.variant.highlight.hex %>50'
+    activeGuide: '<%= ui.variant.highlight.hex %>75'
     popupCss: 'html { background-color: <%= ui.background.secondary.hex %>; color: <%= scheme.foreground %>; } a { color: <%= scheme.base.blue %>; } .error, .deleted { color: <%= scheme.base.red %>; } .success, .inserted { color: <%= scheme.base.green %>; } .warning, .modified { color: <%= scheme.base.yellow %>; }'
 
 # >> General
@@ -232,12 +232,12 @@ settings:
 - name: Markdown - Markup Raw Inline
   scope: text.html.markdown markup.raw.inline
   settings:
-    background: '<%= scheme.invisible %>'
+    background: '<%= ui.variant.highlight.hex %>08'
 
 - name: Markdown - Line Break
   scope: text.html.markdown meta.dummy.line-break
   settings:
-    foreground: '<%= scheme.punctuation %>'
+    foreground: '<%= ui.variant.highlight.hex %>50'
 
 - name: Markdown - Heading
   scope: markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown
@@ -275,8 +275,8 @@ settings:
   scope: markup.quote punctuation.definition.blockquote.markdown
   settings:
     fontStyle: 'italic'
-    background: '<%= scheme.invisible %>'
-    foreground: '<%= scheme.invisible %>'
+    background: '<%= ui.variant.highlight.hex %>08'
+    foreground: '<%= ui.variant.highlight.hex %>08'
 
 - name: Markup - Quote
   scope: markup.quote
@@ -307,14 +307,14 @@ settings:
 - name: Markdown - Raw Block Fenced
   scope: markup.raw.block.fenced.markdown
   settings:
-    background: '<%= scheme.invisible %>'
-    foreground: '<%= scheme.punctuation %>'
+    background: '<%= ui.variant.highlight.hex %>08'
+    foreground: '<%= ui.variant.highlight.hex %>50'
 
 - name: Markdown - Fenced Bode Block
   scope: punctuation.definition.fenced.markdown, variable.language.fenced.markdown
   settings:
-    background: '<%= scheme.invisible %>'
-    foreground: '<%= scheme.punctuation %>'
+    background: '<%= ui.variant.highlight.hex %>08'
+    foreground: '<%= ui.variant.highlight.hex %>50'
 
 - name: Markdown - Fenced Language
   scope: variable.language.fenced.markdown
@@ -325,14 +325,14 @@ settings:
 - name: Markdown - Separator
   scope: meta.separator
   settings:
-    background: '<%= scheme.invisible %>'
+    background: '<%= ui.variant.highlight.hex %>08'
     fontStyle: 'bold'
     foreground: '<%= scheme.comment %>'
 
 - name: Markdown - Punctuation Definition
   scope: text.html.markdown punctuation.definition
   settings:
-    foreground: '<%= scheme.punctuation %>'
+    foreground: '<%= ui.variant.highlight.hex %>50'
 
 - name: Markdown HTML - Punctuation Definition
   scope: text.html.markdown meta.disable-markdown punctuation.definition
@@ -342,7 +342,7 @@ settings:
 - name: Markup - Table
   scope: markup.table
   settings:
-    background: '<%= scheme.invisible %>'
+    background: '<%= ui.variant.highlight.hex %>08'
 
 # >> AceJump
 
