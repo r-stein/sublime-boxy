@@ -51,9 +51,9 @@ The easiest way to install is using [Package Control][pc], where [Boxy][theme] i
 2. Choose `Package Control: Install Package`
 3. Find `Boxy Theme` and hit `Enter`
 4. Restart Sublime Text
-    - **macOS**  : menu item `Sublime Text -> Quit Sublime Text`
-    - **Windows**: menu item `File -> Exit`
-    - **Linux**  : menu item `File -> Exit`
+    - **macOS**  : menu item `Sublime Text → Quit Sublime Text`
+    - **Windows**: menu item `File → Exit`
+    - **Linux**  : menu item `File → Exit`
 5. Repeat step 1, then choose `Package Control: Satisfy Dependencies`
 6. Restart Sublime Text
 
