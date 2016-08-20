@@ -471,6 +471,8 @@
 			<dict>
 				<key>background</key>
 				<string>#00000008</string>
+				<key>foreground</key>
+				<string>#4d4d4ccc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -564,7 +566,7 @@
 				<key>background</key>
 				<string>#00000016</string>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
 				<string>#00000016</string>
 			</dict>
@@ -622,8 +624,10 @@
 			<string>markup.raw.block</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#00000008</string>
 				<key>foreground</key>
-				<string>#3e999f</string>
+				<string>#4d4d4ccc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -666,8 +670,8 @@
 			<string>punctuation.definition.fenced.markdown, meta.definition.language.raw.block.fenced.markdown</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#00000008</string>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#00000050</string>
 			</dict>
@@ -702,18 +706,33 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown - Punctuation Definition</string>
+			<string>Markup - Table</string>
 			<key>scope</key>
-			<string>text.html.markdown punctuation.definition</string>
+			<string>markup.table</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#00000008</string>
+				<key>foreground</key>
+				<string>#4d4d4ccc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Punctuation Definition</string>
+			<key>scope</key>
+			<string>text.html.markdown punctuation.definition, text.html.markdown.note punctuation.definition.list_item.markdown, markup.table.markdown punctuation.definition.table.vertical-line.markdown, text.html.markdown markup.checkbox.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#00000050</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown HTML - Punctuation Definition</string>
+			<string>Markdown - HTML Punctuation Definition</string>
 			<key>scope</key>
 			<string>text.html.markdown meta.disable-markdown punctuation.definition</string>
 			<key>settings</key>
@@ -724,15 +743,398 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup - Table</string>
+			<string>Markdown - TODO Done</string>
 			<key>scope</key>
-			<string>markup.table</string>
+			<string>punctuation.definition.list_item.todo.done</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#718c00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - TODO Cancelled</string>
+			<key>scope</key>
+			<string>punctuation.definition.list_item.todo.cancelled</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c82829</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - TODO GitHub Checkbox</string>
+			<key>scope</key>
+			<string>markup.checkbox.markdown markup.checkbox.checked_symbol.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#718c00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Section Title</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown string.other.admonition.title.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#4d4d4c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Header</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown markup.admonition.header.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#00000008</string>
+				<string>#794b9650</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Body</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown markup.admonition.body.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#794b9615</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Punctuation</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown punctuation.definition.admonition.markdown, markup.admonition.markdown punctuation.definition.heading,markup.admonition.markdown punctuation.definition.table.vertical-line, markup.admonition.markdown punctuation.definition.table.horizontal-line, markup.admonition.markdown punctuation.definition.table.alignments, markup.admonition.markdown punctuation.definition.heading, markup.admonition.markdown punctuation.definition.bold, markup.admonition.markdown punctuation.definition.italic, markup.admonition.markdown punctuation.definition.list_item, markup.admonition.markdown punctuation.definition.raw, markup.admonition.markdown markup.checkbox.markdown, markup.admonition.markdown punctuation.definition.list_item.todo.pending, markup.admonition.markdown meta.link punctuation.definition, markup.admonition.markdown meta.link.inline markup.underline.link, markup.admonition.markdown meta.link.reference.markdown constant.other.reference.link.markdown, markup.admonition.markdown punctuation.definition.entity.html, markup.admonition.markdown meta.separator.markdown, markup.admonition.markdown markup.table.markdown punctuation.definition.table.vertical-line.markdown, markup.admonition.markdown meta.definition.language.raw.block.fenced.markdown</string>
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
-				<string>#4d4d4c</string>
+				<string>#794b9675</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Section Type</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown entity.name.admonition.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#794b96</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Element Background</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown markup.table, markup.admonition.markdown markup.raw, markup.admonition.markdown markup.raw.block.fenced meta.language, markup.admonition.markdown punctuation.definition.blockquote.markdown, markup.admonition.markdown meta.separator, markup.admonition.markdown markup.raw.inline, markup.admonition.markdown markup.raw.block</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#794b9625</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Quote</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown markup.quote punctuation.definition.blockquote.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#794b9635</string>
+				<key>foreground</key>
+				<string>#794b9635</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Header (Hint)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.hint markup.admonition.header.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#4271ae50</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Body (Hint)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.hint markup.admonition.body.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#4271ae15</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Punctuation (Hint)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.hint punctuation.definition.admonition.markdown, markup.admonition.markdown.hint punctuation.definition.heading,markup.admonition.markdown.hint punctuation.definition.table.vertical-line, markup.admonition.markdown.hint punctuation.definition.table.horizontal-line, markup.admonition.markdown.hint punctuation.definition.table.alignments, markup.admonition.markdown.hint punctuation.definition.heading, markup.admonition.markdown.hint punctuation.definition.bold, markup.admonition.markdown.hint punctuation.definition.italic, markup.admonition.markdown.hint punctuation.definition.list_item, markup.admonition.markdown.hint punctuation.definition.raw, markup.admonition.markdown.hint markup.checkbox.markdown, markup.admonition.markdown.hint punctuation.definition.list_item.todo.pending, markup.admonition.markdown.hint meta.link punctuation.definition, markup.admonition.markdown.hint meta.link.inline markup.underline.link, markup.admonition.markdown.hint meta.link.reference.markdown constant.other.reference.link.markdown, markup.admonition.markdown.hint punctuation.definition.entity.html, markup.admonition.markdown.hint meta.separator.markdown, markup.admonition.markdown.hint markup.table.markdown punctuation.definition.table.vertical-line.markdown, markup.admonition.markdown.hint meta.definition.language.raw.block.fenced.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4271ae75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Section Type (Hint)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.hint entity.name.admonition.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#4271ae</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Element Background (Hint)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.hint markup.table, markup.admonition.markdown.hint markup.raw, markup.admonition.markdown.hint markup.raw.block.fenced meta.language, markup.admonition.markdown.hint punctuation.definition.blockquote.markdown, markup.admonition.markdown.hint meta.separator, markup.admonition.markdown.hint markup.raw.inline, markup.admonition.markdown.hint markup.raw.block</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#4271ae25</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Quote (Hint)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.hint markup.quote punctuation.definition.blockquote.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#4271ae35</string>
+				<key>foreground</key>
+				<string>#4271ae35</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Header (Warning)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.warning markup.admonition.header.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#c99e0050</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Body (Warning)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.warning markup.admonition.body.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#c99e0015</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Punctuation (Warning)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.warning punctuation.definition.admonition.markdown, markup.admonition.markdown.warning punctuation.definition.heading,markup.admonition.markdown.warning punctuation.definition.table.vertical-line, markup.admonition.markdown.warning punctuation.definition.table.horizontal-line, markup.admonition.markdown.warning punctuation.definition.table.alignments, markup.admonition.markdown.warning punctuation.definition.heading, markup.admonition.markdown.warning punctuation.definition.bold, markup.admonition.markdown.warning punctuation.definition.italic, markup.admonition.markdown.warning punctuation.definition.list_item, markup.admonition.markdown.warning punctuation.definition.raw, markup.admonition.markdown.warning markup.checkbox.markdown, markup.admonition.markdown.warning punctuation.definition.list_item.todo.pending, markup.admonition.markdown.warning meta.link punctuation.definition, markup.admonition.markdown.warning meta.link.inline markup.underline.link, markup.admonition.markdown.warning meta.link.reference.markdown constant.other.reference.link.markdown, markup.admonition.markdown.warning punctuation.definition.entity.html, markup.admonition.markdown.warning meta.separator.markdown, markup.admonition.markdown.warning markup.table.markdown punctuation.definition.table.vertical-line.markdown, markup.admonition.markdown.warning meta.definition.language.raw.block.fenced.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c99e0075</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Section Type (Warning)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.warning entity.name.admonition.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#c99e00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Element Background (Warning)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.warning markup.table, markup.admonition.markdown.warning markup.raw, markup.admonition.markdown.warning markup.raw.block.fenced meta.language, markup.admonition.markdown.warning punctuation.definition.blockquote.markdown, markup.admonition.markdown.warning meta.separator, markup.admonition.markdown.warning markup.raw.inline, markup.admonition.markdown.warning markup.raw.block</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#c99e0025</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Quote (Warning)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.warning markup.quote punctuation.definition.blockquote.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#c99e0035</string>
+				<key>foreground</key>
+				<string>#c99e0035</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Header (Danger)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.danger markup.admonition.header.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#c8282950</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Body (Danger)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.danger markup.admonition.body.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#c8282915</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Punctuation (Danger)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.danger punctuation.definition.admonition.markdown, markup.admonition.markdown.danger punctuation.definition.heading,markup.admonition.markdown.danger punctuation.definition.table.vertical-line, markup.admonition.markdown.danger punctuation.definition.table.horizontal-line, markup.admonition.markdown.danger punctuation.definition.table.alignments, markup.admonition.markdown.danger punctuation.definition.heading, markup.admonition.markdown.danger punctuation.definition.bold, markup.admonition.markdown.danger punctuation.definition.italic, markup.admonition.markdown.danger punctuation.definition.list_item, markup.admonition.markdown.danger punctuation.definition.raw, markup.admonition.markdown.danger markup.checkbox.markdown, markup.admonition.markdown.danger punctuation.definition.list_item.todo.pending, markup.admonition.markdown.danger meta.link punctuation.definition, markup.admonition.markdown.danger meta.link.inline markup.underline.link, markup.admonition.markdown.danger meta.link.reference.markdown constant.other.reference.link.markdown, markup.admonition.markdown.danger punctuation.definition.entity.html, markup.admonition.markdown.danger meta.separator.markdown, markup.admonition.markdown.danger markup.table.markdown punctuation.definition.table.vertical-line.markdown, markup.admonition.markdown.danger meta.definition.language.raw.block.fenced.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c8282975</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Section Type (Danger)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.danger entity.name.admonition.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#c82829</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Element Background (Danger)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.danger markup.table, markup.admonition.markdown.danger markup.raw, markup.admonition.markdown.danger markup.raw.block.fenced meta.language, markup.admonition.markdown.danger punctuation.definition.blockquote.markdown, markup.admonition.markdown.danger meta.separator, markup.admonition.markdown.danger markup.raw.inline, markup.admonition.markdown.danger markup.raw.block</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#c8282925</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Quote (Danger)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.danger markup.quote punctuation.definition.blockquote.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#c8282935</string>
+				<key>foreground</key>
+				<string>#c8282935</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Header (Attention)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.attention markup.admonition.header.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#718c0050</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Body (Attention)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.attention markup.admonition.body.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#718c0015</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Punctuation (Attention)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.attention punctuation.definition.admonition.markdown, markup.admonition.markdown.attention punctuation.definition.heading,markup.admonition.markdown.attention punctuation.definition.table.vertical-line, markup.admonition.markdown.attention punctuation.definition.table.horizontal-line, markup.admonition.markdown.attention punctuation.definition.table.alignments, markup.admonition.markdown.attention punctuation.definition.heading, markup.admonition.markdown.attention punctuation.definition.bold, markup.admonition.markdown.attention punctuation.definition.italic, markup.admonition.markdown.attention punctuation.definition.list_item, markup.admonition.markdown.attention punctuation.definition.raw, markup.admonition.markdown.attention markup.checkbox.markdown, markup.admonition.markdown.attention punctuation.definition.list_item.todo.pending, markup.admonition.markdown.attention meta.link punctuation.definition, markup.admonition.markdown.attention meta.link.inline markup.underline.link, markup.admonition.markdown.attention meta.link.reference.markdown constant.other.reference.link.markdown, markup.admonition.markdown.attention punctuation.definition.entity.html, markup.admonition.markdown.attention meta.separator.markdown, markup.admonition.markdown.attention markup.table.markdown punctuation.definition.table.vertical-line.markdown, markup.admonition.markdown.attention meta.definition.language.raw.block.fenced.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#718c0075</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Section Type (Attention)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.attention entity.name.admonition.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#718c00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Element Background (Attention)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.attention markup.table, markup.admonition.markdown.attention markup.raw, markup.admonition.markdown.attention markup.raw.block.fenced meta.language, markup.admonition.markdown.attention punctuation.definition.blockquote.markdown, markup.admonition.markdown.attention meta.separator, markup.admonition.markdown.attention markup.raw.inline, markup.admonition.markdown.attention markup.raw.block</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#718c0025</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Admonition Quote (Attention)</string>
+			<key>scope</key>
+			<string>markup.admonition.markdown.attention markup.quote punctuation.definition.blockquote.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#718c0035</string>
+				<key>foreground</key>
+				<string>#718c0035</string>
 			</dict>
 		</dict>
 		<dict>
