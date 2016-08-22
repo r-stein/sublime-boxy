@@ -1,3 +1,29 @@
+<a name="3.4.0"></a>
+# [3.4.0](https://github.com/oivva/boxy/compare/v3.3.1...v3.4.0) (2016-08-22)
+
+
+### Bug Fixes
+
+* color highlighter gutter icons ([5a21430](https://github.com/oivva/boxy/commit/5a21430))
+* fix GitGutter colors ([d644656](https://github.com/oivva/boxy/commit/d644656))
+* improve markdown highlighting ([77db433](https://github.com/oivva/boxy/commit/77db433))
+* make active guide monochrome ([97c49f2](https://github.com/oivva/boxy/commit/97c49f2))
+* move gutter linter theme to extras folder ([4c9e05c](https://github.com/oivva/boxy/commit/4c9e05c))
+
+
+### Features
+
+* add extras activator ([5b6803d](https://github.com/oivva/boxy/commit/5b6803d)), closes [#112](https://github.com/oivva/boxy/issues/112)
+* add Plain Notes support ([66d4d79](https://github.com/oivva/boxy/commit/66d4d79)), closes [#109](https://github.com/oivva/boxy/issues/109)
+* add PlainTasks support ([58f2847](https://github.com/oivva/boxy/commit/58f2847)), closes [#108](https://github.com/oivva/boxy/issues/108)
+
+
+### Reverts
+
+* "fix: improve python icon" ([fcbc748](https://github.com/oivva/boxy/commit/fcbc748)), closes [#111](https://github.com/oivva/boxy/issues/111)
+
+
+
 <a name="3.3.1"></a>
 ## [3.3.1](https://github.com/oivva/boxy/compare/v3.3.0...v3.3.1) (2016-08-16)
 
