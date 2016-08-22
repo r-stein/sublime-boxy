@@ -26,9 +26,9 @@
           <key>lineHighlight</key>
           <string><%= ui.background.secondary.hex %></string>
           <key>selection</key>
-          <string><%= scheme.selection %></string>
+          <string><%= ui.variant.highlight.hex %>16</string>
           <key>selectionBorder</key>
-          <string><%= scheme.selection %></string>
+          <string><%= ui.variant.highlight.hex %>16</string>
         </dict>
       </dict>
       <dict>

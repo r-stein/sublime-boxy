@@ -21,6 +21,10 @@
                 "command": "boxy_config"
               },
               {
+                "caption": "Extras",
+                "command": "boxy_extras"
+              },
+              {
                 "caption": "Preferences",
                 "command": "edit_settings", "args":
                 {

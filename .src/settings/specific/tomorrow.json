@@ -6,7 +6,11 @@
     "id": "tomorrow",
     "variant": {
       "id": "dark",
-      "name": "Dark"
+      "name": "Dark",
+      "highlight": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
     },
     "background": {
       "primary": {
@@ -16,10 +20,6 @@
       "secondary": {
         "hex": "#2a2b2d",
         "rgb": "42, 43, 45"
-      },
-      "base": {
-        "hex": "#ffffff",
-        "rgb": "255, 255, 255"
       }
     },
     "foreground": {
@@ -46,16 +46,7 @@
     "caret": "#c5c8c6",
     "foreground": "#c5c8c6",
     "gutter": "#1d1f21",
-    "invisible": "#ffffff08",
-    "highlight": "#ffffff10",
-    "selection": "#ffffff16",
-    "punctuation": "#ffffff50",
     "comment": "#969896",
-    "guide": {
-      "default": "#ffffff25",
-      "stack": "#ffffff40",
-      "active": "#b5bd68aa"
-    },
     "base": {
       "white": "#ffffff",
       "black": "#000000",
@@ -69,6 +60,13 @@
       "brown": "#a3685a",
       "pink": "#d75a64",
       "violet": "#9f74ab"
+    }
+  },
+  "extras": {
+    "plainTasks": {
+      "name": "Plain Tasks",
+      "semanticClass": "boxy.tomorrow.dark.plain.tasks",
+      "uuid": "fbc4437b-7061-4481-877f-0e6f82dda51d"
     }
   }
 }
