@@ -290,7 +290,7 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [settings]: https://github.com/oivva/boxy/wiki/Settings
 [pc]: https://packagecontrol.io/
 [theme]: https://packagecontrol.io/packages/Boxy%20Theme
-[getting-started]: https://youtu.be/3QXwR5hgrhs "Watch 'Getting Started with Boxy Theme' on YouTube"
+[getting-started]: https://youtu.be/d2FZCUDcNxo "Watch \"Getting Started with Boxy\" on YouTube"
 
 
 <!-- Images -->
@@ -315,7 +315,7 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [img-tomorrow-predawn]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/presets/tomorrow.png
 [img-ocean-material]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/presets/ocean.png
 [img-monokai-code]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/presets/monokai.png
-[img-getting-started]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/getting-started.png?v=2
+[img-getting-started]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.4.0/getting-started.png
 
 <!-- Fonts -->
 
