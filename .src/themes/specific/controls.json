@@ -9,12 +9,24 @@
   "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },
 
+{
+  "class": "panel_control",
+  "settings": ["theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
 // Progress Bar
 // ---------------------------------------------------------------------------
 
 {
   "class": "progress_bar_control",
   "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "progress_bar_control",
+  "settings": ["theme_unified"],
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },
 
 // Labels
