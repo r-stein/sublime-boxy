@@ -683,6 +683,10 @@
   // Enable rounded scrollbars
   "theme_scrollbar_rounded": false,
 
+  // Enable semi overlayed scrollbars
+  // Works only with `"overlay_scroll_bars": "disabled"`
+  "theme_scrollbar_semi_overlayed": false,
+
   //
   // > 10 Tooltips
   // -----------------------------------

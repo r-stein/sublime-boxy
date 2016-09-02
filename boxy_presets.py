@@ -86,6 +86,7 @@ OPTIONS = [
 	'theme_quick_panel_size_xs',
 	'theme_scrollbar_colored',
 	'theme_scrollbar_line',
+	'theme_scrollbar_semi_overlayed',
 	'theme_scrollbar_rounded',
 	'theme_sidebar_border',
 	'theme_sidebar_close_always_visible',

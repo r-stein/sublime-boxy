@@ -347,7 +347,8 @@ SECTION_OPTIONS = OrderedDict(
 			[
 				'theme_scrollbar_line',
 				'theme_scrollbar_colored',
-				'theme_scrollbar_rounded'
+				'theme_scrollbar_rounded',
+				'theme_scrollbar_semi_overlayed'
 			]
 		),
 		(
