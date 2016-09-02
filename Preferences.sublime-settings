@@ -371,6 +371,9 @@
   // >> 5.1 Find Panel Size
   //
 
+  // Reduce size of the find panel to extra extra small
+  "theme_find_panel_size_xxs": false,
+
   // Reduce size of the find panel to extra small
   "theme_find_panel_size_xs": false,
 

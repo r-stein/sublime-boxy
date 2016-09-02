@@ -61,6 +61,7 @@ OPTIONS = [
 	'theme_find_panel_size_sm',
 	'theme_find_panel_size_xl',
 	'theme_find_panel_size_xs',
+	'theme_find_panel_size_xxs',
 	'theme_font_lg',
 	'theme_font_md',
 	'theme_font_sm',

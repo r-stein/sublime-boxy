@@ -196,6 +196,7 @@ SUB_SECTION_OPTIONS = OrderedDict(
 		(
 			'Find Panel Size',
 			[
+				'theme_find_panel_size_xxs',
 				'theme_find_panel_size_xs',
 				'theme_find_panel_size_sm',
 				'theme_find_panel_size_md',
