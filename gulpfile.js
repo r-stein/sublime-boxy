@@ -403,21 +403,13 @@ gulp.task('optimize', function(cb) {
 
 gulp.task('optimize:assets', function() {
   return gulp.src('./assets/**/*.png')
-    .pipe($.imagemin([$.imagemin.optipng({
-      bitDepthReduction: false,
-      colorTypeReduction: false,
-      paletteReduction: false
-    })], {verbose: true}))
+    .pipe($.imagemin({verbose: true}))
     .pipe(gulp.dest('./assets'));
 });
 
 gulp.task('optimize:icons', function() {
   return gulp.src('./icons/*.png')
-    .pipe($.imagemin([$.imagemin.optipng({
-      bitDepthReduction: false,
-      colorTypeReduction: false,
-      paletteReduction: false
-    })], {verbose: true}))
+    .pipe($.imagemin({verbose: true}))
     .pipe(gulp.dest('./icons'));
 });
 
