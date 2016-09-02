@@ -160,6 +160,7 @@ OPTIONS = [
 	'theme_tab_size_sm',
 	'theme_tab_size_xl',
 	'theme_tab_size_xs',
+	'theme_tab_size_xxl',
 	'theme_tab_width_auto',
 	'theme_tooltips_font_lg',
 	'theme_tooltips_font_md',

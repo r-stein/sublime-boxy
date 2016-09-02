@@ -244,6 +244,9 @@
   // Increase size of tabs to extra large
   "theme_tab_size_xl": false,
 
+  // Increase size of tabs to extra extra large
+  "theme_tab_size_xxl": false,
+
   // Auto adjust tab width from the name
   "theme_tab_width_auto": false,
 

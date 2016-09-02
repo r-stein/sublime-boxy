@@ -383,6 +383,40 @@
   "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_xl.png"
 },
 
+//
+// Extra Large
+//
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar_colored", "theme_tab_size_xxl"],
+  "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_xxl.png"
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar_colored", "theme_tab_size_xxl", "theme_icons_materialized"],
+  "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_xxl.png"
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar_colored", "theme_tab_size_xxl", "theme_icons_atomized"],
+  "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_xxl.png"
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar_colored", "theme_tab_size_xxl", "theme_bar_logo_materialized"],
+  "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_materialized_xxl.png"
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar_colored", "theme_tab_size_xxl", "theme_bar_logo_atomized"],
+  "layer1.texture": "Boxy Theme/assets/variants/dark/bar/logo_atomized_xxl.png"
+},
+
 // Tabset
 // ---------------------------------------------------------------------------
 

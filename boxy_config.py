@@ -144,6 +144,7 @@ SUB_SECTION_OPTIONS = OrderedDict(
 				'theme_tab_size_md',
 				'theme_tab_size_lg',
 				'theme_tab_size_xl',
+				'theme_tab_size_xxl',
 				'theme_tab_width_auto'
 			]
 		),
