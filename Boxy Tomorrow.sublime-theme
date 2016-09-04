@@ -5135,19 +5135,13 @@
   },
   
   {
-    "class": "quick_panel_row",
-    "layer0.tint": [42, 43, 45, 0]
-  },
-  
-  {
-    "class": "quick_panel_row",
-    "parents": [{"class": "overlay_control"}],
-    "layer0.tint": [42, 43, 45, 0]
-  },
-  
-  {
     "class": "quick_panel",
-    "parents": [{"class": "overlay_control"}],
+    "settings": ["theme_unified"],
+    "layer0.tint": [35, 36, 38]
+  },
+  
+  {
+    "class": "quick_panel_row",
     "layer0.tint": [42, 43, 45, 0]
   },
   
