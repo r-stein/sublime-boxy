@@ -65,6 +65,12 @@
     "layer0.tint": [45, 60, 68]
   },
   
+  {
+    "class": "auto_complete",
+    "settings": ["theme_unified"],
+    "layer0.tint": [34, 50, 58]
+  },
+  
   // Autocomplete Foreground
   // ---------------------------------------------------------------------------
   
@@ -981,12 +987,24 @@
     "layer0.tint": [45, 60, 68]
   },
   
+  {
+    "class": "panel_control",
+    "settings": ["theme_unified"],
+    "layer0.tint": [34, 50, 58]
+  },
+  
   // Progress Bar
   // ---------------------------------------------------------------------------
   
   {
     "class": "progress_bar_control",
     "layer0.tint": [34, 50, 58]
+  },
+  
+  {
+    "class": "progress_bar_control",
+    "settings": ["theme_unified"],
+    "layer0.tint": [45, 60, 68]
   },
   
   // Labels
@@ -5098,6 +5116,12 @@
     "layer0.texture": "Boxy Theme/assets/specific/ocean/overlays/overlay.png"
   },
   
+  {
+    "class": "overlay_control",
+    "settings": ["theme_unified"],
+    "layer0.texture": "Boxy Theme/assets/specific/ocean/overlays/overlay_unified.png"
+  },
+  
   // Quick Panel
   // ---------------------------------------------------------------------------
   
@@ -6086,6 +6110,12 @@
   
   {
     "class": "scroll_corner_control",
+    "settings": ["theme_unified"],
+    "layer0.tint": [34, 50, 58]
+  },
+  
+  {
+    "class": "scroll_corner_control",
     "settings": ["!overlay_scroll_bars", "theme_scrollbar_semi_overlayed"],
     "parents": [{"class": "sheet_container_control"}],
     "layer0.tint": [27, 43, 52]
@@ -6107,6 +6137,12 @@
   {
     "class": "scroll_bar_control",
     "layer0.tint": [45, 60, 68]
+  },
+  
+  {
+    "class": "scroll_bar_control",
+    "settings": ["theme_unified"],
+    "layer0.tint": [34, 50, 58]
   },
   
   {
@@ -6133,6 +6169,13 @@
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
     "layer0.tint": [45, 60, 68]
+  },
+  
+  {
+    "class": "scroll_bar_control",
+    "attributes": ["horizontal"],
+    "settings": ["theme_unified"],
+    "layer0.tint": [34, 50, 58]
   },
   
   {
@@ -10211,6 +10254,12 @@
   {
     "class": "status_bar",
     "layer0.tint": [45, 60, 68]
+  },
+  
+  {
+    "class": "status_bar",
+    "settings": ["theme_unified"],
+    "layer0.tint": [34, 50, 58]
   },
   
   
