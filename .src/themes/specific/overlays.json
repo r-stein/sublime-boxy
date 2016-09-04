@@ -9,6 +9,12 @@
   "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/overlays/overlay.png"
 },
 
+{
+  "class": "overlay_control",
+  "settings": ["theme_unified"],
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/overlays/overlay_unified.png"
+},
+
 // Quick Panel
 // ---------------------------------------------------------------------------
 

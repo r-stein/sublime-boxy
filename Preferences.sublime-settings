@@ -22,6 +22,7 @@
 //    2.2 Font
 //    2.3 Accent
 //    2.4 Icons
+//    2.5 Background
 //  3 Bar
 //  4 Tabs
 //    4.1 Tab Size
@@ -165,7 +166,14 @@
   // Enable a beautiful Atom UI icons
   "theme_icons_atomized": false,
 
-  // Each one of them (except accent options) may be overridden by setting a
+  //
+  // >> 2.5 Background
+  //
+
+  // Enable the same background color for UI components
+  "theme_unified": false,
+
+  // Each one of them (except accent & background options) may be overridden by setting a
   // similar option specific to UI control.
 
   // For example, you want to increase font size of all UI controls via setting

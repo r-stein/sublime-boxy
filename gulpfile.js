@@ -52,6 +52,10 @@ gulp.task('clean:extras', function() {
   return del(['./extras/**/*.hidden-tmTheme', './extras/**/*.YAML-tmTheme']);
 });
 
+gulp.task('clean:addons', function() {
+  return del(['./addons/**/*.addon-theme', './addons/**/*.addon-settings']);
+});
+
 
 /*
  * > Generate CHANGELOG
@@ -180,6 +184,7 @@ gulp.task('build', function(cb) {
     'build:schemes',
     'build:widgets',
     'build:extras',
+    'build:addons',
     function (error) {
       if (error) {
         console.log('[build]'.bold.magenta + ' There was an issue building BOXY:\n'.bold.red + error.message);
@@ -380,6 +385,62 @@ gulp.task('convert:extras', function() {
     }));
 });
 
+/* >> Add-ons */
+
+gulp.task('build:addons', ['clean:addons'], function(cb) {
+  runSequence(
+    'build:addon-themes',
+    'build:addon-settings',
+    function (error) {
+      if (error) {
+        console.log('[build:addons]'.bold.magenta + ' There was an issue building addons:\n'.bold.red + error.message);
+      } else {
+        console.log('[build:addons]'.bold.magenta + ' Finished successfully'.bold.green);
+      }
+
+      cb(error);
+    }
+  );
+});
+
+gulp.task('build:addon-themes', function() {
+  return gulp.src('./.src/settings/specific/*.json')
+    .pipe($.flatmap(function(stream, file) {
+      var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
+
+      return gulp.src('./.src/addons/**/*.addon-theme')
+        .pipe($.data(function() {
+          var specific = require(file.path);
+
+          return _.merge(common, specific);
+        }))
+        .pipe($.template())
+        .pipe($.rename(function(widget) {
+          widget.basename = 'Widget - ' + basename;
+        }))
+        .pipe(gulp.dest('./addons'));
+    }));
+});
+
+gulp.task('build:addon-settings', function() {
+  return gulp.src('./.src/settings/specific/*.json')
+    .pipe($.flatmap(function(stream, file) {
+      var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
+
+      return gulp.src('./.src/addons/**/*.addon-settings')
+        .pipe($.data(function() {
+          var specific = require(file.path);
+
+          return _.merge(common, specific);
+        }))
+        .pipe($.template())
+        .pipe($.rename(function(widget) {
+          widget.basename = 'Widget - ' + basename;
+        }))
+        .pipe(gulp.dest('./addons'));
+    }));
+});
+
 
 /*
  * > Images
@@ -422,6 +483,7 @@ gulp.task('watch', function() {
   gulp.watch('./.src/themes/**/*.json', ['build:themes']);
   gulp.watch('./.src/schemes/scheme.YAML-tmTheme', ['build:schemes']);
   gulp.watch('./.src/extras/**/*.YAML-tmTheme', ['build:extras']);
+  gulp.watch('./.src/addons/**/*.*', ['build:addons']);
   gulp.watch('./.src/widgets/widget.*', ['build:widgets']);
   gulp.watch('./.src/settings/**/*.json', ['build:schemes', 'build:extras', 'build:widgets', 'build:themes']);
 });

@@ -9,6 +9,12 @@
   "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },
 
+{
+  "class": "auto_complete",
+  "settings": ["theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
 // Autocomplete Foreground
 // ---------------------------------------------------------------------------
 

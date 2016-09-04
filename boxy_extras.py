@@ -189,15 +189,3 @@ class BoxyPlainNotesCommand(sublime_plugin.WindowCommand):
 
 	def run(self):
 		self.display_list(THEMES)
-
-# Fix SublimeLinter Gutter Theme
-# TODO: Remove it when 4.0.0 will be released
-
-def fix_linter_gutter_theme():
-	theme = get_theme(SUBLIME_LINTER)
-
-	if theme == 'Packages/Boxy Theme/linter/Boxy.gutter-theme' or theme == 'Packages/Boxy Theme Addon - Linter Theme/Boxy.gutter-theme':
-		activate_theme(SUBLIME_LINTER, EXTRAS[SUBLIME_LINTER].get('boxy'))
-
-def plugin_loaded():
-	fix_linter_gutter_theme()

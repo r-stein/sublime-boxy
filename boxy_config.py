@@ -18,7 +18,8 @@ SUB_SECTIONS = OrderedDict(
 				'Size',
 				'Font',
 				'Accent',
-				'Icons'
+				'Icons',
+				'Background'
 			]
 		),
 		(
@@ -116,6 +117,12 @@ SUB_SECTION_OPTIONS = OrderedDict(
 				'theme_icons_flat',
 				'theme_icons_materialized',
 				'theme_icons_atomized'
+			]
+		),
+		(
+			'Background',
+			[
+				'theme_unified'
 			]
 		),
 		(
