@@ -32,7 +32,7 @@
 				<key>lineHighlight</key>
 				<string>#ffffff10</string>
 				<key>popupCss</key>
-				<string>html { background-color: #363731; color: #f8f8f2; } a { color: #66d9ef; } .error, .deleted { color: #f92672; } .success, .inserted { color: #a6e22e; } .warning, .modified { color: #e6db74; }</string>
+				<string>html { background-color: #363731; color: #f8f8f2; } a { color: #66d9ef; } .error, .deleted { color: #f92672; } .success, .inserted, .name { color: #a6e22e; } .warning, .modified { color: #e6db74; } .type { color: #a1efe4; font-style: italic; } .param { color: #fd971f; } .current { text-decoration: underline; }</string>
 				<key>selection</key>
 				<string>#ffffff16</string>
 				<key>selectionBorder</key>
