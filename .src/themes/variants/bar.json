@@ -10,6 +10,12 @@
   "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },
 
+{
+  "class": "tabset_control",
+  "settings": ["theme_bar", "theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
 // Tab
 // ---------------------------------------------------------------------------
 
@@ -17,6 +23,12 @@
   "class": "tab_control",
   "settings": ["theme_bar"],
   "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab_overlay.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_bar", "theme_unified"],
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab.png"
 },
 
 // Sidebar

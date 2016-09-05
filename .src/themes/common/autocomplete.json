@@ -37,7 +37,7 @@
 {
   "class": "table_row",
   "attributes": ["selected"],
-  "settings": ["theme_autocomplete_item_selected_colored"],
+  "settings": ["!theme_accent_mono", "theme_autocomplete_item_selected_colored"],
   "layer0.opacity": 0,
   "layer1.opacity": 1.0
 },

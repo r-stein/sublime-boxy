@@ -16,6 +16,7 @@ OPTIONS = [
 	'theme_accent_cyan',
 	'theme_accent_green',
 	'theme_accent_lime',
+	'theme_accent_mono',
 	'theme_accent_orange',
 	'theme_accent_pink',
 	'theme_accent_purple',

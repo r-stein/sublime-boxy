@@ -114,6 +114,13 @@
   "layer0.opacity": 0.75
 },
 
+{
+  "class": "icon_regex",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
 //
 // Case Sensitive Search Button
 //
@@ -128,6 +135,13 @@
   "class": "icon_case",
   "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
   "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_case",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
 },
 
 //
@@ -146,6 +160,13 @@
   "layer0.opacity": 0.75
 },
 
+{
+  "class": "icon_whole_word",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
 //
 // Search Wrap Button
 //
@@ -160,6 +181,13 @@
   "class": "icon_wrap",
   "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
   "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_wrap",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
 },
 
 //
@@ -178,6 +206,13 @@
   "layer0.opacity": 0.75
 },
 
+{
+  "class": "icon_context",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
 //
 // Use Search Buffer
 //
@@ -192,6 +227,13 @@
   "class": "icon_use_buffer",
   "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
   "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_use_buffer",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
 },
 
 //
@@ -210,6 +252,13 @@
   "layer0.opacity": 0.75
 },
 
+{
+  "class": "icon_reverse",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
 //
 // Search In Selection Button
 //
@@ -224,6 +273,13 @@
   "class": "icon_in_selection",
   "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
   "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_in_selection",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
 },
 
 //
@@ -242,6 +298,13 @@
   "layer0.opacity": 0.75
 },
 
+{
+  "class": "icon_preserve_case",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
 //
 // Highlight Results Button
 //
@@ -256,6 +319,13 @@
   "class": "icon_highlight",
   "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
   "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_highlight",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
 },
 
 // Fields

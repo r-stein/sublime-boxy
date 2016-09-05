@@ -108,7 +108,8 @@ SUB_SECTION_OPTIONS = OrderedDict(
 				'theme_accent_cyan',
 				'theme_accent_lime',
 				'theme_accent_pink',
-				'theme_accent_sky'
+				'theme_accent_sky',
+				'theme_accent_mono'
 			]
 		),
 		(

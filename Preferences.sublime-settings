@@ -156,6 +156,9 @@
   // Set sky accent color
   "theme_accent_sky": false,
 
+  // Set monochrome accent color
+  "theme_accent_mono": false,
+
   //
   // >> 2.4 Icons
   // Choose one option from this section
