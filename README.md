@@ -1,22 +1,22 @@
-<p align="center"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/name.gif" alt="BOXY"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/3.2.0/name.gif" alt="BOXY"></p>
 
 <p align="center">
-  <a href="https://github.com/oivva/boxy/releases"><img src="https://img.shields.io/github/release/oivva/boxy.svg?maxAge=3600&style=flat-square" alt="Release"></a>
+  <a href="https://github.com/oivva/st-boxy/releases"><img src="https://img.shields.io/github/release/oivva/st-boxy.svg?maxAge=3600&style=flat-square" alt="Release"></a>
   <a href="https://packagecontrol.io/packages/Boxy%20Theme"><img src="https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?maxAge=3600&style=flat-square" alt="Downloads"></a>
-  <a href="https://travis-ci.org/oivva/boxy"><img src="https://img.shields.io/travis/oivva/boxy.svg?maxAge=3600&style=flat-square" alt="Build Status"></a>
+  <a href="https://travis-ci.org/oivva/st-boxy"><img src="https://img.shields.io/travis/oivva/st-boxy.svg?maxAge=3600&style=flat-square" alt="Build Status"></a>
   <a href="https://gitter.im/oivva/boxy"><img src="https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000&style=flat-square" alt="Gitter"></a>
-  <a href="https://github.com/oivva/boxy/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000&style=flat-square" alt="License"></a>&nbsp;
-  <a href="https://twitter.com/intent/tweet?hashtags=Boxy%2CTheme%2CColorScheme%2CSublimeText&amp;original_referer=http%3A%2F%2Foivva.com%2Fboxy%2F&amp;ref_src=twsrc%5Etfw&amp;text=The%20most%20hackable%20theme%20%E2%9D%A4%20Sublime%20Text%203&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fpackagecontrol.io%2Fpackages%2FBoxy%2520Theme&amp;via=oivvatweets" title="Share via Twitter"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/twitter.png" alt="Twitter"></a>&nbsp;
-  <a href="https://www.patreon.com/oivva" title="Donate with Patreon"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon.png" alt="Click here to lend your support to: Boxy and make a donation at patreon.com"></a>&nbsp;
-  <a href="https://flattr.com/profile/oivva" title="Donate with Flattr"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png" alt="Click here to lend your support to: Boxy and make a donation at flattr.com !"></a>&nbsp;
-  <a href="https://www.coinbase.com/oivva" title="Donate with Bitcoin"><img src="https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png" alt="Click here to lend your support to: Boxy and make a donation at coinbase.com !"></a>
+  <a href="https://github.com/oivva/st-boxy/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000&style=flat-square" alt="License"></a>&nbsp;
+  <a href="https://twitter.com/intent/tweet?hashtags=Boxy%2CTheme%2CColorScheme%2CSublimeText&amp;original_referer=http%3A%2F%2Foivva.com%2Fboxy%2F&amp;ref_src=twsrc%5Etfw&amp;text=The%20most%20hackable%20theme%20%E2%9D%A4%20Sublime%20Text%203&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fpackagecontrol.io%2Fpackages%2FBoxy%2520Theme&amp;via=oivvatweets" title="Share via Twitter"><img src="https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/twitter.png" alt="Twitter"></a>&nbsp;
+  <a href="https://www.patreon.com/oivva" title="Donate with Patreon"><img src="https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/patreon.png" alt="Click here to lend your support to: Boxy and make a donation at patreon.com"></a>&nbsp;
+  <a href="https://flattr.com/profile/oivva" title="Donate with Flattr"><img src="https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/flattr.png" alt="Click here to lend your support to: Boxy and make a donation at flattr.com !"></a>&nbsp;
+  <a href="https://www.coinbase.com/oivva" title="Donate with Bitcoin"><img src="https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/bitcoin.png" alt="Click here to lend your support to: Boxy and make a donation at coinbase.com !"></a>
 </p>
 
 ***
 
 A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Comes in, both, light and dark variations. There are dozens of [**options**][settings] that enable you to personalize your experience with `Boxy Theme`, don't forget to check [them][settings] out.
 
-Want to contribute some code? Excellent! Read up on our [guidelines](https://github.com/oivva/boxy/blob/dev/.github/CONTRIBUTING.md).
+Want to contribute some code? Excellent! Read up on our [guidelines](https://github.com/oivva/st-boxy/blob/dev/.github/CONTRIBUTING.md).
 
 If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [**Known Issues**][known-issues] section before reporting a new one.
 
@@ -25,14 +25,14 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 ***
 
 <div>
-<a href="https://github.com/oivva/boxy#getting-started">Getting Started</a>&nbsp;
-▪&nbsp;<a href="https://github.com/oivva/boxy#installation">Installation</a>&nbsp;
-▪&nbsp;<a href="https://github.com/oivva/boxy#activation">Activation</a>&nbsp;
-▪&nbsp;<a href="https://github.com/oivva/boxy#presets">Presets</a>&nbsp;
-▪&nbsp;<a href="https://github.com/oivva/boxy/wiki/Settings">Settings</a>&nbsp;
+<a href="https://github.com/oivva/st-boxy#getting-started">Getting Started</a>&nbsp;
+▪&nbsp;<a href="https://github.com/oivva/st-boxy#installation">Installation</a>&nbsp;
+▪&nbsp;<a href="https://github.com/oivva/st-boxy#activation">Activation</a>&nbsp;
+▪&nbsp;<a href="https://github.com/oivva/st-boxy#presets">Presets</a>&nbsp;
+▪&nbsp;<a href="https://github.com/oivva/st-boxy/wiki/Settings">Settings</a>&nbsp;
 ▪&nbsp;<a href="https://forum.sublimetext.com/t/boxy-the-most-hackable-theme-for-sublime-text-3/20564">Forum</a>&nbsp;
 ▪&nbsp;<a href="https://packagecontrol.io/packages/Boxy%20Theme">Package Control</a>
-▪&nbsp;<a href="https://github.com/oivva/boxy#share-the-love">Share The Love</a>
+▪&nbsp;<a href="https://github.com/oivva/st-boxy#share-the-love">Share The Love</a>
 </div>
 
 ***
@@ -272,22 +272,22 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 
 <!-- Links -->
 
-[release]: https://github.com/oivva/boxy/releases
+[release]: https://github.com/oivva/st-boxy/releases
 [downloads]: https://packagecontrol.io/packages/Boxy%20Theme
-[build-status]: https://travis-ci.org/oivva/boxy
+[build-status]: https://travis-ci.org/oivva/st-boxy
 [gitter]: https://gitter.im/oivva/boxy
-[license]: https://github.com/oivva/boxy
+[license]: https://github.com/oivva/st-boxy
 [patreon]: https://www.patreon.com/oivva "Donate with Patreon"
 [flattr]: https://flattr.com/profile/oivva "Donate with Flattr"
 [bitcoin]: https://www.coinbase.com/oivva "Donate with Bitcoin"
-[upgrading]: https://github.com/oivva/boxy/wiki/Upgrading
-[issues]: https://github.com/oivva/boxy/issues
-[wiki]: https://github.com/oivva/boxy/wiki
-[website]: http://www.oivva.com/boxy/
-[known-issues]: https://github.com/oivva/boxy/wiki#known-issues
+[upgrading]: https://github.com/oivva/st-boxy/wiki/Upgrading
+[issues]: https://github.com/oivva/st-boxy/issues
+[wiki]: https://github.com/oivva/st-boxy/wiki
+[website]: http://www.oivva.com/st-boxy/
+[known-issues]: https://github.com/oivva/st-boxy/wiki#known-issues
 [pr]: https://github.com/wbond/package_control_channel/pull/5500
-[manual-install]: https://github.com/oivva/boxy/wiki/Get-It#manual
-[settings]: https://github.com/oivva/boxy/wiki/Settings
+[manual-install]: https://github.com/oivva/st-boxy/wiki/Get-It#manual
+[settings]: https://github.com/oivva/st-boxy/wiki/Settings
 [pc]: https://packagecontrol.io/
 [theme]: https://packagecontrol.io/packages/Boxy%20Theme
 [getting-started]: https://youtu.be/d2FZCUDcNxo 'Watch "Getting Started with Boxy Theme" on YouTube'
@@ -295,27 +295,27 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 
 <!-- Images -->
 
-[img-name]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/name.png
-[img-release]: https://img.shields.io/github/release/oivva/boxy.svg?maxAge=3600&style=flat-square
+[img-name]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/name.png
+[img-release]: https://img.shields.io/github/release/oivva/st-boxy.svg?maxAge=3600&style=flat-square
 [img-downloads]: https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?maxAge=3600&style=flat-square
-[img-build-status]: https://img.shields.io/travis/oivva/boxy.svg?maxAge=3600&style=flat-square
+[img-build-status]: https://img.shields.io/travis/oivva/st-boxy.svg?maxAge=3600&style=flat-square
 [img-gitter]: https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000&style=flat-square
 [img-license]: https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000&style=flat-square
-[img-patreon]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon.png
-[img-patreon-with-title]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/patreon-with-title.png
-[img-flattr]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr.png
-[img-flattr-with-title]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/flattr-with-title.png
-[img-bitcoin]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin.png
-[img-bitcoin-with-title]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/bitcoin-with-title.png
-[img-yesterday]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/default/yesterday.png
-[img-tomorrow]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/default/tomorrow.png
-[img-ocean]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/default/ocean.png
-[img-monokai]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/default/monokai.png
-[img-yesterday-atom]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/presets/yesterday.png
-[img-tomorrow-predawn]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/presets/tomorrow.png
-[img-ocean-material]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/presets/ocean.png
-[img-monokai-code]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.2.0/presets/monokai.png
-[img-getting-started]: https://raw.githubusercontent.com/oivva/boxy-extras/master/assets/readme/3.4.0/getting-started.png
+[img-patreon]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/patreon.png
+[img-patreon-with-title]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/patreon-with-title.png
+[img-flattr]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/flattr.png
+[img-flattr-with-title]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/flattr-with-title.png
+[img-bitcoin]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/bitcoin.png
+[img-bitcoin-with-title]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/bitcoin-with-title.png
+[img-yesterday]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/3.2.0/default/yesterday.png
+[img-tomorrow]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/3.2.0/default/tomorrow.png
+[img-ocean]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/3.2.0/default/ocean.png
+[img-monokai]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/3.2.0/default/monokai.png
+[img-yesterday-atom]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/3.2.0/presets/yesterday.png
+[img-tomorrow-predawn]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/3.2.0/presets/tomorrow.png
+[img-ocean-material]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/3.2.0/presets/ocean.png
+[img-monokai-code]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/3.2.0/presets/monokai.png
+[img-getting-started]: https://raw.githubusercontent.com/oivva/st-boxy-extras/master/assets/readme/3.4.0/getting-started.png
 
 <!-- Fonts -->
 
