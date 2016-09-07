@@ -241,7 +241,7 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
   );
 });
 
-gulp.task('process:schemes', function(cb) {
+gulp.task('process:schemes', function() {
   return gulp.src('./.src/settings/specific/*.json')
     .pipe($.flatmap(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
@@ -262,7 +262,7 @@ gulp.task('process:schemes', function(cb) {
 
 gulp.task('convert:schemes', function() {
   return gulp.src('./schemes/*.YAML-tmTheme')
-    .pipe($.flatmap(function(stream, file) {
+    .pipe($.flatmap(function(stream) {
       sleep.sleep(2);
 
       return stream
@@ -350,7 +350,7 @@ gulp.task('build:extras', ['clean:extras'], function(cb) {
   );
 });
 
-gulp.task('process:extras', function(cb) {
+gulp.task('process:extras', function() {
   return gulp.src('./.src/settings/specific/*.json')
     .pipe($.flatmap(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
@@ -371,7 +371,7 @@ gulp.task('process:extras', function(cb) {
 
 gulp.task('convert:extras', function() {
   return gulp.src('./extras/**/*.YAML-tmTheme')
-    .pipe($.flatmap(function(stream, file) {
+    .pipe($.flatmap(function(stream) {
       sleep.sleep(2);
 
       return stream
