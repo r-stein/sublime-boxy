@@ -8,7 +8,7 @@ import sublime
 import sublime_plugin
 import textwrap
 
-__version__ = '3.4.0'
+__version__ = '3.5.0'
 __pc_name__ = 'Boxy Theme'
 
 def list2string(obj):
