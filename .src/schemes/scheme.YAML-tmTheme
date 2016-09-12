@@ -21,7 +21,7 @@ settings:
     guide: '<%= ui.variant.highlight.hex %>25'
     stackGuide: '<%= ui.variant.highlight.hex %>40'
     activeGuide: '<%= ui.variant.highlight.hex %>55'
-    popupCss: 'html { background-color: <%= ui.background.secondary.hex %>; color: <%= scheme.foreground %>; } a { color: <%= scheme.base.blue %>; } .error, .deleted { color: <%= scheme.base.red %>; } .success, .inserted { color: <%= scheme.base.green %>; } .warning, .modified { color: <%= scheme.base.yellow %>; }'
+    popupCss: 'html { background-color: <%= ui.background.secondary.hex %>; color: <%= scheme.foreground %>; } a { color: <%= scheme.base.blue %>; } .error, .deleted { color: <%= scheme.base.red %>; } .success, .inserted, .name { color: <%= scheme.base.green %>; } .warning, .modified { color: <%= scheme.base.yellow %>; } .type { color: <%= scheme.base.cyan %>; font-style: italic; } .param { color: <%= scheme.base.orange %>; } .current { text-decoration: underline; }'
 
 # >> General
 
@@ -591,6 +591,48 @@ settings:
   scope: markup.deleted.git_gutter
   settings:
     foreground: '<%= scheme.base.red %>'
+
+# >> Bracket Highlighter
+
+- name: Bracket Highlighter Default
+  scope: brackethighlighter.default
+  settings:
+    foreground: '<%= scheme.base.purple %>'
+
+- name: Bracket Highlighter Unmatched
+  scope: brackethighlighter.unmatched
+  settings:
+    foreground: '<%= scheme.base.red %>'
+
+- name: Bracket Highlighter Curly
+  scope: brackethighlighter.curly
+  settings:
+    foreground: '<%= scheme.base.violet %>'
+
+- name: Bracket Highlighter Round
+  scope: brackethighlighter.round
+  settings:
+    foreground: '<%= scheme.base.yellow %>'
+
+- name: Bracket Highlighter Square
+  scope: brackethighlighter.square
+  settings:
+    foreground: '<%= scheme.base.blue %>'
+
+- name: Bracket Highlighter Angle
+  scope: brackethighlighter.angle
+  settings:
+    foreground: '<%= scheme.base.orange %>'
+
+- name: Bracket Highlighter Tag
+  scope: brackethighlighter.tag
+  settings:
+    foreground: '<%= scheme.base.cyan %>'
+
+- name: Bracket Highlighter Quote
+  scope: brackethighlighter.quote
+  settings:
+    foreground: '<%= scheme.base.green %>'
 
 <% if (ui.variant.id == 'light') { %>
 # >> Gutter Color & Color Highlighter

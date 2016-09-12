@@ -10,6 +10,12 @@
   "border_color": [<%= ui.background.secondary.rgb %>]
 },
 
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_bar", "theme_unified"],
+  "border_color": [<%= ui.background.primary.rgb %>]
+},
+
 // Sidebar
 // ---------------------------------------------------------------------------
 
@@ -22,5 +28,11 @@
   "layer1.opacity": 1,
   "layer2.inner_margin": [0, 0, 7, 32],
   "layer2.texture": "Boxy Theme/assets/common/bar/shadow.png"
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar", "theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
 },
 

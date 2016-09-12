@@ -22,6 +22,7 @@
 //    2.2 Font
 //    2.3 Accent
 //    2.4 Icons
+//    2.5 Background
 //  3 Bar
 //  4 Tabs
 //    4.1 Tab Size
@@ -155,6 +156,9 @@
   // Set sky accent color
   "theme_accent_sky": false,
 
+  // Set monochrome accent color
+  "theme_accent_mono": false,
+
   //
   // >> 2.4 Icons
   // Choose one option from this section
@@ -165,7 +169,14 @@
   // Enable a beautiful Atom UI icons
   "theme_icons_atomized": false,
 
-  // Each one of them (except accent options) may be overridden by setting a
+  //
+  // >> 2.5 Background
+  //
+
+  // Enable the same background color for UI components
+  "theme_unified": false,
+
+  // Each one of them (except accent & background options) may be overridden by setting a
   // similar option specific to UI control.
 
   // For example, you want to increase font size of all UI controls via setting
@@ -243,6 +254,9 @@
 
   // Increase size of tabs to extra large
   "theme_tab_size_xl": false,
+
+  // Increase size of tabs to extra extra large
+  "theme_tab_size_xxl": false,
 
   // Auto adjust tab width from the name
   "theme_tab_width_auto": false,
@@ -370,6 +384,9 @@
   //
   // >> 5.1 Find Panel Size
   //
+
+  // Reduce size of the find panel to extra extra small
+  "theme_find_panel_size_xxs": false,
 
   // Reduce size of the find panel to extra small
   "theme_find_panel_size_xs": false,
@@ -676,6 +693,10 @@
 
   // Enable rounded scrollbars
   "theme_scrollbar_rounded": false,
+
+  // Enable semi overlayed scrollbars
+  // Works only with `"overlay_scroll_bars": "disabled"`
+  "theme_scrollbar_semi_overlayed": false,
 
   //
   // > 10 Tooltips

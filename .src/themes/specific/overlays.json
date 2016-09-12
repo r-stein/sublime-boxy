@@ -9,6 +9,12 @@
   "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/overlays/overlay.png"
 },
 
+{
+  "class": "overlay_control",
+  "settings": ["theme_unified"],
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/overlays/overlay_unified.png"
+},
+
 // Quick Panel
 // ---------------------------------------------------------------------------
 
@@ -22,19 +28,13 @@
 },
 
 {
-  "class": "quick_panel_row",
-  "layer0.tint": [<%= ui.background.secondary.rgb %>, 0]
-},
-
-{
-  "class": "quick_panel_row",
-  "parents": [{"class": "overlay_control"}],
-  "layer0.tint": [<%= ui.background.secondary.rgb %>, 0]
-},
-
-{
   "class": "quick_panel",
-  "parents": [{"class": "overlay_control"}],
+  "settings": ["theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "quick_panel_row",
   "layer0.tint": [<%= ui.background.secondary.rgb %>, 0]
 },
 

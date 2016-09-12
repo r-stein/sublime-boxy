@@ -321,6 +321,31 @@
   "content_margin": [20, 4, 12, 4]
 },
 
+{
+  "class": "tabset_control",
+  "settings": ["theme_tab_size_xxl"],
+  "tab_height": 54
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_size_xxl"],
+  "content_margin": [24, 4, 14, 4]
+},
+
+{
+  "class": "tab_control",
+  "settings": ["!show_tab_close_buttons", "theme_tab_size_xxl"],
+  "content_margin": [24, 4]
+},
+
+{
+  "class": "tab_control",
+  "settings": ["!show_tab_close_buttons", "highlight_modified_tabs", "theme_tab_size_xxl"],
+  "attributes": ["dirty"],
+  "content_margin": [24, 4, 14, 4]
+},
+
 
 //
 // Scrolling

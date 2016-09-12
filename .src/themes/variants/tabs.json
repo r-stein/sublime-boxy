@@ -181,6 +181,6 @@
   "class": "tab_close_button",
   "parents": [{"class": "tab_control", "attributes": ["selected"]}],
   "settings": ["theme_tab_selected_transparent"],
+  "attributes": ["hover"],
   "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_close.png"
 },
-

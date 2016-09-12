@@ -10,6 +10,12 @@
   "layer0.tint": [<%= ui.background.secondary.rgb %>]
 },
 
+{
+  "class": "tabset_control",
+  "settings": ["theme_bar", "theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
 // Tab
 // ---------------------------------------------------------------------------
 
@@ -17,6 +23,12 @@
   "class": "tab_control",
   "settings": ["theme_bar"],
   "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab_overlay.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_bar", "theme_unified"],
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab.png"
 },
 
 // Sidebar
@@ -466,3 +478,44 @@
   "content_margin": [0, 44, 1, 0]
 },
 
+//
+// Extra Extra Large
+//
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar", "theme_tab_size_xxl"],
+  "content_margin": [0, 54, 0, 0],
+  "layer1.inner_margin": [120, 54, 0, 0],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/bar/logo_xxl.png"
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar", "theme_tab_size_xxl", "theme_icons_materialized"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/bar/logo_materialized_xxl.png"
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar", "theme_tab_size_xxl", "theme_icons_atomized"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/bar/logo_atomized_xxl.png"
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar", "theme_tab_size_xxl", "theme_bar_logo_materialized"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/bar/logo_materialized_xxl.png"
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar", "theme_tab_size_xxl", "theme_bar_logo_atomized"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/bar/logo_atomized_xxl.png"
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_bar", "theme_tab_size_xxl", "theme_sidebar_border"],
+  "content_margin": [0, 54, 1, 0]
+},

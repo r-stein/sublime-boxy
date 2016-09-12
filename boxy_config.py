@@ -18,7 +18,8 @@ SUB_SECTIONS = OrderedDict(
 				'Size',
 				'Font',
 				'Accent',
-				'Icons'
+				'Icons',
+				'Background'
 			]
 		),
 		(
@@ -107,7 +108,8 @@ SUB_SECTION_OPTIONS = OrderedDict(
 				'theme_accent_cyan',
 				'theme_accent_lime',
 				'theme_accent_pink',
-				'theme_accent_sky'
+				'theme_accent_sky',
+				'theme_accent_mono'
 			]
 		),
 		(
@@ -116,6 +118,12 @@ SUB_SECTION_OPTIONS = OrderedDict(
 				'theme_icons_flat',
 				'theme_icons_materialized',
 				'theme_icons_atomized'
+			]
+		),
+		(
+			'Background',
+			[
+				'theme_unified'
 			]
 		),
 		(
@@ -144,6 +152,7 @@ SUB_SECTION_OPTIONS = OrderedDict(
 				'theme_tab_size_md',
 				'theme_tab_size_lg',
 				'theme_tab_size_xl',
+				'theme_tab_size_xxl',
 				'theme_tab_width_auto'
 			]
 		),
@@ -196,6 +205,7 @@ SUB_SECTION_OPTIONS = OrderedDict(
 		(
 			'Find Panel Size',
 			[
+				'theme_find_panel_size_xxs',
 				'theme_find_panel_size_xs',
 				'theme_find_panel_size_sm',
 				'theme_find_panel_size_md',
@@ -345,7 +355,8 @@ SECTION_OPTIONS = OrderedDict(
 			[
 				'theme_scrollbar_line',
 				'theme_scrollbar_colored',
-				'theme_scrollbar_rounded'
+				'theme_scrollbar_rounded',
+				'theme_scrollbar_semi_overlayed'
 			]
 		),
 		(

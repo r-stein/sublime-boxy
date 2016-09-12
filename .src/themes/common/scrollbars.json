@@ -92,7 +92,7 @@
   "class": "scroll_bar_control",
   "settings": ["overlay_scroll_bars"],
   "layer0.inner_margin": [0, 5],
-  "layer0.opacity": 0.1,
+  "layer0.opacity": 0.08,
   "blur": false
 },
 

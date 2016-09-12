@@ -13,6 +13,10 @@
       }
     },
     "background": {
+      "base": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      },
       "primary": {
         "hex": "#f7f7f7",
         "rgb": "247, 247, 247"
