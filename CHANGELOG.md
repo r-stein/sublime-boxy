@@ -1,3 +1,19 @@
+<a name="3.5.0"></a>
+# [3.5.0](https://github.com/oivva/boxy/compare/v3.4.0...v3.5.0) (2016-09-12)
+
+
+### Features
+
+* add a very large tab variant ([cb70304](https://github.com/oivva/boxy/commit/cb70304))
+* add Bracket Highlighter support ([366ce09](https://github.com/oivva/boxy/commit/366ce09))
+* add extra small variant of the find panel ([c95a8c9](https://github.com/oivva/boxy/commit/c95a8c9)), closes [#114](https://github.com/oivva/boxy/issues/114)
+* add monochrome accent ([4b9716b](https://github.com/oivva/boxy/commit/4b9716b)), closes [#102](https://github.com/oivva/boxy/issues/102)
+* add semi overlayed scrollbars ([d404995](https://github.com/oivva/boxy/commit/d404995)), closes [#116](https://github.com/oivva/boxy/issues/116)
+* add TypeScript popup styles ([b55345e](https://github.com/oivva/boxy/commit/b55345e)), closes [#103](https://github.com/oivva/boxy/issues/103)
+* add unified mode ([8251d08](https://github.com/oivva/boxy/commit/8251d08)), closes [#117](https://github.com/oivva/boxy/issues/117)
+
+
+
 <a name="3.4.0"></a>
 # [3.4.0](https://github.com/oivva/boxy/compare/v3.3.1...v3.4.0) (2016-08-22)
 
