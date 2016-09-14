@@ -113,7 +113,7 @@ gulp.task('bump-pkg-version', function() {
 });
 
 gulp.task('bump-env-version', function() {
-  return gulp.src('./boxy_environment.py')
+  return gulp.src('./plugins/environment.py')
     .pipe($.if((Object.keys(argv).length === 2), $.bump({ regex: envRegExp })))
     .pipe($.if(argv.patch, $.bump({ regex: envRegExp })))
     .pipe($.if(argv.minor, $.bump({ type: 'minor', regex: envRegExp })))
