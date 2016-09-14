@@ -24,6 +24,7 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 <a href="https://github.com/oivva/st-boxy#getting-started">Getting Started</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/st-boxy#installation">Installation</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/st-boxy#activation">Activation</a>&nbsp;
+▪&nbsp;<a href="https://github.com/oivva/st-boxy#icons">Icons</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/st-boxy#presets">Presets</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/st-boxy/wiki/Settings">Settings</a>&nbsp;
 ▪&nbsp;<a href="https://forum.sublimetext.com/t/boxy-the-most-hackable-theme-for-sublime-text-3/20564">Forum</a>&nbsp;
@@ -284,7 +285,6 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [upgrading]: https://github.com/oivva/st-boxy/wiki/Upgrading
 [website]: http://www.oivva.com/st-boxy/
 [wiki]: https://github.com/oivva/st-boxy/wiki
-[icon-extended]: https://github.com/oivva/st-file-icons-extended
 
 
 <!-- Images -->
@@ -323,4 +323,5 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [color-helper]: https://packagecontrol.io/packages/ColorHelper
 [color-highlighter]: https://packagecontrol.io/packages/Color%20Highlighter
 [git-gutter]: https://packagecontrol.io/packages/GitGutter
+[icon-extended]: https://packagecontrol.io/packages/File%20Icons%20Extended
 [sublime-linter]: https://packagecontrol.io/packages/SublimeLinter
