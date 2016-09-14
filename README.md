@@ -108,6 +108,10 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 [![Boxy Monokai][img-monokai]][img-monokai]
 
+### Icons
+
+If you want to have extended file icon support, you should install [File Icons Extended][icon-extended] package. It adds support of such icons as NPM, Gulpfile, Font & etc.
+
 ### Presets
 
 You can activate presets by using commands provided by the theme:
@@ -280,6 +284,7 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [upgrading]: https://github.com/oivva/st-boxy/wiki/Upgrading
 [website]: http://www.oivva.com/st-boxy/
 [wiki]: https://github.com/oivva/st-boxy/wiki
+[icon-extended]: https://github.com/oivva/st-file-icons-extended
 
 
 <!-- Images -->
