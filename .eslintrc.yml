@@ -13,3 +13,6 @@ rules:
     - error
     - always
   no-console: 0
+  no-unused-vars:
+    - warn
+
