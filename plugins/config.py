@@ -257,6 +257,7 @@ SUB_SECTION_OPTIONS = OrderedDict(
         (
             'Quick Panel Misc',
             [
+                'theme_quick_panel_border_visible',
                 'theme_quick_panel_item_selected_colored'
             ]
         ),

@@ -489,6 +489,9 @@
   // >> 6.2 Quick Panel Misc
   //
 
+  // Show quick panel border
+  "theme_quick_panel_border_visible": false,
+
   // Starting 3.0.0 quick panel selected item has no colored background,
   // this option turns it back
   "theme_quick_panel_item_selected_colored": false,

@@ -81,6 +81,7 @@ OPTIONS = [
     'theme_panel_switcher_atomized',
     'theme_panel_switcher_materialized',
     'theme_popup_border_visible',
+    'theme_quick_panel_border_visible',
     'theme_quick_panel_item_selected_colored',
     'theme_quick_panel_size_lg',
     'theme_quick_panel_size_md',
