@@ -5149,6 +5149,12 @@
   },
   
   {
+    "class": "overlay_control",
+    "settings": ["theme_quick_panel_border_visible"],
+    "content_margin": [15, 18, 15, 25]
+  },
+  
+  {
     "class": "text_line_control",
     "parents": [{"class": "overlay_control"}],
     "layer0.inner_margin": [15, 0, 15, 3],
@@ -5214,6 +5220,14 @@
   {
     "class": "overlay_control",
     "layer0.texture": "Boxy Theme/assets/specific/tomorrow/overlays/overlay.png"
+  },
+  
+  {
+    "class": "overlay_control",
+    "settings": ["theme_quick_panel_border_visible"],
+    "layer2.texture": "Boxy Theme/assets/variants/dark/highlight_overlay.png",
+    "layer2.opacity": 0.05,
+    "layer2.inner_margin": [15, 25]
   },
   
   {
