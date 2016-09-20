@@ -342,6 +342,9 @@
   // Enable a beautiful Material UI dirty pencil icon
   "theme_dirty_materialized": false,
 
+  // Make dirty icon to be always colored
+  "theme_dirty_colored_always": false,
+
   // The default accent of the dirty state
   "theme_dirty_accent_blue": false,
 

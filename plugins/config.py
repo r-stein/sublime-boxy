@@ -190,6 +190,7 @@ SUB_SECTION_OPTIONS = OrderedDict(
                 'theme_tab_highlight_text_only',
                 'theme_tab_close_always_visible',
                 'theme_dirty_materialized',
+                'theme_dirty_colored_always',
                 'theme_dirty_accent_blue',
                 'theme_dirty_accent_green',
                 'theme_dirty_accent_orange',
