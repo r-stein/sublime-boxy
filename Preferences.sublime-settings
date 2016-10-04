@@ -326,6 +326,9 @@
   // >> 4.4 Tab Misc
   //
 
+  // Show tab set line
+  "theme_tabset_line_visible": false,
+
   // Hide left arrows
   "theme_tab_arrows_hidden": false,
 

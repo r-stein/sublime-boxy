@@ -170,6 +170,7 @@ OPTIONS = [
     'theme_tab_size_xs',
     'theme_tab_size_xxl',
     'theme_tab_width_auto',
+    "theme_tabset_line_visible",
     'theme_tooltips_font_lg',
     'theme_tooltips_font_md',
     'theme_tooltips_font_sm',

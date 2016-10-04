@@ -203,7 +203,8 @@ SUB_SECTION_OPTIONS = OrderedDict(
                 'theme_tab_close_always_visible',
                 'theme_tab_highlight_text_only',
                 'theme_tab_mouse_wheel_switch',
-                'theme_tab_separator'
+                'theme_tab_separator',
+                'theme_tabset_line_visible'
             ]
         ),
         (
