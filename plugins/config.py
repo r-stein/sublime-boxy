@@ -16,11 +16,11 @@ SUB_SECTIONS = OrderedDict(
         (
             'Global',
             [
-                'Size',
-                'Font',
                 'Accent',
+                'Background',
+                'Font',
                 'Icons',
-                'Background'
+                'Size'
             ]
         ),
         (
@@ -33,44 +33,44 @@ SUB_SECTIONS = OrderedDict(
         (
             'Tabs',
             [
-                'Tab Size',
-                'Tab Font',
                 'Tab Flavors',
-                'Tab Misc'
+                'Tab Font',
+                'Tab Misc',
+                'Tab Size'
             ]
         ),
         (
             'Find Panels',
             [
-                'Find Panel Size',
                 'Find Panel Font',
+                'Find Panel Misc',
                 'Find Panel Padding',
-                'Find Panel Misc'
+                'Find Panel Size'
             ]
         ),
         (
             'Quick Panels',
             [
-                'Quick Panel Size',
-                'Quick Panel Misc'
+                'Quick Panel Misc',
+                'Quick Panel Size'
             ]
         ),
         (
             'Sidebar',
             [
-                'Sidebar Size',
                 'Sidebar Font',
-                'Sidebar Indent',
                 'Sidebar Icons',
-                'Sidebar Misc'
+                'Sidebar Indent',
+                'Sidebar Misc',
+                'Sidebar Size'
             ]
         ),
         (
             'Status Bar',
             [
-                'Status Bar Size',
+                'Status Bar Flavors',
                 'Status Bar Font',
-                'Status Bar Flavors'
+                'Status Bar Size'
             ]
         )
     ]
@@ -102,24 +102,24 @@ SUB_SECTION_OPTIONS = OrderedDict(
             'Accent',
             [
                 'theme_accent_blue',
-                'theme_accent_green',
-                'theme_accent_orange',
-                'theme_accent_purple',
-                'theme_accent_tangerine',
                 'theme_accent_cyan',
+                'theme_accent_green',
                 'theme_accent_lime',
-                'theme_accent_pink',
-                'theme_accent_sky',
+                'theme_accent_mono',
                 'theme_accent_numix',
-                'theme_accent_mono'
+                'theme_accent_orange',
+                'theme_accent_pink',
+                'theme_accent_purple',
+                'theme_accent_sky',
+                'theme_accent_tangerine'
             ]
         ),
         (
             'Icons',
             [
+                'theme_icons_atomized',
                 'theme_icons_flat',
-                'theme_icons_materialized',
-                'theme_icons_atomized'
+                'theme_icons_materialized'
             ]
         ),
         (
@@ -133,8 +133,8 @@ SUB_SECTION_OPTIONS = OrderedDict(
             [
                 'theme_bar',
                 'theme_bar_colored',
-                'theme_bar_logo_materialized',
                 'theme_bar_logo_atomized',
+                'theme_bar_logo_materialized',
                 'theme_bar_shadow_hidden'
             ]
         ),
@@ -173,37 +173,37 @@ SUB_SECTION_OPTIONS = OrderedDict(
         (
             'Tab Flavors',
             [
-                'theme_tab_rounded',
-                'theme_tab_selected_underlined',
-                'theme_tab_selected_prelined',
-                'theme_tab_selected_filled',
-                'theme_tab_selected_transparent',
+                'theme_tab_line_size_lg',
                 'theme_tab_line_size_sm',
-                'theme_tab_line_size_lg'
+                'theme_tab_rounded',
+                'theme_tab_selected_filled',
+                'theme_tab_selected_prelined',
+                'theme_tab_selected_transparent',
+                'theme_tab_selected_underlined'
             ]
         ),
         (
             'Tab Misc',
             [
-                'theme_tab_arrows_hidden',
-                'theme_tab_mouse_wheel_switch',
-                'theme_tab_separator',
-                'theme_tab_highlight_text_only',
-                'theme_tab_close_always_visible',
-                'theme_dirty_materialized',
-                'theme_dirty_colored_always',
                 'theme_dirty_accent_blue',
-                'theme_dirty_accent_green',
-                'theme_dirty_accent_orange',
-                'theme_dirty_accent_purple',
-                'theme_dirty_accent_tangerine',
                 'theme_dirty_accent_cyan',
+                'theme_dirty_accent_green',
                 'theme_dirty_accent_lime',
-                'theme_dirty_accent_pink',
-                'theme_dirty_accent_sky',
                 'theme_dirty_accent_numix',
+                'theme_dirty_accent_orange',
+                'theme_dirty_accent_pink',
+                'theme_dirty_accent_purple',
+                'theme_dirty_accent_sky',
+                'theme_dirty_accent_tangerine',
+                'theme_dirty_colored_always',
+                'theme_dirty_materialized',
+                'theme_dropdown_atomized',
                 'theme_dropdown_materialized',
-                'theme_dropdown_atomized'
+                'theme_tab_arrows_hidden',
+                'theme_tab_close_always_visible',
+                'theme_tab_highlight_text_only',
+                'theme_tab_mouse_wheel_switch',
+                'theme_tab_separator'
             ]
         ),
         (
@@ -240,11 +240,11 @@ SUB_SECTION_OPTIONS = OrderedDict(
         (
             'Find Panel Misc',
             [
-                'theme_find_panel_close_hidden',
                 'theme_button_rounded',
-                'theme_icon_button_highlighted',
+                'theme_find_panel_atomized',
+                'theme_find_panel_close_hidden',
                 'theme_find_panel_materialized',
-                'theme_find_panel_atomized'
+                'theme_icon_button_highlighted'
             ]
         ),
         (
@@ -298,16 +298,16 @@ SUB_SECTION_OPTIONS = OrderedDict(
         (
             'Sidebar Icons',
             [
+                'theme_sidebar_close_always_visible',
+                'theme_sidebar_disclosure',
                 'theme_sidebar_file_icons_hidden',
                 'theme_sidebar_folder_arrow',
-                'theme_sidebar_disclosure',
-                'theme_sidebar_folder_mono',
-                'theme_sidebar_close_always_visible',
-                'theme_sidebar_folder_materialized',
                 'theme_sidebar_folder_atomized',
+                'theme_sidebar_folder_materialized',
+                'theme_sidebar_folder_mono',
+                'theme_sidebar_icon_saturation_hg',
                 'theme_sidebar_icon_saturation_lw',
                 'theme_sidebar_icon_saturation_md',
-                'theme_sidebar_icon_saturation_hg',
                 'theme_sidebar_icon_saturation_xh'
             ]
         ),
@@ -315,10 +315,10 @@ SUB_SECTION_OPTIONS = OrderedDict(
             'Sidebar Misc',
             [
                 'theme_sidebar_border',
-                'theme_sidebar_indent_top_level_disabled',
-                'theme_sidebar_highlight_text_only',
+                'theme_sidebar_heading_bold',
                 'theme_sidebar_highlight_selected_text_only',
-                'theme_sidebar_heading_bold'
+                'theme_sidebar_highlight_text_only',
+                'theme_sidebar_indent_top_level_disabled'
             ]
         ),
         (
@@ -334,20 +334,20 @@ SUB_SECTION_OPTIONS = OrderedDict(
         (
             'Status Bar Font',
             [
-                'theme_statusbar_label_bold',
                 'theme_statusbar_font_xs',
                 'theme_statusbar_font_sm',
                 'theme_statusbar_font_md',
                 'theme_statusbar_font_lg',
-                'theme_statusbar_font_xl'
+                'theme_statusbar_font_xl',
+                'theme_statusbar_label_bold'
             ]
         ),
         (
             'Status Bar Flavors',
             [
-                'theme_statusbar_colored',
+                'theme_panel_switcher_atomized',
                 'theme_panel_switcher_materialized',
-                'theme_panel_switcher_atomized'
+                'theme_statusbar_colored'
             ]
         )
     ]
@@ -358,8 +358,8 @@ SECTION_OPTIONS = OrderedDict(
         (
             'Scrollbars',
             [
-                'theme_scrollbar_line',
                 'theme_scrollbar_colored',
+                'theme_scrollbar_line',
                 'theme_scrollbar_rounded',
                 'theme_scrollbar_semi_overlayed'
             ]

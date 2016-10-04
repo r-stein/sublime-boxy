@@ -14,10 +14,10 @@ NO_SELECTION = -1
 PREFERENCES = 'Preferences.sublime-settings'
 
 THEMES = [
-    'Boxy Yesterday',
-    'Boxy Tomorrow',
+    'Boxy Monokai',
     'Boxy Ocean',
-    'Boxy Monokai'
+    'Boxy Tomorrow',
+    'Boxy Yesterday'
 ]
 
 

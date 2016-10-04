@@ -20,14 +20,11 @@ PLAIN_NOTES = 'PlainNotes'
 EXTRAS = OrderedDict(
     [
         (
-            'SublimeLinter',
+            'PlainNotes',
             {
-                'name': 'Sublime Linter',
-                'settings': 'SublimeLinter.sublime-settings',
-                'desc': 'Activate a gutter theme',
-                'revert': 'Revert the gutter theme to the defaults',
-                'boxy': 'Packages/Boxy Theme/extras/SublimeLinter/Boxy.gutter-theme',
-                'default': 'Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme'
+                'name': 'Plain Notes',
+                'settings': 'Note.sublime-settings',
+                'desc': 'Choose a color scheme'
             }
         ),
         (
@@ -39,21 +36,24 @@ EXTRAS = OrderedDict(
             }
         ),
         (
-            'PlainNotes',
+            'SublimeLinter',
             {
-                'name': 'Plain Notes',
-                'settings': 'Note.sublime-settings',
-                'desc': 'Choose a color scheme'
+                'name': 'Sublime Linter',
+                'settings': 'SublimeLinter.sublime-settings',
+                'desc': 'Activate a gutter theme',
+                'revert': 'Revert the gutter theme to the defaults',
+                'boxy': 'Packages/Boxy Theme/extras/SublimeLinter/Boxy.gutter-theme',
+                'default': 'Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme'
             }
         )
     ]
 )
 
 THEMES = [
-    'Boxy Yesterday',
-    'Boxy Tomorrow',
+    'Boxy Monokai',
     'Boxy Ocean',
-    'Boxy Monokai'
+    'Boxy Tomorrow',
+    'Boxy Yesterday'
 ]
 
 

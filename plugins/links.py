@@ -16,7 +16,7 @@ class BoxyDonateCommand(sublime_plugin.WindowCommand):
 
 class BoxyForumCommand(sublime_plugin.WindowCommand):
     def run(self):
-        webbrowser.open_new_tab('https://forum.sublimetext.com/t/boxy-the-most-hackable-theme-for-sublime-text-3/20564')
+        webbrowser.open_new_tab('https://forum.sublimetext.com/t/boxy-the-most-hackable-theme-for-sublime-text-3')
 
 
 class BoxyIssuesCommand(sublime_plugin.WindowCommand):
