@@ -156,6 +156,9 @@
   // Set sky accent color
   "theme_accent_sky": false,
 
+  // Set numix accent color
+  "theme_accent_numix": false,
+
   // Set monochrome accent color
   "theme_accent_mono": false,
 
@@ -371,6 +374,9 @@
 
   // Set sky accent color for the dirty state
   "theme_dirty_accent_sky": false,
+
+  // Set numix accent color for the dirty state
+  "theme_dirty_accent_numix": false,
 
   // Enable a beautiful Material UI dropdown icon
   "theme_dropdown_materialized": false,
