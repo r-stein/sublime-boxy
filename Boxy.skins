@@ -1,0 +1,26 @@
+{
+  "Boxy Yesterday": {
+    "Preferences": {
+      "theme": "Boxy Yesterday.sublime-theme",
+      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme"
+    }
+  },
+  "Boxy Tomorrow": {
+    "Preferences": {
+      "theme": "Boxy Tomorrow.sublime-theme",
+      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme"
+    }
+  },
+  "Boxy Ocean": {
+    "Preferences": {
+      "theme": "Boxy Ocean.sublime-theme",
+      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme"
+    }
+  },
+  "Boxy Monokai": {
+    "Preferences": {
+      "theme": "Boxy Monokai.sublime-theme",
+      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme"
+    }
+  }
+}
