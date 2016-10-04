@@ -26,7 +26,7 @@ var $ = require('gulp-load-plugins')();
  * > Settings
  */
 
-var common = require('./.src/settings/common.json');
+var common = require('./sources/settings/common.json');
 var envRegExp = new RegExp('([\'|\"]?__version__[\'|\"]?[ ]*[:|=][ ]*[\'|\"]?)(\\d+\\.\\d+\\.\\d+)(-[0-9A-Za-z\.-]+)?([\'|\"]?)', 'i');
 
 /*
@@ -79,14 +79,14 @@ gulp.task('build', function(cb) {
 /* >> Themes */
 
 gulp.task('build:themes', ['clean:themes'], function() {
-  return gulp.src('./.src/themes/*.json')
+  return gulp.src('./sources/themes/*.json')
     .pipe($.plumber(function(error) {
       console.log('[build:themes]'.bold.magenta + ' There was an issue building themes:\n'.bold.red + error.message);
       this.emit('end');
     }))
     .pipe($.include())
     .pipe($.data(function(file) {
-      var specific = require('./.src/settings/specific/' +
+      var specific = require('./sources/settings/specific/' +
           path.basename(file.path));
 
       return _.merge(common, specific);
@@ -121,11 +121,11 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
 });
 
 gulp.task('process:schemes', function() {
-  return gulp.src('./.src/settings/specific/*.json')
+  return gulp.src('./sources/settings/specific/*.json')
     .pipe($.flatmap(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
-      return gulp.src('./.src/schemes/scheme.YAML-tmTheme')
+      return gulp.src('./sources/schemes/scheme.YAML-tmTheme')
         .pipe($.data(function() {
           var specific = require(file.path);
 
@@ -174,11 +174,11 @@ gulp.task('build:widgets', ['clean:widgets'], function(cb) {
 });
 
 gulp.task('build:widget-themes', function() {
-  return gulp.src('./.src/settings/specific/*.json')
+  return gulp.src('./sources/settings/specific/*.json')
     .pipe($.flatmap(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
-      return gulp.src('./.src/widgets/widget.stTheme')
+      return gulp.src('./sources/widgets/widget.stTheme')
         .pipe($.data(function() {
           var specific = require(file.path);
 
@@ -193,11 +193,11 @@ gulp.task('build:widget-themes', function() {
 });
 
 gulp.task('build:widget-settings', function() {
-  return gulp.src('./.src/settings/specific/*.json')
+  return gulp.src('./sources/settings/specific/*.json')
     .pipe($.flatmap(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
-      return gulp.src('./.src/widgets/widget.sublime-settings')
+      return gulp.src('./sources/widgets/widget.sublime-settings')
         .pipe($.data(function() {
           var specific = require(file.path);
 
@@ -230,11 +230,11 @@ gulp.task('build:extras', ['clean:extras'], function(cb) {
 });
 
 gulp.task('process:extras', function() {
-  return gulp.src('./.src/settings/specific/*.json')
+  return gulp.src('./sources/settings/specific/*.json')
     .pipe($.flatmap(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
-      return gulp.src('./.src/extras/**/*.YAML-tmTheme')
+      return gulp.src('./sources/extras/**/*.YAML-tmTheme')
         .pipe($.data(function() {
           var specific = require(file.path);
 
@@ -283,11 +283,11 @@ gulp.task('build:addons', ['clean:addons'], function(cb) {
 });
 
 gulp.task('build:addon-themes', function() {
-  return gulp.src('./.src/settings/specific/*.json')
+  return gulp.src('./sources/settings/specific/*.json')
     .pipe($.flatmap(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
-      return gulp.src('./.src/addons/**/*.addon-theme')
+      return gulp.src('./sources/addons/**/*.addon-theme')
         .pipe($.data(function() {
           var specific = require(file.path);
 
@@ -302,11 +302,11 @@ gulp.task('build:addon-themes', function() {
 });
 
 gulp.task('build:addon-settings', function() {
-  return gulp.src('./.src/settings/specific/*.json')
+  return gulp.src('./sources/settings/specific/*.json')
     .pipe($.flatmap(function(stream, file) {
       var basename = 'Boxy ' + _.startCase(path.basename(file.path, path.extname(file.path)));
 
-      return gulp.src('./.src/addons/**/*.addon-settings')
+      return gulp.src('./sources/addons/**/*.addon-settings')
         .pipe($.data(function() {
           var specific = require(file.path);
 
@@ -420,12 +420,12 @@ gulp.task('github-release', function(done) {
  */
 
 gulp.task('watch', function() {
-  gulp.watch('./.src/themes/**/*.json', ['build:themes']);
-  gulp.watch('./.src/schemes/scheme.YAML-tmTheme', ['build:schemes']);
-  gulp.watch('./.src/extras/**/*.YAML-tmTheme', ['build:extras']);
-  gulp.watch('./.src/addons/**/*.*', ['build:addons']);
-  gulp.watch('./.src/widgets/widget.*', ['build:widgets']);
-  gulp.watch('./.src/settings/**/*.json', ['build:schemes', 'build:extras', 'build:widgets', 'build:themes']);
+  gulp.watch('./sources/themes/**/*.json', ['build:themes']);
+  gulp.watch('./sources/schemes/scheme.YAML-tmTheme', ['build:schemes']);
+  gulp.watch('./sources/extras/**/*.YAML-tmTheme', ['build:extras']);
+  gulp.watch('./sources/addons/**/*.*', ['build:addons']);
+  gulp.watch('./sources/widgets/widget.*', ['build:widgets']);
+  gulp.watch('./sources/settings/**/*.json', ['build:schemes', 'build:extras', 'build:widgets', 'build:themes']);
 });
 
 
