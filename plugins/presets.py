@@ -19,6 +19,7 @@ OPTIONS = [
     'theme_accent_green',
     'theme_accent_lime',
     'theme_accent_mono',
+    'theme_accent_numix',
     'theme_accent_orange',
     'theme_accent_pink',
     'theme_accent_purple',
@@ -43,6 +44,7 @@ OPTIONS = [
     'theme_dirty_accent_lime',
     'theme_dirty_accent_pink',
     'theme_dirty_accent_sky',
+    'theme_dirty_accent_numix',
     'theme_dirty_colored_always',
     'theme_dirty_materialized',
     'theme_dropdown_atomized',
@@ -248,6 +250,28 @@ PRESETS = OrderedDict(
                 'theme_sidebar_indent_sm',
                 'theme_statusbar_colored',
                 'theme_tab_highlight_text_only'
+            ]
+        ),
+        (
+            'Numix',
+            [
+                'theme_accent_numix',
+                'theme_autocomplete_item_selected_colored',
+                'theme_dropdown_atomized',
+                'theme_find_panel_materialized',
+                'theme_font_md',
+                'theme_grid_border_size_xs',
+                'theme_popup_border_visible',
+                'theme_quick_panel_border_visible',
+                'theme_quick_panel_item_selected_colored',
+                'theme_scrollbar_colored',
+                'theme_scrollbar_line',
+                'theme_sidebar_border',
+                'theme_sidebar_disclosure',
+                'theme_tab_selected_transparent',
+                'theme_tab_selected_underlined',
+                'theme_tab_size_lg',
+                'theme_unified'
             ]
         )
     ]
