@@ -21,7 +21,45 @@ settings:
     guide: '<%= ui.variant.highlight.hex %>25'
     stackGuide: '<%= ui.variant.highlight.hex %>40'
     activeGuide: '<%= ui.variant.highlight.hex %>55'
-    popupCss: 'html { background-color: <%= ui.background.secondary.hex %>; color: <%= scheme.foreground %>; } a { color: <%= scheme.base.blue %>; } .error, .deleted { color: <%= scheme.base.red %>; } .success, .inserted, .name { color: <%= scheme.base.green %>; } .warning, .modified { color: <%= scheme.base.yellow %>; } .type { color: <%= scheme.base.cyan %>; font-style: italic; } .param { color: <%= scheme.base.orange %>; } .current { text-decoration: underline; }'
+    popupCss: |
+
+      html {
+        background-color: <%= ui.background.secondary.hex %>;
+        color: <%= scheme.foreground %>;
+      }
+
+      a {
+        color: <%= scheme.base.blue %>;
+      }
+
+      .error,
+      .deleted {
+        color: <%= scheme.base.red %>;
+      }
+
+      .success,
+      .inserted,
+      .name {
+        color: <%= scheme.base.green %>;
+      }
+
+      .warning,
+      .modified {
+        color: <%= scheme.base.yellow %>;
+      }
+
+      .type {
+        color: <%= scheme.base.cyan %>;
+        font-style: italic;
+      }
+
+      .param {
+        color: <%= scheme.base.orange %>;
+      }
+
+      .current {
+        text-decoration: underline;
+      }
 
 # >> General
 
