@@ -1,18 +1,6 @@
 // Tabs Mono Accent
 // ===========================================================================
 
-// Tabset
-// ---------------------------------------------------------------------------
-
-{
-  "class": "tabset_control",
-  "layer1.inner_margin": [2, 2],
-  "layer1.opacity": 0.4,
-  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_selected_underlined.png",
-  "settings": ["theme_tabset_line_visible"],
-  "content_margin": [0, 0, 0, 2]
-},
-
 // Tab
 // ---------------------------------------------------------------------------
 
@@ -112,6 +100,8 @@
 
 {
   "class": "tabset_control",
+  "content_margin": [0, 0, 0, 2],
+  "layer1.inner_margin": [2, 2],
   "layer1.opacity": 1.0,
   "layer1.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_underlined.png",
   "settings": ["!theme_accent_mono", "theme_tabset_line_visible"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>]
