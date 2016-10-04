@@ -5,7 +5,6 @@
 
 'use strict';
 
-
 /*
  * > Plugins
  */
@@ -23,14 +22,12 @@ var fs = require('fs');
 var _ = require('lodash');
 var $ = require('gulp-load-plugins')();
 
-
 /*
  * > Settings
  */
 
 var common = require('./.src/settings/common.json');
 var envRegExp = new RegExp('([\'|\"]?__version__[\'|\"]?[ ]*[:|=][ ]*[\'|\"]?)(\\d+\\.\\d+\\.\\d+)(-[0-9A-Za-z\.-]+)?([\'|\"]?)', 'i');
-
 
 /*
  * > Clean
@@ -55,124 +52,6 @@ gulp.task('clean:extras', function() {
 gulp.task('clean:addons', function() {
   return del(['./addons/**/*.addon-theme', './addons/**/*.addon-settings']);
 });
-
-
-/*
- * > Generate CHANGELOG
- */
-
-gulp.task('changelog', function() {
-  return conventionalChangelog({
-    preset: 'angular',
-    releaseCount: 0
-  })
-  .pipe(fs.createWriteStream('CHANGELOG.md'));
-});
-
-
-/*
- * > Github Release
- */
-
-gulp.task('github-release', function(done) {
-  conventionalGithubReleaser({
-    type: 'oauth',
-    token: process.env.CONVENTIONAL_GITHUB_RELEASER_TOKEN
-  }, {
-    preset: 'angular'
-  }, done);
-});
-
-
-/*
- * > Bump Version
- */
-
-gulp.task('bump', function(cb) {
-  runSequence(
-    'bump-pkg-version',
-    'bump-env-version',
-    function (error) {
-      if (error) {
-        console.log('[bump]'.bold.magenta + ' There was an issue bumping version:\n'.bold.red + error.message);
-      } else {
-        console.log('[bump]'.bold.magenta + ' Finished successfully'.bold.green);
-      }
-      cb(error);
-    }
-  );
-});
-
-gulp.task('bump-pkg-version', function() {
-  return gulp.src('./package.json')
-    .pipe($.if((Object.keys(argv).length === 2), $.bump()))
-    .pipe($.if(argv.patch, $.bump()))
-    .pipe($.if(argv.minor, $.bump({ type: 'minor' })))
-    .pipe($.if(argv.major, $.bump({ type: 'major' })))
-    .pipe(gulp.dest('./'));
-});
-
-gulp.task('bump-env-version', function() {
-  return gulp.src('./plugins/environment.py')
-    .pipe($.if((Object.keys(argv).length === 2), $.bump({ regex: envRegExp })))
-    .pipe($.if(argv.patch, $.bump({ regex: envRegExp })))
-    .pipe($.if(argv.minor, $.bump({ type: 'minor', regex: envRegExp })))
-    .pipe($.if(argv.major, $.bump({ type: 'major', regex: envRegExp })))
-    .pipe(gulp.dest('./'));
-});
-
-
-/*
- * > Git
- */
-
-gulp.task('commit-version', function() {
-  return gulp.src('.')
-    .pipe($.git.add())
-    .pipe($.git.commit('chore: bump version number'));
-});
-
-gulp.task('commit-changelog', function() {
-  return gulp.src('.')
-    .pipe($.git.add())
-    .pipe($.git.commit('chore: update CHANGELOG.md'));
-});
-
-gulp.task('create-new-tag', function(cb) {
-  var version = getPackageJsonVersion();
-
-  $.git.tag('v' + version, 'version: ' + version, function (error) {
-    if (error) {
-      return cb(error);
-    }
-    $.git.push('origin', 'master', {args: '--tags'}, cb);
-  });
-
-  function getPackageJsonVersion() {
-    return JSON.parse(fs.readFileSync('./package.json', 'utf8')).version;
-  }
-});
-
-
-/*
- * > Release
- */
-
-gulp.task('release', function(cb) {
-  runSequence(
-    'create-new-tag',
-    'github-release',
-    function (error) {
-      if (error) {
-        console.log('[release]'.bold.magenta + ' There was an issue releasing themes:\n'.bold.red + error.message);
-      } else {
-        console.log('[release]'.bold.magenta + ' Finished successfully'.bold.green);
-      }
-      cb(error);
-    }
-  );
-});
-
 
 /*
  * > Build
@@ -441,7 +320,6 @@ gulp.task('build:addon-settings', function() {
     }));
 });
 
-
 /*
  * > Images
  */
@@ -464,14 +342,76 @@ gulp.task('optimize', function(cb) {
 
 gulp.task('optimize:assets', function() {
   return gulp.src('./assets/**/*.png')
-    .pipe($.imagemin({verbose: true}))
+    .pipe($.imagemin([$.imagemin.optipng({
+      bitDepthReduction: false,
+      colorTypeReduction: false,
+      paletteReduction: false
+    })], {verbose: true}))
     .pipe(gulp.dest('./assets'));
 });
 
 gulp.task('optimize:icons', function() {
   return gulp.src('./icons/*.png')
-    .pipe($.imagemin({verbose: true}))
+    .pipe($.imagemin([$.imagemin.optipng({
+      bitDepthReduction: false,
+      colorTypeReduction: false,
+      paletteReduction: false
+    })], {verbose: true}))
     .pipe(gulp.dest('./icons'));
+});
+
+/*
+ * > Release
+ */
+
+gulp.task('changelog', function() {
+  return conventionalChangelog({
+    preset: 'angular',
+    releaseCount: 0
+  })
+  .pipe(fs.createWriteStream('CHANGELOG.md'));
+});
+
+gulp.task('bump', function(cb) {
+  runSequence(
+    'bump-pkg-version',
+    'bump-env-version',
+    function (error) {
+      if (error) {
+        console.log('[bump]'.bold.magenta + ' There was an issue bumping version:\n'.bold.red + error.message);
+      } else {
+        console.log('[bump]'.bold.magenta + ' Finished successfully'.bold.green);
+      }
+      cb(error);
+    }
+  );
+});
+
+gulp.task('bump-pkg-version', function() {
+  return gulp.src('./package.json')
+    .pipe($.if((Object.keys(argv).length === 2), $.bump()))
+    .pipe($.if(argv.patch, $.bump()))
+    .pipe($.if(argv.minor, $.bump({ type: 'minor' })))
+    .pipe($.if(argv.major, $.bump({ type: 'major' })))
+    .pipe(gulp.dest('./'));
+});
+
+gulp.task('bump-env-version', function() {
+  return gulp.src('./plugins/environment.py')
+    .pipe($.if((Object.keys(argv).length === 2), $.bump({ regex: envRegExp })))
+    .pipe($.if(argv.patch, $.bump({ regex: envRegExp })))
+    .pipe($.if(argv.minor, $.bump({ type: 'minor', regex: envRegExp })))
+    .pipe($.if(argv.major, $.bump({ type: 'major', regex: envRegExp })))
+    .pipe(gulp.dest('./'));
+});
+
+gulp.task('github-release', function(done) {
+  conventionalGithubReleaser({
+    type: 'oauth',
+    token: process.env.CONVENTIONAL_GITHUB_RELEASER_TOKEN
+  }, {
+    preset: 'angular'
+  }, done);
 });
 
 
