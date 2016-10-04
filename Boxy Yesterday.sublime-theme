@@ -13230,6 +13230,18 @@
   // Tabs Mono Accent
   // ===========================================================================
   
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "layer1.inner_margin": [2, 2],
+    "layer1.opacity": 0.4,
+    "layer1.texture": "Boxy Theme/assets/variants/light/tabs/tab_selected_underlined.png",
+    "settings": ["theme_tabset_line_visible"],
+    "content_margin": [0, 0, 0, 2]
+  },
+  
   // Tab
   // ---------------------------------------------------------------------------
   
@@ -13323,6 +13335,16 @@
   
   // Tabs Blue Accent
   // ===========================================================================
+  
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "layer1.opacity": 1.0,
+    "layer1.texture": "Boxy Theme/assets/accents/blue/tabs/tab_selected_underlined.png",
+    "settings": ["!theme_accent_mono", "theme_tabset_line_visible"]
+  },
   
   // Tab
   // ---------------------------------------------------------------------------
@@ -13520,6 +13542,16 @@
   // Tabs Green Accent
   // ===========================================================================
   
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "layer1.opacity": 1.0,
+    "layer1.texture": "Boxy Theme/assets/accents/green/tabs/tab_selected_underlined.png",
+    "settings": ["!theme_accent_mono", "theme_tabset_line_visible", "theme_accent_green"]
+  },
+  
   // Tab
   // ---------------------------------------------------------------------------
   
@@ -13715,6 +13747,16 @@
   
   // Tabs Orange Accent
   // ===========================================================================
+  
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "layer1.opacity": 1.0,
+    "layer1.texture": "Boxy Theme/assets/accents/orange/tabs/tab_selected_underlined.png",
+    "settings": ["!theme_accent_mono", "theme_tabset_line_visible", "theme_accent_orange"]
+  },
   
   // Tab
   // ---------------------------------------------------------------------------
@@ -13912,6 +13954,16 @@
   // Tabs Purple Accent
   // ===========================================================================
   
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "layer1.opacity": 1.0,
+    "layer1.texture": "Boxy Theme/assets/accents/purple/tabs/tab_selected_underlined.png",
+    "settings": ["!theme_accent_mono", "theme_tabset_line_visible", "theme_accent_purple"]
+  },
+  
   // Tab
   // ---------------------------------------------------------------------------
   
@@ -14107,6 +14159,16 @@
   
   // Tabs Tangerine Accent
   // ===========================================================================
+  
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "layer1.opacity": 1.0,
+    "layer1.texture": "Boxy Theme/assets/accents/tangerine/tabs/tab_selected_underlined.png",
+    "settings": ["!theme_accent_mono", "theme_tabset_line_visible", "theme_accent_tangerine"]
+  },
   
   // Tab
   // ---------------------------------------------------------------------------
@@ -14304,6 +14366,16 @@
   // Tabs Cyan Accent
   // ===========================================================================
   
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "layer1.opacity": 1.0,
+    "layer1.texture": "Boxy Theme/assets/accents/cyan/tabs/tab_selected_underlined.png",
+    "settings": ["!theme_accent_mono", "theme_tabset_line_visible", "theme_accent_cyan"]
+  },
+  
   // Tab
   // ---------------------------------------------------------------------------
   
@@ -14499,6 +14571,16 @@
   
   // Tabs Lime Accent
   // ===========================================================================
+  
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "layer1.opacity": 1.0,
+    "layer1.texture": "Boxy Theme/assets/accents/lime/tabs/tab_selected_underlined.png",
+    "settings": ["!theme_accent_mono", "theme_tabset_line_visible", "theme_accent_lime"]
+  },
   
   // Tab
   // ---------------------------------------------------------------------------
@@ -14696,6 +14778,16 @@
   // Tabs Pink Accent
   // ===========================================================================
   
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "layer1.opacity": 1.0,
+    "layer1.texture": "Boxy Theme/assets/accents/pink/tabs/tab_selected_underlined.png",
+    "settings": ["!theme_accent_mono", "theme_tabset_line_visible", "theme_accent_pink"]
+  },
+  
   // Tab
   // ---------------------------------------------------------------------------
   
@@ -14892,6 +14984,16 @@
   // Tabs Sky Accent
   // ===========================================================================
   
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "layer1.opacity": 1.0,
+    "layer1.texture": "Boxy Theme/assets/accents/sky/tabs/tab_selected_underlined.png",
+    "settings": ["!theme_accent_mono", "theme_tabset_line_visible", "theme_accent_sky"]
+  },
+  
   // Tab
   // ---------------------------------------------------------------------------
   
@@ -15087,6 +15189,16 @@
   
   // Tabs Numix Accent
   // ===========================================================================
+  
+  // Tabset
+  // ---------------------------------------------------------------------------
+  
+  {
+    "class": "tabset_control",
+    "layer1.opacity": 1.0,
+    "layer1.texture": "Boxy Theme/assets/accents/numix/tabs/tab_selected_underlined.png",
+    "settings": ["!theme_accent_mono", "theme_tabset_line_visible", "theme_accent_numix"]
+  },
   
   // Tab
   // ---------------------------------------------------------------------------
