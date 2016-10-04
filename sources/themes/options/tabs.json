@@ -32,6 +32,12 @@
   "content_margin": [0, 4, 0, 0]
 },
 
+{
+  "class": "tabset_control",
+  "settings": ["theme_bar_margin_top_sm", "!theme_bar", "theme_tabset_line_visible"],
+  "content_margin": [0, 2, 0, 2]
+},
+
 // Medium
 
 {
@@ -40,12 +46,24 @@
   "content_margin": [0, 6, 0, 0]
 },
 
+{
+  "class": "tabset_control",
+  "settings": ["theme_bar_margin_top_md", "!theme_bar", "theme_tabset_line_visible"],
+  "content_margin": [0, 4, 0, 2]
+},
+
 // Large
 
 {
   "class": "tabset_control",
   "settings": ["theme_bar_margin_top_lg", "!theme_bar"],
   "content_margin": [0, 8, 0, 0]
+},
+
+{
+  "class": "tabset_control",
+  "settings": ["theme_bar_margin_top_lg", "!theme_bar", "theme_tabset_line_visible"],
+  "content_margin": [0, 6, 0, 2]
 },
 
 //
