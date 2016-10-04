@@ -159,6 +159,7 @@ OPTIONS = [
     'theme_tab_rounded',
     'theme_tab_selected_filled',
     'theme_tab_selected_label_bold',
+    'theme_tab_selected_overlined',
     'theme_tab_selected_prelined',
     'theme_tab_selected_transparent',
     'theme_tab_selected_underlined',

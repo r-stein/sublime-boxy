@@ -299,6 +299,9 @@
   // Add rounded corners to the tabs
   "theme_tab_rounded": false,
 
+  // Set overlined style to the selected tab
+  "theme_tab_selected_overlined": false,
+
   // Set underlined style to the selected tab
   "theme_tab_selected_underlined": false,
 

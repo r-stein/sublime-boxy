@@ -559,6 +559,13 @@
 
 {
   "class": "tab_control",
+  "settings": ["!theme_accent_mono", "theme_bar_colored", "theme_tab_selected_overlined"],
+  "attributes": ["selected"],
+  "layer3.opacity": 0.75
+},
+
+{
+  "class": "tab_control",
   "settings": ["!theme_accent_mono", "theme_bar_colored", "theme_tab_selected_prelined"],
   "attributes": ["selected"],
   "layer3.opacity": 0.75
@@ -569,6 +576,30 @@
   "settings": ["!theme_accent_mono", "theme_bar_colored", "theme_tab_selected_filled"],
   "attributes": ["selected"],
   "layer3.opacity": 0.8
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_selected_overlined", "!theme_accent_mono", "theme_bar_colored", "theme_tab_selected_transparent"],
+  "attributes": ["selected"],
+  "layer3.opacity": <% if (ui.variant.id == "dark") { %>1.0<% } else { %>0.5<% } %>,
+  "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_selected_overlined.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_selected_overlined", "!theme_accent_mono", "theme_bar_colored", "theme_tab_selected_transparent", "theme_tab_line_size_sm"],
+  "attributes": ["selected"],
+  "layer3.opacity": <% if (ui.variant.id == "dark") { %>1.0<% } else { %>0.5<% } %>,
+  "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_selected_overlined_sm.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_selected_overlined", "!theme_accent_mono", "theme_bar_colored", "theme_tab_selected_transparent", "theme_tab_line_size_lg"],
+  "attributes": ["selected"],
+  "layer3.opacity": <% if (ui.variant.id == "dark") { %>1.0<% } else { %>0.5<% } %>,
+  "layer3.texture": "Boxy Theme/assets/variants/dark/tabs/tab_selected_overlined_lg.png"
 },
 
 {

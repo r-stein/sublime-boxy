@@ -5,6 +5,34 @@
 // ---------------------------------------------------------------------------
 
 //
+// Overlined
+//
+
+{
+  "class": "tab_control",
+  "settings": ["!theme_tab_rounded", "theme_tab_selected_overlined", "theme_accent_mono"],
+  "attributes": ["selected"],
+  "layer3.opacity": 0.4,
+  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_selected_overlined.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["!theme_tab_rounded", "theme_tab_line_size_sm", "theme_tab_selected_overlined", "theme_accent_mono"],
+  "attributes": ["selected"],
+  "layer3.opacity": 0.4,
+  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_selected_overlined_sm.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["!theme_tab_rounded", "theme_tab_line_size_lg", "theme_tab_selected_overlined", "theme_accent_mono"],
+  "attributes": ["selected"],
+  "layer3.opacity": 0.4,
+  "layer3.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_selected_overlined_lg.png"
+},
+
+//
 // Underlined
 //
 
@@ -115,6 +143,34 @@
 
 // Tab
 // ---------------------------------------------------------------------------
+
+//
+// Overlined
+//
+
+{
+  "class": "tab_control",
+  "settings": ["!theme_tab_rounded", "!theme_accent_mono", "theme_tab_selected_overlined"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "attributes": ["selected"],
+  "layer3.opacity": 1.0,
+  "layer3.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_overlined.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["!theme_tab_rounded", "!theme_accent_mono", "theme_tab_line_size_sm", "theme_tab_selected_overlined"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "attributes": ["selected"],
+  "layer3.opacity": 1.0,
+  "layer3.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_overlined_sm.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["!theme_tab_rounded", "!theme_accent_mono", "theme_tab_line_size_lg", "theme_tab_selected_overlined"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "attributes": ["selected"],
+  "layer3.opacity": 1.0,
+  "layer3.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/tabs/tab_selected_overlined_lg.png"
+},
 
 //
 // Underlined
