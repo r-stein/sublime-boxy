@@ -52,6 +52,7 @@ EXTRAS = OrderedDict(
 THEMES = [
     'Boxy Monokai',
     'Boxy Ocean',
+    'Boxy Solarized Light',
     'Boxy Tomorrow',
     'Boxy Yesterday'
 ]
