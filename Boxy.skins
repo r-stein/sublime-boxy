@@ -1,14 +1,8 @@
 {
-  "Boxy Yesterday": {
+  "Boxy Monokai": {
     "Preferences": {
-      "theme": "Boxy Yesterday.sublime-theme",
-      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme"
-    }
-  },
-  "Boxy Tomorrow": {
-    "Preferences": {
-      "theme": "Boxy Tomorrow.sublime-theme",
-      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme"
+      "theme": "Boxy Monokai.sublime-theme",
+      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme"
     }
   },
   "Boxy Ocean": {
@@ -17,10 +11,28 @@
       "color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme"
     }
   },
-  "Boxy Monokai": {
+  "Boxy Solarized Dark": {
     "Preferences": {
-      "theme": "Boxy Monokai.sublime-theme",
-      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme"
+      "theme": "Boxy Solarized Dark.sublime-theme",
+      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Dark.tmTheme"
+    }
+  },
+  "Boxy Solarized Light": {
+    "Preferences": {
+      "theme": "Boxy Solarized Light.sublime-theme",
+      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Light.tmTheme"
+    }
+  },
+  "Boxy Tomorrow": {
+    "Preferences": {
+      "theme": "Boxy Tomorrow.sublime-theme",
+      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme"
+    }
+  },
+  "Boxy Yesterday": {
+    "Preferences": {
+      "theme": "Boxy Yesterday.sublime-theme",
+      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme"
     }
   }
 }
