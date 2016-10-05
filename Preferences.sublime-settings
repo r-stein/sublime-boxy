@@ -316,13 +316,13 @@
   "theme_tab_selected_transparent": false,
 
   // Set size of the tab lines to small
-  // When `theme_tab_selected_prelined` or `theme_tab_selected_underlined`
-  // is true
+  // When `theme_tab_selected_overlined`, `theme_tab_selected_prelined`
+  // or `theme_tab_selected_underlined` is true
   "theme_tab_line_size_sm": false,
 
   // Set size of the tab lines to large
-  // When `theme_tab_selected_prelined` or `theme_tab_selected_underlined`
-  // is true
+  // When `theme_tab_selected_overlined`, `theme_tab_selected_prelined`
+  // or `theme_tab_selected_underlined` is true
   "theme_tab_line_size_lg": false,
 
   //
