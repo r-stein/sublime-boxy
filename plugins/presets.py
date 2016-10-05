@@ -176,7 +176,8 @@ OPTIONS = [
     'theme_tooltips_font_md',
     'theme_tooltips_font_sm',
     'theme_tooltips_font_xl',
-    'theme_tooltips_font_xs'
+    'theme_tooltips_font_xs',
+    'theme_unified'
 ]
 
 PRESETS = OrderedDict(
