@@ -16,6 +16,7 @@ PREFERENCES = 'Preferences.sublime-settings'
 THEMES = [
     'Boxy Monokai',
     'Boxy Ocean',
+    'Boxy Solarized Dark',
     'Boxy Solarized Light',
     'Boxy Tomorrow',
     'Boxy Yesterday'
