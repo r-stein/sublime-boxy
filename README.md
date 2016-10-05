@@ -87,79 +87,30 @@ You can activate presets by using commands provided by the theme:
 3. Choose `Boxy Theme: Presets` to change the preset
 4. Hit `Enter`
 
-#### Atom Preset & Boxy Yesterday
+#### Boxy Monokai & Default Preset
 
-[![Atom Preset & Boxy Yesterday][img-yesterday-atom]][img-yesterday-atom]
-
-The screenshot above shows next options in action:
-
-```js
-// Boxy Yesterday Activation
-"theme": "Boxy Yesterday.sublime-theme",
-"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
-```
-
-```js
-// Atom Preset Settings
-"theme_accent_sky": true,
-"theme_button_rounded": true,
-"theme_find_panel_close_hidden": true,
-"theme_grid_border_size_lg": true,
-"theme_icon_button_highlighted": true,
-"theme_icons_atomized": true,
-"theme_popup_border_visible": true,
-"theme_scrollbar_rounded": true,
-"theme_sidebar_disclosure": true,
-"theme_sidebar_indent_top_level_disabled": true,
-"theme_tab_rounded": true,
-"theme_tab_selected_prelined": true,
-"theme_tab_separator": true,
-```
-
-The operating system is **macOS**. The font used for the code is [**Fira Code**][fira-code]. The UI font is [**San Francisco Text**][san-francisco] (via [addon][addon-font-face]).
-
-Installed packages:
-
-* [Boxy Theme Addon - Font Face][addon-font-face]
-* [Boxy Theme Addon - Widget Font Size][addon-widget-font-size]
-* [Bracket Highlighter][bracket-highlighter]
-
-#### Predawn Preset & Boxy Tomorrow
-
-[![Predawn Preset & Boxy Tomorrow][img-tomorrow-predawn]][img-tomorrow-predawn]
+[![Code Preset & Boxy Monokai][img-monokai-default]][img-monokai-default]
 
 The screenshot above shows next options in action:
 
 ```js
-// Boxy Tomorrow Activation
-"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
-"theme": "Boxy Tomorrow.sublime-theme",
+// Boxy Monokai Activation
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+"theme": "Boxy Monokai.sublime-theme",
 ```
 
 ```js
-// Predawn Preset Settings
-"theme_accent_tangerine": true,
-"theme_bar": true,
-"theme_dirty_materialized": true,
-"theme_scrollbar_colored": true,
-"theme_scrollbar_line": true,
-"theme_sidebar_folder_mono": true,
-"theme_tab_arrows_hidden": true,
-"theme_tab_line_size_lg": true,
-"theme_tab_selected_transparent": true,
-"theme_tab_selected_underlined": true,
-"theme_tab_size_lg": true,
+// Default Preset Settings
+"theme_accent_blue": true,
 ```
 
-The operating system is **Windows**. The font used for the code is [**Operator Mono**][operator-mono]. The UI font is [**Segoe UI Semibold**][segoe-ui] (via [addon][addon-font-face])
+The operating system is **Windows**. The font used for the code is [**Roboto Mono**][roboto-mono].
 
 Installed packages:
 
-* [Boxy Theme Addon - Font Face][addon-font-face]
-* [Boxy Theme Addon - Mono File Icons - Dark UI][addon-mono-file-icons-dark-ui]
-* [Bracket Highlighter][bracket-highlighter]
+* [Sublime Linter][sublime-linter]
 
-#### Material Preset & Boxy Ocean
+#### Boxy Ocean & Material Preset
 
 [![Material Preset & Boxy Ocean][img-ocean-material]][img-ocean-material]
 
@@ -197,34 +148,77 @@ Installed packages:
 * [Color Highlighter][color-highlighter]
 * [Color ​Helper][color-helper]
 
-#### Code Preset & Boxy Monokai
+#### Boxy Tomorrow & Predawn Preset
 
-[![Code Preset & Boxy Monokai][img-monokai-code]][img-monokai-code]
+[![Predawn Preset & Boxy Tomorrow][img-tomorrow-predawn]][img-tomorrow-predawn]
 
 The screenshot above shows next options in action:
 
 ```js
-// Boxy Monokai Activation
-"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
-"theme": "Boxy Monokai.sublime-theme",
+// Boxy Tomorrow Activation
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
+"theme": "Boxy Tomorrow.sublime-theme",
 ```
 
 ```js
-// Code Preset Settings
-"theme_accent_purple": true,
+// Predawn Preset Settings
+"theme_accent_tangerine": true,
 "theme_bar": true,
-"theme_sidebar_disclosure": true,
-"theme_sidebar_indent_sm": true,
-"theme_statusbar_colored": true,
-"theme_tab_highlight_text_only": true,
+"theme_dirty_materialized": true,
+"theme_scrollbar_colored": true,
+"theme_scrollbar_line": true,
+"theme_sidebar_folder_mono": true,
+"theme_tab_arrows_hidden": true,
+"theme_tab_line_size_lg": true,
+"theme_tab_selected_transparent": true,
+"theme_tab_selected_underlined": true,
+"theme_tab_size_lg": true,
 ```
 
-The operating system is **Windows**. The font used for the code is [**Space Mono**][space-mono].
+The operating system is **Windows**. The font used for the code is [**Operator Mono**][operator-mono]. The UI font is [**Segoe UI Semibold**][segoe-ui] (via [addon][addon-font-face])
 
 Installed packages:
 
+* [Boxy Theme Addon - Font Face][addon-font-face]
+* [Boxy Theme Addon - Mono File Icons - Dark UI][addon-mono-file-icons-dark-ui]
 * [Bracket Highlighter][bracket-highlighter]
-* [Sublime Linter][sublime-linter]
+
+#### Boxy Yesterday & Atom Preset
+
+[![Atom Preset & Boxy Yesterday][img-yesterday-atom]][img-yesterday-atom]
+
+The screenshot above shows next options in action:
+
+```js
+// Boxy Yesterday Activation
+"theme": "Boxy Yesterday.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+```
+
+```js
+// Atom Preset Settings
+"theme_accent_sky": true,
+"theme_button_rounded": true,
+"theme_find_panel_close_hidden": true,
+"theme_grid_border_size_lg": true,
+"theme_icon_button_highlighted": true,
+"theme_icons_atomized": true,
+"theme_popup_border_visible": true,
+"theme_scrollbar_rounded": true,
+"theme_sidebar_disclosure": true,
+"theme_sidebar_indent_top_level_disabled": true,
+"theme_tab_rounded": true,
+"theme_tab_selected_prelined": true,
+"theme_tab_separator": true,
+```
+
+The operating system is **macOS**. The font used for the code is [**Fira Code**][fira-code]. The UI font is [**San Francisco Text**][san-francisco] (via [addon][addon-font-face]).
+
+Installed packages:
+
+* [Boxy Theme Addon - Font Face][addon-font-face]
+* [Boxy Theme Addon - Widget Font Size][addon-widget-font-size]
+* [Bracket Highlighter][bracket-highlighter]
 
 ***
 
@@ -258,16 +252,12 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [img-build-status]: https://img.shields.io/travis/oivva/st-boxy.svg?maxAge=3600&style=flat-square
 [img-downloads]: https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?maxAge=3600&style=flat-square
 [img-getting-started]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.4.0/getting-started.png
-[img-monokai]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.2.0/default/monokai.png
-[img-monokai-code]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.2.0/presets/monokai.png
+[img-monokai-default]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.6.0/default/monokai.png
 [img-name]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/name.png
-[img-ocean]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.2.0/default/ocean.png
 [img-ocean-material]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.2.0/presets/ocean.png
 [img-patreon]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/patreon.png
 [img-release]: https://img.shields.io/github/release/oivva/st-boxy.svg?maxAge=3600&style=flat-square
-[img-tomorrow]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.2.0/default/tomorrow.png
 [img-tomorrow-predawn]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.2.0/presets/tomorrow.png
-[img-yesterday]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.2.0/default/yesterday.png
 [img-yesterday-atom]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.2.0/presets/yesterday.png
 
 <!-- Fonts -->
