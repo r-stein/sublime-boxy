@@ -132,6 +132,12 @@ class BoxyExtrasCommand(sublime_plugin.WindowCommand):
             return
 
         if index is 0:
+            self.window.run_command('boxy_plain_notes')
+
+        if index is 1:
+            self.window.run_command('boxy_plain_tasks')
+
+        if index is 2:
             current = get_theme(SUBLIME_LINTER)
             boxy = self.extras[SUBLIME_LINTER].get('boxy')
             default = self.extras[SUBLIME_LINTER].get('default')
@@ -140,12 +146,6 @@ class BoxyExtrasCommand(sublime_plugin.WindowCommand):
                 return revert_theme(SUBLIME_LINTER, default)
             else:
                 return activate_theme(SUBLIME_LINTER, boxy)
-
-        if index is 1:
-            self.window.run_command('boxy_plain_tasks')
-
-        if index is 2:
-            self.window.run_command('boxy_plain_notes')
 
     def run(self):
         self.display_list(EXTRAS)
