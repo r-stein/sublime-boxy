@@ -227,20 +227,23 @@ PRESETS = OrderedDict(
         (
             'Material',
             [
-                'theme_accent_lime',
+                'theme_accent_cyan',
                 'theme_bar',
-                'theme_bar_colored',
                 'theme_bar_logo_atomized',
+                'theme_bar_shadow_hidden',
                 'theme_button_rounded',
+                'theme_dirty_colored_always',
                 'theme_icons_materialized',
                 'theme_scrollbar_rounded',
                 'theme_sidebar_highlight_selected_text_only',
                 'theme_sidebar_highlight_text_only',
                 'theme_sidebar_indent_top_level_disabled',
+                'theme_size_md',
                 'theme_tab_highlight_text_only',
-                'theme_tab_line_size_lg',
                 'theme_tab_selected_transparent',
-                'theme_tab_selected_underlined'
+                'theme_tab_selected_underlined',
+                'theme_tab_size_xxl',
+                'theme_unified'
             ]
         ),
         (

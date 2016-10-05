@@ -124,20 +124,23 @@ The screenshot above shows next options in action:
 
 ```js
 // Material Preset Settings
-"theme_accent_lime": true,
+"theme_accent_cyan": true,
 "theme_bar": true,
-"theme_bar_colored": true,
 "theme_bar_logo_atomized": true,
+"theme_bar_shadow_hidden": true,
 "theme_button_rounded": true,
+"theme_dirty_colored_always": true,
 "theme_icons_materialized": true,
 "theme_scrollbar_rounded": true,
 "theme_sidebar_highlight_selected_text_only": true,
 "theme_sidebar_highlight_text_only": true,
 "theme_sidebar_indent_top_level_disabled": true,
+"theme_size_md": true,
 "theme_tab_highlight_text_only": true,
-"theme_tab_line_size_lg": true,
 "theme_tab_selected_transparent": true,
 "theme_tab_selected_underlined": true,
+"theme_tab_size_xxl": true,
+"theme_unified": true,
 ```
 
 The operating system is **Ubuntu**. The font used for the code is [**Roboto Mono**][roboto-mono]. The UI font is [**Ubuntu Medium**][ubuntu] (via [addon][addon-font-face]).
