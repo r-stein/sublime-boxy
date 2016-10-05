@@ -94,6 +94,12 @@
 },
 
 {
+  "class": "tabset_control",
+  "settings": ["theme_size_xs", "theme_tabset_line_visible"],
+  "tab_height": 26
+},
+
+{
   "class": "tab_control",
   "settings": ["theme_size_xs"],
   "content_margin": [12, 4, 8, 4]
@@ -116,6 +122,12 @@
   "class": "tabset_control",
   "settings": ["theme_size_sm"],
   "tab_height": 32
+},
+
+{
+  "class": "tabset_control",
+  "settings": ["theme_size_sm", "theme_tabset_line_visible"],
+  "tab_height": 30
 },
 
 {
@@ -144,6 +156,12 @@
 },
 
 {
+  "class": "tabset_control",
+  "settings": ["theme_size_md", "theme_tabset_line_visible"],
+  "tab_height": 34
+},
+
+{
   "class": "tab_control",
   "settings": ["theme_size_md"],
   "content_margin": [16, 4, 10, 4]
@@ -169,6 +187,12 @@
 },
 
 {
+  "class": "tabset_control",
+  "settings": ["theme_size_lg", "theme_tabset_line_visible"],
+  "tab_height": 38
+},
+
+{
   "class": "tab_control",
   "settings": ["theme_size_lg"],
   "content_margin": [18, 4, 11, 4]
@@ -191,6 +215,12 @@
   "class": "tabset_control",
   "settings": ["theme_size_xl"],
   "tab_height": 44
+},
+
+{
+  "class": "tabset_control",
+  "settings": ["theme_size_xl", "theme_tabset_line_visible"],
+  "tab_height": 42
 },
 
 {
@@ -221,6 +251,12 @@
 },
 
 {
+  "class": "tabset_control",
+  "settings": ["theme_tab_size_xs", "theme_tabset_line_visible"],
+  "tab_height": 26
+},
+
+{
   "class": "tab_control",
   "settings": ["theme_tab_size_xs"],
   "content_margin": [12, 4, 8, 4]
@@ -243,6 +279,12 @@
   "class": "tabset_control",
   "settings": ["theme_tab_size_sm"],
   "tab_height": 32
+},
+
+{
+  "class": "tabset_control",
+  "settings": ["theme_tab_size_sm", "theme_tabset_line_visible"],
+  "tab_height": 30
 },
 
 {
@@ -271,6 +313,12 @@
 },
 
 {
+  "class": "tabset_control",
+  "settings": ["theme_tab_size_md", "theme_tabset_line_visible"],
+  "tab_height": 34
+},
+
+{
   "class": "tab_control",
   "settings": ["theme_tab_size_md"],
   "content_margin": [16, 4, 10, 4]
@@ -293,6 +341,12 @@
   "class": "tabset_control",
   "settings": ["theme_tab_size_lg"],
   "tab_height": 40
+},
+
+{
+  "class": "tabset_control",
+  "settings": ["theme_tab_size_lg", "theme_tabset_line_visible"],
+  "tab_height": 38
 },
 
 {
@@ -321,6 +375,12 @@
 },
 
 {
+  "class": "tabset_control",
+  "settings": ["theme_tab_size_xl", "theme_tabset_line_visible"],
+  "tab_height": 42
+},
+
+{
   "class": "tab_control",
   "settings": ["theme_tab_size_xl"],
   "content_margin": [20, 4, 12, 4]
@@ -343,6 +403,12 @@
   "class": "tabset_control",
   "settings": ["theme_tab_size_xxl"],
   "tab_height": 54
+},
+
+{
+  "class": "tabset_control",
+  "settings": ["theme_tab_size_xxl", "theme_tabset_line_visible"],
+  "tab_height": 52
 },
 
 {
