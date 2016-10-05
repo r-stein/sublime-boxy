@@ -20,6 +20,8 @@ UNIFIED_SETTINGS = {
     'package': 'Boxy Theme.sublime-package'
 }
 
+ID = '48c3cc08-b280-4048-a9bd-a948a83319df'
+
 
 def get_settings():
     return sublime.load_settings(PREFERENCES)
@@ -94,4 +96,11 @@ def unified_mode():
 
 def plugin_loaded():
     unified_mode()
-    get_settings().add_on_change('theme_unified', unified_mode)
+    get_settings().add_on_change(ID, unified_mode)
+
+
+def plugin_unloaded():
+    target = os.path.join(sublime.packages_path(), UNIFIED_SETTINGS['target'])
+
+    if os.path.exists(target):
+        shutil.rmtree(target)
