@@ -166,16 +166,23 @@ The screenshot above shows next options in action:
 ```js
 // Predawn Preset Settings
 "theme_accent_tangerine": true,
-"theme_bar": true,
+"theme_autocomplete_item_selected_colored": true,
+"theme_bar_margin_top_sm": true,
 "theme_dirty_materialized": true,
+"theme_dropdown_atomized": true,
+"theme_find_panel_size_xl": true,
+"theme_icon_button_highlighted": true,
+"theme_panel_switcher_atomized": true,
+"theme_quick_panel_item_selected_colored": true,
 "theme_scrollbar_colored": true,
 "theme_scrollbar_line": true,
+"theme_sidebar_close_always_visible": true,
+"theme_sidebar_folder_atomized": true,
 "theme_sidebar_folder_mono": true,
-"theme_tab_arrows_hidden": true,
-"theme_tab_line_size_lg": true,
-"theme_tab_selected_transparent": true,
-"theme_tab_selected_underlined": true,
-"theme_tab_size_lg": true,
+"theme_statusbar_size_md": true,
+"theme_tab_close_always_visible": true,
+"theme_tab_selected_overlined": true,
+"theme_tab_size_xl": true,
 ```
 
 The operating system is **Windows**. The font used for the code is [**Operator Mono**][operator-mono]. The UI font is [**Segoe UI Semibold**][segoe-ui] (via [addon][addon-font-face])

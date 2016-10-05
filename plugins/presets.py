@@ -209,8 +209,10 @@ PRESETS = OrderedDict(
             [
                 'theme_accent_tangerine',
                 'theme_autocomplete_item_selected_colored',
+                'theme_bar_margin_top_sm',
                 'theme_dirty_materialized',
                 'theme_dropdown_atomized',
+                'theme_find_panel_size_xl',
                 'theme_icon_button_highlighted',
                 'theme_panel_switcher_atomized',
                 'theme_quick_panel_item_selected_colored',
@@ -219,10 +221,10 @@ PRESETS = OrderedDict(
                 'theme_sidebar_close_always_visible',
                 'theme_sidebar_folder_atomized',
                 'theme_sidebar_folder_mono',
+                'theme_statusbar_size_md',
                 'theme_tab_close_always_visible',
-                'theme_tab_line_size_lg',
-                'theme_tab_selected_transparent',
-                'theme_tab_selected_underlined'
+                'theme_tab_selected_overlined',
+                'theme_tab_size_xl'
             ]
         ),
         (
