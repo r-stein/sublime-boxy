@@ -40,8 +40,6 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 
 ### Installation
 
-#### Package Control
-
 The easiest way to install is using [Package Control][pc], where [Boxy][theme] is listed as **`Boxy Theme`**.
 
 1. Open `Command Palette` using menu item `Tools → Command Palette...`
@@ -51,63 +49,22 @@ The easiest way to install is using [Package Control][pc], where [Boxy][theme] i
     - **macOS**  : menu item `Sublime Text → Quit Sublime Text`
     - **Windows**: menu item `File → Exit`
     - **Linux**  : menu item `File → Exit`
-5. Repeat step 1, then choose `Package Control: Satisfy Dependencies`
-6. Restart Sublime Text
 
-#### Download
-
-1. [Download the .zip][release]
-2. Unzip and rename the folder to `Boxy Theme`
-3. Copy the folder into `Packages` directory, which you can find using the menu item `Preferences → Browse Packages...`
-4. Restart Sublime Text
-5. Manually install all dependencies listed in the `dependencies.json`
-6. Restart Sublime Text
+[**Read more &#8594;**][install]
 
 ### Activation
 
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Preferences → Settings`. Also you can use commands provided by the theme:
+Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Preferences → Package Settings → Boxy Theme → Preferences`. 
+
+Also you can use commands provided by the theme:
 
 1. Open `Command Palette` using menu item `Tools → Command Palette...`
-2. Choose `Boxy Theme: Activation` or `Boxy Theme: Preferences`
+2. Choose `Boxy Theme: Activation` or `Boxy Theme: Configuration`
 3. Hit `Enter`
 
 > **DON'T FORGET TO RESTART SUBLIME TEXT AFTER ACTIVATING THE THEME.**
 
-#### Boxy Yesterday
-
-```js
-"theme": "Boxy Yesterday.sublime-theme",
-"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
-```
-
-[![Boxy Yesterday][img-yesterday]][img-yesterday]
-
-### Boxy Tomorrow
-
-```js
-"theme": "Boxy Tomorrow.sublime-theme",
-"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
-```
-
-[![Boxy Tomorrow][img-tomorrow]][img-tomorrow]
-
-### Boxy Ocean
-
-```js
-"theme": "Boxy Ocean.sublime-theme",
-"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
-```
-
-[![Boxy Ocean][img-ocean]][img-ocean]
-
-### Boxy Monokai
-
-```js
-"theme": "Boxy Monokai.sublime-theme",
-"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
-```
-
-[![Boxy Monokai][img-monokai]][img-monokai]
+[**Read more &#8594;**][activation]
 
 ### Icons
 
@@ -118,7 +75,7 @@ If you want to have extended file icon support, you should install [File Icons E
 You can activate presets by using commands provided by the theme:
 
 1. Open `Command Palette` using menu item `Tools → Command Palette...`
-2. Choose `Boxy Theme: Activation` to change the UI theme and color scheme
+2. Choose `Boxy Theme: Activation` or `Boxy Theme: Configuration` to change the UI theme and color scheme
 3. Choose `Boxy Theme: Presets` to change the preset
 4. Hit `Enter`
 
@@ -276,7 +233,8 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [getting-started]: https://youtu.be/d2FZCUDcNxo 'Watch "Getting Started with Boxy Theme" on YouTube'
 [issues]: https://github.com/oivva/st-boxy/issues
 [known-issues]: https://github.com/oivva/st-boxy/wiki#known-issues
-[manual-install]: https://github.com/oivva/st-boxy/wiki/Get-It#manual
+[install]: https://github.com/oivva/st-boxy/wiki/Get-It#installation
+[activation]: https://github.com/oivva/st-boxy/wiki/Get-It#activation
 [patreon]: https://www.patreon.com/oivva "Donate with Patreon"
 [pc]: https://packagecontrol.io/
 [release]: https://github.com/oivva/st-boxy/releases
