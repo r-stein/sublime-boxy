@@ -38,6 +38,8 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 
 [![Getting Started with Boxy Theme][img-getting-started]][getting-started]
 
+***
+
 ### Installation
 
 The easiest way to install is using [Package Control][pc], where [Boxy][theme] is listed as **`Boxy Theme`**.
@@ -51,6 +53,8 @@ The easiest way to install is using [Package Control][pc], where [Boxy][theme] i
     - **Linux**  : menu item `File → Exit`
 
 [**Read more &#8594;**][install]
+
+***
 
 ### Activation
 
@@ -66,9 +70,13 @@ Also you can use commands provided by the theme:
 
 [**Read more &#8594;**][activation]
 
+***
+
 ### Icons
 
 If you want to have extended file icon support, you should install [File Icons Extended][icon-extended] package. It adds support of such icons as NPM, Gulpfile, Font & etc.
+
+***
 
 ### Presets
 
