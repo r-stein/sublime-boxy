@@ -257,7 +257,10 @@ PRESETS = OrderedDict(
                 'theme_sidebar_disclosure',
                 'theme_sidebar_indent_sm',
                 'theme_statusbar_colored',
-                'theme_tab_highlight_text_only'
+                'theme_tab_highlight_text_only',
+                'theme_tab_selected_filled',
+                'theme_tab_size_md',
+                'theme_tabset_line_visible'
             ]
         ),
         (
