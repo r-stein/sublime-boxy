@@ -89,7 +89,7 @@ You can activate presets by using commands provided by the theme:
 
 #### Boxy Monokai & Default Preset
 
-[![Code Preset & Boxy Monokai][img-monokai-default]][img-monokai-default]
+[![Default Preset & Boxy Monokai][img-monokai-default]][img-monokai-default]
 
 The screenshot above shows next options in action:
 
