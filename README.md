@@ -182,7 +182,7 @@ The screenshot above shows next options in action:
 "theme_statusbar_size_md": true,
 "theme_tab_close_always_visible": true,
 "theme_tab_selected_overlined": true,
-"theme_tab_size_xl": true,
+"theme_tab_size_md": true,
 ```
 
 The operating system is **Windows**. The font used for the code is [**Operator Mono**][operator-mono]. The UI font is [**Segoe UI Semibold**][segoe-ui] (via [addon][addon-font-face])

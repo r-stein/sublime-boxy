@@ -183,10 +183,6 @@ OPTIONS = [
 PRESETS = OrderedDict(
     [
         (
-            'Default',
-            []
-        ),
-        (
             'Atom',
             [
                 'theme_accent_sky',
@@ -205,27 +201,22 @@ PRESETS = OrderedDict(
             ]
         ),
         (
-            'Predawn',
+            'Code',
             [
-                'theme_accent_tangerine',
-                'theme_autocomplete_item_selected_colored',
-                'theme_bar_margin_top_sm',
-                'theme_dirty_materialized',
-                'theme_dropdown_atomized',
-                'theme_find_panel_size_xl',
-                'theme_icon_button_highlighted',
-                'theme_panel_switcher_atomized',
-                'theme_quick_panel_item_selected_colored',
-                'theme_scrollbar_colored',
-                'theme_scrollbar_line',
-                'theme_sidebar_close_always_visible',
-                'theme_sidebar_folder_atomized',
-                'theme_sidebar_folder_mono',
-                'theme_statusbar_size_md',
-                'theme_tab_close_always_visible',
-                'theme_tab_selected_overlined',
-                'theme_tab_size_xl'
+                'theme_accent_purple',
+                'theme_bar',
+                'theme_sidebar_disclosure',
+                'theme_sidebar_indent_sm',
+                'theme_statusbar_colored',
+                'theme_tab_highlight_text_only',
+                'theme_tab_selected_filled',
+                'theme_tab_size_md',
+                'theme_tabset_line_visible'
             ]
+        ),
+        (
+            'Default',
+            []
         ),
         (
             'Material',
@@ -250,20 +241,6 @@ PRESETS = OrderedDict(
             ]
         ),
         (
-            'Code',
-            [
-                'theme_accent_purple',
-                'theme_bar',
-                'theme_sidebar_disclosure',
-                'theme_sidebar_indent_sm',
-                'theme_statusbar_colored',
-                'theme_tab_highlight_text_only',
-                'theme_tab_selected_filled',
-                'theme_tab_size_md',
-                'theme_tabset_line_visible'
-            ]
-        ),
-        (
             'Numix',
             [
                 'theme_accent_numix',
@@ -281,6 +258,29 @@ PRESETS = OrderedDict(
                 'theme_tab_selected_underlined',
                 'theme_tab_size_lg',
                 'theme_unified'
+            ]
+        ),
+        (
+            'Predawn',
+            [
+                'theme_accent_tangerine',
+                'theme_autocomplete_item_selected_colored',
+                'theme_bar_margin_top_sm',
+                'theme_dirty_materialized',
+                'theme_dropdown_atomized',
+                'theme_find_panel_size_xl',
+                'theme_icon_button_highlighted',
+                'theme_panel_switcher_atomized',
+                'theme_quick_panel_item_selected_colored',
+                'theme_scrollbar_colored',
+                'theme_scrollbar_line',
+                'theme_sidebar_close_always_visible',
+                'theme_sidebar_folder_atomized',
+                'theme_sidebar_folder_mono',
+                'theme_statusbar_size_md',
+                'theme_tab_close_always_visible',
+                'theme_tab_selected_overlined',
+                'theme_tab_size_md'
             ]
         )
     ]
