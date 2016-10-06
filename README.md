@@ -87,6 +87,8 @@ You can activate presets by using commands provided by the theme:
 3. Choose `Boxy Theme: Presets` to change the preset
 4. Hit `Enter`
 
+> **DON'T FORGET TO RESTART SUBLIME TEXT AFTER ACTIVATING THE PRESET.**
+
 #### Boxy Monokai & Default Preset
 
 [![Default Preset & Boxy Monokai][img-monokai-default]][img-monokai-default]
