@@ -203,8 +203,7 @@ PRESETS = OrderedDict(
         (
             'Code',
             [
-                'theme_accent_purple',
-                'theme_bar',
+                'theme_accent_lime',
                 'theme_sidebar_disclosure',
                 'theme_sidebar_indent_sm',
                 'theme_statusbar_colored',
@@ -268,7 +267,6 @@ PRESETS = OrderedDict(
                 'theme_bar_margin_top_sm',
                 'theme_dirty_materialized',
                 'theme_dropdown_atomized',
-                'theme_find_panel_size_xl',
                 'theme_icon_button_highlighted',
                 'theme_panel_switcher_atomized',
                 'theme_quick_panel_item_selected_colored',
