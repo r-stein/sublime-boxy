@@ -255,7 +255,7 @@ The operating system is **Windows**. The font used for the code is [**Space Mono
 Installed packages:
 
 * [Bracket Highlighter][bracket-highlighter]
-* [Sublime Linter][sublime-linter]]
+* [Sublime Linter][sublime-linter]
 
 #### Boxy Tomorrow ★ Numix
 
