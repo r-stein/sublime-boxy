@@ -294,9 +294,9 @@ Installed packages:
 
 * [Boxy Theme Addon - Font Face][addon-font-face]
 
-#### Boxy Yesterday ★ Atom Preset
+#### Boxy Yesterday ★ Atom
 
-[![Atom Preset & Boxy Yesterday][img-yesterday]][img-yesterday]
+[![Boxy Yesterday ★ Atom][img-yesterday]][img-yesterday]
 
 The screenshot above shows next options in action:
 
