@@ -156,6 +156,9 @@
   // Set sky accent color
   "theme_accent_sky": false,
 
+  // Set numix accent color
+  "theme_accent_numix": false,
+
   // Set monochrome accent color
   "theme_accent_mono": false,
 
@@ -296,6 +299,9 @@
   // Add rounded corners to the tabs
   "theme_tab_rounded": false,
 
+  // Set overlined style to the selected tab
+  "theme_tab_selected_overlined": false,
+
   // Set underlined style to the selected tab
   "theme_tab_selected_underlined": false,
 
@@ -310,18 +316,21 @@
   "theme_tab_selected_transparent": false,
 
   // Set size of the tab lines to small
-  // When `theme_tab_selected_prelined` or `theme_tab_selected_underlined`
-  // is true
+  // When `theme_tab_selected_overlined`, `theme_tab_selected_prelined`
+  // or `theme_tab_selected_underlined` is true
   "theme_tab_line_size_sm": false,
 
   // Set size of the tab lines to large
-  // When `theme_tab_selected_prelined` or `theme_tab_selected_underlined`
-  // is true
+  // When `theme_tab_selected_overlined`, `theme_tab_selected_prelined`
+  // or `theme_tab_selected_underlined` is true
   "theme_tab_line_size_lg": false,
 
   //
   // >> 4.4 Tab Misc
   //
+
+  // Show tab set line
+  "theme_tabset_line_visible": false,
 
   // Hide left arrows
   "theme_tab_arrows_hidden": false,
@@ -341,6 +350,9 @@
 
   // Enable a beautiful Material UI dirty pencil icon
   "theme_dirty_materialized": false,
+
+  // Make dirty icon to be always colored
+  "theme_dirty_colored_always": false,
 
   // The default accent of the dirty state
   "theme_dirty_accent_blue": false,
@@ -368,6 +380,9 @@
 
   // Set sky accent color for the dirty state
   "theme_dirty_accent_sky": false,
+
+  // Set numix accent color for the dirty state
+  "theme_dirty_accent_numix": false,
 
   // Enable a beautiful Material UI dropdown icon
   "theme_dropdown_materialized": false,
@@ -488,6 +503,9 @@
   //
   // >> 6.2 Quick Panel Misc
   //
+
+  // Show quick panel border
+  "theme_quick_panel_border_visible": false,
 
   // Starting 3.0.0 quick panel selected item has no colored background,
   // this option turns it back

@@ -32,14 +32,6 @@
                   "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
                 }
               },
-              {
-                "caption": "Presets",
-                "command": "boxy_presets"
-              },
-              {
-                "caption": "Wiki",
-                "command": "boxy_wiki"
-              },
               { "caption": "-" },
               {
                 "caption": "GitHub",
@@ -52,6 +44,10 @@
               {
                 "caption": "ST Forum",
                 "command": "boxy_forum"
+              },
+              {
+                "caption": "Wiki",
+                "command": "boxy_wiki"
               },
               { "caption": "-" },
               {
