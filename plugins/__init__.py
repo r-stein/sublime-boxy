@@ -5,4 +5,3 @@ from .config import *
 from .environment import *
 from .extras import *
 from .links import *
-from .presets import *
