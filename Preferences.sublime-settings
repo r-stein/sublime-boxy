@@ -51,6 +51,7 @@
 // 10 Tooltips
 // 11 Grid
 // 12 Popups
+// 13 Minimap
 
 {
   // > 0 Configuration
@@ -763,5 +764,27 @@
   "theme_autocomplete_item_selected_colored": false,
 
   // Add popup border (also affects autocomplete border)
-  "theme_popup_border_visible": false
+  "theme_popup_border_visible": false,
+
+  //
+  // > 13 Minimap
+  // -----------------------------------
+
+  // Reduce the opacity of the minimap viewport to extra low
+  "theme_minimap_viewport_opacity_xlw": false,
+
+  // The default opacity of the minimap viewport (low)
+  "theme_minimap_viewport_opacity_lw": false,
+
+  // Increase the opacity of the minimap viewport to medium
+  "theme_minimap_viewport_opacity_md": false,
+
+  // Increase the opacity of the minimap viewport to high
+  "theme_minimap_viewport_opacity_hg": false,
+
+  // Increase the opacity of the minimap viewport to extra high
+  "theme_minimap_viewport_opacity_xh": false,
+
+  // Increase the opacity of the minimap viewport to extra extra high
+  "theme_minimap_viewport_opacity_xxh": false
 }
