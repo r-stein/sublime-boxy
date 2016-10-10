@@ -96,7 +96,7 @@ Or do this manually by modifying your user preferences file, which you can find 
 
 #### Boxy Monokai ★ Predawn
 
-> NOTE: This skin is heavily inspired by [Predawn Theme][predawn-theme]. Install or support original if it better fits your needs.
+> **Note**: This skin is heavily inspired by [Predawn Theme][predawn-theme]. Install or support original if it better fits your needs.
 
 [![Boxy Monokai ★ Predawn][img-monokai]][img-monokai]
 
@@ -138,7 +138,7 @@ Installed packages:
 
 #### Boxy Ocean ★ Material
 
-> NOTE: This skin is heavily inspired by [Material Theme][material-theme]. Install or support original if it better fits your needs.
+> **Note**: This skin is heavily inspired by [Material Theme][material-theme]. Install or support original if it better fits your needs.
 
 [![Boxy Ocean ★ Material][img-ocean]][img-ocean]
 
