@@ -96,6 +96,8 @@ Or do this manually by modifying your user preferences file, which you can find 
 
 #### Boxy Monokai ★ Predawn
 
+> NOTE: This skin is heavily inspired by [Predawn Theme][predawn-theme]. Install or support original if it better fits your needs.
+
 [![Boxy Monokai ★ Predawn][img-monokai]][img-monokai]
 
 The screenshot above shows next options in action:
@@ -135,6 +137,8 @@ Installed packages:
 * [Sublime Linter][sublime-linter]
 
 #### Boxy Ocean ★ Material
+
+> NOTE: This skin is heavily inspired by [Material Theme][material-theme]. Install or support original if it better fits your needs.
 
 [![Boxy Ocean ★ Material][img-ocean]][img-ocean]
 
@@ -398,3 +402,5 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [plain-notes]: https://packagecontrol.io/packages/PlainNotes
 [skins]: https://packagecontrol.io/packages/Skins
 [sublime-linter]: https://packagecontrol.io/packages/SublimeLinter
+[predawn-theme]: https://packagecontrol.io/packages/Predawn
+[material-theme]: https://packagecontrol.io/packages/Material%20Theme
