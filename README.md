@@ -21,7 +21,7 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 ***
 
 <div>
-▪&nbsp;<a href="https://github.com/oivva/st-boxy#installation">Installation</a>&nbsp;
+<a href="https://github.com/oivva/st-boxy#installation">Installation</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/st-boxy#activation">Activation</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/st-boxy#icons">Icons</a>&nbsp;
 ▪&nbsp;<a href="https://github.com/oivva/st-boxy#skins">Skins</a>&nbsp;
@@ -96,7 +96,7 @@ Or do this manually by modifying your user preferences file, which you can find 
 
 #### Boxy Monokai ★ Predawn
 
-> NOTE: This skin is heavily inspired by [Predawn Theme][predawn-theme]. Install or support original if it better fits your needs.
+> **Note**: This skin is heavily inspired by [Predawn Theme][predawn-theme]. Install or support original if it better fits your needs.
 
 [![Boxy Monokai ★ Predawn][img-monokai]][img-monokai]
 
@@ -138,7 +138,7 @@ Installed packages:
 
 #### Boxy Ocean ★ Material
 
-> NOTE: This skin is heavily inspired by [Material Theme][material-theme]. Install or support original if it better fits your needs.
+> **Note**: This skin is heavily inspired by [Material Theme][material-theme]. Install or support original if it better fits your needs.
 
 [![Boxy Ocean ★ Material][img-ocean]][img-ocean]
 
