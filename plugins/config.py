@@ -392,6 +392,17 @@ SECTION_OPTIONS = OrderedDict(
                 'theme_autocomplete_item_selected_colored',
                 'theme_popup_border_visible'
             ]
+        ),
+        (
+            'Minimap',
+            [
+                'theme_minimap_viewport_opacity_xlw',
+                'theme_minimap_viewport_opacity_lw',
+                'theme_minimap_viewport_opacity_md',
+                'theme_minimap_viewport_opacity_hg',
+                'theme_minimap_viewport_opacity_xh',
+                'theme_minimap_viewport_opacity_xxh'
+            ]
         )
     ]
 )
