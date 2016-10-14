@@ -48,6 +48,7 @@
   //
   //=include "common/minimap.json"
   //=include "accents/minimap.json"
+  //=include "options/minimap.json"
   //
   // >> Overlays
   // ===========================================================================
