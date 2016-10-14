@@ -397,12 +397,12 @@ gulp.task('bump-pkg-version', function() {
 });
 
 gulp.task('bump-env-version', function() {
-  return gulp.src('./plugins/environment.py')
+  return gulp.src('./utils/environment.py')
     .pipe($.if((Object.keys(argv).length === 2), $.bump({ regex: envRegExp })))
     .pipe($.if(argv.patch, $.bump({ regex: envRegExp })))
     .pipe($.if(argv.minor, $.bump({ type: 'minor', regex: envRegExp })))
     .pipe($.if(argv.major, $.bump({ type: 'major', regex: envRegExp })))
-    .pipe(gulp.dest('./plugins'));
+    .pipe(gulp.dest('./utils'));
 });
 
 gulp.task('github-release', function(done) {
