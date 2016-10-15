@@ -136,6 +136,47 @@ Installed packages:
 * [Bracket Highlighter][bracket-highlighter]
 * [Sublime Linter][sublime-linter]
 
+#### Boxy Nova ★ Minimal
+
+[![Boxy Nova ★ Minimal][img-nova]][img-nova]
+
+The screenshot above shows next options in action:
+
+```js
+// Activation
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Nova.tmTheme",
+"theme": "Boxy Nova.sublime-theme",
+```
+
+```js
+// Settings
+"theme_accent_mono": true,
+"theme_button_rounded": true,
+"theme_find_panel_close_hidden": true,
+"theme_find_panel_size_xs": true,
+"theme_grid_border_size_sm": true,
+"theme_icons_atomized": true,
+"theme_minimap_viewport_opacity_xh": true,
+"theme_sidebar_folder_arrow": true,
+"theme_sidebar_heading_bold": true,
+"theme_sidebar_highlight_selected_text_only": true,
+"theme_sidebar_highlight_text_only": true,
+"theme_sidebar_indent_top_level_disabled": true,
+"theme_sidebar_indent_xl": true,
+"theme_size_md": true,
+"theme_tab_arrows_hidden": true,
+"theme_tab_close_always_visible": true,
+"theme_unified": true
+```
+
+The operating system is **Windows**. The font used for the code is [**Consolas**][consolas]. The UI font is [**Consolas**][consolas] (via [addon][addon-font-face]).
+
+Installed packages:
+
+* [Boxy Theme Addon - Font Face][addon-font-face]
+* [Bracket Highlighter][bracket-highlighter]
+* [zz File Icons][file-icons]
+
 #### Boxy Ocean ★ Material
 
 > **Note**: This skin is heavily inspired by [Material Theme][material-theme]. Install or support original if it better fits your needs.
@@ -371,6 +412,7 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [img-getting-started]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.4.0/getting-started.png
 [img-monokai]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.6.0/skins/monokai.png
 [img-name]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/name.png
+[img-nova]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/5.0.0/skins/nova.png
 [img-ocean]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.6.0/skins/ocean.png
 [img-patreon]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/patreon.png
 [img-release]: https://img.shields.io/github/release/oivva/st-boxy.svg?maxAge=3600&style=flat-square
@@ -381,6 +423,7 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 
 <!-- Fonts -->
 
+[consolas]: https://www.microsoft.com/typography/fonts/family.aspx?FID=300
 [fira-code]: https://github.com/tonsky/FiraCode/blob/master/README.md
 [iosevka]: https://github.com/be5invis/Iosevka
 [operator-mono]: http://www.typography.com/fonts/operator/styles/operatorscreensmartpro
