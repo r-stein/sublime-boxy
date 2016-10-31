@@ -256,7 +256,7 @@ The operating system is **macOS**. The font used for the code is [**SF Mono**][s
 Installed packages:
 
 * [Boxy Theme Addon - Font Face][addon-font-face]
-* [Boxy Theme Addon - Mono File Icons - Dark UI][addon-mono-file-icons]
+* [Boxy Theme Addon - Mono File Icons][addon-mono-file-icons]
 * [Boxy Theme Addon - Widget Font Size][addon-widget-font-size]
 * [Bracket Highlighter][bracket-highlighter]
 
@@ -435,13 +435,13 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 <!-- Packages -->
 
 [addon-font-face]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Font%20Face
-[addon-mono-file-icons]: https://packagecontrol.io/search/Boxy%20Theme%20Addon%20-%20Mono
-[addon-widget-font-size]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Widget%20Font%20LG
+[addon-mono-file-icons]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Mono%20File%20Icons
+[addon-widget-font-size]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Widget%20Font%20Size
 [bracket-highlighter]: https://packagecontrol.io/packages/BracketHighlighter
 [color-helper]: https://packagecontrol.io/packages/ColorHelper
 [color-highlighter]: https://packagecontrol.io/packages/Color%20Highlighter
 [git-gutter]: https://packagecontrol.io/packages/GitGutter
-[file-icons]: https://packagecontrol.io/packages/File%20Icons%20Extended
+[file-icons]: https://packagecontrol.io/packages/zz%20File%20Icons
 [plain-notes]: https://packagecontrol.io/packages/PlainNotes
 [skins]: https://packagecontrol.io/packages/Skins
 [sublime-linter]: https://packagecontrol.io/packages/SublimeLinter
