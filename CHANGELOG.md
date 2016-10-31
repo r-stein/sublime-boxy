@@ -1,3 +1,16 @@
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/oivva/st-boxy/compare/v4.0.0...v5.0.0) (2016-10-31)
+
+
+### Features
+
+* add `zz File Icons` support ([b769eb8](https://github.com/oivva/st-boxy/commit/b769eb8)), closes [#138](https://github.com/oivva/st-boxy/issues/138)
+* add Boxy Nova theme ([471d228](https://github.com/oivva/st-boxy/commit/471d228)), closes [#137](https://github.com/oivva/st-boxy/issues/137)
+* add Minimal skin ([5fbba9d](https://github.com/oivva/st-boxy/commit/5fbba9d))
+* add settings to change the minimap viewport opacity ([002e3a7](https://github.com/oivva/st-boxy/commit/002e3a7))
+
+
+
 <a name="4.0.0"></a>
 # [4.0.0](https://github.com/oivva/st-boxy/compare/v3.5.0...v4.0.0) (2016-10-07)
 
