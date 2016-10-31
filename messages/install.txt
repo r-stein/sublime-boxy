@@ -8,30 +8,15 @@
 Activation
 ===========================================================================
 
-// Boxy Yesterday
-// -----------------
+Activate the UI theme and color scheme by modifying your user preferences
+file, which you can find using the menu item Preferences → Package Settings
+→ Boxy Theme → Preferences.
 
-"theme": "Boxy Yesterday.sublime-theme",
-"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+Also you can use commands provided by the theme:
 
-// Boxy Tomorrow
-// -----------------
-
-"theme": "Boxy Tomorrow.sublime-theme",
-"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
-
-// Boxy Ocean
-// -----------------
-
-"theme": "Boxy Ocean.sublime-theme",
-"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
-
-// Boxy Monokai
-// -----------------
-
-"theme": "Boxy Monokai.sublime-theme",
-"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
-
+1. Open Command Palette using menu item `Tools → Command Palette...`
+2. Choose `Boxy Theme: Activation` or `Boxy Theme: Configuration`
+3. Hit `Enter`
 
 Options
 ===========================================================================
@@ -75,5 +60,3 @@ you can
                                                       |/  /_/
 
 https://www.patreon.com/oivva
-https://flattr.com/profile/oivva
-https://www.coinbase.com/oivva

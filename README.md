@@ -74,11 +74,7 @@ Also you can use commands provided by the theme:
 
 ### Icons
 
-If you want to have extended file icon support, you should install [File Icons Extended][file-icons] package. It adds support of such icons as NPM, Gulpfile, Font & etc.
-
-> **Note**: Starting 2.0.0 [File Icons Extended][file-icons] will be renamed to `zzFileIcons` and will
-> provide icons for all themes. You'll be able to choose which icons you want to use: provided by 
-> the theme or by the package.
+Starting 5.0.0 this theme uses [zz File Icons][file-icons] package to display file icons. Please install the package and restart Sublime Text.
 
 ***
 
@@ -135,6 +131,47 @@ Installed packages:
 
 * [Bracket Highlighter][bracket-highlighter]
 * [Sublime Linter][sublime-linter]
+
+#### Boxy Nova ★ Minimal
+
+[![Boxy Nova ★ Minimal][img-nova]][img-nova]
+
+The screenshot above shows next options in action:
+
+```js
+// Activation
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Nova.tmTheme",
+"theme": "Boxy Nova.sublime-theme",
+```
+
+```js
+// Settings
+"theme_accent_mono": true,
+"theme_button_rounded": true,
+"theme_find_panel_close_hidden": true,
+"theme_find_panel_size_xs": true,
+"theme_grid_border_size_sm": true,
+"theme_icons_atomized": true,
+"theme_minimap_viewport_opacity_xh": true,
+"theme_sidebar_folder_arrow": true,
+"theme_sidebar_heading_bold": true,
+"theme_sidebar_highlight_selected_text_only": true,
+"theme_sidebar_highlight_text_only": true,
+"theme_sidebar_indent_top_level_disabled": true,
+"theme_sidebar_indent_xl": true,
+"theme_size_md": true,
+"theme_tab_arrows_hidden": true,
+"theme_tab_close_always_visible": true,
+"theme_unified": true
+```
+
+The operating system is **Windows**. The font used for the code is [**Consolas**][consolas]. The UI font is [**Consolas**][consolas] (via [addon][addon-font-face]).
+
+Installed packages:
+
+* [Boxy Theme Addon - Font Face][addon-font-face]
+* [Bracket Highlighter][bracket-highlighter]
+* [zz File Icons][file-icons]
 
 #### Boxy Ocean ★ Material
 
@@ -215,7 +252,7 @@ The operating system is **macOS**. The font used for the code is [**SF Mono**][s
 Installed packages:
 
 * [Boxy Theme Addon - Font Face][addon-font-face]
-* [Boxy Theme Addon - Mono File Icons - Dark UI][addon-mono-file-icons]
+* [Boxy Theme Addon - Mono File Icons][addon-mono-file-icons]
 * [Boxy Theme Addon - Widget Font Size][addon-widget-font-size]
 * [Bracket Highlighter][bracket-highlighter]
 
@@ -371,6 +408,7 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [img-getting-started]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.4.0/getting-started.png
 [img-monokai]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.6.0/skins/monokai.png
 [img-name]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/name.png
+[img-nova]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/5.0.0/skins/nova.png
 [img-ocean]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.6.0/skins/ocean.png
 [img-patreon]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/patreon.png
 [img-release]: https://img.shields.io/github/release/oivva/st-boxy.svg?maxAge=3600&style=flat-square
@@ -381,6 +419,7 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 
 <!-- Fonts -->
 
+[consolas]: https://www.microsoft.com/typography/fonts/family.aspx?FID=300
 [fira-code]: https://github.com/tonsky/FiraCode/blob/master/README.md
 [iosevka]: https://github.com/be5invis/Iosevka
 [operator-mono]: http://www.typography.com/fonts/operator/styles/operatorscreensmartpro
@@ -392,13 +431,13 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 <!-- Packages -->
 
 [addon-font-face]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Font%20Face
-[addon-mono-file-icons]: https://packagecontrol.io/search/Boxy%20Theme%20Addon%20-%20Mono
-[addon-widget-font-size]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Widget%20Font%20LG
+[addon-mono-file-icons]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Mono%20File%20Icons
+[addon-widget-font-size]: https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Widget%20Font%20Size
 [bracket-highlighter]: https://packagecontrol.io/packages/BracketHighlighter
 [color-helper]: https://packagecontrol.io/packages/ColorHelper
 [color-highlighter]: https://packagecontrol.io/packages/Color%20Highlighter
 [git-gutter]: https://packagecontrol.io/packages/GitGutter
-[file-icons]: https://packagecontrol.io/packages/File%20Icons%20Extended
+[file-icons]: https://packagecontrol.io/packages/zz%20File%20Icons
 [plain-notes]: https://packagecontrol.io/packages/PlainNotes
 [skins]: https://packagecontrol.io/packages/Skins
 [sublime-linter]: https://packagecontrol.io/packages/SublimeLinter
