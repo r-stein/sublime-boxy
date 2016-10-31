@@ -74,11 +74,7 @@ Also you can use commands provided by the theme:
 
 ### Icons
 
-If you want to have extended file icon support, you should install [File Icons Extended][file-icons] package. It adds support of such icons as NPM, Gulpfile, Font & etc.
-
-> **Note**: Starting 2.0.0 [File Icons Extended][file-icons] will be renamed to `zzFileIcons` and will
-> provide icons for all themes. You'll be able to choose which icons you want to use: provided by 
-> the theme or by the package.
+Starting 5.0.0 this theme uses [zz File Icons][file-icons] package to display file icons. Please install the package and restart Sublime Text.
 
 ***
 
