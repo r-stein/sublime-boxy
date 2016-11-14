@@ -1,5 +1,20 @@
+<a name="5.1.0"></a>
+# [5.1.0](https://github.com/oivva/st-boxy/compare/v5.0.0...v5.1.0) (2016-11-14)
+
+
+### Features
+
+* add `sublime-file-icons` 2.1.0 support ([14495a2](https://github.com/oivva/st-boxy/commit/14495a2))
+
+
+
 <a name="5.0.0"></a>
 # [5.0.0](https://github.com/oivva/st-boxy/compare/v4.0.0...v5.0.0) (2016-10-31)
+
+
+### Bug Fixes
+
+* file icons support ([1ab18de](https://github.com/oivva/st-boxy/commit/1ab18de))
 
 
 ### Features
