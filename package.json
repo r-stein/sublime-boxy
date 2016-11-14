@@ -1,6 +1,6 @@
 {
-  "name": "st-boxy",
-  "version": "5.0.0",
+  "name": "sublime-boxy",
+  "version": "5.1.0",
   "description": "The most hackable theme for Sublime Text 3",
   "keywords": [
     "boxy",
@@ -15,10 +15,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oivva/st-boxy.git"
+    "url": "https://github.com/oivva/sublime-boxy.git"
   },
   "bugs": {
-    "url": "https://github.com/oivva/st-boxy/issues"
+    "url": "https://github.com/oivva/sublime-boxy/issues"
   },
   "main": "gulpfile.js",
   "devDependencies": {
