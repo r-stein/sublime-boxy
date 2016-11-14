@@ -11,7 +11,7 @@ import webbrowser
 
 class BoxyDonateCommand(sublime_plugin.WindowCommand):
     def run(self):
-        webbrowser.open_new_tab('https://github.com/oivva/st-boxy#share-the-love')
+        webbrowser.open_new_tab('https://github.com/oivva/sublime-boxy#share-the-love')
 
 
 class BoxyForumCommand(sublime_plugin.WindowCommand):
@@ -21,7 +21,7 @@ class BoxyForumCommand(sublime_plugin.WindowCommand):
 
 class BoxyIssuesCommand(sublime_plugin.WindowCommand):
     def run(self):
-        webbrowser.open_new_tab('https://github.com/oivva/st-boxy/issues')
+        webbrowser.open_new_tab('https://github.com/oivva/sublime-boxy/issues')
 
 
 class BoxyPackageControlCommand(sublime_plugin.WindowCommand):
@@ -31,9 +31,9 @@ class BoxyPackageControlCommand(sublime_plugin.WindowCommand):
 
 class BoxyRepoCommand(sublime_plugin.WindowCommand):
     def run(self):
-        webbrowser.open_new_tab('https://github.com/oivva/st-boxy')
+        webbrowser.open_new_tab('https://github.com/oivva/sublime-boxy')
 
 
 class BoxyWikiCommand(sublime_plugin.WindowCommand):
     def run(self):
-        webbrowser.open_new_tab('https://github.com/oivva/st-boxy/wiki')
+        webbrowser.open_new_tab('https://github.com/oivva/sublime-boxy/wiki')
