@@ -1,9 +1,9 @@
-<p align="center"><img src="https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.2.0/name.gif" alt="BOXY"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/oivva/sublime-boxy-assets/master/assets/readme/3.2.0/name.gif" alt="BOXY"></p>
 
 <p align="center">
-  <a href="https://github.com/oivva/st-boxy/releases"><img src="https://img.shields.io/github/release/oivva/st-boxy.svg?maxAge=3600&style=flat-square" alt="Release"></a>
+  <a href="https://github.com/oivva/sublime-boxy/releases"><img src="https://img.shields.io/github/release/oivva/sublime-boxy.svg?maxAge=3600&style=flat-square" alt="Release"></a>
   <a href="https://packagecontrol.io/packages/Boxy%20Theme"><img src="https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?maxAge=3600&style=flat-square" alt="Downloads"></a>
-  <a href="https://travis-ci.org/oivva/st-boxy"><img src="https://img.shields.io/travis/oivva/st-boxy.svg?maxAge=3600&style=flat-square" alt="Build Status"></a>
+  <a href="https://travis-ci.org/oivva/sublime-boxy"><img src="https://img.shields.io/travis/oivva/sublime-boxy.svg?maxAge=3600&style=flat-square" alt="Build Status"></a>
   <a href="https://twitter.com/intent/tweet?hashtags=Boxy%2CTheme%2CColorScheme%2CSublimeText&amp;original_referer=http%3A%2F%2Foivva.com%2Fboxy%2F&amp;ref_src=twsrc%5Etfw&amp;text=The%20most%20hackable%20theme%20%E2%9D%A4%20Sublime%20Text%203&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fpackagecontrol.io%2Fpackages%2FBoxy%2520Theme&amp;via=oivvatweets" title="Share via Twitter" target="_blank"><img src="https://img.shields.io/badge/share-twitter-1DA1F2.svg?maxAge=2592000&style=flat-square" alt="Twitter"></a>
   <a href="https://www.patreon.com/oivva" title="Donate with Patreon"><img src="https://img.shields.io/badge/donate-patreon-orange.svg?maxAge=2592000&style=flat-square" alt="Make a donation at patreon.com"></a>
 </p>
@@ -12,7 +12,7 @@
 
 A set of easy customizable interface and syntax themes for **Sublime Text 3 3103+**. Comes in, both, light and dark variations. There are dozens of [**options**][settings] that enable you to personalize your experience with `Boxy Theme`, don't forget to check [them][settings] out.
 
-Want to contribute some code? Excellent! Read up on our [guidelines](https://github.com/oivva/st-boxy/blob/dev/.github/CONTRIBUTING.md).
+Want to contribute some code? Excellent! Read up on our [guidelines](https://github.com/oivva/sublime-boxy/blob/dev/.github/CONTRIBUTING.md).
 
 If you have some problems, first search for a similar issue, and then report with [new one][issues]. Please read the [**Known Issues**][known-issues] section before reporting a new one.
 
@@ -21,15 +21,15 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 ***
 
 <div>
-<a href="https://github.com/oivva/st-boxy#installation">Installation</a>&nbsp;
-▪&nbsp;<a href="https://github.com/oivva/st-boxy#activation">Activation</a>&nbsp;
-▪&nbsp;<a href="https://github.com/oivva/st-boxy#icons">Icons</a>&nbsp;
-▪&nbsp;<a href="https://github.com/oivva/st-boxy#skins">Skins</a>&nbsp;
-▪&nbsp;<a href="https://github.com/oivva/st-boxy/wiki/Settings">Settings</a>&nbsp;
-▪&nbsp;<a href="https://github.com/oivva/st-boxy/wiki#references">References</a>&nbsp;
+<a href="https://github.com/oivva/sublime-boxy#installation">Installation</a>&nbsp;
+▪&nbsp;<a href="https://github.com/oivva/sublime-boxy#activation">Activation</a>&nbsp;
+▪&nbsp;<a href="https://github.com/oivva/sublime-boxy#icons">Icons</a>&nbsp;
+▪&nbsp;<a href="https://github.com/oivva/sublime-boxy#skins">Skins</a>&nbsp;
+▪&nbsp;<a href="https://github.com/oivva/sublime-boxy/wiki/Settings">Settings</a>&nbsp;
+▪&nbsp;<a href="https://github.com/oivva/sublime-boxy/wiki#references">References</a>&nbsp;
 ▪&nbsp;<a href="https://forum.sublimetext.com/t/boxy-the-most-hackable-theme-for-sublime-text-3/20564">Forum</a>&nbsp;
 ▪&nbsp;<a href="https://packagecontrol.io/packages/Boxy%20Theme">Package Control</a>
-▪&nbsp;<a href="https://github.com/oivva/st-boxy#share-the-love">Share The Love</a>
+▪&nbsp;<a href="https://github.com/oivva/sublime-boxy#share-the-love">Share The Love</a>
 </div>
 
 ***
@@ -384,38 +384,38 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 
 <!-- Links -->
 
-[build-status]: https://travis-ci.org/oivva/st-boxy
+[build-status]: https://travis-ci.org/oivva/sublime-boxy
 [downloads]: https://packagecontrol.io/packages/Boxy%20Theme
 [getting-started]: https://youtu.be/d2FZCUDcNxo 'Watch "Getting Started with Boxy Theme" on YouTube'
-[issues]: https://github.com/oivva/st-boxy/issues
-[known-issues]: https://github.com/oivva/st-boxy/wiki#known-issues
-[install]: https://github.com/oivva/st-boxy/wiki/Get-It#installation
-[activation]: https://github.com/oivva/st-boxy/wiki/Get-It#activation
+[issues]: https://github.com/oivva/sublime-boxy/issues
+[known-issues]: https://github.com/oivva/sublime-boxy/wiki#known-issues
+[install]: https://github.com/oivva/sublime-boxy/wiki/Get-It#installation
+[activation]: https://github.com/oivva/sublime-boxy/wiki/Get-It#activation
 [patreon]: https://www.patreon.com/oivva "Donate with Patreon"
 [pc]: https://packagecontrol.io/
-[release]: https://github.com/oivva/st-boxy/releases
-[settings]: https://github.com/oivva/st-boxy/wiki/Settings
+[release]: https://github.com/oivva/sublime-boxy/releases
+[settings]: https://github.com/oivva/sublime-boxy/wiki/Settings
 [theme]: https://packagecontrol.io/packages/Boxy%20Theme
-[upgrading]: https://github.com/oivva/st-boxy/wiki/Upgrading
-[website]: http://www.oivva.com/st-boxy/
-[wiki]: https://github.com/oivva/st-boxy/wiki
+[upgrading]: https://github.com/oivva/sublime-boxy/wiki/Upgrading
+[website]: http://www.oivva.com/sublime-boxy/
+[wiki]: https://github.com/oivva/sublime-boxy/wiki
 
 
 <!-- Images -->
 
-[img-build-status]: https://img.shields.io/travis/oivva/st-boxy.svg?maxAge=3600&style=flat-square
+[img-build-status]: https://img.shields.io/travis/oivva/sublime-boxy.svg?maxAge=3600&style=flat-square
 [img-downloads]: https://img.shields.io/packagecontrol/dt/Boxy%20Theme.svg?maxAge=3600&style=flat-square
-[img-getting-started]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.4.0/getting-started.png
-[img-monokai]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.6.0/skins/monokai.png
-[img-name]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/name.png
-[img-nova]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/5.0.0/skins/nova.png
-[img-ocean]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.6.0/skins/ocean.png
-[img-patreon]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/patreon.png
-[img-release]: https://img.shields.io/github/release/oivva/st-boxy.svg?maxAge=3600&style=flat-square
-[img-solarized-dark]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.6.0/skins/solarized-dark.png
-[img-solarized-light]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.6.0/skins/solarized-light.png
-[img-tomorrow]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.6.0/skins/tomorrow.png
-[img-yesterday]: https://raw.githubusercontent.com/oivva/st-boxy-assets/master/assets/readme/3.6.0/skins/yesterday.png
+[img-getting-started]: https://raw.githubusercontent.com/oivva/sublime-boxy-assets/master/assets/readme/3.4.0/getting-started.png
+[img-monokai]: https://raw.githubusercontent.com/oivva/sublime-boxy-assets/master/assets/readme/3.6.0/skins/monokai.png
+[img-name]: https://raw.githubusercontent.com/oivva/sublime-boxy-assets/master/assets/readme/name.png
+[img-nova]: https://raw.githubusercontent.com/oivva/sublime-boxy-assets/master/assets/readme/5.0.0/skins/nova.png
+[img-ocean]: https://raw.githubusercontent.com/oivva/sublime-boxy-assets/master/assets/readme/3.6.0/skins/ocean.png
+[img-patreon]: https://raw.githubusercontent.com/oivva/sublime-boxy-assets/master/assets/readme/patreon.png
+[img-release]: https://img.shields.io/github/release/oivva/sublime-boxy.svg?maxAge=3600&style=flat-square
+[img-solarized-dark]: https://raw.githubusercontent.com/oivva/sublime-boxy-assets/master/assets/readme/3.6.0/skins/solarized-dark.png
+[img-solarized-light]: https://raw.githubusercontent.com/oivva/sublime-boxy-assets/master/assets/readme/3.6.0/skins/solarized-light.png
+[img-tomorrow]: https://raw.githubusercontent.com/oivva/sublime-boxy-assets/master/assets/readme/3.6.0/skins/tomorrow.png
+[img-yesterday]: https://raw.githubusercontent.com/oivva/sublime-boxy-assets/master/assets/readme/3.6.0/skins/yesterday.png
 
 <!-- Fonts -->
 
