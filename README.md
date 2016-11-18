@@ -34,9 +34,11 @@ Want to learn more? [**See the wiki &#8594;**][wiki].
 
 ***
 
+<!--
 ### Getting Started
 
 [![Getting Started with Boxy Theme][img-getting-started]][getting-started]
+-->
 
 ***
 
