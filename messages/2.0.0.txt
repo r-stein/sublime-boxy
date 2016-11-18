@@ -2,7 +2,7 @@
 ===========================================================================
 
 Boxy has been recently re-named from Otto.
-Read more: https://github.com/oivva/boxy/wiki/Upgrading
+Read more: https://github.com/ihodev/sublime-boxy/wiki/Upgrading
 
 
 💻 Quick Activation
@@ -44,5 +44,5 @@ Read more: https://github.com/oivva/boxy/wiki/Upgrading
 
 
 And many more exciting improvements and enhancements!
-See change log: https://github.com/oivva/boxy/blob/master/CHANGELOG.md
-See our wiki: https://github.com/oivva/boxy/wiki
+See change log: https://github.com/ihodev/sublime-boxy/blob/master/CHANGELOG.md
+See our wiki: https://github.com/ihodev/sublime-boxy/wiki

@@ -22,7 +22,7 @@ Options
 ===========================================================================
 
 There are dozens of options that enable you to personalize your experience
-with Boxy Theme. See our wiki: https://github.com/oivva/boxy/wiki
+with Boxy Theme. See our wiki: https://github.com/ihodev/sublime-boxy/wiki
 
 Recommended Settings
 ===========================================================================
@@ -59,4 +59,4 @@ you can
   \__,_|    \___|  \___/  |_|   |_|    \___|  \___|   ( )  | |
                                                       |/  /_/
 
-https://www.patreon.com/oivva
+https://www.patreon.com/ihodev

@@ -1,7 +1,7 @@
 <!-- BEFORE REPORTING A NEW ISSUE (FOR BUGS) -->
 
 <!--
-0. Look at https://github.com/oivva/boxy/wiki#known-issues
+0. Look at https://github.com/ihodev/sublime-boxy/wiki#known-issues
 
 1. Try to restart Sublime Text
 
