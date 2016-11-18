@@ -1,7 +1,7 @@
 👓 Version 3.0.0
 ===========================================================================
 
-All renamed and new options can be found here: https://github.com/oivva/boxy/wiki/v3.0.0.
+All renamed and new options can be found here: https://github.com/ihodev/sublime-boxy/wiki/v3.0.0.
 There aren't many breaking changes.
 
 💅 Themes
@@ -40,7 +40,7 @@ There aren't many breaking changes.
 ↪ Make cursor color the same as default foreground
 
 And many more exciting improvements and enhancements!
-See full change log: https://github.com/oivva/boxy/blob/master/CHANGELOG.md
+See full change log: https://github.com/ihodev/sublime-boxy/blob/master/CHANGELOG.md
 
 👍 Many thanks to
 -------------------

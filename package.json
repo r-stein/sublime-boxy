@@ -15,10 +15,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oivva/sublime-boxy.git"
+    "url": "https://github.com/ihodev/sublime-boxy.git"
   },
   "bugs": {
-    "url": "https://github.com/oivva/sublime-boxy/issues"
+    "url": "https://github.com/ihodev/sublime-boxy/issues"
   },
   "main": "gulpfile.js",
   "devDependencies": {

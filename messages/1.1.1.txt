@@ -3,7 +3,7 @@
 
 There are not many changes in this version. I can say it just notify you
 about future breaking changes. But you can view CHANGELOG:
-https://github.com/oivva/otto/blob/master/CHANGELOG.md
+https://github.com/ihodev/sublime-boxy/blob/master/CHANGELOG.md
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -24,7 +24,7 @@ BOXY 2.0.0.
 
 Existing versions of OTTO will be left working until next release.
 But you can also install them manually anytime.
-SEE THE WIKI: https://github.com/oivva/boxy/wiki
+SEE THE WIKI: https://github.com/ihodev/sublime-boxy/wiki
 
 
 Troubleshooting
@@ -35,8 +35,8 @@ requires hard references for different stuff.
 
 I recommend you:
 1. Install `BOXY` manually before it will be released:
-   https://github.com/oivva/boxy/wiki/Get-It
-2. Review your settings: https://github.com/oivva/boxy/wiki/Settings
+   https://github.com/ihodev/sublime-boxy/wiki/Get-It
+2. Review your settings: https://github.com/ihodev/sublime-boxy/wiki/Settings
 3. Install via Package Control when BOXY 2.0.0 will be available.
 
 The easiest way to reinstall is using Sublime Package Control, where BOXY is
@@ -56,7 +56,7 @@ Settings
 ------------------------
 
 Please, review all your theme options after update:
-https://github.com/oivva/boxy/wiki/Settings
+https://github.com/ihodev/sublime-boxy/wiki/Settings
 
 Almost all of them were already reviewed in 2.0.0.
 
