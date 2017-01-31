@@ -66,5 +66,7 @@ def plugin_loaded():
     from package_control import events
 
     if events.install(THEME_NAME) and not is_installed():
-        view = sublime.active_window().active_view()
+        window = sublime.active_window()
+        view = window.active_view()
+        window.focus_view(view)
         view.show_popup(MSG, on_navigate=on_navigate)
