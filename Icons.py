@@ -69,4 +69,10 @@ def plugin_loaded():
         window = sublime.active_window()
         view = window.active_view()
         window.focus_view(view)
-        view.show_popup(MSG, on_navigate=on_navigate)
+        row = int(view.rowcol(view.visible_region().a)[0] + 1)
+        col = 5
+        view.show_popup(
+            MSG,
+            location=view.text_point(row, col),
+            on_navigate=on_navigate
+        )
