@@ -70,9 +70,8 @@ def plugin_loaded():
         view = window.active_view()
         window.focus_view(view)
         row = int(view.rowcol(view.visible_region().a)[0] + 1)
-        col = 5
         view.show_popup(
             MSG,
-            location=view.text_point(row, col),
+            location=view.text_point(row, 5),
             on_navigate=on_navigate
         )
