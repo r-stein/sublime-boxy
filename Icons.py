@@ -16,12 +16,13 @@ MSG = """\
 <div id="afi-installer">
   <style>
     #afi-installer {{
-      padding: 12px;
+      padding: 1rem;
       line-height: 1.5;
     }}
     #afi-installer code {{
       background-color: color(var(--background) blend(var(--foreground) 80%));
-      padding: 0 4px;
+      line-height: 1;
+      padding: 0.25rem;
     }}
     #afi-installer a {{
       padding: 0;
@@ -29,7 +30,7 @@ MSG = """\
     }}
   </style>
 
-  {} requires <code>A File Icon</code> package for enhanced support of
+  {} requires <code>A File Icon</code> package for enhanced<br>support of
   the file-specific icons.
   <br><br>Would you like to install it?<br>
   <br><a href="install">Install</a> <a href="cancel">Cancel</a>
@@ -73,5 +74,7 @@ def plugin_loaded():
         view.show_popup(
             MSG,
             location=view.text_point(row, 5),
+            max_width=800,
+            max_height=800,
             on_navigate=on_navigate
         )
