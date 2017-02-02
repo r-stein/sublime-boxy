@@ -76,7 +76,7 @@ Also you can use commands provided by the theme:
 
 ### Icons
 
-Starting 5.0.0 this theme uses [zz File Icons][file-icons] package to display file icons. Please install the package and restart Sublime Text.
+Starting 5.0.0 this theme requires [A File Icon][a-file-icon] package for enhanced support of the file-specific icons. Please install the package and restart Sublime Text.
 
 ***
 
@@ -173,7 +173,7 @@ Installed packages:
 
 * [Boxy Theme Addon - Font Face][addon-font-face]
 * [Bracket Highlighter][bracket-highlighter]
-* [zz File Icons][file-icons]
+* [A File Icon][a-file-icon]
 
 #### Boxy Ocean ★ Material
 
@@ -438,7 +438,7 @@ I've put a lot of time and effort into making `Boxy Theme` awesome. If you love 
 [color-helper]: https://packagecontrol.io/packages/ColorHelper
 [color-highlighter]: https://packagecontrol.io/packages/Color%20Highlighter
 [git-gutter]: https://packagecontrol.io/packages/GitGutter
-[file-icons]: https://packagecontrol.io/packages/zz%20File%20Icons
+[a-file-icon]: https://packagecontrol.io/packages/A%20File%20Icon
 [plain-notes]: https://packagecontrol.io/packages/PlainNotes
 [skins]: https://packagecontrol.io/packages/Skins
 [sublime-linter]: https://packagecontrol.io/packages/SublimeLinter
