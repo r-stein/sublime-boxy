@@ -1,3 +1,14 @@
+<a name="5.2.0"></a>
+# [5.2.0](https://github.com/ihodev/sublime-boxy/compare/v5.1.0...v5.2.0) (2017-02-02)
+
+
+### Features
+
+* add `A File Icon` 3.0.0 support ([4f58379](https://github.com/ihodev/sublime-boxy/commit/4f58379))
+* add `A File Icon` installer ([70e1316](https://github.com/ihodev/sublime-boxy/commit/70e1316))
+
+
+
 <a name="5.1.0"></a>
 # [5.1.0](https://github.com/ihodev/sublime-boxy/compare/v5.0.0...v5.1.0) (2016-11-14)
 
