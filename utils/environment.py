@@ -9,7 +9,7 @@ import sublime_plugin
 import textwrap
 
 
-__version__ = '5.1.0'
+__version__ = '5.2.0'
 __pc_name__ = 'Boxy Theme'
 
 
