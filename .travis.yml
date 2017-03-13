@@ -11,6 +11,8 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - g++-4.8
-before_script:
+install:
+  - npm install
   - npm install -g gulp
-script: gulp
+script:
+  - gulp
