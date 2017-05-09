@@ -1177,6 +1177,17 @@ a {
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>LaTeX - Math Variable</string>
+			<key>scope</key>
+			<string>text.tex.latex variable.other.math</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e5dd48</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>AceJump Label</string>
 			<key>scope</key>
 			<string>acejump.label</string>
