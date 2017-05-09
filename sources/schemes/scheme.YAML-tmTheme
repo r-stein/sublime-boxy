@@ -260,6 +260,13 @@ settings:
   settings:
     foreground: '<%= scheme.base.purple %>'
 
+# >> LaTeX
+
+- name: LaTeX - Math Variable
+  scope: text.tex.latex variable.other.math
+  settings:
+    foreground: '<%= scheme.base.green %>'
+
 # >> Markdown Extended
 
 - name: Markdown - Plain
