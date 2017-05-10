@@ -586,6 +586,38 @@ settings:
     background: '<%= ui.accents[8].hex %>'
     foreground: '<%= scheme.base.white %>'
 
+# >> Anaconda
+
+- name: Anaconda Error Outline
+  scope: anaconda.outline.illegal
+  settings:
+    foreground: '<%= scheme.base.red %>90'
+
+- name: Anaconda Error Underline
+  scope: anaconda.underline.illegal
+  settings:
+    foreground: '<%= scheme.base.red %>'
+
+- name: Anaconda Warning Outline
+  scope: anaconda.outline.warning
+  settings:
+    foreground: '<%= scheme.base.yellow %>90'
+
+- name: Anaconda Warning Underline
+  scope: anaconda.underline.warning
+  settings:
+    foreground: '<%= scheme.base.yellow %>'
+
+- name: Anaconda Violation Outline
+  scope: anaconda.outline.violation
+  settings:
+    foreground: '<%= scheme.base.blue %>90'
+
+- name: Anaconda Violation Underline
+  scope: anaconda.underline.violation
+  settings:
+    foreground: '<%= scheme.base.blue %>'
+
 # >> Sublime Linter
 
 - name: SublimeLinter Warning
